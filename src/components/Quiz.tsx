@@ -50,24 +50,34 @@ const progressBarVariants = {
 };
 
 const answerVariants = {
-  initial: {
-    scale: 1,
-  },
-  correct: {
-    scale: [1, 1.2, 1],
-    transition: {
-      duration: 0.5,
-      yoyo: Infinity,
-    },
-  },
-  incorrect: {
-    x: [-5, 5, -5, 5, 0],
-    transition: {
-      duration: 0.5,
-    },
-  },
-};
-
+	initial: {
+	  scale: 1,
+	  opacity: 1,
+	},
+	correct: {
+	  scale: 1.5,
+	  opacity: 1,
+	  x: 0,
+	  y: 100,
+	  transition: {
+		scale: {
+		  duration: 0.5,
+		  delay: 0.5,
+		},
+		position: {
+		  duration: 0.5,
+		  delay: 0.5,
+		},
+	  },
+	},
+	incorrect: {
+	  opacity: 0,
+	  transition: {
+		duration: 0.5,
+	  },
+	},
+  };
+  
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(
@@ -150,12 +160,13 @@ const Quiz = () => {
             />
           </motion.div>
           <div className="grid grid-cols-2 gap-4 w-full p-4">
-            {questions[currentQuestionIndex].options.map((option, index) => (
+		  {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option}
-                variants={optionFloatVariants}
-                initial="{false}"
-                animate="floating"
+                initial="initial"
+                animate={selectedAnswer === option ? (answerState === "correct" ? "correct" : "incorrect") : (isCheckingAnswer ? "incorrect" : "floating")}
+                variants={option === questions[currentQuestionIndex].answer ? { ...answerVariants, correct: { ...answerVariants.correct, x: "-50%", y: "-50%" } } : answerVariants}
+                style={answerState === 'correct' && selectedAnswer === option ? { position: 'absolute', top: '50%', left: '50%' } : {}}
               >
                 {/* ... button with letter and option text ... */}
                 <motion.div
@@ -171,20 +182,18 @@ const Quiz = () => {
                     </span>
                   </div>
                   <button
-                    onClick={() =>
-                      !isCheckingAnswer && handleAnswerSelect(option)
-                    }
-                    className="pl-12 pr-4 py-3 w-full h-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
-                  >
-                    {option}
-                  </button>
+                  onClick={() => !isCheckingAnswer && handleAnswerSelect(option)}
+                  className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                >
+                  {option}
+                </button>
                 </motion.div>
               </motion.div>
             ))}
           </div>
           <motion.div
             key={currentQuestionIndex} // Resets the progress bar on each question change
-            className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full my-8"
+            className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full my-16"
             variants={progressBarVariants}
             initial="initial"
             animate="animate"
