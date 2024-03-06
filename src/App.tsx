@@ -1,16 +1,8 @@
-import QuizContainer from './components/QuizContainer';
-import backgroundImage from './assets/images/background-image-1.png';
+import QuizContainer from "./components/QuizContainer";
 
 function App() {
   return (
-    <div 
-      className="App h-screen"
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
-    >
+    <div className="App h-screen bg-gradient-to-r from-violet-900 to-blue-600">
       <QuizContainer />
     </div>
   );
