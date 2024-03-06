@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "question": "Which planet is known as the Red Planet?",
+        "question": "¿Qué planeta se conoce como el Planeta Rojo?",
         "image": "mars.jpg",
         "options": [
-            "Earth",
-            "Mars",
+            "Tierra",
+            "Marte",
             "Jupiter",
-            "Saturn"
+            "Saturno"
         ],
-        "answer": "Mars"
+        "answer": "Marte"
     },
     {
         "id": 2,
