@@ -5,16 +5,37 @@ import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
 
 // Define the floating animation as a variant
-const floatVariants = {
+const optionFloatVariants = {
   floating: {
     y: ["-5%", "0%", "-5%"],
     transition: {
       duration: 2,
       repeat: Infinity,
       repeatType: "reverse" as "reverse" | "loop" | "mirror" | undefined,
-      ease: "easeInOut"
-    }
-  }
+      ease: "easeInOut",
+    },
+  },
+};
+
+const imageFloatVariants = {
+  animate: {
+    x: ["-2%", "2%"],
+    rotate: [-2, 2],
+    transition: {
+      x: {
+        yoyo: Infinity,
+        duration: 4,
+        ease: "easeInOut",
+      },
+      rotate: {
+        yoyo: Infinity,
+        duration: 4,
+        repeat: Infinity,
+        repeatType: "reverse" as "reverse" | "loop" | "mirror" | undefined,
+        ease: "easeInOut",
+      },
+    },
+  },
 };
 
 const Quiz = () => {
@@ -43,18 +64,23 @@ const Quiz = () => {
           <h2 className="text-6xl font-bold text-white mt-6 mb-4 text-shadow">
             {questions[currentQuestionIndex].question}
           </h2>
-          <div className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-4 rounded-lg ">
+          <motion.div
+            className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-4 rounded-lg "
+            variants={imageFloatVariants}
+            initial="{false}"
+            animate="animate"
+          >
             <img
               src={`/images/${questions[currentQuestionIndex].image}`}
               alt="Trivia"
               className="w-full max-w-lg h-64 object-cover object-center"
             />
-          </div>
+          </motion.div>
           <div className="grid grid-cols-2 gap-4 w-full p-4">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option}
-                variants={floatVariants}
+                variants={optionFloatVariants}
                 initial="{false}"
                 animate="floating"
               >
