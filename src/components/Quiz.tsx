@@ -3,6 +3,8 @@ import triviaQuestions from "../data/trivia.json";
 import { TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
+import correctSound from "../assets/audio/correct.mp3";
+import incorrectSound from "../assets/audio/incorrect.mp3";
 
 const timeLimit = 5;
 // Define the floating animation as a variant
@@ -47,11 +49,68 @@ const progressBarVariants = {
   },
 };
 
+const answerVariants = {
+  initial: {
+    scale: 1,
+  },
+  correct: {
+    scale: [1, 1.2, 1],
+    transition: {
+      duration: 0.5,
+      yoyo: Infinity,
+    },
+  },
+  incorrect: {
+    x: [-5, 5, -5, 5, 0],
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
+
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(
     triviaQuestions as TriviaQuestion[]
   );
+  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [isCheckingAnswer, setIsCheckingAnswer] = useState<boolean>(false);
+  const [answerState, setAnswerState] = useState<
+    "initial" | "correct" | "incorrect"
+  >("initial");
+
+  const handleAnswerSelect = (option: string) => {
+    setSelectedAnswer(option);
+    setIsCheckingAnswer(true);
+
+    // Initialize audio elements
+    const correctAudio = new Audio(correctSound);
+    const incorrectAudio = new Audio(incorrectSound);
+
+    const isCorrect = option === questions[currentQuestionIndex].answer;
+
+    // Play the correct sound if the answer is correct, otherwise play the incorrect sound
+    if (isCorrect) {
+      correctAudio.play();
+    } else {
+      incorrectAudio.play();
+    }
+
+    setAnswerState(isCorrect ? "correct" : "incorrect");
+
+    setTimeout(() => {
+      goToNextQuestion();
+    }, 2000); // Adjust timing based on your animation and sound length
+  };
+
+  const goToNextQuestion = () => {
+    setIsCheckingAnswer(false);
+    setSelectedAnswer(null);
+    setAnswerState("initial");
+    setCurrentQuestionIndex((prevIndex) =>
+      prevIndex + 1 === questions.length ? 0 : prevIndex + 1
+    );
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -70,6 +129,11 @@ const Quiz = () => {
           key={questions[currentQuestionIndex].id}
           className="flex flex-col items-center w-full h-full text-center rounded-lg"
         >
+          <div className="absolute -left-8 z-10 text-white bg-gradient-to-b from-red-600 to-red-700 rounded-full w-20 h-20 flex items-center justify-center border-2 border-white round-shadow ml-20 m-6">
+            <span className="text-6xl font-bold text-shadow">
+              {currentQuestionIndex + 1}
+            </span>
+          </div>
           <h2 className="text-6xl font-bold text-white mt-6 mb-4 text-shadow">
             {questions[currentQuestionIndex].question}
           </h2>
@@ -94,22 +158,27 @@ const Quiz = () => {
                 animate="floating"
               >
                 {/* ... button with letter and option text ... */}
-                <div
+                <motion.div
                   key={option}
+                  variants={answerVariants}
+                  initial="initial"
+                  animate={selectedAnswer === option ? answerState : "initial"}
                   className="relative flex items-center justify-start my-2 h-28"
                 >
-                  {/* The colored circle with the letter */}
                   <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg ml-8">
                     <span className="text-6xl font-bold text-shadow">
                       {String.fromCharCode(65 + index)}
                     </span>
                   </div>
-
-                  {/* The option button */}
-                  <button className="pl-12 pr-4 py-3 w-full h-full text-4xl font-medium text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                  <button
+                    onClick={() =>
+                      !isCheckingAnswer && handleAnswerSelect(option)
+                    }
+                    className="pl-12 pr-4 py-3 w-full h-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                  >
                     {option}
                   </button>
-                </div>
+                </motion.div>
               </motion.div>
             ))}
           </div>
