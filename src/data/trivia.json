@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "question": "Which planet is known as the Red Planet?",
+        "image": "mars.jpg",
+        "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "answer": "Mars"
+    },
+    {
+        "id": 2,
+        "question": "What is the largest animal on Earth?",
+        "image": "blue-whale.jpg",
+        "options": [
+            "Elephant",
+            "Blue Whale",
+            "Great White Shark",
+            "Giraffe"
+        ],
+        "answer": "Blue Whale"
+    }
+]
