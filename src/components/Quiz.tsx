@@ -4,6 +4,7 @@ import { TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
 
+const timeLimit = 5;
 // Define the floating animation as a variant
 const optionFloatVariants = {
   floating: {
@@ -38,6 +39,14 @@ const imageFloatVariants = {
   },
 };
 
+const progressBarVariants = {
+  initial: { width: "100%" },
+  animate: {
+    width: "0%",
+    transition: { duration: timeLimit, ease: "linear" },
+  },
+};
+
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(
@@ -49,7 +58,7 @@ const Quiz = () => {
       setCurrentQuestionIndex((prevIndex) =>
         prevIndex + 1 === questions.length ? 0 : prevIndex + 1
       );
-    }, 50000);
+    }, timeLimit * 1000);
 
     return () => clearTimeout(timer);
   }, [currentQuestionIndex, questions.length]);
@@ -104,6 +113,13 @@ const Quiz = () => {
               </motion.div>
             ))}
           </div>
+          <motion.div
+            key={currentQuestionIndex} // Resets the progress bar on each question change
+            className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full my-8"
+            variants={progressBarVariants}
+            initial="initial"
+            animate="animate"
+          />
         </div>
       )}
     </div>
