@@ -8,7 +8,7 @@ const QuizContainer: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen w-screen bg-blue-500 flex justify-center items-center"
+      className="min-h-screen w-screen flex justify-center items-center"
     >
       <Quiz />
     </motion.div>
