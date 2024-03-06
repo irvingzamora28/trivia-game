@@ -39,17 +39,17 @@ const Quiz = () => {
             {questions[currentQuestionIndex].options.map((option, index) => (
               <div
                 key={option}
-                className="relative flex items-center justify-start my-2 shadow-xl"
+                className="relative flex items-center justify-start my-2 h-28"
               >
                 {/* The colored circle with the letter */}
-                <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-16 h-16 flex items-center justify-center border-4 border-white shadow-lg ml-8">
-                  <span className="text-2xl font-bold">
+                <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg ml-8">
+                  <span className="text-6xl font-bold text-shadow">
                     {String.fromCharCode(65 + index)}
                   </span>
                 </div>
 
                 {/* The option button */}
-                <button className="pl-12 pr-4 py-3 w-full text-xl font-medium text-blue-800 bg-white rounded-full shadow-md transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                <button className="pl-12 pr-4 py-3 w-full h-full text-4xl font-medium text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300">
                   {option}
                 </button>
               </div>
