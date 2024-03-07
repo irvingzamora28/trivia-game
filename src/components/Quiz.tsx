@@ -40,7 +40,7 @@ const answerVariants = {
     opacity: 1,
   },
   correct: {
-    scale: 1.5,
+    scale: 1.25,
     opacity: 1,
     x: 0,
     y: 100,
