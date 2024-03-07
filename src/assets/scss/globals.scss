@@ -1,16 +1,24 @@
 .text-shadow {
-    text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 6px 3px rgba(0, 0, 0, 0.5);
 }
 
 .text-shadow-sm {
-    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .round-shadow {
-    box-shadow: 3px 6px 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 6px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 .button-start-shadow {
-	@apply font-secular text-white;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  @apply font-secular text-white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+@keyframes moveStripes {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 10% 0;
+  }
 }
