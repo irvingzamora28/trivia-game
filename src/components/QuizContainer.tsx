@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Quiz from './Quiz';
 import StartButton from '../components/ButtonStartQuiz';
+import triviaQuestions from "../data/trivia.json"; // Import trivia questions
 
 const QuizContainer: React.FC = () => {
   const [quizStarted, setQuizStarted] = useState<boolean>(false);
@@ -16,7 +17,7 @@ const QuizContainer: React.FC = () => {
       {!quizStarted ? (
         <StartButton onStart={() => setQuizStarted(true)} />
       ) : (
-        <Quiz />
+        <Quiz triviaQuestions={triviaQuestions} /> // Pass trivia questions as a prop
       )}
     </motion.div>
   );

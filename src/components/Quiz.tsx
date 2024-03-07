@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import triviaQuestions from "../data/trivia.json";
 import { TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
@@ -7,6 +6,10 @@ import correctSound from "../assets/audio/correct.mp3";
 import incorrectSound from "../assets/audio/incorrect.mp3";
 
 const timeLimit = 5;
+
+interface QuizProps {
+  triviaQuestions: TriviaQuestion[]; // Define the prop to accept trivia questions
+}
 // Define the floating animation as a variant
 const optionFloatVariants = {
   floating: {
@@ -78,11 +81,9 @@ const answerVariants = {
   },
 };
 
-const Quiz = () => {
+const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [questions, setQuestions] = useState<TriviaQuestion[]>(
-    triviaQuestions as TriviaQuestion[]
-  );
+  const [questions, setQuestions] = useState<TriviaQuestion[]>(triviaQuestions);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isCheckingAnswer, setIsCheckingAnswer] = useState<boolean>(false);
   const [answerState, setAnswerState] = useState<
