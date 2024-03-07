@@ -1,8 +1,9 @@
 export interface TriviaQuestion {
-    id: number;
-    question: string;
-    image: string;
-    options: string[];
-    answer: string;
-  }
-  
+	id: number;
+	question: string;
+	audio_question: string;
+	image: string;
+	options: string[];
+	answer: string;
+	audio_answer?: string;
+}
