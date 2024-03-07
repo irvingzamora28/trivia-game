@@ -249,7 +249,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
                     onClick={() =>
                       !isCheckingAnswer && handleAnswerSelect(option)
                     }
-                    className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                    className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 round-shadow"
                   >
                     {option}
                   </button>
