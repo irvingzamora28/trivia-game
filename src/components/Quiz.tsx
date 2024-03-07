@@ -80,6 +80,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
   const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
   const triviaQuestionsRef = useRef(triviaQuestions); // Use ref for trivia questions to ensure stability
+  const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
 
   useEffect(() => {
     triviaQuestionsRef.current = triviaQuestions;
@@ -136,12 +137,14 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   });
 
   useEffect(() => {
-    // This effect is now dependent only on currentQuestionIndex, making it more stable
     const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
     if (audioSrc) {
       const questionAudio = new Audio(`audio/${audioSrc}`);
       questionAudio.play().then(() => {
-        questionAudio.addEventListener("ended", startTimer.current);
+        questionAudio.addEventListener("ended", () => {
+          setIsProgressBarAnimating(true); // Start progress bar animation after audio ends
+          startTimer.current();
+        });
       });
 
       return () => {
@@ -150,9 +153,10 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
         if (timerIdRef.current) {
           clearTimeout(timerIdRef.current);
         }
+        setIsProgressBarAnimating(false); // Reset progress bar animation state
       };
     }
-  }, [currentQuestionIndex]); // Removed startTimer from dependencies to prevent re-triggering
+  }, [currentQuestionIndex]);
 
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
@@ -243,7 +247,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
             className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full my-16"
             variants={progressBarVariants}
             initial="initial"
-            animate="animate"
+            animate={isProgressBarAnimating ? "animate" : "initial"} // Control animation based on state
           />
         </div>
       )}
