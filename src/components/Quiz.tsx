@@ -67,6 +67,15 @@ const answerVariants = {
       duration: 0.5,
     },
   },
+  floating: {
+    y: ["-5%", "0%", "-5%"],
+    transition: {
+      duration: 2,
+      repeat: Infinity,
+      repeatType: "reverse" as "reverse" | "loop" | "mirror" | undefined,
+      ease: "easeInOut",
+    },
+  },
 };
 
 const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
@@ -86,9 +95,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
     currentQuestionIndexRef.current = currentQuestionIndex;
   }, [currentQuestionIndex]);
 
-
   const proceedToNextQuestion = () => {
-
     setTimeout(() => {
       goToNextQuestion();
     }, 2000);
@@ -130,7 +137,6 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   };
 
   const goToNextQuestion = useCallback(() => {
-
     setIsCheckingAnswer(false);
     setSelectedAnswer(null);
     setAnswerState("initial");
@@ -141,7 +147,6 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
 
   // Define startTimer using useRef to ensure it doesn't change between renders
   const startTimer = useRef(() => {
-
     if (timerIdRef.current) {
       clearTimeout(timerIdRef.current); // Clear existing timer if any
     }
