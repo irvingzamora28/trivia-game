@@ -22,5 +22,17 @@
             "Giraffe"
         ],
         "answer": "Blue Whale"
+    },
+    {
+        "id": 3,
+        "question": "What is the hotest planet in the solar sistem?",
+        "image": "venus.jpg",
+        "options": [
+            "Mars",
+            "Earth",
+            "Neptune",
+            "Venus"
+        ],
+        "answer": "Venus"
     }
 ]
