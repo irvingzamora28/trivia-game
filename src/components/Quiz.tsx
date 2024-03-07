@@ -50,34 +50,34 @@ const progressBarVariants = {
 };
 
 const answerVariants = {
-	initial: {
-	  scale: 1,
-	  opacity: 1,
-	},
-	correct: {
-	  scale: 1.5,
-	  opacity: 1,
-	  x: 0,
-	  y: 100,
-	  transition: {
-		scale: {
-		  duration: 0.5,
-		  delay: 0.5,
-		},
-		position: {
-		  duration: 0.5,
-		  delay: 0.5,
-		},
-	  },
-	},
-	incorrect: {
-	  opacity: 0,
-	  transition: {
-		duration: 0.5,
-	  },
-	},
-  };
-  
+  initial: {
+    scale: 1,
+    opacity: 1,
+  },
+  correct: {
+    scale: 1.5,
+    opacity: 1,
+    x: 0,
+    y: 100,
+    transition: {
+      scale: {
+        duration: 0.5,
+        delay: 0.5,
+      },
+      position: {
+        duration: 0.5,
+        delay: 0.5,
+      },
+    },
+  },
+  incorrect: {
+    opacity: 0,
+    transition: {
+      duration: 0.5,
+    },
+  },
+};
+
 const Quiz = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(
@@ -88,6 +88,7 @@ const Quiz = () => {
   const [answerState, setAnswerState] = useState<
     "initial" | "correct" | "incorrect"
   >("initial");
+  const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
 
   const handleAnswerSelect = (option: string) => {
     setSelectedAnswer(option);
@@ -108,6 +109,12 @@ const Quiz = () => {
 
     setAnswerState(isCorrect ? "correct" : "incorrect");
 
+    // Clear existing timer to prevent double advancement
+    if (timerId) {
+      clearTimeout(timerId);
+      setTimerId(null);
+    }
+
     setTimeout(() => {
       goToNextQuestion();
     }, 2000); // Adjust timing based on your animation and sound length
@@ -123,11 +130,12 @@ const Quiz = () => {
   };
 
   useEffect(() => {
+    // Reset the timer for automatic question advancement
     const timer = setTimeout(() => {
-      setCurrentQuestionIndex((prevIndex) =>
-        prevIndex + 1 === questions.length ? 0 : prevIndex + 1
-      );
+      goToNextQuestion();
     }, timeLimit * 1000);
+
+    setTimerId(timer);
 
     return () => clearTimeout(timer);
   }, [currentQuestionIndex, questions.length]);
@@ -160,13 +168,36 @@ const Quiz = () => {
             />
           </motion.div>
           <div className="grid grid-cols-2 gap-4 w-full p-4">
-		  {questions[currentQuestionIndex].options.map((option, index) => (
+            {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option}
                 initial="initial"
-                animate={selectedAnswer === option ? (answerState === "correct" ? "correct" : "incorrect") : (isCheckingAnswer ? "incorrect" : "floating")}
-                variants={option === questions[currentQuestionIndex].answer ? { ...answerVariants, correct: { ...answerVariants.correct, x: "-50%", y: "-50%" } } : answerVariants}
-                style={answerState === 'correct' && selectedAnswer === option ? { position: 'absolute', top: '50%', left: '50%' } : {}}
+                animate={
+                  selectedAnswer === option
+                    ? answerState === "correct"
+                      ? "correct"
+                      : "incorrect"
+                    : isCheckingAnswer
+                    ? "incorrect"
+                    : "floating"
+                }
+                variants={
+                  option === questions[currentQuestionIndex].answer
+                    ? {
+                        ...answerVariants,
+                        correct: {
+                          ...answerVariants.correct,
+                          x: "-50%",
+                          y: "-50%",
+                        },
+                      }
+                    : answerVariants
+                }
+                style={
+                  answerState === "correct" && selectedAnswer === option
+                    ? { position: "absolute", top: "50%", left: "50%" }
+                    : {}
+                }
               >
                 {/* ... button with letter and option text ... */}
                 <motion.div
@@ -182,11 +213,13 @@ const Quiz = () => {
                     </span>
                   </div>
                   <button
-                  onClick={() => !isCheckingAnswer && handleAnswerSelect(option)}
-                  className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
-                >
-                  {option}
-                </button>
+                    onClick={() =>
+                      !isCheckingAnswer && handleAnswerSelect(option)
+                    }
+                    className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                  >
+                    {option}
+                  </button>
                 </motion.div>
               </motion.div>
             ))}
