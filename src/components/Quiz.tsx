@@ -4,6 +4,7 @@ import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
 import correctSound from "../assets/audio/correct-short.mp3";
 import incorrectSound from "../assets/audio/incorrect.mp3";
+import ProgressBar from "./ProgressBar";
 
 const timeLimit = 5;
 
@@ -32,13 +33,6 @@ const imageFloatVariants = {
   },
 };
 
-const progressBarVariants = {
-  initial: { width: "100%" },
-  animate: {
-    width: "0%",
-    transition: { duration: timeLimit, ease: "linear" },
-  },
-};
 
 const answerVariants = {
   initial: {
@@ -264,15 +258,11 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
             ))}
           </div>
           {/* Place the motion.div inside a container with 10% margin on each side to the left and right */}
-          <div className="flex flex-row justify-between w-full m-16 px-16">
-            <motion.div
-              key={currentQuestionIndex} // Resets the progress bar on each question change
-              className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full"
-              variants={progressBarVariants}
-              initial="initial"
-              animate={isProgressBarAnimating ? "animate" : "initial"} // Control animation based on state
-            />
-          </div>
+          <ProgressBar
+            key={currentQuestionIndex}
+            isProgressBarAnimating={isProgressBarAnimating}
+            timeLimit={timeLimit}
+          />
         </div>
       )}
     </div>
