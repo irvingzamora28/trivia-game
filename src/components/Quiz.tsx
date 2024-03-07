@@ -79,24 +79,34 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   >("initial");
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
   const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
-  const triviaQuestionsRef = useRef(triviaQuestions); // Use ref for trivia questions to ensure stability
   const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
+  const currentQuestionIndexRef = useRef(currentQuestionIndex);
 
   useEffect(() => {
-    triviaQuestionsRef.current = triviaQuestions;
-  }, [triviaQuestions]);
+    currentQuestionIndexRef.current = currentQuestionIndex;
+  }, [currentQuestionIndex]);
+
+
+  const proceedToNextQuestion = () => {
+
+    setTimeout(() => {
+      goToNextQuestion();
+    }, 2000);
+  };
 
   const handleAnswerSelect = (option: string, isAutoSelect = false) => {
     setSelectedAnswer(option);
     setIsCheckingAnswer(true);
 
-    // Determine if the answer is correct
-    const isCorrect = option === triviaQuestions[currentQuestionIndex].answer;
-    // Initialize and play the appropriate sound
-    const sound = new Audio(
+    const currentQuestion = triviaQuestions[currentQuestionIndexRef.current];
+
+    const isCorrect = option === currentQuestion.answer;
+    // Play question correctness feedback sound (correct or incorrect)
+    const feedbackSound = new Audio(
       isCorrect || isAutoSelect ? correctSound : incorrectSound
     );
-    sound.play();
+    feedbackSound.play();
+
     setAnswerState(isCorrect ? "correct" : "incorrect");
 
     // Clear existing timer to prevent double advancement
@@ -105,13 +115,21 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
       setTimerId(null);
     }
 
-    setTimeout(() => {
-      goToNextQuestion();
-    }, 2000);
+    feedbackSound.onended = () => {
+      if (isCorrect && currentQuestion.audio_answer) {
+        // If the answer is correct and there's an audio_answer, play it after the feedback sound
+        const answerSound = new Audio(`audio/${currentQuestion.audio_answer}`);
+        answerSound.play();
+        answerSound.onended = () => {
+          proceedToNextQuestion(); // Move to the next question after the answer audio finishes
+        };
+      } else {
+        proceedToNextQuestion(); // Move to the next question immediately if there's no answer audio
+      }
+    };
   };
 
   const goToNextQuestion = useCallback(() => {
-    console.log("goToNextQuestion");
 
     setIsCheckingAnswer(false);
     setSelectedAnswer(null);
@@ -123,15 +141,13 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
 
   // Define startTimer using useRef to ensure it doesn't change between renders
   const startTimer = useRef(() => {
-    console.log("startTimer");
 
     if (timerIdRef.current) {
       clearTimeout(timerIdRef.current); // Clear existing timer if any
     }
 
     timerIdRef.current = setTimeout(() => {
-      console.log("Set timeout 5000");
-      const currentQuestion = triviaQuestionsRef.current[currentQuestionIndex];
+      const currentQuestion = triviaQuestions[currentQuestionIndexRef.current];
       handleAnswerSelect(currentQuestion.answer, true);
     }, timeLimit * 1000) as unknown as null;
   });
