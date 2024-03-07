@@ -2,6 +2,7 @@
     {
         "id": 1,
         "question": "¿Qué planeta se conoce como el Planeta Rojo?",
+        "audio_question": "general_questions/1_question.mp3",
         "image": "mars.jpg",
         "options": [
             "Tierra",
@@ -9,30 +10,35 @@
             "Jupiter",
             "Saturno"
         ],
-        "answer": "Marte"
+        "answer": "Marte",
+        "audio_answer": "general_questions/1_answer.mp3"
     },
     {
         "id": 2,
-        "question": "What is the largest animal on Earth?",
+        "question": "¿Cuál es el animal más grande de la Tierra?",
+        "audio_question": "general_questions/2_question.mp3",
         "image": "blue-whale.jpg",
         "options": [
-            "Elephant",
-            "Blue Whale",
-            "Great White Shark",
-            "Giraffe"
+            "Elefante",
+            "La ballena azul",
+            "Gran tiburón blanco",
+            "Jirafa"
         ],
-        "answer": "Blue Whale"
+        "answer": "La ballena azul",
+        "audio_answer": "general_questions/2_answer.mp3"
     },
     {
         "id": 3,
-        "question": "What is the hotest planet in the solar sistem?",
+        "question": "¿Cuál es el planeta más caliente del sistema solar?",
+        "audio_question": "general_questions/3_question.mp3",
         "image": "venus.jpg",
         "options": [
-            "Mars",
-            "Earth",
-            "Neptune",
+            "Marte",
+            "La Tierra",
+            "Neptuno",
             "Venus"
         ],
-        "answer": "Venus"
+        "answer": "Venus",
+        "audio_answer": "general_questions/3_answer.mp3"
     }
 ]
