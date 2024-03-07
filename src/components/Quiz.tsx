@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
@@ -78,24 +78,24 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
     "initial" | "correct" | "incorrect"
   >("initial");
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
+  const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
+  const triviaQuestionsRef = useRef(triviaQuestions); // Use ref for trivia questions to ensure stability
+
+  useEffect(() => {
+    triviaQuestionsRef.current = triviaQuestions;
+  }, [triviaQuestions]);
 
   const handleAnswerSelect = (option: string, isAutoSelect = false) => {
     setSelectedAnswer(option);
     setIsCheckingAnswer(true);
 
-    // Initialize audio elements
-    const correctAudio = new Audio(correctSound);
-    const incorrectAudio = new Audio(incorrectSound);
-
-    const isCorrect = option === questions[currentQuestionIndex].answer;
-
-    // Play the correct sound if the answer is correct, otherwise play the incorrect sound
-    if (isCorrect || isAutoSelect) {
-      correctAudio.play();
-    } else {
-      incorrectAudio.play();
-    }
-
+    // Determine if the answer is correct
+    const isCorrect = option === triviaQuestions[currentQuestionIndex].answer;
+    // Initialize and play the appropriate sound
+    const sound = new Audio(
+      isCorrect || isAutoSelect ? correctSound : incorrectSound
+    );
+    sound.play();
     setAnswerState(isCorrect ? "correct" : "incorrect");
 
     // Clear existing timer to prevent double advancement
@@ -106,42 +106,54 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
 
     setTimeout(() => {
       goToNextQuestion();
-    }, 2000); // Adjust timing based on your animation and sound length
+    }, 2000);
   };
 
-  const goToNextQuestion = () => {
+  const goToNextQuestion = useCallback(() => {
+    console.log("goToNextQuestion");
+
     setIsCheckingAnswer(false);
     setSelectedAnswer(null);
     setAnswerState("initial");
-    setCurrentQuestionIndex((prevIndex) =>
-      prevIndex + 1 === questions.length ? 0 : prevIndex + 1
+    setCurrentQuestionIndex((prev) =>
+      prev + 1 === triviaQuestions.length ? 0 : prev + 1
     );
-  };
+  }, [triviaQuestions.length]);
 
-  useEffect(() => {
-    if (!isCheckingAnswer) {
-      // Only set the timer if not currently checking an answer
-      const timer = setTimeout(() => {
-        // Simulate selecting the correct answer automatically
-        handleAnswerSelect(questions[currentQuestionIndex].answer, true);
-      }, timeLimit * 1000);
+  // Define startTimer using useRef to ensure it doesn't change between renders
+  const startTimer = useRef(() => {
+    console.log("startTimer");
 
-      setTimerId(timer);
-
-      return () => clearTimeout(timer);
+    if (timerIdRef.current) {
+      clearTimeout(timerIdRef.current); // Clear existing timer if any
     }
-  }, [currentQuestionIndex, questions.length, isCheckingAnswer]);
+
+    timerIdRef.current = setTimeout(() => {
+      console.log("Set timeout 5000");
+      const currentQuestion = triviaQuestionsRef.current[currentQuestionIndex];
+      handleAnswerSelect(currentQuestion.answer, true);
+    }, timeLimit * 1000) as unknown as null;
+  });
 
   useEffect(() => {
-	const questionAudio = new Audio(`/audio/${questions[currentQuestionIndex].audio_question}`);
-	questionAudio.play();
-	// Cleanup function to pause and nullify the audio when the component unmounts or before a new audio is played
-	return () => {
-	  questionAudio.pause();
-	  questionAudio.currentTime = 0;
-	};
-  }, [currentQuestionIndex, questions]);
-  
+    // This effect is now dependent only on currentQuestionIndex, making it more stable
+    const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
+    if (audioSrc) {
+      const questionAudio = new Audio(`audio/${audioSrc}`);
+      questionAudio.play().then(() => {
+        questionAudio.addEventListener("ended", startTimer.current);
+      });
+
+      return () => {
+        questionAudio.removeEventListener("ended", startTimer.current);
+        questionAudio.pause();
+        if (timerIdRef.current) {
+          clearTimeout(timerIdRef.current);
+        }
+      };
+    }
+  }, [currentQuestionIndex]); // Removed startTimer from dependencies to prevent re-triggering
+
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
       {questions.length > 0 && currentQuestionIndex < questions.length && (
