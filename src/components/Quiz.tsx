@@ -90,7 +90,7 @@ const Quiz = () => {
   >("initial");
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
 
-  const handleAnswerSelect = (option: string) => {
+  const handleAnswerSelect = (option: string, isAutoSelect = false) => {
     setSelectedAnswer(option);
     setIsCheckingAnswer(true);
 
@@ -101,7 +101,7 @@ const Quiz = () => {
     const isCorrect = option === questions[currentQuestionIndex].answer;
 
     // Play the correct sound if the answer is correct, otherwise play the incorrect sound
-    if (isCorrect) {
+    if (isCorrect || isAutoSelect) {
       correctAudio.play();
     } else {
       incorrectAudio.play();
@@ -130,15 +130,18 @@ const Quiz = () => {
   };
 
   useEffect(() => {
-    // Reset the timer for automatic question advancement
-    const timer = setTimeout(() => {
-      goToNextQuestion();
-    }, timeLimit * 1000);
+    if (!isCheckingAnswer) {
+      // Only set the timer if not currently checking an answer
+      const timer = setTimeout(() => {
+        // Simulate selecting the correct answer automatically
+        handleAnswerSelect(questions[currentQuestionIndex].answer, true);
+      }, timeLimit * 1000);
 
-    setTimerId(timer);
+      setTimerId(timer);
 
-    return () => clearTimeout(timer);
-  }, [currentQuestionIndex, questions.length]);
+      return () => clearTimeout(timer);
+    }
+  }, [currentQuestionIndex, questions.length, isCheckingAnswer]);
 
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
