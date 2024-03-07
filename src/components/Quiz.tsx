@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from "react";
 import { TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
-import correctSound from "../assets/audio/correct.mp3";
+import correctSound from "../assets/audio/correct-short.mp3";
 import incorrectSound from "../assets/audio/incorrect.mp3";
 
 const timeLimit = 5;
