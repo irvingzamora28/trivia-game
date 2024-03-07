@@ -8,20 +8,8 @@ import incorrectSound from "../assets/audio/incorrect.mp3";
 const timeLimit = 5;
 
 interface QuizProps {
-  triviaQuestions: TriviaQuestion[]; // Define the prop to accept trivia questions
+  triviaQuestions: TriviaQuestion[];
 }
-// Define the floating animation as a variant
-const optionFloatVariants = {
-  floating: {
-    y: ["-5%", "0%", "-5%"],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      repeatType: "reverse" as "reverse" | "loop" | "mirror" | undefined,
-      ease: "easeInOut",
-    },
-  },
-};
 
 const imageFloatVariants = {
   animate: {
@@ -144,6 +132,16 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
     }
   }, [currentQuestionIndex, questions.length, isCheckingAnswer]);
 
+  useEffect(() => {
+	const questionAudio = new Audio(`/audio/${questions[currentQuestionIndex].audio_question}`);
+	questionAudio.play();
+	// Cleanup function to pause and nullify the audio when the component unmounts or before a new audio is played
+	return () => {
+	  questionAudio.pause();
+	  questionAudio.currentTime = 0;
+	};
+  }, [currentQuestionIndex, questions]);
+  
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
       {questions.length > 0 && currentQuestionIndex < questions.length && (
