@@ -206,7 +206,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
               className="w-full max-w-lg h-64 object-cover object-center"
             />
           </motion.div>
-          <div className="grid grid-cols-2 gap-4 w-full p-4">
+          <div className="grid grid-cols-2 gap-4 w-full p-9">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option}
@@ -263,13 +263,16 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
               </motion.div>
             ))}
           </div>
-          <motion.div
-            key={currentQuestionIndex} // Resets the progress bar on each question change
-            className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full my-16"
-            variants={progressBarVariants}
-            initial="initial"
-            animate={isProgressBarAnimating ? "animate" : "initial"} // Control animation based on state
-          />
+          {/* Place the motion.div inside a container with 10% margin on each side to the left and right */}
+          <div className="flex flex-row justify-between w-full m-16 px-16">
+            <motion.div
+              key={currentQuestionIndex} // Resets the progress bar on each question change
+              className="h-4 bg-gradient-to-r from-red-500 to-red-600 rounded-full"
+              variants={progressBarVariants}
+              initial="initial"
+              animate={isProgressBarAnimating ? "animate" : "initial"} // Control animation based on state
+            />
+          </div>
         </div>
       )}
     </div>
