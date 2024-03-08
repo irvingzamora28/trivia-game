@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cuál es el juego inicial en la segunda temporada de 'El Juego del Calamar'?",
+        "audio_question": "squid_game_2_questions/1_question.mp3",
+        "image": "red-light-green-light.jpg",
+        "image_search_term": "Squid Game red light green light",
+        "options": [
+            "Luz verde, luz roja",
+            "El juego de las canicas",
+            "El puente de vidrio",
+            "Tug of war"
+        ],
+        "answer": "Luz verde, luz roja",
+        "audio_answer": "squid_game_2_questions/1_answer.mp3"
+    },
+    {
+        "id": 2,
+        "question": "¿Qué representa el símbolo del paraguas en los juegos?",
+        "audio_question": "squid_game_2_questions/2_question.mp3",
+        "image": "dalgona-candy-umbrella.jpg",
+        "image_search_term": "Squid Game dalgona candy umbrella",
+        "options": [
+            "La suerte",
+            "Un juego de niños",
+            "La muerte",
+            "Un desafío difícil"
+        ],
+        "answer": "Un desafío difícil",
+        "audio_answer": "squid_game_2_questions/2_answer.mp3"
+    },
+    {
+        "id": 3,
+        "question": "¿Quién es el creador de 'El Juego del Calamar'?",
+        "audio_question": "squid_game_2_questions/3_question.mp3",
+        "image": "creator-squid-game.jpg",
+        "image_search_term": "Squid Game creator",
+        "options": [
+            "Hwang Dong-hyuk",
+            "Bong Joon-ho",
+            "Kim Joo-hyuk",
+            "Park Hae-soo"
+        ],
+        "answer": "Hwang Dong-hyuk",
+        "audio_answer": "squid_game_2_questions/3_answer.mp3"
+    },
+    {
+        "id": 4,
+        "question": "¿Qué número llevaba el protagonista principal, Seong Gi-hun?",
+        "audio_question": "squid_game_2_questions/4_question.mp3",
+        "image": "seong-gi-hun-number.jpg",
+        "image_search_term": "Squid Game Seong Gi-hun",
+        "options": [
+            "001",
+            "218",
+            "456",
+            "067"
+        ],
+        "answer": "456",
+        "audio_answer": "squid_game_2_questions/4_answer.mp3"
+    },
+    {
+        "id": 5,
+        "question": "¿Cuál es la suma total del premio en wones para el ganador?",
+        "audio_question": "squid_game_2_questions/5_question.mp3",
+        "image": "prize-money.jpg",
+        "image_search_term": "Squid Game prize money",
+        "options": [
+            "45.6 mil millones",
+            "38.5 mil millones",
+            "80 mil millones",
+            "100 mil millones"
+        ],
+        "answer": "45.6 mil millones",
+        "audio_answer": "squid_game_2_questions/5_answer.mp3"
+    },
+    {
+        "id": 6,
+        "question": "¿Cuál es el color predominante de los uniformes de los jugadores?",
+        "audio_question": "squid_game_2_questions/6_question.mp3",
+        "image": "player-uniforms.jpg",
+        "image_search_term": "Squid Game player uniforms",
+        "options": [
+            "Rojo",
+            "Verde",
+            "Azul",
+            "Negro"
+        ],
+        "answer": "Verde",
+        "audio_answer": "squid_game_2_questions/6_answer.mp3"
+    },
+    {
+        "id": 7,
+        "question": "¿Qué objeto es crucial para ganar en el juego de las canicas?",
+        "audio_question": "squid_game_2_questions/7_question.mp3",
+        "image": "marbles-game.jpg",
+        "image_search_term": "Squid Game marbles",
+        "options": [
+            "Un reloj",
+            "Una canica",
+            "Un dado",
+            "Una moneda"
+        ],
+        "answer": "Una canica",
+        "audio_answer": "squid_game_2_questions/7_answer.mp3"
+    },
+    {
+        "id": 8,
+        "question": "¿Quién es el actor principal de 'El Juego del Calamar' segunda temporada?",
+        "audio_question": "squid_game_2_questions/8_question.mp3",
+        "image": "main-actor.jpg",
+        "image_search_term": "Squid Game Lee Jung-jae",
+        "options": [
+            "Gong Yoo",
+            "Lee Jung-jae",
+            "Park Hae-soo",
+            "Wi Ha-jun"
+        ],
+        "answer": "Lee Jung-jae",
+        "audio_answer": "squid_game_2_questions/8_answer.mp3"
+    },
+    {
+        "id": 9,
+        "question": "¿En qué tipo de lugar se desarrolla principalmente 'El Juego del Calamar'?",
+        "audio_question": "squid_game_2_questions/9_question.mp3",
+        "image": "game-location.jpg",
+        "image_search_term": "Squid Game location",
+        "options": [
+            "Una isla",
+            "Una escuela",
+            "Un hospital",
+            "Una prisión"
+        ],
+        "answer": "Una isla",
+        "audio_answer": "squid_game_2_questions/9_answer.mp3"
+    },
+    {
+        "id": 10,
+        "question": "¿Cómo se identifica a los líderes de los guardias en 'El Juego del Calamar'?",
+        "audio_question": "squid_game_2_questions/10_question.mp3",
+        "image": "guards-leaders.jpg",
+        "image_search_term": "Squid Game guards",
+        "options": [
+            "Por un casco",
+            "Por un bastón",
+            "Por un símbolo en la máscara",
+            "Por el color de la máscara"
+        ],
+        "answer": "Por el color de la máscara",
+        "audio_answer": "squid_game_2_questions/10_answer.mp3"
+    },
+    {
+        "id": 11,
+        "question": "¿Qué juego se utiliza para seleccionar al ganador final?",
+        "audio_question": "squid_game_2_questions/11_question.mp3",
+        "image": "final-game.jpg",
+        "image_search_term": "Squid Game final game",
+        "options": [
+            "El juego del calamar",
+            "Tirar de la cuerda",
+            "El puente de vidrio",
+            "Pelea a muerte"
+        ],
+        "answer": "El juego del calamar",
+        "audio_answer": "squid_game_2_questions/11_answer.mp3"
+    },
+    {
+        "id": 12,
+        "question": "¿Qué número llevaba el personaje Oh Il-nam en la serie?",
+        "audio_question": "squid_game_2_questions/12_question.mp3",
+        "image": "oh-il-nam.jpg",
+        "image_search_term": "Squid Game Oh Il-nam",
+        "options": [
+            "001",
+            "456",
+            "218",
+            "067"
+        ],
+        "answer": "001",
+        "audio_answer": "squid_game_2_questions/12_answer.mp3"
+    },
+    {
+        "id": 13,
+        "question": "¿Cuál es el destino de la mayoría de los participantes en 'El Juego del Calamar'?",
+        "audio_question": "squid_game_2_questions/13_question.mp3",
+        "image": "fate-of-participants.jpg",
+        "image_search_term": "Squid Game participants fate",
+        "options": [
+            "Ganan el premio",
+            "Se retiran voluntariamente",
+            "Son eliminados",
+            "Se convierten en guardias"
+        ],
+        "answer": "Son eliminados",
+        "audio_answer": "squid_game_2_questions/13_answer.mp3"
+    },
+    {
+        "id": 14,
+        "question": "¿Qué figura geométrica NO forma parte del diseño de las máscaras de los guardias?",
+        "audio_question": "squid_game_2_questions/14_question.mp3",
+        "image": "guard-masks.jpg",
+        "image_search_term": "Squid Game guard masks",
+        "options": [
+            "Círculo",
+            "Cuadrado",
+            "Triángulo",
+            "Pentágono"
+        ],
+        "answer": "Pentágono",
+        "audio_answer": "squid_game_2_questions/14_answer.mp3"
+    },
+    {
+        "id": 15,
+        "question": "¿Qué simboliza el juego de tirar de la cuerda en 'El Juego del Calamar'?",
+        "audio_question": "squid_game_2_questions/15_question.mp3",
+        "image": "tug-of-war.jpg",
+        "image_search_term": "Squid Game tug of war",
+        "options": [
+            "Trabajo en equipo",
+            "Fuerza física",
+            "Estrategia mental",
+            "Todas las anteriores"
+        ],
+        "answer": "Todas las anteriores",
+        "audio_answer": "squid_game_2_questions/15_answer.mp3"
+    },
+    {
+        "id": 16,
+        "question": "¿Qué elemento es crucial para sobrevivir en el juego del puente de vidrio?",
+        "audio_question": "squid_game_2_questions/16_question.mp3",
+        "image": "glass-bridge.jpg",
+        "image_search_term": "Squid Game glass bridge",
+        "options": [
+            "La memoria",
+            "La suerte",
+            "La velocidad",
+            "La fuerza"
+        ],
+        "answer": "La suerte",
+        "audio_answer": "squid_game_2_questions/16_answer.mp3"
+    },
+    {
+        "id": 17,
+        "question": "¿Quién es el último adversario que enfrenta Gi-hun?",
+        "audio_question": "squid_game_2_questions/17_question.mp3",
+        "image": "final-opponent.jpg",
+        "image_search_term": "Squid Game final opponent",
+        "options": [
+            "Sang-woo",
+            "Sae-byeok",
+            "Deok-su",
+            "Il-nam"
+        ],
+        "answer": "Sang-woo",
+        "audio_answer": "squid_game_2_questions/17_answer.mp3"
+    },
+    {
+        "id": 18,
+        "question": "¿Cómo se determinan los equipos en el juego de tirar de la cuerda?",
+        "audio_question": "squid_game_2_questions/18_question.mp3",
+        "image": "rope-pulling-teams.jpg",
+        "image_search_term": "Squid Game rope pulling teams",
+        "options": [
+            "Por peso",
+            "Al azar",
+            "Por edad",
+            "Por altura"
+        ],
+        "answer": "Al azar",
+        "audio_answer": "squid_game_2_questions/18_answer.mp3"
+    },
+    {
+        "id": 19,
+        "question": "¿Cuál es el significado detrás del número 456, el número de jugador de Gi-hun?",
+        "audio_question": "squid_game_2_questions/19_question.mp3",
+        "image": "gi-hun-456.jpg",
+        "image_search_term": "Squid Game Gi-hun 456",
+        "options": [
+            "El número de participantes",
+            "Su deuda en millones",
+            "Un número aleatorio",
+            "Su fecha de nacimiento"
+        ],
+        "answer": "El número de participantes",
+        "audio_answer": "squid_game_2_questions/19_answer.mp3"
+    },
+    {
+        "id": 20,
+        "question": "¿Qué juego decide el destino de los jugadores en la primera prueba?",
+        "audio_question": "squid_game_2_questions/20_question.mp3",
+        "image": "first-game.jpg",
+        "image_search_term": "Squid Game first game",
+        "options": [
+            "El calamar",
+            "Luz verde, luz roja",
+            "Las canicas",
+            "El puente de vidrio"
+        ],
+        "answer": "Luz verde, luz roja",
+        "audio_answer": "squid_game_2_questions/20_answer.mp3"
+    }
+]
