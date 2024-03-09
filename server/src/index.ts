@@ -3,6 +3,8 @@ import { OpenAI } from "openai";
 import dotenv from "dotenv";
 import fs from "fs";
 import path from "path";
+import { SpeechSynthesisInterface } from "./speech/SpeechSynthesisInterface";
+import SpeechSynthesisElevenLabs from "./speech/SpeechSynthesisElevenLabs";
 
 dotenv.config();
 
@@ -40,7 +42,7 @@ app.post("/process-questions", async (req, res) => {
     "..",
     "src",
     "data",
-    "trivia.json"
+    "1_squid_game_2.json"
   );
   const outputDir = path.resolve(__dirname, "..", "..", "src", "assets", "audio");
 
@@ -70,18 +72,12 @@ app.post("/process-questions", async (req, res) => {
 
 async function generateAndSaveAudio(text: string, filePath: string) {
   try {
-    const response = await openai.audio.speech.create({
-      model: "tts-1",
-      voice: "alloy",
-      input: text,
-    });
-
     // Ensure the directory for the filePath exists
     const dirName = path.dirname(filePath);
     await fs.promises.mkdir(dirName, { recursive: true });
-
-    const buffer = Buffer.from(await response.arrayBuffer());
-    await fs.promises.writeFile(filePath, buffer);
+    // Example usage
+    const speechSynthesizer: SpeechSynthesisInterface = new SpeechSynthesisElevenLabs();
+    await speechSynthesizer.generateAndSaveAudio(text, filePath);
   } catch (error) {
     console.error("Error generating audio for text:", text, error);
     throw error; // Rethrow to handle in the calling function
