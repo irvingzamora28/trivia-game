@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { TriviaQuestion } from "../types/trivia";
+import { OptionKey, TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
 import correctSound from "../assets/audio/correct-short.mp3";
@@ -75,7 +75,7 @@ const answerVariants = {
 const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(triviaQuestions);
-  const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<OptionKey | null>(null);
   const [isCheckingAnswer, setIsCheckingAnswer] = useState<boolean>(false);
   const [answerState, setAnswerState] = useState<
     "initial" | "correct" | "incorrect"
@@ -95,13 +95,13 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
     }, 2000);
   };
 
-  const handleAnswerSelect = (option: string, isAutoSelect = false) => {
-    setSelectedAnswer(option);
+  const handleAnswerSelect = (selectedKey: OptionKey, isAutoSelect = false) => {
+    setSelectedAnswer(selectedKey);
     setIsCheckingAnswer(true);
 
     const currentQuestion = triviaQuestions[currentQuestionIndexRef.current];
 
-    const isCorrect = option === currentQuestion.answer;
+    const isCorrect = selectedKey === currentQuestion.answer;
     // Play question correctness feedback sound (correct or incorrect)
     const feedbackSound = new Audio(
       isCorrect || isAutoSelect ? correctSound : incorrectSound
@@ -203,10 +203,10 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
           <div className="grid grid-cols-2 gap-4 w-full p-9">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
-                key={option}
+                key={option.key}
                 initial="initial"
                 animate={
-                  selectedAnswer === option
+                  selectedAnswer === option.key
                     ? answerState === "correct"
                       ? "correct"
                       : "incorrect"
@@ -215,7 +215,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
                     : "floating"
                 }
                 variants={
-                  option === questions[currentQuestionIndex].answer
+                  option.key === questions[currentQuestionIndex].answer
                     ? {
                         ...answerVariants,
                         correct: {
@@ -227,17 +227,17 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
                     : answerVariants
                 }
                 style={
-                  answerState === "correct" && selectedAnswer === option
+                  answerState === "correct" && selectedAnswer === option.key
                     ? { position: "absolute", top: "50%", left: "50%" }
                     : {}
                 }
               >
                 {/* ... button with letter and option text ... */}
                 <motion.div
-                  key={option}
+                  key={option.key}
                   variants={answerVariants}
                   initial="initial"
-                  animate={selectedAnswer === option ? answerState : "initial"}
+                  animate={selectedAnswer === option.key ? answerState : "initial"}
                   className="relative flex items-center justify-start my-2 h-28"
                 >
                   <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg ml-8">
@@ -247,11 +247,11 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
                   </div>
                   <button
                     onClick={() =>
-                      !isCheckingAnswer && handleAnswerSelect(option)
+                      !isCheckingAnswer && handleAnswerSelect(option.key)
                     }
                     className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 round-shadow"
                   >
-                    {option}
+                    {option.text}
                   </button>
                 </motion.div>
               </motion.div>

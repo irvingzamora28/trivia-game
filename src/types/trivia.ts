@@ -1,4 +1,4 @@
-type OptionKey = "A" | "B" | "C" | "D";
+export type OptionKey = "A" | "B" | "C" | "D";
 
 export interface Option {
   key: OptionKey;
