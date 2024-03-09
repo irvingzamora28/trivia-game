@@ -1,0 +1,527 @@
+[
+    {
+        "id": 1,
+        "question": "¿Quién es este personaje icónico de Nintendo conocido por sus habilidades de salto y por salvar a la Princesa Peach?",
+        "audio_question": "video_game_icons/1_question.mp3",
+        "image_question": "iconic-nintendo-character.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Luigi"
+            },
+            {
+                "key": "B",
+                "text": "Kirby"
+            },
+            {
+                "key": "C",
+                "text": "Sonic"
+            },
+            {
+                "key": "D",
+                "text": "Mario"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 2,
+        "question": "¿Cuál de estos personajes es conocido como el 'Rey de los Koopas' y el principal antagonista en la serie de juegos de Mario?",
+        "audio_question": "video_game_icons/2_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Bowser",
+                "image": "bowser.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Ganondorf",
+                "image": "ganondorf.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Wario",
+                "image": "wario.jpg"
+            },
+            {
+                "key": "D",
+                "text": "King Dedede",
+                "image": "king-dedede.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "Identifica a este personaje famoso por su velocidad y por recolectar anillos.",
+        "audio_question": "video_game_icons/3_question.mp3",
+        "image_question": "speedy-character.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Mega Man"
+            },
+            {
+                "key": "B",
+                "text": "Pikachu"
+            },
+            {
+                "key": "C",
+                "text": "Sonic"
+            },
+            {
+                "key": "D",
+                "text": "Crash Bandicoot"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 4,
+        "question": "¿Quién es el cazador de recompensas protagonista de la serie Metroid?",
+        "audio_question": "video_game_icons/4_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ridley",
+                "image": "ridley.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Samus Aran",
+                "image": "samus.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Fox McCloud",
+                "image": "fox_mccloud.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Master Chief",
+                "image": "master_chief.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "Este héroe es conocido por su silenciosa eficacia en el campo de batalla y protagoniza la serie 'Metal Gear Solid'. ¿Quién es?",
+        "audio_question": "video_game_icons/5_question.mp3",
+        "image_question": "stealth-game-hero.jpg",
+        "image_search_term": "Solid Snake Metal Gear Solid",
+        "options": [
+            {
+                "key": "A",
+                "text": "Solid Snake"
+            },
+            {
+                "key": "B",
+                "text": "Mario"
+            },
+            {
+                "key": "C",
+                "text": "Cloud Strife"
+            },
+            {
+                "key": "D",
+                "text": "Samus Aran"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "Este personaje es el principal antagonista en muchos juegos de Mario. ¿Quién es?",
+        "audio_question": "video_game_icons/6_question.mp3",
+        "image_question": "main-antagonist-mario.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Wario"
+            },
+            {
+                "key": "B",
+                "text": "Bowser"
+            },
+            {
+                "key": "C",
+                "text": "King Dedede"
+            },
+            {
+                "key": "D",
+                "text": "Ganondorf"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 7,
+        "question": "Identifica este juego clásico de arcade protagonizado por un personaje que debe evitar fantasmas mientras come puntos.",
+        "audio_question": "video_game_icons/7_question.mp3",
+        "image_question": "classic-arcade-character.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Space Invaders"
+            },
+            {
+                "key": "B",
+                "text": "Donkey Kong"
+            },
+            {
+                "key": "C",
+                "text": "Pac-Man"
+            },
+            {
+                "key": "D",
+                "text": "Asteroids"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 8,
+        "question": "¿Quién es este personaje icónico de Sega, conocido por su velocidad y anillos dorados?",
+        "audio_question": "video_game_icons/8_question.mp3",
+        "image_question": "sega-iconic-character.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Tails"
+            },
+            {
+                "key": "B",
+                "text": "Sonic"
+            },
+            {
+                "key": "C",
+                "text": "Knuckles"
+            },
+            {
+                "key": "D",
+                "text": "Shadow"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "Este personaje de videojuego lleva una espada y es el protagonista de una serie que lleva su nombre. ¿Quién es?",
+        "audio_question": "video_game_icons/9_question.mp3",
+        "image_question": "video-game-sword-bearer.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Kratos"
+            },
+            {
+                "key": "B",
+                "text": "Link"
+            },
+            {
+                "key": "C",
+                "text": "Cloud Strife"
+            },
+            {
+                "key": "D",
+                "text": "Geralt of Rivia"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 10,
+        "question": "Este personaje es un detective que explora Rapture y combate contra Splicers. ¿Quién es?",
+        "audio_question": "video_game_icons/10_question.mp3",
+        "image_question": "detective-rapture.jpg",
+        "options": [
+            {
+                "key": "A",
+                "text": "Booker DeWitt"
+            },
+            {
+                "key": "B",
+                "text": "Jack Ryan"
+            },
+            {
+                "key": "C",
+                "text": "Big Daddy"
+            },
+            {
+                "key": "D",
+                "text": "Nathan Drake"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 11,
+        "question": "Este personaje es el héroe de Hyrule y portador de la Trifuerza del Valor. ¿Quién es?",
+        "audio_question": "video_game_icons/11_question.mp3",
+        "image_question": "hero-of-hyrule.jpg",
+        "image_search_term": "Link Zelda",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ganondorf"
+            },
+            {
+                "key": "B",
+                "text": "Zelda"
+            },
+            {
+                "key": "C",
+                "text": "Link"
+            },
+            {
+                "key": "D",
+                "text": "Epona"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 12,
+        "question": "¿Cuál de estos personajes es un cazador de tesoros en una serie de videojuegos que mezcla acción y aventura?",
+        "audio_question": "video_game_icons/12_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Nathan Drake",
+                "image": "nathan-drake.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Lara Croft",
+                "image": "lara-croft.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Indiana Jones",
+                "image": "indiana-jones.jpg"
+            },
+            {
+                "key": "D",
+                "text": "John Marston",
+                "image": "john-marston.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "¿Quién es el protagonista de la serie 'Half-Life'?",
+        "audio_question": "video_game_icons/13_question.mp3",
+        "image_question": "half-life-protagonist.jpg",
+        "image_search_term": "Gordon Freeman",
+        "options": [
+            {
+                "key": "A",
+                "text": "Gordon Freeman"
+            },
+            {
+                "key": "B",
+                "text": "Alyx Vance"
+            },
+            {
+                "key": "C",
+                "text": "Barney Calhoun"
+            },
+            {
+                "key": "D",
+                "text": "Isaac Clarke"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 14,
+        "question": "¿Cuál de estos personajes es un famoso fontanero y hermano del protagonista en una conocida serie de Nintendo?",
+        "audio_question": "video_game_icons/14_question.mp3",
+        "image_question": "famous-plumber.jpg",
+        "image_search_term": "Luigi Mario",
+        "options": [
+            {
+                "key": "A",
+                "text": "Wario"
+            },
+            {
+                "key": "B",
+                "text": "Luigi"
+            },
+            {
+                "key": "C",
+                "text": "Waluigi"
+            },
+            {
+                "key": "D",
+                "text": "Peach"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 15,
+        "question": "Este personaje es el antagonista principal de 'Final Fantasy VII'. ¿Quién es?",
+        "audio_question": "video_game_icons/15_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Cloud Strife",
+                "image": "cloud-strife.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Tifa Lockhart",
+                "image": "tifa-lockhart.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Sephiroth",
+                "image": "sephiroth.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Barret Wallace",
+                "image": "barret-wallace.jpg"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 16,
+        "question": "Este personaje se embarca en una cruzada contra las criaturas de la noche en la serie 'Castlevania'. ¿Quién es?",
+        "audio_question": "video_game_icons/16_question.mp3",
+        "image_question": "night-creature-hunter.jpg",
+        "image_search_term": "Simon Belmont Castlevania",
+        "options": [
+            {
+                "key": "A",
+                "text": "Kratos"
+            },
+            {
+                "key": "B",
+                "text": "Alucard"
+            },
+            {
+                "key": "C",
+                "text": "Simon Belmont"
+            },
+            {
+                "key": "D",
+                "text": "Cloud Strife"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 17,
+        "question": "Este personaje es conocido por sus combates en un entorno post-apocalíptico y es el protagonista de 'Mad Max'. ¿Quién es?",
+        "audio_question": "video_game_icons/17_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Max Rockatansky",
+                "image": "max-rockatansky.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Rick Deckard",
+                "image": "rick-deckard.jpg"
+            },
+            {
+                "key": "C",
+                "text": "John Marston",
+                "image": "john-marston.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Marcus Fenix",
+                "image": "marcus-fenix.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 18,
+        "question": "Este personaje es un ladrón y explorador famoso por su búsqueda de tesoros alrededor del mundo. ¿Quién es?",
+        "audio_question": "video_game_icons/18_question.mp3",
+        "image_question": "treasure-hunter-adventurer.jpg",
+        "image_search_term": "Nathan Drake Uncharted",
+        "options": [
+            {
+                "key": "A",
+                "text": "Nathan Drake"
+            },
+            {
+                "key": "B",
+                "text": "Lara Croft"
+            },
+            {
+                "key": "C",
+                "text": "Indiana Jones"
+            },
+            {
+                "key": "D",
+                "text": "Sam Fisher"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 19,
+        "question": "Este personaje es el líder de los autobots en 'Transformers'. ¿Quién es?",
+        "audio_question": "video_game_icons/19_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Optimus Prime",
+                "image": "optimus-prime.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Megatron",
+                "image": "megatron.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Bumblebee",
+                "image": "bumblebee.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Starscream",
+                "image": "starscream.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 20,
+        "question": "Este personaje es un maestro de las artes marciales y protagonista en la serie 'Street Fighter'. ¿Quién es?",
+        "audio_question": "video_game_icons/20_question.mp3",
+        "image_question": "martial-arts-master.jpg",
+        "image_search_term": "Ryu Street Fighter",
+        "options": [
+            {
+                "key": "A",
+                "text": "Ryu"
+            },
+            {
+                "key": "B",
+                "text": "Ken Masters"
+            },
+            {
+                "key": "C",
+                "text": "Chun-Li"
+            },
+            {
+                "key": "D",
+                "text": "M. Bison"
+            }
+        ],
+        "answer": "A"
+    }
+]

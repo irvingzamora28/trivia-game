@@ -1,0 +1,552 @@
+[
+    {
+        "id": 1,
+        "question": "¿Quién propuso la teoría de la relatividad?",
+        "audio_question": "scientists/1_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Isaac Newton",
+                "image": "isaac-newton.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Albert Einstein",
+                "image": "albert-einstein.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Nikola Tesla",
+                "image": "nikola-tesla.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Marie Curie",
+                "image": "marie-curie.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "¿Quién descubrió la penicilina?",
+        "audio_question": "scientists/2_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Alexander Fleming",
+                "image": "alexander-fleming.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Louis Pasteur",
+                "image": "louis-pasteur.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Gregor Mendel",
+                "image": "gregor-mendel.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Edward Jenner",
+                "image": "edward-jenner.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "¿Quién es conocido como el padre de la genética moderna?",
+        "audio_question": "scientists/3_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Charles Darwin",
+                "image": "charles-darwin.jpg"
+            },
+            {
+                "key": "B",
+                "text": "James Watson",
+                "image": "james-watson.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Gregor Mendel",
+                "image": "gregor-mendel.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Francis Crick",
+                "image": "francis-crick.jpg"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 4,
+        "question": "¿Quién desarrolló la primera vacuna contra la viruela?",
+        "audio_question": "scientists/4_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Jonas Salk",
+                "image": "jonas-salk.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Alexander Fleming",
+                "image": "alexander-fleming.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Edward Jenner",
+                "image": "edward-jenner.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Louis Pasteur",
+                "image": "louis-pasteur.jpg"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 5,
+        "question": "¿Quién fue la primera persona en recibir dos Premios Nobel en dos campos científicos diferentes?",
+        "audio_question": "scientists/5_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Albert Einstein",
+                "image": "albert-einstein.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Marie Curie",
+                "image": "marie-curie.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Linus Pauling",
+                "image": "linus-pauling.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Richard Feynman",
+                "image": "richard-feynman.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "¿Quién propuso las leyes de la herencia genética a través de sus experimentos con guisantes?",
+        "audio_question": "scientists/6_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Charles Darwin",
+                "image": "charles-darwin.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Gregor Mendel",
+                "image": "gregor-mendel.jpg"
+            },
+            {
+                "key": "C",
+                "text": "James Watson",
+                "image": "james-watson.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Rosalind Franklin",
+                "image": "rosalind-franklin.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 7,
+        "question": "¿Quiénes descubrieron la estructura de doble hélice del ADN?",
+        "audio_question": "scientists/7_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Watson y Crick",
+                "image": "watson-crick.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Mendel y Darwin",
+                "image": "mendel-darwin.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Curie y Franklin",
+                "image": "curie-franklin.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Einstein y Bohr",
+                "image": "einstein-bohr.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "¿Quién es conocido como el padre de la física cuántica?",
+        "audio_question": "scientists/8_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Max Planck",
+                "image": "max-planck.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Niels Bohr",
+                "image": "niels-bohr.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Albert Einstein",
+                "image": "albert-einstein.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Erwin Schrödinger",
+                "image": "erwin-schrodinger.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 9,
+        "question": "¿Quién inventó el telégrafo eléctrico?",
+        "audio_question": "scientists/9_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Thomas Edison",
+                "image": "thomas-edison.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Alexander Graham Bell",
+                "image": "alexander-graham-bell.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Samuel Morse",
+                "image": "samuel-morse.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Nikola Tesla",
+                "image": "nikola-tesla.jpg"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 10,
+        "question": "¿Quién es conocida como la 'madre de la radioactividad'?",
+        "audio_question": "scientists/10_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Lise Meitner",
+                "image": "lise-meitner.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Marie Curie",
+                "image": "marie-curie.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Dorothy Hodgkin",
+                "image": "dorothy-hodgkin.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Rosalind Franklin",
+                "image": "rosalind-franklin.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 11,
+        "question": "Este científico es conocido por sus leyes sobre los planetas en movimiento alrededor del sol. ¿Quién es?",
+        "audio_question": "scientists/11_question.mp3",
+        "image_question": "scientist-laws-planets.jpg",
+        "image_search_term": "Johannes Kepler",
+        "options": [
+            {
+                "key": "A",
+                "text": "Galileo Galilei"
+            },
+            {
+                "key": "B",
+                "text": "Johannes Kepler"
+            },
+            {
+                "key": "C",
+                "text": "Tycho Brahe"
+            },
+            {
+                "key": "D",
+                "text": "Isaac Newton"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 12,
+        "question": "¿Quién inventó la primera máquina calculadora mecánica?",
+        "audio_question": "scientists/12_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Charles Babbage",
+                "image": "charles-babbage.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Blaise Pascal",
+                "image": "blaise-pascal.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Ada Lovelace",
+                "image": "ada-lovelace.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Alan Turing",
+                "image": "alan-turing.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 13,
+        "question": "Este físico teórico desarrolló la teoría de la relatividad general, cambiando nuestra comprensión del tiempo y el espacio. ¿Quién es?",
+        "audio_question": "scientists/13_question.mp3",
+        "image_question": "theoretical-physicist.jpg",
+        "image_search_term": "Albert Einstein",
+        "options": [
+            {
+                "key": "A",
+                "text": "Niels Bohr"
+            },
+            {
+                "key": "B",
+                "text": "Max Planck"
+            },
+            {
+                "key": "C",
+                "text": "Albert Einstein"
+            },
+            {
+                "key": "D",
+                "text": "Richard Feynman"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 14,
+        "question": "Identifica a este científico que jugó un papel crucial en el desarrollo de la teoría cuántica.",
+        "audio_question": "scientists/14_question.mp3",
+        "image_question": "quantum-theory-scientist.jpg",
+        "image_search_term": "Max Planck",
+        "options": [
+            {
+                "key": "A",
+                "text": "Erwin Schrödinger"
+            },
+            {
+                "key": "B",
+                "text": "Werner Heisenberg"
+            },
+            {
+                "key": "C",
+                "text": "Max Planck"
+            },
+            {
+                "key": "D",
+                "text": "Paul Dirac"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "Este científico es famoso por formular la ley de la gravedad. ¿Quién es?",
+        "audio_question": "scientists/15_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Isaac Newton",
+                "image": "isaac-newton.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Albert Einstein",
+                "image": "albert-einstein.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Galileo Galilei",
+                "image": "galileo-galilei.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Johannes Kepler",
+                "image": "johannes-kepler.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 16,
+        "question": "¿Quién es considerado el padre de la física moderna por su formulación de las leyes del movimiento?",
+        "audio_question": "scientists/16_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Galileo Galilei",
+                "image": "galileo-galilei.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Isaac Newton",
+                "image": "isaac-newton.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Albert Einstein",
+                "image": "albert-einstein.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Johannes Kepler",
+                "image": "johannes-kepler.jpg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "Este científico formuló la ley de la inercia, un principio fundamental de la física. ¿Quién es?",
+        "audio_question": "scientists/17_question.mp3",
+        "image_question": "law-of-inertia-scientist.jpg",
+        "image_search_term": "Galileo Galilei",
+        "options": [
+            {
+                "key": "A",
+                "text": "Isaac Newton"
+            },
+            {
+                "key": "B",
+                "text": "Galileo Galilei"
+            },
+            {
+                "key": "C",
+                "text": "Nikola Tesla"
+            },
+            {
+                "key": "D",
+                "text": "Leonardo da Vinci"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 18,
+        "question": "¿Quién descubrió la circulación de la sangre en el cuerpo humano?",
+        "audio_question": "scientists/18_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "William Harvey",
+                "image": "william-harvey.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Hippocrates",
+                "image": "hippocrates.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Avicenna",
+                "image": "avicenna.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Andreas Vesalius",
+                "image": "andreas-vesalius.jpg"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 19,
+        "question": "Este científico ganó un Premio Nobel por su trabajo sobre la teoría cuántica. ¿Quién es?",
+        "audio_question": "scientists/19_question.mp3",
+        "image_question": "quantum-theory-nobel.jpg",
+        "image_search_term": "Niels Bohr",
+        "options": [
+            {
+                "key": "A",
+                "text": "Max Planck"
+            },
+            {
+                "key": "B",
+                "text": "Niels Bohr"
+            },
+            {
+                "key": "C",
+                "text": "Erwin Schrödinger"
+            },
+            {
+                "key": "D",
+                "text": "Werner Heisenberg"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 20,
+        "question": "¿Quién inventó el primer microscopio compuesto?",
+        "audio_question": "scientists/20_question.mp3",
+        "options": [
+            {
+                "key": "A",
+                "text": "Antonie van Leeuwenhoek",
+                "image": "antonie-van-leeuwenhoek.jpg"
+            },
+            {
+                "key": "B",
+                "text": "Galileo Galilei",
+                "image": "galileo-galilei.jpg"
+            },
+            {
+                "key": "C",
+                "text": "Zacharias Janssen",
+                "image": "zacharias-janssen.jpg"
+            },
+            {
+                "key": "D",
+                "text": "Robert Hooke",
+                "image": "robert-hooke.jpg"
+            }
+        ],
+        "answer": "C"
+    }
+]
