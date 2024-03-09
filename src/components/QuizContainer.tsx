@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Quiz from './Quiz';
 import StartButton from '../components/ButtonStartQuiz';
 import triviaSound from "../assets/audio/trivia-sound.mp3";
-import triviaQuestions from "../data/trivia.json";
+import triviaQuestions from "../data/1_squid_game_2.json";
 
 const QuizContainer: React.FC = () => {
   const [quizStarted, setQuizStarted] = useState<boolean>(false);
