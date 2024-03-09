@@ -33,7 +33,6 @@ const imageFloatVariants = {
   },
 };
 
-
 const answerVariants = {
   initial: {
     scale: 1,
@@ -200,7 +199,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
               className="w-full max-w-lg h-64 object-cover object-center"
             />
           </motion.div>
-          <div className="grid grid-cols-2 gap-4 w-full p-9">
+          <div className="grid grid-cols-2 gap-x-12 gap-y-12 w-3/5 p-9">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option.key}
@@ -237,22 +236,58 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
                   key={option.key}
                   variants={answerVariants}
                   initial="initial"
-                  animate={selectedAnswer === option.key ? answerState : "initial"}
-                  className="relative flex items-center justify-start my-2 h-28"
+                  animate={
+                    selectedAnswer === option.key ? answerState : "initial"
+                  }
+                  className="relative flex items-center justify-start my-2"
                 >
-                  <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg ml-8">
-                    <span className="text-6xl font-bold text-shadow">
-                      {String.fromCharCode(65 + index)}
-                    </span>
-                  </div>
-                  <button
-                    onClick={() =>
-                      !isCheckingAnswer && handleAnswerSelect(option.key)
-                    }
-                    className="relative flex items-center justify-start my-2 h-28 pl-36 pr-4 py-3 w-full text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 round-shadow"
-                  >
-                    {option.text}
-                  </button>
+                  {/* Conditional rendering based on the presence of an image */}
+                  {option.image ? (
+                    // Option layout when an image is present
+                    <button
+                      onClick={() =>
+                        !isCheckingAnswer && handleAnswerSelect(option.key)
+                      }
+                      className="flex flex-col items-center justify-center w-full rounded-lg overflow-hidden transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                      style={{ minHeight: "10rem" }} // Adjust minHeight to fit content
+                    >
+                      <div className="w-full h-40 bg-gray-100 flex items-center justify-center overflow-hidden">
+                        <img
+                          src={`images/${option.image}`}
+                          alt={option.text}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="pt-4 pb-2 px-4 bg-white w-full">
+                        <span className="text-xl font-medium text-blue-600">
+                          {option.text}
+                        </span>
+                      </div>
+                    </button>
+                  ) : (
+                    // Original layout when no image is present
+                    <div className="flex flex-col items-center justify-center w-full">
+                      <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg">
+                        <span className="text-6xl font-bold text-shadow">
+                          {option.key}
+                        </span>
+                      </div>
+                      <button
+                        onClick={() =>
+                          !isCheckingAnswer && handleAnswerSelect(option.key)
+                        }
+                        className="pl-36 pr-4 py-3 w-full h-28 text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
+                      >
+                        {option.text}
+                      </button>
+                    </div>
+                  )}
+
+                  {option.image && (
+                    <div className="absolute -top-6 left-0 z-10 text-white bg-blue-600 rounded-full w-16 h-16 flex items-center justify-center border-4 border-white shadow-lg">
+                      <span className="text-3xl font-bold">{option.key}</span>
+                    </div>
+                  )}
                 </motion.div>
               </motion.div>
             ))}
