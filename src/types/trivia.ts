@@ -12,7 +12,7 @@ export interface TriviaQuestion {
   id: number;
   question: string;
   audio_question: string;
-  image: string;
+  image_question?: string;
   options: Option[];
   answer: OptionKey;
   audio_answer?: string;

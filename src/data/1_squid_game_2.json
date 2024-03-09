@@ -3,7 +3,7 @@
         "id": 1,
         "question": "¿Cuál es el juego inicial en la segunda temporada de 'El Juego del Calamar'?",
         "audio_question": "1_squid_game_2/1_question.mp3",
-        "image": "1_squid_game_2/red-light-green-light.png",
+        "image_question": "1_squid_game_2/red-light-green-light.png",
         "image_search_term": "Squid Game red light green light",
         "options": [
             {"key": "A", "text": "Luz verde, luz roja"},
@@ -18,7 +18,7 @@
         "id": 2,
         "question": "¿Qué representa el símbolo del paraguas en los juegos?",
         "audio_question": "1_squid_game_2/2_question.mp3",
-        "image": "1_squid_game_2/dalgona-candy-umbrella.png",
+        "image_question": "1_squid_game_2/dalgona-candy-umbrella.png",
         "image_search_term": "Squid Game dalgona candy umbrella",
         "options": [
             {"key": "A", "text": "La suerte"},
@@ -33,7 +33,7 @@
         "id": 3,
         "question": "¿Quién es el creador de 'El Juego del Calamar'?",
         "audio_question": "1_squid_game_2/3_question.mp3",
-        "image": "1_squid_game_2/creator-squid-game.png",
+        "image_question": "1_squid_game_2/creator-squid-game.png",
         "image_search_term": "Squid Game creator",
         "options": [
             {"key": "A", "text": "Hwang Dong-hyuk"},
@@ -48,7 +48,7 @@
         "id": 4,
         "question": "¿Qué número llevaba el protagonista principal, Seong Gi-hun?",
         "audio_question": "1_squid_game_2/4_question.mp3",
-        "image": "1_squid_game_2/seong-gi-hun-number.png",
+        "image_question": "1_squid_game_2/seong-gi-hun-number.png",
         "image_search_term": "Squid Game Seong Gi-hun",
         "options": [
             {"key": "A", "text": "001"},
@@ -63,7 +63,7 @@
         "id": 5,
         "question": "¿Cuál es la suma total del premio en wones para el ganador?",
         "audio_question": "1_squid_game_2/5_question.mp3",
-        "image": "1_squid_game_2/prize-money.png",
+        "image_question": "1_squid_game_2/prize-money.png",
         "image_search_term": "Squid Game prize money",
         "options": [
             {"key": "A", "text": "45.6 mil millones"},
@@ -78,7 +78,7 @@
         "id": 6,
         "question": "¿Cuál es el color predominante de los uniformes de los jugadores?",
         "audio_question": "1_squid_game_2/6_question.mp3",
-        "image": "1_squid_game_2/player-uniforms.png",
+        "image_question": "1_squid_game_2/player-uniforms.png",
         "image_search_term": "Squid Game player uniforms",
         "options": [
             {"key": "A", "text": "Rojo"},
@@ -93,7 +93,7 @@
         "id": 7,
         "question": "¿Qué objeto es crucial para ganar en el juego de las canicas?",
         "audio_question": "1_squid_game_2/7_question.mp3",
-        "image": "1_squid_game_2/marbles-game.png",
+        "image_question": "1_squid_game_2/marbles-game.png",
         "image_search_term": "Squid Game marbles",
         "options": [
             {"key": "A", "text": "Un reloj"},
@@ -108,7 +108,7 @@
         "id": 8,
         "question": "¿Quién es el actor principal de 'El Juego del Calamar' segunda temporada?",
         "audio_question": "1_squid_game_2/8_question.mp3",
-        "image": "1_squid_game_2/main-actor.png",
+        "image_question": "1_squid_game_2/main-actor.png",
         "image_search_term": "Squid Game Lee Jung-jae",
         "options": [
             {"key": "A", "text": "Gong Yoo"},
@@ -123,7 +123,7 @@
         "id": 9,
         "question": "¿En qué tipo de lugar se desarrolla principalmente 'El Juego del Calamar'?",
         "audio_question": "1_squid_game_2/9_question.mp3",
-        "image": "1_squid_game_2/game-location.png",
+        "image_question": "1_squid_game_2/game-location.png",
         "image_search_term": "Squid Game location",
         "options": [
             {"key": "A", "text": "Una isla"},
@@ -138,7 +138,7 @@
         "id": 10,
         "question": "¿Cómo se identifica a los líderes de los guardias en 'El Juego del Calamar'?",
         "audio_question": "1_squid_game_2/10_question.mp3",
-        "image": "1_squid_game_2/guards-leaders.png",
+        "image_question": "1_squid_game_2/guards-leaders.png",
         "image_search_term": "Squid Game guards",
         "options": [
             {"key": "A", "text": "Por un casco"},
@@ -153,7 +153,7 @@
         "id": 11,
         "question": "¿Qué juego se utiliza para seleccionar al ganador final?",
         "audio_question": "1_squid_game_2/11_question.mp3",
-        "image": "1_squid_game_2/final-game.jpg",
+        "image_question": "1_squid_game_2/final-game.jpg",
         "image_search_term": "Squid Game final game",
         "options": [
             {"key": "A", "text": "El juego del calamar"},
@@ -168,7 +168,7 @@
         "id": 12,
         "question": "¿Qué número llevaba el personaje Oh Il-nam en la serie?",
         "audio_question": "1_squid_game_2/12_question.mp3",
-        "image": "1_squid_game_2/oh-il-nam.png",
+        "image_question": "1_squid_game_2/oh-il-nam.png",
         "image_search_term": "Squid Game Oh Il-nam",
         "options": [
             {"key": "A", "text": "001"},
@@ -183,7 +183,7 @@
         "id": 13,
         "question": "¿Cuál es el destino de la mayoría de los participantes en 'El Juego del Calamar'?",
         "audio_question": "1_squid_game_2/13_question.mp3",
-        "image": "1_squid_game_2/fate-of-participants.jpg",
+        "image_question": "1_squid_game_2/fate-of-participants.jpg",
         "image_search_term": "Squid Game participants fate",
         "options": [
             {"key": "A", "text": "Ganan el premio"},
@@ -198,7 +198,7 @@
         "id": 14,
         "question": "¿Qué figura geométrica NO forma parte del diseño de las máscaras de los guardias?",
         "audio_question": "1_squid_game_2/14_question.mp3",
-        "image": "1_squid_game_2/guard-masks.jpg",
+        "image_question": "1_squid_game_2/guard-masks.jpg",
         "image_search_term": "Squid Game guard masks",
         "options": [
             {"key": "A", "text": "Círculo"},
@@ -213,7 +213,7 @@
         "id": 15,
         "question": "¿Qué simboliza el juego de tirar de la cuerda en 'El Juego del Calamar'?",
         "audio_question": "1_squid_game_2/15_question.mp3",
-        "image": "1_squid_game_2/tug-of-war.jpg",
+        "image_question": "1_squid_game_2/tug-of-war.jpg",
         "image_search_term": "Squid Game tug of war",
         "options": [
             {"key": "A", "text": "Trabajo en equipo"},
@@ -228,7 +228,7 @@
         "id": 16,
         "question": "¿Qué elemento es crucial para sobrevivir en el juego del puente de vidrio?",
         "audio_question": "1_squid_game_2/16_question.mp3",
-        "image": "1_squid_game_2/glass-bridge.jpg",
+        "image_question": "1_squid_game_2/glass-bridge.jpg",
         "image_search_term": "Squid Game glass bridge",
         "options": [
             {"key": "A", "text": "La memoria"},
@@ -243,7 +243,7 @@
         "id": 17,
         "question": "¿Quién es el último adversario que enfrenta Gi-hun?",
         "audio_question": "1_squid_game_2/17_question.mp3",
-        "image": "1_squid_game_2/final-opponent.jpg",
+        "image_question": "1_squid_game_2/final-opponent.jpg",
         "image_search_term": "Squid Game final opponent",
         "options": [
             {"key": "A", "text": "Sang-woo"},
@@ -258,7 +258,7 @@
         "id": 18,
         "question": "¿Cómo se determinan los equipos en el juego de tirar de la cuerda?",
         "audio_question": "1_squid_game_2/18_question.mp3",
-        "image": "1_squid_game_2/rope-pulling-teams.png",
+        "image_question": "1_squid_game_2/rope-pulling-teams.png",
         "image_search_term": "Squid Game rope pulling teams",
         "options": [
             {"key": "A", "text": "Por peso"},
@@ -273,7 +273,7 @@
         "id": 19,
         "question": "¿Cuál es el significado detrás del número 456, el número de jugador de Gi-hun?",
         "audio_question": "1_squid_game_2/19_question.mp3",
-        "image": "1_squid_game_2/gi-hun-456.png",
+        "image_question": "1_squid_game_2/gi-hun-456.png",
         "image_search_term": "Squid Game Gi-hun 456",
         "options": [
             {"key": "A", "text": "El número de participantes"},
@@ -288,7 +288,7 @@
         "id": 20,
         "question": "¿Qué juego decide el destino de los jugadores en la primera prueba?",
         "audio_question": "1_squid_game_2/20_question.mp3",
-        "image": "1_squid_game_2/first-game.png",
+        "image_question": "1_squid_game_2/first-game.png",
         "image_search_term": "Squid Game first game",
         "options": [
             {"key": "A", "text": "El calamar"},

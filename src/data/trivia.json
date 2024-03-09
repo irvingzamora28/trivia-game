@@ -3,7 +3,7 @@
         "id": 1,
         "question": "¿Qué planeta se conoce como el Planeta Rojo?",
         "audio_question": "general_questions/1_question.mp3",
-        "image": "mars.jpg",
+        "image_question": "mars.jpg",
         "image_search_term": "Planet Mars",
         "options": [
             {"key": "A", "text": "Tierra"},
@@ -18,7 +18,7 @@
         "id": 2,
         "question": "¿Cuál es el animal más grande de la Tierra?",
         "audio_question": "general_questions/2_question.mp3",
-        "image": "blue-whale.jpg",
+        "image_question": "blue-whale.jpg",
         "imageimage_search_term": "Blue whale",
         "options": [
             {"key": "A", "text": "Elefante"},
@@ -33,7 +33,7 @@
         "id": 3,
         "question": "¿Cuál es el planeta más caliente del sistema solar?",
         "audio_question": "general_questions/3_question.mp3",
-        "image": "venus.jpg",
+        "image_question": "venus.jpg",
         "image_search_term": "Planet Venus",
         "options": [
             {"key": "A", "text": "Marte"},

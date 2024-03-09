@@ -194,7 +194,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
             animate="animate"
           >
             <img
-              src={`/images/${questions[currentQuestionIndex].image}`}
+              src={`/images/${questions[currentQuestionIndex].image_question}`}
               alt="Trivia"
               className="w-full max-w-lg h-64 object-cover object-center"
             />
