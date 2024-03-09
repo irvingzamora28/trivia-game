@@ -6,12 +6,12 @@
         "image": "mars.jpg",
         "image_search_term": "Planet Mars",
         "options": [
-            "Tierra",
-            "Marte",
-            "Jupiter",
-            "Saturno"
+            {"key": "A", "text": "Tierra"},
+            {"key": "B", "text": "Marte"},
+            {"key": "C", "text": "Jupiter"},
+            {"key": "D", "text": "Saturno"}
         ],
-        "answer": "Marte",
+        "answer": "B",
         "audio_answer": "general_questions/1_answer.mp3"
     },
     {
@@ -21,12 +21,12 @@
         "image": "blue-whale.jpg",
         "imageimage_search_term": "Blue whale",
         "options": [
-            "Elefante",
-            "La ballena azul",
-            "Gran tiburón blanco",
-            "Jirafa"
+            {"key": "A", "text": "Elefante"},
+            {"key": "B", "text": "La ballena azul"},
+            {"key": "C", "text": "Gran tiburón blanco"},
+            {"key": "D", "text": "Jirafa"}
         ],
-        "answer": "La ballena azul",
+        "answer": "B",
         "audio_answer": "general_questions/2_answer.mp3"
     },
     {
@@ -36,12 +36,12 @@
         "image": "venus.jpg",
         "image_search_term": "Planet Venus",
         "options": [
-            "Marte",
-            "La Tierra",
-            "Neptuno",
-            "Venus"
+            {"key": "A", "text": "Marte"},
+            {"key": "B", "text": "La Tierra"},
+            {"key": "C", "text": "Neptuno"},
+            {"key": "D", "text": "Venus"}
         ],
-        "answer": "Venus",
+        "answer": "D",
         "audio_answer": "general_questions/3_answer.mp3"
     }
 ]

@@ -6,12 +6,12 @@
         "image": "1_squid_game_2/red-light-green-light.png",
         "image_search_term": "Squid Game red light green light",
         "options": [
-            "Luz verde, luz roja",
-            "El juego de las canicas",
-            "El puente de vidrio",
-            "Tug of war"
+            {"key": "A", "text": "Luz verde, luz roja"},
+            {"key": "B", "text": "El juego de las canicas"},
+            {"key": "C", "text": "El puente de vidrio"},
+            {"key": "D", "text": "Tug of war"}
         ],
-        "answer": "Luz verde, luz roja",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/1_answer.mp3"
     },
     {
@@ -21,12 +21,12 @@
         "image": "1_squid_game_2/dalgona-candy-umbrella.png",
         "image_search_term": "Squid Game dalgona candy umbrella",
         "options": [
-            "La suerte",
-            "Un juego de niños",
-            "La muerte",
-            "Un desafío difícil"
+            {"key": "A", "text": "La suerte"},
+            {"key": "B", "text": "Un juego de niños"},
+            {"key": "C", "text": "La muerte"},
+            {"key": "D", "text": "Un desafío difícil"}
         ],
-        "answer": "Un desafío difícil",
+        "answer": "D",
         "audio_answer": "1_squid_game_2/2_answer.mp3"
     },
     {
@@ -36,12 +36,12 @@
         "image": "1_squid_game_2/creator-squid-game.png",
         "image_search_term": "Squid Game creator",
         "options": [
-            "Hwang Dong-hyuk",
-            "Bong Joon-ho",
-            "Kim Joo-hyuk",
-            "Park Hae-soo"
+            {"key": "A", "text": "Hwang Dong-hyuk"},
+            {"key": "B", "text": "Bong Joon-ho"},
+            {"key": "C", "text": "Kim Joo-hyuk"},
+            {"key": "D", "text": "Park Hae-soo"}
         ],
-        "answer": "Hwang Dong-hyuk",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/3_answer.mp3"
     },
     {
@@ -51,12 +51,12 @@
         "image": "1_squid_game_2/seong-gi-hun-number.png",
         "image_search_term": "Squid Game Seong Gi-hun",
         "options": [
-            "001",
-            "218",
-            "456",
-            "067"
+            {"key": "A", "text": "001"},
+            {"key": "B", "text": "218"},
+            {"key": "C", "text": "456"},
+            {"key": "D", "text": "067"}
         ],
-        "answer": "4, 5, 6",
+        "answer": "C",
         "audio_answer": "1_squid_game_2/4_answer.mp3"
     },
     {
@@ -66,12 +66,12 @@
         "image": "1_squid_game_2/prize-money.png",
         "image_search_term": "Squid Game prize money",
         "options": [
-            "45.6 mil millones",
-            "38.5 mil millones",
-            "80 mil millones",
-            "100 mil millones"
+            {"key": "A", "text": "45.6 mil millones"},
+            {"key": "B", "text": "38.5 mil millones"},
+            {"key": "C", "text": "80 mil millones"},
+            {"key": "D", "text": "100 mil millones"}
         ],
-        "answer": "45.6 mil millones",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/5_answer.mp3"
     },
     {
@@ -81,12 +81,12 @@
         "image": "1_squid_game_2/player-uniforms.png",
         "image_search_term": "Squid Game player uniforms",
         "options": [
-            "Rojo",
-            "Verde",
-            "Azul",
-            "Negro"
+            {"key": "A", "text": "Rojo"},
+            {"key": "B", "text": "Verde"},
+            {"key": "C", "text": "Azul"},
+            {"key": "D", "text": "Negro"}
         ],
-        "answer": "Verde",
+        "answer": "B",
         "audio_answer": "1_squid_game_2/6_answer.mp3"
     },
     {
@@ -96,12 +96,12 @@
         "image": "1_squid_game_2/marbles-game.png",
         "image_search_term": "Squid Game marbles",
         "options": [
-            "Un reloj",
-            "Una canica",
-            "Un dado",
-            "Una moneda"
+            {"key": "A", "text": "Un reloj"},
+            {"key": "B", "text": "Una canica"},
+            {"key": "C", "text": "Un dado"},
+            {"key": "D", "text": "Una moneda"}
         ],
-        "answer": "Una canica",
+        "answer": "B",
         "audio_answer": "1_squid_game_2/7_answer.mp3"
     },
     {
@@ -111,12 +111,12 @@
         "image": "1_squid_game_2/main-actor.png",
         "image_search_term": "Squid Game Lee Jung-jae",
         "options": [
-            "Gong Yoo",
-            "Lee Jung-jae",
-            "Park Hae-soo",
-            "Wi Ha-jun"
+            {"key": "A", "text": "Gong Yoo"},
+            {"key": "B", "text": "Lee Jung-jae"},
+            {"key": "C", "text": "Park Hae-soo"},
+            {"key": "D", "text": "Wi Ha-jun"}
         ],
-        "answer": "Lee Jung-jae",
+        "answer": "B",
         "audio_answer": "1_squid_game_2/8_answer.mp3"
     },
     {
@@ -126,12 +126,12 @@
         "image": "1_squid_game_2/game-location.png",
         "image_search_term": "Squid Game location",
         "options": [
-            "Una isla",
-            "Una escuela",
-            "Un hospital",
-            "Una prisión"
+            {"key": "A", "text": "Una isla"},
+            {"key": "B", "text": "Una escuela"},
+            {"key": "C", "text": "Un hospital"},
+            {"key": "D", "text": "Una prisión"}
         ],
-        "answer": "Una isla",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/9_answer.mp3"
     },
     {
@@ -141,12 +141,12 @@
         "image": "1_squid_game_2/guards-leaders.png",
         "image_search_term": "Squid Game guards",
         "options": [
-            "Por un casco",
-            "Por un bastón",
-            "Por un símbolo en la máscara",
-            "Por el color de la máscara"
+            {"key": "A", "text": "Por un casco"},
+            {"key": "B", "text": "Por un bastón"},
+            {"key": "C", "text": "Por un símbolo en la máscara"},
+            {"key": "D", "text": "Por el color de la máscara"}
         ],
-        "answer": "Por el color de la máscara",
+        "answer": "D",
         "audio_answer": "1_squid_game_2/10_answer.mp3"
     },
     {
@@ -156,12 +156,12 @@
         "image": "1_squid_game_2/final-game.jpg",
         "image_search_term": "Squid Game final game",
         "options": [
-            "El juego del calamar",
-            "Tirar de la cuerda",
-            "El puente de vidrio",
-            "Pelea a muerte"
+            {"key": "A", "text": "El juego del calamar"},
+            {"key": "B", "text": "Tirar de la cuerda"},
+            {"key": "C", "text": "El puente de vidrio"},
+            {"key": "D", "text": "Pelea a muerte"}
         ],
-        "answer": "El juego del calamar",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/11_answer.mp3"
     },
     {
@@ -171,12 +171,12 @@
         "image": "1_squid_game_2/oh-il-nam.png",
         "image_search_term": "Squid Game Oh Il-nam",
         "options": [
-            "001",
-            "456",
-            "218",
-            "067"
+            {"key": "A", "text": "001"},
+            {"key": "B", "text": "456"},
+            {"key": "C", "text": "218"},
+            {"key": "D", "text": "067"}
         ],
-        "answer": "0, 0, 1",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/12_answer.mp3"
     },
     {
@@ -186,12 +186,12 @@
         "image": "1_squid_game_2/fate-of-participants.jpg",
         "image_search_term": "Squid Game participants fate",
         "options": [
-            "Ganan el premio",
-            "Se retiran voluntariamente",
-            "Son eliminados",
-            "Se convierten en guardias"
+            {"key": "A", "text": "Ganan el premio"},
+            {"key": "B", "text": "Se retiran voluntariamente"},
+            {"key": "C", "text": "Son eliminados"},
+            {"key": "D", "text": "Se convierten en guardias"}
         ],
-        "answer": "Son eliminados",
+        "answer": "C",
         "audio_answer": "1_squid_game_2/13_answer.mp3"
     },
     {
@@ -201,12 +201,12 @@
         "image": "1_squid_game_2/guard-masks.jpg",
         "image_search_term": "Squid Game guard masks",
         "options": [
-            "Círculo",
-            "Cuadrado",
-            "Triángulo",
-            "Pentágono"
+            {"key": "A", "text": "Círculo"},
+            {"key": "B", "text": "Cuadrado"},
+            {"key": "C", "text": "Triángulo"},
+            {"key": "D", "text": "Pentágono"}
         ],
-        "answer": "Pentágono",
+        "answer": "D",
         "audio_answer": "1_squid_game_2/14_answer.mp3"
     },
     {
@@ -216,12 +216,12 @@
         "image": "1_squid_game_2/tug-of-war.jpg",
         "image_search_term": "Squid Game tug of war",
         "options": [
-            "Trabajo en equipo",
-            "Fuerza física",
-            "Estrategia mental",
-            "Todas las anteriores"
+            {"key": "A", "text": "Trabajo en equipo"},
+            {"key": "B", "text": "Fuerza física"},
+            {"key": "C", "text": "Estrategia mental"},
+            {"key": "D", "text": "Todas las anteriores"}
         ],
-        "answer": "Todas las anteriores",
+        "answer": "D",
         "audio_answer": "1_squid_game_2/15_answer.mp3"
     },
     {
@@ -231,12 +231,12 @@
         "image": "1_squid_game_2/glass-bridge.jpg",
         "image_search_term": "Squid Game glass bridge",
         "options": [
-            "La memoria",
-            "La suerte",
-            "La velocidad",
-            "La fuerza"
+            {"key": "A", "text": "La memoria"},
+            {"key": "B", "text": "La suerte"},
+            {"key": "C", "text": "La velocidad"},
+            {"key": "D", "text": "La fuerza"}
         ],
-        "answer": "La suerte",
+        "answer": "B",
         "audio_answer": "1_squid_game_2/16_answer.mp3"
     },
     {
@@ -246,12 +246,12 @@
         "image": "1_squid_game_2/final-opponent.jpg",
         "image_search_term": "Squid Game final opponent",
         "options": [
-            "Sang-woo",
-            "Sae-byeok",
-            "Deok-su",
-            "Il-nam"
+            {"key": "A", "text": "Sang-woo"},
+            {"key": "B", "text": "Sae-byeok"},
+            {"key": "C", "text": "Deok-su"},
+            {"key": "D", "text": "Il-nam"}
         ],
-        "answer": "Sang-woo",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/17_answer.mp3"
     },
     {
@@ -261,12 +261,12 @@
         "image": "1_squid_game_2/rope-pulling-teams.png",
         "image_search_term": "Squid Game rope pulling teams",
         "options": [
-            "Por peso",
-            "Al azar",
-            "Por edad",
-            "Por altura"
+            {"key": "A", "text": "Por peso"},
+            {"key": "B", "text": "Al azar"},
+            {"key": "C", "text": "Por edad"},
+            {"key": "D", "text": "Por altura"}
         ],
-        "answer": "Al azar",
+        "answer": "B",
         "audio_answer": "1_squid_game_2/18_answer.mp3"
     },
     {
@@ -276,12 +276,12 @@
         "image": "1_squid_game_2/gi-hun-456.png",
         "image_search_term": "Squid Game Gi-hun 456",
         "options": [
-            "El número de participantes",
-            "Su deuda en millones",
-            "Un número aleatorio",
-            "Su fecha de nacimiento"
+            {"key": "A", "text": "El número de participantes"},
+            {"key": "B", "text": "Su deuda en millones"},
+            {"key": "C", "text": "Un número aleatorio"},
+            {"key": "D", "text": "Su fecha de nacimiento"}
         ],
-        "answer": "El número de participantes",
+        "answer": "A",
         "audio_answer": "1_squid_game_2/19_answer.mp3"
     },
     {
@@ -291,12 +291,12 @@
         "image": "1_squid_game_2/first-game.png",
         "image_search_term": "Squid Game first game",
         "options": [
-            "El calamar",
-            "Luz verde, luz roja",
-            "Las canicas",
-            "El puente de vidrio"
+            {"key": "A", "text": "El calamar"},
+            {"key": "B", "text": "Luz verde, luz roja"},
+            {"key": "C", "text": "Las canicas"},
+            {"key": "D", "text": "El puente de vidrio"}
         ],
-        "answer": "Luz verde, luz roja",
+        "answer": "B",
         "audio_answer": "1_squid_game_2/20_answer.mp3"
     }
 ]
