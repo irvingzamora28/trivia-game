@@ -4,6 +4,7 @@ export interface Option {
   key: OptionKey;
   text: string;
   image?: string;
+  image_search_term?: string;
   audio?: string;
   video?: string;
 }

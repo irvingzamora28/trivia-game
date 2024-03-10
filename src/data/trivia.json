@@ -3,7 +3,7 @@
         "id": 1,
         "question": "¿Qué planeta se conoce como el Planeta Rojo?",
         "audio_question": "general_questions/1_question.mp3",
-        "image_question": "mars.jpg",
+        "image_question": "general_questions/mars.jpg",
         "image_search_term": "Planet Mars",
         "options": [
             {"key": "A", "text": "Tierra"},
@@ -18,13 +18,11 @@
         "id": 2,
         "question": "¿Cuál es el animal más grande de la Tierra?",
         "audio_question": "general_questions/2_question.mp3",
-        "image_question": "blue-whale.jpg",
-        "imageimage_search_term": "Blue whale",
         "options": [
-            {"key": "A", "text": "Elefante"},
-            {"key": "B", "text": "La ballena azul"},
-            {"key": "C", "text": "Gran tiburón blanco"},
-            {"key": "D", "text": "Jirafa"}
+            {"key": "A", "text": "Elefante", "image": "general_questions/elefante", "image_search_term": "Animal Elefante"},
+            {"key": "B", "text": "La ballena azul", "image": "general_questions/la-ballena-azul", "image_search_term": "Animal La ballena azul"},
+            {"key": "C", "text": "Gran tiburón blanco", "image": "general_questions/gran-tiburon-blanco", "image_search_term": "Animal Gran tiburón blanco"},
+            {"key": "D", "text": "Jirafa", "image":"general_questions/jirafa", "image_search_term": "Animal Jirafa"}
         ],
         "answer": "B",
         "audio_answer": "general_questions/2_answer.mp3"
@@ -33,7 +31,7 @@
         "id": 3,
         "question": "¿Cuál es el planeta más caliente del sistema solar?",
         "audio_question": "general_questions/3_question.mp3",
-        "image_question": "venus.jpg",
+        "image_question": "general_questions/venus.jpg",
         "image_search_term": "Planet Venus",
         "options": [
             {"key": "A", "text": "Marte"},
