@@ -57,7 +57,7 @@
             }
           ],
         "answer": "A",
-        "image_search_term": "Bowser Mario"
+        "audio_answer": "video_game_icons/2_answer.mp3"
     },
     {
         "id": 3,
@@ -117,7 +117,7 @@
             }
         ],
         "answer": "B",
-        "image_search_term": "Samus Aran Metroid"
+        "audio_answer": "video_game_icons/4_answer.mp3"
     },
     {
         "id": 5,
