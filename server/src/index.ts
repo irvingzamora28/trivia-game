@@ -42,65 +42,50 @@ app.post('/generate-audio', async (req, res) => {
 });
 
 app.post("/process-questions", async (req, res) => {
-  const questionsFilePath = path.resolve(
-    __dirname,
-    "..",
-    "..",
-    "src",
-    "data",
-    "trivia.json"
-  );
+  const questionsFilePath = path.resolve(__dirname, "..", "..", "src", "data", "trivia.json");
   const outputAudioDir = path.resolve(__dirname, "..", "..", "src", "assets", "audio");
   const outputImageDir = path.resolve(__dirname, "..", "..", "src", "assets", "images");
 
   try {
-    const questionsData = await fs.promises.readFile(questionsFilePath);
-    const questions = JSON.parse(questionsData.toString());
+    const fileData = await fs.promises.readFile(questionsFilePath);
+    const { data, questions } = JSON.parse(fileData.toString());
 
-    // Process first the audios
     for (const question of questions) {
-      // Generate and save audio for the question
-      const questionAudioPath = path.join(outputAudioDir, question.audio_question);
+      // Prepend the shared file_path to the question and answer audio files
+      const questionAudioPath = path.join(outputAudioDir, data.file_path, question.audio_question);
       await generateAndSaveAudio(question.question, questionAudioPath);
 
-      // Find the option that corresponds to the answer key
       const correctOption = question.options.find((option: { key: any; }) => option.key === question.answer);
-
-      // Ensure correctOption is not undefined
       if (!correctOption) {
         throw new Error(`Correct option not found for question ID ${question.id}`);
       }
-      // Generate and save audio for the answer
-      const answerAudioPath = path.join(outputAudioDir, question.audio_answer);
-      await generateAndSaveAudio(
-        `La respuesta es... ${correctOption.text}`,
-        answerAudioPath
-      );
 
+      const answerAudioPath = path.join(outputAudioDir, data.file_path, question.audio_answer);
+      await generateAndSaveAudio(`La respuesta es... ${correctOption.text}`, answerAudioPath);
     }
-    // Process images
+
+    // Process images using the same file_path prefix
     for (const question of questions) {
       if (question.image_search_term) {
-        // Imagen para la pregunta
-        const imageQuestionBasePath = path.join(outputImageDir, question.image_question);
-        await fetchAndSaveImage(question.image_search_term, imageQuestionBasePath, 5);
+        const imageQuestionPath = path.join(outputImageDir, data.file_path, question.image_question);
+        await fetchAndSaveImage(question.image_search_term, imageQuestionPath, 5);
       }
-    
+
       for (const option of question.options) {
         if (option.image_search_term) {
-          // Imagen para cada opción de respuesta si existe
-          const imageOptionBasePath = path.join(outputImageDir, option.image);
-          await fetchAndSaveImage(option.image_search_term, imageOptionBasePath, 5);
+          const imageOptionPath = path.join(outputImageDir, data.file_path, option.image);
+          await fetchAndSaveImage(option.image_search_term, imageOptionPath, 5);
         }
       }
     }
 
-    res.json({ message: "Audio files generated successfully." });
+    res.json({ message: "Audio and image files generated successfully." });
   } catch (error) {
     console.error("Error processing questions:", error);
     res.status(500).json({ message: "Failed to process questions" });
   }
 });
+
 
 async function fetchAndSaveImage(searchTerm: string, baseFilePath: string, imageCount: number = 5) {
   try {

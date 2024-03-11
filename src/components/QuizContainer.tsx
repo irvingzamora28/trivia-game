@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import Quiz from './Quiz';
 import StartButton from '../components/ButtonStartQuiz';
 import triviaSound from "../assets/audio/trivia-sound.mp3";
-import triviaQuestions from "../data/1_squid_game_2.json";
+import trivia from "../data/2_video_games.json";
+import { TriviaQuestion } from '../types/trivia';
 
 const QuizContainer: React.FC = () => {
   const [quizStarted, setQuizStarted] = useState<boolean>(false);
@@ -13,7 +14,9 @@ const QuizContainer: React.FC = () => {
     if (quizStarted) {
       const audio = new Audio(triviaSound);
       audio.volume = 0.1;
-      audio.play().catch(error => console.error("Error playing the audio", error));
+      audio
+        .play()
+        .catch((error) => console.error("Error playing the audio", error));
     }
   }, [quizStarted]); // This effect depends on quizStarted
 
@@ -27,7 +30,7 @@ const QuizContainer: React.FC = () => {
       {!quizStarted ? (
         <StartButton onStart={() => setQuizStarted(true)} />
       ) : (
-        <Quiz triviaQuestions={triviaQuestions} />
+        <Quiz triviaPath={trivia.data.file_path} triviaQuestions={trivia.questions as TriviaQuestion[]} />
       )}
     </motion.div>
   );

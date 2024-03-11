@@ -9,6 +9,7 @@ import ProgressBar from "./ProgressBar";
 const timeLimit = 5;
 
 interface QuizProps {
+  triviaPath: string;
   triviaQuestions: TriviaQuestion[];
 }
 
@@ -71,7 +72,7 @@ const answerVariants = {
   },
 };
 
-const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
+const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(triviaQuestions);
   const [selectedAnswer, setSelectedAnswer] = useState<OptionKey | null>(null);
@@ -118,7 +119,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
     feedbackSound.onended = () => {
       if (isCorrect && currentQuestion.audio_answer) {
         // If the answer is correct and there's an audio_answer, play it after the feedback sound
-        const answerSound = new Audio(`audio/${currentQuestion.audio_answer}`);
+        const answerSound = new Audio(`audio/${triviaPath}/${currentQuestion.audio_answer}`);
         answerSound.play();
         answerSound.onended = () => {
           proceedToNextQuestion(); // Move to the next question after the answer audio finishes
@@ -153,7 +154,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
   useEffect(() => {
     const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
     if (audioSrc) {
-      const questionAudio = new Audio(`audio/${audioSrc}`);
+      const questionAudio = new Audio(`audio/${triviaPath}/${audioSrc}`);
       questionAudio.play().then(() => {
         questionAudio.addEventListener("ended", () => {
           setIsProgressBarAnimating(true); // Start progress bar animation after audio ends
@@ -194,7 +195,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
             animate="animate"
           >
             <img
-              src={`/images/${questions[currentQuestionIndex].image_question}`}
+              src={`/images/${triviaPath}/${questions[currentQuestionIndex].image_question}.jpg`}
               alt="Trivia"
               className="w-full max-w-lg h-64 object-cover object-center"
             />
@@ -253,7 +254,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaQuestions }) => {
                     >
                       <div className="w-full h-40 bg-gray-100 flex items-center justify-center overflow-hidden">
                         <img
-                          src={`images/${option.image}`}
+                          src={`images/${triviaPath}/${option.image}.jpg`}
                           alt={option.text}
                           className="w-full h-full object-cover"
                         />
