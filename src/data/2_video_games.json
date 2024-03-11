@@ -4,6 +4,7 @@
         "question": "¿Quién es este personaje icónico de Nintendo conocido por sus habilidades de salto y por salvar a la Princesa Peach?",
         "audio_question": "video_game_icons/1_question.mp3",
         "image_question": "iconic-nintendo-character.jpg",
+        "image_search_term": "Mario Nintendo",
         "options": [
             {
                 "key": "A",
@@ -30,33 +31,39 @@
         "audio_question": "video_game_icons/2_question.mp3",
         "options": [
             {
-                "key": "A",
-                "text": "Bowser",
-                "image": "bowser.jpg"
+              "key": "A",
+              "text": "Bowser",
+              "image": "bowser.jpg",
+              "image_search_term": "Bowser Mario"
             },
             {
-                "key": "B",
-                "text": "Ganondorf",
-                "image": "ganondorf.jpg"
+              "key": "B",
+              "text": "Ganondorf",
+              "image": "ganondorf.jpg",
+              "image_search_term": "Ganondorf Zelda"
             },
             {
-                "key": "C",
-                "text": "Wario",
-                "image": "wario.jpg"
+              "key": "C",
+              "text": "Wario",
+              "image": "wario.jpg",
+              "image_search_term": "Wario Mario"
             },
             {
-                "key": "D",
-                "text": "King Dedede",
-                "image": "king-dedede.jpg"
+              "key": "D",
+              "text": "King Dedede",
+              "image": "king-dedede.jpg",
+              "image_search_term": "King Dedede Kirby"
             }
-        ],
-        "answer": "A"
+          ],
+        "answer": "A",
+        "image_search_term": "Bowser Mario"
     },
     {
         "id": 3,
         "question": "Identifica a este personaje famoso por su velocidad y por recolectar anillos.",
         "audio_question": "video_game_icons/3_question.mp3",
         "image_question": "speedy-character.jpg",
+        "image_search_term": "Sonic the Hedgehog",
         "options": [
             {
                 "key": "A",
@@ -85,25 +92,30 @@
             {
                 "key": "A",
                 "text": "Ridley",
-                "image": "ridley.jpg"
+                "image": "ridley.jpg",
+                "image_search_term": "Ridley Metroid"
             },
             {
                 "key": "B",
                 "text": "Samus Aran",
-                "image": "samus.jpg"
+                "image": "samus.jpg",
+                "image_search_term": "Samus Aran Metroid"
             },
             {
                 "key": "C",
                 "text": "Fox McCloud",
-                "image": "fox_mccloud.jpg"
+                "image": "fox_mccloud.jpg",
+                "image_search_term": "Fox McCloud Star Fox"
             },
             {
                 "key": "D",
                 "text": "Master Chief",
-                "image": "master_chief.jpg"
+                "image": "master_chief.jpg",
+                "image_search_term": "Master Chief Halo"
             }
         ],
-        "answer": "B"
+        "answer": "B",
+        "image_search_term": "Samus Aran Metroid"
     },
     {
         "id": 5,
@@ -136,6 +148,7 @@
         "question": "Este personaje es el principal antagonista en muchos juegos de Mario. ¿Quién es?",
         "audio_question": "video_game_icons/6_question.mp3",
         "image_question": "main-antagonist-mario.jpg",
+        "image_search_term": "Bowser Mario series",
         "options": [
             {
                 "key": "A",
@@ -161,6 +174,7 @@
         "question": "Identifica este juego clásico de arcade protagonizado por un personaje que debe evitar fantasmas mientras come puntos.",
         "audio_question": "video_game_icons/7_question.mp3",
         "image_question": "classic-arcade-character.jpg",
+        "image_search_term": "Pac-Man arcade game",
         "options": [
             {
                 "key": "A",
@@ -186,6 +200,7 @@
         "question": "¿Quién es este personaje icónico de Sega, conocido por su velocidad y anillos dorados?",
         "audio_question": "video_game_icons/8_question.mp3",
         "image_question": "sega-iconic-character.jpg",
+        "image_search_term": "Sonic the Hedgehog Sega",
         "options": [
             {
                 "key": "A",
@@ -211,6 +226,7 @@
         "question": "Este personaje de videojuego lleva una espada y es el protagonista de una serie que lleva su nombre. ¿Quién es?",
         "audio_question": "video_game_icons/9_question.mp3",
         "image_question": "video-game-sword-bearer.jpg",
+        "image_search_term": "Cloud Strife Final Fantasy",
         "options": [
             {
                 "key": "A",
@@ -236,6 +252,7 @@
         "question": "Este personaje es un detective que explora Rapture y combate contra Splicers. ¿Quién es?",
         "audio_question": "video_game_icons/10_question.mp3",
         "image_question": "detective-rapture.jpg",
+        "image_search_term": "Jack Ryan BioShock",
         "options": [
             {
                 "key": "A",
@@ -290,22 +307,26 @@
             {
                 "key": "A",
                 "text": "Nathan Drake",
-                "image": "nathan-drake.jpg"
+                "image": "nathan-drake.jpg",
+                "image_search_term": "Nathan Drake Uncharted"
             },
             {
                 "key": "B",
                 "text": "Lara Croft",
-                "image": "lara-croft.jpg"
+                "image": "lara-croft.jpg",
+                "image_search_term": "Lara Croft Tomb Raider"
             },
             {
                 "key": "C",
                 "text": "Indiana Jones",
-                "image": "indiana-jones.jpg"
+                "image": "indiana-jones.jpg",
+                "image_search_term": "Indiana Jones"
             },
             {
                 "key": "D",
                 "text": "John Marston",
-                "image": "john-marston.jpg"
+                "image": "john-marston.jpg",
+                "image_search_term": "John Marston Red Dead Redemption"
             }
         ],
         "answer": "A"
@@ -370,22 +391,26 @@
             {
                 "key": "A",
                 "text": "Cloud Strife",
-                "image": "cloud-strife.jpg"
+                "image": "cloud-strife.jpg",
+                "image_search_term": "Cloud Strife Final Fantasy VII"
             },
             {
                 "key": "B",
                 "text": "Tifa Lockhart",
-                "image": "tifa-lockhart.jpg"
+                "image": "tifa-lockhart.jpg",
+                "image_search_term": "Tifa Lockhart Final Fantasy VII"
             },
             {
                 "key": "C",
                 "text": "Sephiroth",
-                "image": "sephiroth.jpg"
+                "image": "sephiroth.jpg",
+                "image_search_term": "Sephiroth Final Fantasy VII"
             },
             {
                 "key": "D",
                 "text": "Barret Wallace",
-                "image": "barret-wallace.jpg"
+                "image": "barret-wallace.jpg",
+                "image_search_term": "Barret Wallace Final Fantasy VII"
             }
         ],
         "answer": "C"
@@ -478,22 +503,26 @@
             {
                 "key": "A",
                 "text": "Optimus Prime",
-                "image": "optimus-prime.jpg"
+                "image": "optimus-prime.jpg",
+                "image_search_term": "Optimus Prime Transformers"
             },
             {
                 "key": "B",
                 "text": "Megatron",
-                "image": "megatron.jpg"
+                "image": "megatron.jpg",
+                "image_search_term": "Megatron Transformers"
             },
             {
                 "key": "C",
                 "text": "Bumblebee",
-                "image": "bumblebee.jpg"
+                "image": "bumblebee.jpg",
+                "image_search_term": "Bumblebee Transformers"
             },
             {
                 "key": "D",
                 "text": "Starscream",
-                "image": "starscream.jpg"
+                "image": "starscream.jpg",
+                "image_search_term": "Starscream Transformers"
             }
         ],
         "answer": "A"

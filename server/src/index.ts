@@ -57,6 +57,7 @@ app.post("/process-questions", async (req, res) => {
     const questionsData = await fs.promises.readFile(questionsFilePath);
     const questions = JSON.parse(questionsData.toString());
 
+    // Process first the audios
     for (const question of questions) {
       // Generate and save audio for the question
       const questionAudioPath = path.join(outputAudioDir, question.audio_question);
@@ -69,6 +70,9 @@ app.post("/process-questions", async (req, res) => {
         answerAudioPath
       );
 
+    }
+    // Process images
+    for (const question of questions) {
       if (question.image_search_term) {
         // Imagen para la pregunta
         const imageQuestionBasePath = path.join(outputImageDir, question.image_question);
