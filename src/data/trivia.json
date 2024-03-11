@@ -3,7 +3,7 @@
         "id": 1,
         "question": "¿Qué planeta se conoce como el Planeta Rojo?",
         "audio_question": "general_questions/1_question.mp3",
-        "image_question": "general_questions/mars.jpg",
+        "image_question": "general_questions/mars",
         "image_search_term": "Planet Mars",
         "options": [
             {"key": "A", "text": "Tierra"},
@@ -31,7 +31,7 @@
         "id": 3,
         "question": "¿Cuál es el planeta más caliente del sistema solar?",
         "audio_question": "general_questions/3_question.mp3",
-        "image_question": "general_questions/venus.jpg",
+        "image_question": "general_questions/venus",
         "image_search_term": "Planet Venus",
         "options": [
             {"key": "A", "text": "Marte"},
