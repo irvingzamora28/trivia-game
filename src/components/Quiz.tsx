@@ -297,7 +297,6 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               </motion.div>
             ))}
           </div>
-          {/* Place the motion.div inside a container with 10% margin on each side to the left and right */}
           <ProgressBar
             index={currentQuestionIndex}
             isProgressBarAnimating={isProgressBarAnimating}

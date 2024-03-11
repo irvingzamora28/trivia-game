@@ -49,7 +49,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
   }, [isProgressBarAnimating, controls, timeLimit]);
 
   return (
-    <div className="flex flex-row justify-between w-full m-8 px-8">
+    <div className="flex flex-row justify-between w-3/4 m-8 px-8">
       <div
         className={`relative w-full h-8 bg-slate-100 border-slate-200 border-2 rounded-full overflow-hidden shadow ${
           isVisible ? "opacity-100" : "opacity-0"
