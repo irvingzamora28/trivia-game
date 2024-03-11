@@ -182,14 +182,16 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
           key={questions[currentQuestionIndex].id}
           className="flex flex-col items-center w-full h-full text-center rounded-lg"
         >
-          <div className="absolute -left-8 z-10 text-white bg-gradient-to-b from-red-600 to-red-700 rounded-full w-20 h-20 flex items-center justify-center border-2 border-white round-shadow ml-20 m-6">
-            <span className="text-6xl font-bold text-shadow">
+          <div className="flex items-center justify-start w-full mt-4">
+            {/* Index */}
+            <div className="bg-gradient-to-b from-red-600 to-red-700 rounded-full w-20 h-20 flex items-center justify-center border-2 border-white shadow-lg text-white font-bold text-6xl ml-10">
               {currentQuestionIndex + 1}
-            </span>
+            </div>
+            {/* Question */}
+            <h2 className="text-6xl font-bold text-white ml-4 text-shadow flex-1 mr-10">
+              {questions[currentQuestionIndex].question}
+            </h2>
           </div>
-          <h2 className="text-6xl font-bold text-white mt-6 mb-4 text-shadow">
-            {questions[currentQuestionIndex].question}
-          </h2>
           {questions[currentQuestionIndex].image_question && (
             <motion.div
               className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-4 rounded-lg "
