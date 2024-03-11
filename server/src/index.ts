@@ -63,10 +63,17 @@ app.post("/process-questions", async (req, res) => {
       const questionAudioPath = path.join(outputAudioDir, question.audio_question);
       await generateAndSaveAudio(question.question, questionAudioPath);
 
+      // Find the option that corresponds to the answer key
+      const correctOption = question.options.find((option: { key: any; }) => option.key === question.answer);
+
+      // Ensure correctOption is not undefined
+      if (!correctOption) {
+        throw new Error(`Correct option not found for question ID ${question.id}`);
+      }
       // Generate and save audio for the answer
       const answerAudioPath = path.join(outputAudioDir, question.audio_answer);
       await generateAndSaveAudio(
-        `La respuesta es... ${question.answer}`,
+        `La respuesta es... ${correctOption.text}`,
         answerAudioPath
       );
 

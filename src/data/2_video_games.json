@@ -23,7 +23,8 @@
                 "text": "Mario"
             }
         ],
-        "answer": "D"
+        "answer": "D",
+        "audio_answer": "video_game_icons/1_answer.mp3"
     },
     {
         "id": 2,
@@ -82,7 +83,8 @@
                 "text": "Crash Bandicoot"
             }
         ],
-        "answer": "C"
+        "answer": "C",
+        "audio_answer": "video_game_icons/3_answer.mp3"
     },
     {
         "id": 4,
@@ -141,7 +143,8 @@
                 "text": "Samus Aran"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/5_answer.mp3"
     },
     {
         "id": 6,
@@ -167,7 +170,8 @@
                 "text": "Ganondorf"
             }
         ],
-        "answer": "B"
+        "answer": "B",
+        "audio_answer": "video_game_icons/6_answer.mp3"
     },
     {
         "id": 7,
@@ -193,7 +197,8 @@
                 "text": "Asteroids"
             }
         ],
-        "answer": "C"
+        "answer": "C",
+        "audio_answer": "video_game_icons/7_answer.mp3"
     },
     {
         "id": 8,
@@ -219,7 +224,8 @@
                 "text": "Shadow"
             }
         ],
-        "answer": "B"
+        "answer": "B",
+        "audio_answer": "video_game_icons/8_answer.mp3"
     },
     {
         "id": 9,
@@ -245,7 +251,8 @@
                 "text": "Geralt of Rivia"
             }
         ],
-        "answer": "C"
+        "answer": "C",
+        "audio_answer": "video_game_icons/9_answer.mp3"
     },
     {
         "id": 10,
@@ -271,7 +278,8 @@
                 "text": "Nathan Drake"
             }
         ],
-        "answer": "B"
+        "answer": "B",
+        "audio_answer": "video_game_icons/10_answer.mp3"
     },
     {
         "id": 11,
@@ -297,7 +305,8 @@
                 "text": "Epona"
             }
         ],
-        "answer": "C"
+        "answer": "C",
+        "audio_answer": "video_game_icons/11_answer.mp3"
     },
     {
         "id": 12,
@@ -329,7 +338,8 @@
                 "image_search_term": "John Marston Red Dead Redemption"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/12_answer.mp3"
     },
     {
         "id": 13,
@@ -355,7 +365,8 @@
                 "text": "Isaac Clarke"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/13_answer.mp3"
     },
     {
         "id": 14,
@@ -381,7 +392,8 @@
                 "text": "Peach"
             }
         ],
-        "answer": "B"
+        "answer": "B",
+        "audio_answer": "video_game_icons/14_answer.mp3"
     },
     {
         "id": 15,
@@ -413,7 +425,8 @@
                 "image_search_term": "Barret Wallace Final Fantasy VII"
             }
         ],
-        "answer": "C"
+        "answer": "C",
+        "audio_answer": "video_game_icons/15_answer.mp3"
     },
     {
         "id": 16,
@@ -439,7 +452,8 @@
                 "text": "Cloud Strife"
             }
         ],
-        "answer": "C"
+        "answer": "C",
+        "audio_answer": "video_game_icons/16_answer.mp3"
     },
     {
         "id": 17,
@@ -467,7 +481,8 @@
                 "image": "marcus-fenix.jpg"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/17_answer.mp3"
     },
     {
         "id": 18,
@@ -493,7 +508,8 @@
                 "text": "Sam Fisher"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/18_answer.mp3"
     },
     {
         "id": 19,
@@ -525,7 +541,8 @@
                 "image_search_term": "Starscream Transformers"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/19_answer.mp3"
     },
     {
         "id": 20,
@@ -551,6 +568,7 @@
                 "text": "M. Bison"
             }
         ],
-        "answer": "A"
+        "answer": "A",
+        "audio_answer": "video_game_icons/20_answer.mp3"
     }
 ]
