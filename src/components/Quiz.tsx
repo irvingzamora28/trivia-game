@@ -119,7 +119,9 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
     feedbackSound.onended = () => {
       if (isCorrect && currentQuestion.audio_answer) {
         // If the answer is correct and there's an audio_answer, play it after the feedback sound
-        const answerSound = new Audio(`audio/${triviaPath}/${currentQuestion.audio_answer}`);
+        const answerSound = new Audio(
+          `audio/${triviaPath}/${currentQuestion.audio_answer}`
+        );
         answerSound.play();
         answerSound.onended = () => {
           proceedToNextQuestion(); // Move to the next question after the answer audio finishes
@@ -202,7 +204,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               />
             </motion.div>
           )}
-          <div className="grid grid-cols-2 gap-x-12 gap-y-12 w-3/5 p-9">
+          <div className="grid grid-cols-2 gap-x-12 gap-y-12 w-1/2 p-9">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option.key}
@@ -258,7 +260,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
                         <img
                           src={`images/${triviaPath}/${option.image}.jpg`}
                           alt={option.text}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover object-top"
                         />
                       </div>
                       <div className="pt-4 pb-2 px-4 bg-white w-full">
