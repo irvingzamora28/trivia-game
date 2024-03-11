@@ -188,18 +188,20 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
           <h2 className="text-6xl font-bold text-white mt-6 mb-4 text-shadow">
             {questions[currentQuestionIndex].question}
           </h2>
-          <motion.div
-            className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-4 rounded-lg "
-            variants={imageFloatVariants}
-            initial="{false}"
-            animate="animate"
-          >
-            <img
-              src={`/images/${triviaPath}/${questions[currentQuestionIndex].image_question}.jpg`}
-              alt="Trivia"
-              className="w-full max-w-lg h-64 object-cover object-center"
-            />
-          </motion.div>
+          {questions[currentQuestionIndex].image_question && (
+            <motion.div
+              className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-4 rounded-lg "
+              variants={imageFloatVariants}
+              initial="{false}"
+              animate="animate"
+            >
+              <img
+                src={`/images/${triviaPath}/${questions[currentQuestionIndex].image_question}.jpg`}
+                alt="Trivia"
+                className="w-full max-w-lg h-64 object-cover object-center"
+              />
+            </motion.div>
+          )}
           <div className="grid grid-cols-2 gap-x-12 gap-y-12 w-3/5 p-9">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
