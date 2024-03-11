@@ -92,7 +92,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
   const proceedToNextQuestion = () => {
     setTimeout(() => {
       goToNextQuestion();
-    }, 2000);
+    }, 500);
   };
 
   const handleAnswerSelect = (selectedKey: OptionKey, isAutoSelect = false) => {
