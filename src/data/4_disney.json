@@ -1,0 +1,760 @@
+{
+    "data": {
+        "file_path": "disney_questions"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Qué objeto utiliza la Cenicienta para huir antes de la medianoche?",
+            "audio_question": "1_question.mp3",
+            "image_question": "cinderella_glass_slipper",
+            "image_search_term": "Cinderella glass slipper",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Un carruaje"
+                },
+                {
+                    "key": "B",
+                    "text": "Una capa mágica"
+                },
+                {
+                    "key": "C",
+                    "text": "Un zapato de cristal"
+                },
+                {
+                    "key": "D",
+                    "text": "Una varita mágica"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "¿Quién es el fiel compañero de Aladdín?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Jafar",
+                    "image": "jafar",
+                    "image_search_term": "Jafar Aladdin"
+                },
+                {
+                    "key": "B",
+                    "text": "Abu",
+                    "image": "abu",
+                    "image_search_term": "Abu Aladdin"
+                },
+                {
+                    "key": "C",
+                    "text": "Genio",
+                    "image": "genie",
+                    "image_search_term": "Genie Aladdin"
+                },
+                {
+                    "key": "D",
+                    "text": "Iago",
+                    "image": "iago",
+                    "image_search_term": "Iago Aladdin"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "¿Cómo se llama el dragón que acompaña a Mulán en sus aventuras?",
+            "audio_question": "3_question.mp3",
+            "image_question": "mushu",
+            "image_search_term": "Mushu Mulan",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Mushu"
+                },
+                {
+                    "key": "B",
+                    "text": "Shang"
+                },
+                {
+                    "key": "C",
+                    "text": "Khan"
+                },
+                {
+                    "key": "D",
+                    "text": "Ping"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Cuál es el nombre de la isla donde Moana vive?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Motunui",
+                    "image": "motunui",
+                    "image_search_term": "Motunui Moana"
+                },
+                {
+                    "key": "B",
+                    "text": "Maui",
+                    "image": "maui",
+                    "image_search_term": "Maui Moana"
+                },
+                {
+                    "key": "C",
+                    "text": "Te Fiti",
+                    "image": "te_fiti",
+                    "image_search_term": "Te Fiti Moana"
+                },
+                {
+                    "key": "D",
+                    "text": "Tala",
+                    "image": "tala",
+                    "image_search_term": "Grandma Tala Moana"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "¿En qué película un experimento llamado '626' se convierte en parte de una familia en Hawái?",
+            "audio_question": "5_question.mp3",
+            "image_question": "stitch",
+            "image_search_term": "Stitch Lilo & Stitch",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tarzán"
+                },
+                {
+                    "key": "B",
+                    "text": "Lilo & Stitch"
+                },
+                {
+                    "key": "C",
+                    "text": "Hércules"
+                },
+                {
+                    "key": "D",
+                    "text": "El Rey León"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "¿Quién es el villano principal en 'El Rey León'?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Scar",
+                    "image": "scar",
+                    "image_search_term": "Scar Lion King"
+                },
+                {
+                    "key": "B",
+                    "text": "Jafar",
+                    "image": "jafar",
+                    "image_search_term": "Jafar Aladdin"
+                },
+                {
+                    "key": "C",
+                    "text": "Ursula",
+                    "image": "ursula",
+                    "image_search_term": "Ursula Little Mermaid"
+                },
+                {
+                    "key": "D",
+                    "text": "Hades",
+                    "image": "hades",
+                    "image_search_term": "Hades Hercules"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué animal es Dory en 'Buscando a Nemo'?",
+            "audio_question": "7_question.mp3",
+            "image_question": "dory",
+            "image_search_term": "Dory Finding Nemo",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tiburón"
+                },
+                {
+                    "key": "B",
+                    "text": "Pez payaso"
+                },
+                {
+                    "key": "C",
+                    "text": "Pez cirujano azul"
+                },
+                {
+                    "key": "D",
+                    "text": "Pez globo"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "¿En qué ciudad se encuentra la historia de 'Ratatouille'?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "París",
+                    "image": "paris",
+                    "image_search_term": "Paris Ratatouille"
+                },
+                {
+                    "key": "B",
+                    "text": "Londres",
+                    "image": "london",
+                    "image_search_term": "London"
+                },
+                {
+                    "key": "C",
+                    "text": "Nueva York",
+                    "image": "new-york",
+                    "image_search_term": "New York"
+                },
+                {
+                    "key": "D",
+                    "text": "Roma",
+                    "image": "rome",
+                    "image_search_term": "Rome"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿Cuál es el poder especial de Elsa en 'Frozen'?",
+            "audio_question": "9_question.mp3",
+            "image_question": "elsa",
+            "image_search_term": "Elsa Frozen",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Velocidad"
+                },
+                {
+                    "key": "B",
+                    "text": "Invisibilidad"
+                },
+                {
+                    "key": "C",
+                    "text": "Control del fuego"
+                },
+                {
+                    "key": "D",
+                    "text": "Control del hielo"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Cómo se llama el juguete espacial en 'Toy Story'?",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Woody",
+                    "image": "woody",
+                    "image_search_term": "Woody Toy Story"
+                },
+                {
+                    "key": "B",
+                    "text": "Buzz Lightyear",
+                    "image": "buzz",
+                    "image_search_term": "Buzz Lightyear Toy Story"
+                },
+                {
+                    "key": "C",
+                    "text": "Mr. Potato Head",
+                    "image": "mr-potato-head",
+                    "image_search_term": "Mr. Potato Head Toy Story"
+                },
+                {
+                    "key": "D",
+                    "text": "Rex",
+                    "image": "rex",
+                    "image_search_term": "Rex Toy Story"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿Quién le enseña a Mowgli las leyes de la selva en 'El libro de la selva'?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Baloo",
+                    "image": "baloo",
+                    "image_search_term": "Baloo Jungle Book"
+                },
+                {
+                    "key": "B",
+                    "text": "Bagheera",
+                    "image": "bagheera",
+                    "image_search_term": "Bagheera Jungle Book"
+                },
+                {
+                    "key": "C",
+                    "text": "Shere Khan",
+                    "image": "shere-khan",
+                    "image_search_term": "Shere Khan Jungle Book"
+                },
+                {
+                    "key": "D",
+                    "text": "Kaa",
+                    "image": "kaa",
+                    "image_search_term": "Kaa Jungle Book"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "¿Cuál es el lema de Timón y Pumba en 'El Rey León'?",
+            "audio_question": "12_question.mp3",
+            "image_question": "timon_pumba",
+            "image_search_term": "Timon and Pumba Hakuna Matata",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hakuna Matata"
+                },
+                {
+                    "key": "B",
+                    "text": "Siempre amigos"
+                },
+                {
+                    "key": "C",
+                    "text": "Vive y deja vivir"
+                },
+                {
+                    "key": "D",
+                    "text": "El ciclo sin fin"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿En qué película un príncipe se transforma en una bestia?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Bella Durmiente",
+                    "image": "sleeping-beauty",
+                    "image_search_term": "Sleeping Beauty"
+                },
+                {
+                    "key": "B",
+                    "text": "La Bella y la Bestia",
+                    "image": "beauty-beast",
+                    "image_search_term": "Beauty and the Beast"
+                },
+                {
+                    "key": "C",
+                    "text": "Cenicienta",
+                    "image": "cinderella",
+                    "image_search_term": "Cinderella"
+                },
+                {
+                    "key": "D",
+                    "text": "Aladdín",
+                    "image": "aladdin",
+                    "image_search_term": "Aladdin"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Quién es el hada madrina de Cenicienta?",
+            "audio_question": "14_question.mp3",
+            "image_question": "fairy_godmother",
+            "image_search_term": "Cinderella Fairy Godmother",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Flora"
+                },
+                {
+                    "key": "B",
+                    "text": "Fauna"
+                },
+                {
+                    "key": "C",
+                    "text": "Merriweather"
+                },
+                {
+                    "key": "D",
+                    "text": "No tiene nombre"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿Qué tipo de animal es el amigo de Ariel, Flounder?",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cangrejo",
+                    "image": "crab",
+                    "image_search_term": "Crab"
+                },
+                {
+                    "key": "B",
+                    "text": "Pez",
+                    "image": "fish",
+                    "image_search_term": "Fish"
+                },
+                {
+                    "key": "C",
+                    "text": "Gaviota",
+                    "image": "seagull",
+                    "image_search_term": "Seagull"
+                },
+                {
+                    "key": "D",
+                    "text": "Tiburón",
+                    "image": "shark",
+                    "image_search_term": "Shark"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Cómo se llama la mascota alienígena de Lilo en 'Lilo & Stitch'?",
+            "audio_question": "16_question.mp3",
+            "image_question": "stitch",
+            "image_search_term": "Stitch Lilo & Stitch",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gantu"
+                },
+                {
+                    "key": "B",
+                    "text": "Jumba"
+                },
+                {
+                    "key": "C",
+                    "text": "Pleakley"
+                },
+                {
+                    "key": "D",
+                    "text": "Stitch"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿Cuál es el nombre del juguete cowboy en 'Toy Story'?",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Buzz Lightyear",
+                    "image": "buzz-lightyear",
+                    "image_search_term": "Buzz Lightyear Toy Story"
+                },
+                {
+                    "key": "B",
+                    "text": "Woody",
+                    "image": "woody",
+                    "image_search_term": "Woody Toy Story"
+                },
+                {
+                    "key": "C",
+                    "text": "Jessie",
+                    "image": "jessie",
+                    "image_search_term": "Jessie Toy Story"
+                },
+                {
+                    "key": "D",
+                    "text": "Bullseye",
+                    "image": "bullseye",
+                    "image_search_term": "Bullseye Toy Story"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "¿En qué película un príncipe es transformado en un monstruo como castigo por su crueldad?",
+            "audio_question": "18_question.mp3",
+            "image_question": "beast",
+            "image_search_term": "Beast Beauty and the Beast",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Bella y la Bestia"
+                },
+                {
+                    "key": "B",
+                    "text": "Aladdín"
+                },
+                {
+                    "key": "C",
+                    "text": "El jorobado de Notre Dame"
+                },
+                {
+                    "key": "D",
+                    "text": "Pocahontas"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "¿Qué personaje de Disney es conocido por su nariz que crece cuando miente?",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Mickey Mouse",
+                    "image": "mickey-mouse",
+                    "image_search_term": "Mickey Mouse"
+                },
+                {
+                    "key": "B",
+                    "text": "Pinocho",
+                    "image": "pinocchio",
+                    "image_search_term": "Pinocchio"
+                },
+                {
+                    "key": "C",
+                    "text": "Donald Duck",
+                    "image": "donald-duck",
+                    "image_search_term": "Donald Duck"
+                },
+                {
+                    "key": "D",
+                    "text": "Goofy",
+                    "image": "goofy",
+                    "image_search_term": "Goofy"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "¿Quién adopta a Hercules como hijo en la Tierra?",
+            "audio_question": "20_question.mp3",
+            "image_question": "hercules-parents",
+            "image_search_term": "Hercules adoptive parents Disney",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Zeus y Hera"
+                },
+                {
+                    "key": "B",
+                    "text": "Amfitrión y Alcmena"
+                },
+                {
+                    "key": "C",
+                    "text": "Fa Zhou y Fa Li"
+                },
+                {
+                    "key": "D",
+                    "text": "Eudora y James"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "¿Qué hechicera intenta tomar control del océano en 'La Sirenita'?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maleficent",
+                    "image": "maleficent",
+                    "image_search_term": "Maleficent"
+                },
+                {
+                    "key": "B",
+                    "text": "Ursula",
+                    "image": "ursula",
+                    "image_search_term": "Ursula Little Mermaid"
+                },
+                {
+                    "key": "C",
+                    "text": "Madam Mim",
+                    "image": "madam-mim",
+                    "image_search_term": "Madam Mim"
+                },
+                {
+                    "key": "D",
+                    "text": "Gothel",
+                    "image": "gothel",
+                    "image_search_term": "Mother Gothel Tangled"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "¿Cuál es el nombre del príncipe en 'La Bella Durmiente'?",
+            "audio_question": "22_question.mp3",
+            "image_question": "prince-philip",
+            "image_search_term": "Prince Philip Sleeping Beauty",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Eric"
+                },
+                {
+                    "key": "B",
+                    "text": "Phillip"
+                },
+                {
+                    "key": "C",
+                    "text": "Charming"
+                },
+                {
+                    "key": "D",
+                    "text": "Florian"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "¿Quién es el creador de Pinocchio?",
+            "audio_question": "23_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maurice",
+                    "image": "maurice",
+                    "image_search_term": "Maurice Beauty and the Beast"
+                },
+                {
+                    "key": "B",
+                    "text": "Geppetto",
+                    "image": "geppetto",
+                    "image_search_term": "Geppetto Pinocchio"
+                },
+                {
+                    "key": "C",
+                    "text": "Stromboli",
+                    "image": "stromboli",
+                    "image_search_term": "Stromboli Pinocchio"
+                },
+                {
+                    "key": "D",
+                    "text": "Frollo",
+                    "image": "frollo",
+                    "image_search_term": "Frollo Hunchback of Notre Dame"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "En 'Zootopia', ¿cuál es la profesión de Judy Hopps?",
+            "audio_question": "24_question.mp3",
+            "image_question": "judy-hopps",
+            "image_search_term": "Judy Hopps Zootopia",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Abogada"
+                },
+                {
+                    "key": "B",
+                    "text": "Oficial de policía"
+                },
+                {
+                    "key": "C",
+                    "text": "Periodista"
+                },
+                {
+                    "key": "D",
+                    "text": "Chef"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "¿Qué objeto es la clave para salvar a Elsa y Anna en 'Frozen'?",
+            "audio_question": "25_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Una corona",
+                    "image": "crown",
+                    "image_search_term": "Crown"
+                },
+                {
+                    "key": "B",
+                    "text": "Un trineo",
+                    "image": "sled",
+                    "image_search_term": "Sled Frozen"
+                },
+                {
+                    "key": "C",
+                    "text": "Un libro de hechizos",
+                    "image": "spell-book",
+                    "image_search_term": "Spell Book"
+                },
+                {
+                    "key": "D",
+                    "text": "El acto de amor verdadero",
+                    "image": "true-love",
+                    "image_search_term": "True Love Frozen"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "25_answer.mp3"
+        }
+    ]
+}
