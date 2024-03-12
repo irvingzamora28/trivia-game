@@ -206,7 +206,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               />
             </motion.div>
           )}
-          <div className="grid grid-cols-2 gap-x-12 gap-y-12 w-1/2 p-9">
+          <div className={`grid ${questions[currentQuestionIndex].image_question ? "grid-cols-2 gap-x-12 gap-y-12" : "grid-cols-4 gap-x-6 gap-y-6"} w-3/4 p-9`}>
             {questions[currentQuestionIndex].options.map((option, index) => (
               <motion.div
                 key={option.key}
@@ -258,7 +258,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
                       className="flex flex-col items-center justify-center w-full rounded-lg overflow-hidden transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
                       style={{ minHeight: "10rem" }} // Adjust minHeight to fit content
                     >
-                      <div className="w-full h-40 bg-gray-100 flex items-center justify-center overflow-hidden">
+                      <div className="w-full h-80 bg-gray-100 flex items-center justify-center overflow-hidden">
                         <img
                           src={`images/${triviaPath}/${option.image}.jpg`}
                           alt={option.text}
