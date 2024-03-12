@@ -11,22 +11,26 @@
                 {
                     "key": "A",
                     "text": "Isaac Newton",
-                    "image": "isaac-newton"
+                    "image": "isaac-newton",
+                    "image_search_term": "Isaac Newton"
                 },
                 {
                     "key": "B",
                     "text": "Albert Einstein",
-                    "image": "albert-einstein"
+                    "image": "albert-einstein",
+                    "image_search_term": "Albert Einstein"
                 },
                 {
                     "key": "C",
                     "text": "Nikola Tesla",
-                    "image": "nikola-tesla"
+                    "image": "nikola-tesla",
+                    "image_search_term": "Nikola Tesla"
                 },
                 {
                     "key": "D",
                     "text": "Marie Curie",
-                    "image": "marie-curie"
+                    "image": "marie-curie",
+                    "image_search_term": "Marie Curie"
                 }
             ],
             "answer": "B",
@@ -40,22 +44,26 @@
                 {
                     "key": "A",
                     "text": "Alexander Fleming",
-                    "image": "alexander-fleming"
+                    "image": "alexander-fleming",
+                    "image_search_term": "Alexander Fleming"
                 },
                 {
                     "key": "B",
                     "text": "Louis Pasteur",
-                    "image": "louis-pasteur"
+                    "image": "louis-pasteur",
+                    "image_search_term": "Louis Pasteur"
                 },
                 {
                     "key": "C",
                     "text": "Gregor Mendel",
-                    "image": "gregor-mendel"
+                    "image": "gregor-mendel",
+                    "image_search_term": "Gregor Mendel"
                 },
                 {
                     "key": "D",
                     "text": "Edward Jenner",
-                    "image": "edward-jenner"
+                    "image": "edward-jenner",
+                    "image_search_term": "Edward Jenner"
                 }
             ],
             "answer": "A",
@@ -69,22 +77,26 @@
                 {
                     "key": "A",
                     "text": "Charles Darwin",
-                    "image": "charles-darwin"
+                    "image": "charles-darwin",
+                    "image_search_term": "Charles Darwin"
                 },
                 {
                     "key": "B",
                     "text": "James Watson",
-                    "image": "james-watson"
+                    "image": "james-watson",
+                    "image_search_term": "James Watson"
                 },
                 {
                     "key": "C",
                     "text": "Gregor Mendel",
-                    "image": "gregor-mendel"
+                    "image": "gregor-mendel",
+                    "image_search_term": "Gregor Mendel"
                 },
                 {
                     "key": "D",
                     "text": "Francis Crick",
-                    "image": "francis-crick"
+                    "image": "francis-crick",
+                    "image_search_term": "Francis Crick"
                 }
             ],
             "answer": "C",
@@ -98,22 +110,26 @@
                 {
                     "key": "A",
                     "text": "Jonas Salk",
-                    "image": "jonas-salk"
+                    "image": "jonas-salk",
+                    "image_search_term": "Jonas Salk"
                 },
                 {
                     "key": "B",
                     "text": "Alexander Fleming",
-                    "image": "alexander-fleming"
+                    "image": "alexander-fleming",
+                    "image_search_term": "Alexander Fleming"
                 },
                 {
                     "key": "C",
                     "text": "Edward Jenner",
-                    "image": "edward-jenner"
+                    "image": "edward-jenner",
+                    "image_search_term": "Edward Jenner"
                 },
                 {
                     "key": "D",
                     "text": "Louis Pasteur",
-                    "image": "louis-pasteur"
+                    "image": "louis-pasteur",
+                    "image_search_term": "Louis Pasteur"
                 }
             ],
             "answer": "C",
@@ -127,22 +143,26 @@
                 {
                     "key": "A",
                     "text": "Albert Einstein",
-                    "image": "albert-einstein"
+                    "image": "albert-einstein",
+                    "image_search_term": "Albert Einstein"
                 },
                 {
                     "key": "B",
                     "text": "Marie Curie",
-                    "image": "marie-curie"
+                    "image": "marie-curie",
+                    "image_search_term": "Marie Curie"
                 },
                 {
                     "key": "C",
                     "text": "Linus Pauling",
-                    "image": "linus-pauling"
+                    "image": "linus-pauling",
+                    "image_search_term": "Linus Pauling"
                 },
                 {
                     "key": "D",
                     "text": "Richard Feynman",
-                    "image": "richard-feynman"
+                    "image": "richard-feynman",
+                    "image_search_term": "Richard Feynman"
                 }
             ],
             "answer": "B",
@@ -156,22 +176,26 @@
                 {
                     "key": "A",
                     "text": "Charles Darwin",
-                    "image": "charles-darwin"
+                    "image": "charles-darwin",
+                    "image_search_term": "Charles Darwin"
                 },
                 {
                     "key": "B",
                     "text": "Gregor Mendel",
-                    "image": "gregor-mendel"
+                    "image": "gregor-mendel",
+                    "image_search_term": "Gregor Mendel"
                 },
                 {
                     "key": "C",
                     "text": "James Watson",
-                    "image": "james-watson"
+                    "image": "james-watson",
+                    "image_search_term": "James Watson"
                 },
                 {
                     "key": "D",
                     "text": "Rosalind Franklin",
-                    "image": "rosalind-franklin"
+                    "image": "rosalind-franklin",
+                    "image_search_term": "Rosalind Franklin"
                 }
             ],
             "answer": "B",
@@ -185,22 +209,26 @@
                 {
                     "key": "A",
                     "text": "Watson y Crick",
-                    "image": "watson-crick"
+                    "image": "watson-crick",
+                    "image_search_term": "Watson y Crick"
                 },
                 {
                     "key": "B",
                     "text": "Mendel y Darwin",
-                    "image": "mendel-darwin"
+                    "image": "mendel-darwin",
+                    "image_search_term": "Mendel y Darwin"
                 },
                 {
                     "key": "C",
                     "text": "Curie y Franklin",
-                    "image": "curie-franklin"
+                    "image": "curie-franklin",
+                    "image_search_term": "Curie y Franklin"
                 },
                 {
                     "key": "D",
                     "text": "Einstein y Bohr",
-                    "image": "einstein-bohr"
+                    "image": "einstein-bohr",
+                    "image_search_term": "Einstein y Bohr"
                 }
             ],
             "answer": "A",
@@ -214,22 +242,26 @@
                 {
                     "key": "A",
                     "text": "Max Planck",
-                    "image": "max-planck"
+                    "image": "max-planck",
+                    "image_search_term": "Max Planck"
                 },
                 {
                     "key": "B",
                     "text": "Niels Bohr",
-                    "image": "niels-bohr"
+                    "image": "niels-bohr",
+                    "image_search_term": "Niels Bohr"
                 },
                 {
                     "key": "C",
                     "text": "Albert Einstein",
-                    "image": "albert-einstein"
+                    "image": "albert-einstein",
+                    "image_search_term": "Albert Einstein"
                 },
                 {
                     "key": "D",
                     "text": "Erwin Schrödinger",
-                    "image": "erwin-schrodinger"
+                    "image": "erwin-schrodinger",
+                    "image_search_term": "Erwin Schrödinger"
                 }
             ],
             "answer": "A",
@@ -243,22 +275,26 @@
                 {
                     "key": "A",
                     "text": "Thomas Edison",
-                    "image": "thomas-edison"
+                    "image": "thomas-edison",
+                    "image_search_term": "Thomas Edison"
                 },
                 {
                     "key": "B",
                     "text": "Alexander Graham Bell",
-                    "image": "alexander-graham-bell"
+                    "image": "alexander-graham-bell",
+                    "image_search_term": "Alexander Graham Bell"
                 },
                 {
                     "key": "C",
                     "text": "Samuel Morse",
-                    "image": "samuel-morse"
+                    "image": "samuel-morse",
+                    "image_search_term": "Samuel Morse"
                 },
                 {
                     "key": "D",
                     "text": "Nikola Tesla",
-                    "image": "nikola-tesla"
+                    "image": "nikola-tesla",
+                    "image_search_term": "Nikola Tesla"
                 }
             ],
             "answer": "C",
@@ -272,22 +308,26 @@
                 {
                     "key": "A",
                     "text": "Lise Meitner",
-                    "image": "lise-meitner"
+                    "image": "lise-meitner",
+                    "image_search_term": "Lise Meitner"
                 },
                 {
                     "key": "B",
                     "text": "Marie Curie",
-                    "image": "marie-curie"
+                    "image": "marie-curie",
+                    "image_search_term": "Marie Curie"
                 },
                 {
                     "key": "C",
                     "text": "Dorothy Hodgkin",
-                    "image": "dorothy-hodgkin"
+                    "image": "dorothy-hodgkin",
+                    "image_search_term": "Dorothy Hodgkin"
                 },
                 {
                     "key": "D",
                     "text": "Rosalind Franklin",
-                    "image": "rosalind-franklin"
+                    "image": "rosalind-franklin",
+                    "image_search_term": "Rosalind Franklin"
                 }
             ],
             "answer": "B",
@@ -328,22 +368,26 @@
                 {
                     "key": "A",
                     "text": "Charles Babbage",
-                    "image": "charles-babbage"
+                    "image": "charles-babbage",
+                    "image_search_term": "Charles Babbage"
                 },
                 {
                     "key": "B",
                     "text": "Blaise Pascal",
-                    "image": "blaise-pascal"
+                    "image": "blaise-pascal",
+                    "image_search_term": "Blaise Pascal"
                 },
                 {
                     "key": "C",
                     "text": "Ada Lovelace",
-                    "image": "ada-lovelace"
+                    "image": "ada-lovelace",
+                    "image_search_term": "Ada Lovelace"
                 },
                 {
                     "key": "D",
                     "text": "Alan Turing",
-                    "image": "alan-turing"
+                    "image": "alan-turing",
+                    "image_search_term": "Alan Turing"
                 }
             ],
             "answer": "B",
@@ -411,22 +455,26 @@
                 {
                     "key": "A",
                     "text": "Isaac Newton",
-                    "image": "isaac-newton"
+                    "image": "isaac-newton",
+                    "image_search_term": "Isaac Newton"
                 },
                 {
                     "key": "B",
                     "text": "Albert Einstein",
-                    "image": "albert-einstein"
+                    "image": "albert-einstein",
+                    "image_search_term": "Albert Einstein"
                 },
                 {
                     "key": "C",
                     "text": "Galileo Galilei",
-                    "image": "galileo-galilei"
+                    "image": "galileo-galilei",
+                    "image_search_term": "Galileo Galilei"
                 },
                 {
                     "key": "D",
                     "text": "Johannes Kepler",
-                    "image": "johannes-kepler"
+                    "image": "johannes-kepler",
+                    "image_search_term": "Johannes Kepler"
                 }
             ],
             "answer": "A",
@@ -440,22 +488,26 @@
                 {
                     "key": "A",
                     "text": "Erwin Schrödinger",
-                    "image": "erwin-schrodinger"
+                    "image": "erwin-schrodinger",
+                    "image_search_term": "Erwin Schrödinger"
                 },
                 {
                     "key": "B",
                     "text": "Werner Heisenberg",
-                    "image": "werner-heisenberg"
+                    "image": "werner-heisenberg",
+                    "image_search_term": "Werner Heisenberg"
                 },
                 {
                     "key": "C",
                     "text": "Niels Bohr",
-                    "image": "niels-bohr"
+                    "image": "niels-bohr",
+                    "image_search_term": "Niels Bohr"
                 },
                 {
                     "key": "D",
                     "text": "Paul Dirac",
-                    "image": "paul-dirac"
+                    "image": "paul-dirac",
+                    "image_search_term": "Paul Dirac"
                 }
             ],
             "answer": "A",
@@ -496,22 +548,26 @@
                 {
                     "key": "A",
                     "text": "William Harvey",
-                    "image": "william-harvey"
+                    "image": "william-harvey",
+                    "image_search_term": "William Harvey"
                 },
                 {
                     "key": "B",
                     "text": "Hippocrates",
-                    "image": "hippocrates"
+                    "image": "hippocrates",
+                    "image_search_term": "Hippocrates"
                 },
                 {
                     "key": "C",
                     "text": "Avicenna",
-                    "image": "avicenna"
+                    "image": "avicenna",
+                    "image_search_term": "Avicenna"
                 },
                 {
                     "key": "D",
                     "text": "Andreas Vesalius",
-                    "image": "andreas-vesalius"
+                    "image": "andreas-vesalius",
+                    "image_search_term": "Andreas Vesalius"
                 }
             ],
             "answer": "A",
@@ -525,22 +581,26 @@
                 {
                     "key": "A",
                     "text": "Michael Faraday",
-                    "image": "michael-faraday"
+                    "image": "michael-faraday",
+                    "image_search_term": "Michael Faraday"
                 },
                 {
                     "key": "B",
                     "text": "James Clerk Maxwell",
-                    "image": "james-clerk-maxwell"
+                    "image": "james-clerk-maxwell",
+                    "image_search_term": "James Clerk Maxwell"
                 },
                 {
                     "key": "C",
                     "text": "André-Marie Ampère",
-                    "image": "andre-marie-ampere"
+                    "image": "andre-marie-ampere",
+                    "image_search_term": "André-Marie Ampère"
                 },
                 {
                     "key": "D",
                     "text": "Nikola Tesla",
-                    "image": "nikola-tesla"
+                    "image": "nikola-tesla",
+                    "image_search_term": "Nikola Tesla"
                 }
             ],
             "answer": "B",
@@ -554,22 +614,26 @@
                 {
                     "key": "A",
                     "text": "Antonie van Leeuwenhoek",
-                    "image": "antonie-van-leeuwenhoek"
+                    "image": "antonie-van-leeuwenhoek",
+                    "image_search_term": "Antonie van Leeuwenhoek"
                 },
                 {
                     "key": "B",
                     "text": "Galileo Galilei",
-                    "image": "galileo-galilei"
+                    "image": "galileo-galilei",
+                    "image_search_term": "Galileo Galilei"
                 },
                 {
                     "key": "C",
                     "text": "Zacharias Janssen",
-                    "image": "zacharias-janssen"
+                    "image": "zacharias-janssen",
+                    "image_search_term": "Zacharias Janssen"
                 },
                 {
                     "key": "D",
                     "text": "Robert Hooke",
-                    "image": "robert-hooke"
+                    "image": "robert-hooke",
+                    "image_search_term": "Robert Hooke"
                 }
             ],
             "answer": "C",
