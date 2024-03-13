@@ -21,8 +21,8 @@ const AnswerImage: React.FC<AnswerImageProps> = ({ imagePath }) => {
     // Determine classes based on the image's natural dimensions
     const determinedClasses =
       naturalWidth > naturalHeight
-        ? "object-containt object-center w-full h-96 rounded-lg shadow-lg border-slate-50 border-2" // Wide image
-        : "object-cover object-center w-96 h-full rounded-lg shadow-lg border-slate-50 border-2"; // Tall image or square
+        ? "object-center w-full h-96 rounded-lg shadow-lg border-slate-50 border-2" // Wide image
+        : "object-center w-96 h-full rounded-lg shadow-lg border-slate-50 border-2"; // Tall image or square
 
     setImgClasses(determinedClasses);
   };
