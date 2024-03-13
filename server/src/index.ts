@@ -71,6 +71,11 @@ app.post("/process-questions", async (req, res) => {
         await fetchAndSaveImage(question.image_search_term, imageQuestionPath, 5);
       }
 
+      if (question.image_answer) {
+        const imageQuestionPath = path.join(outputImageDir, data.file_path, question.image_answer);
+        await fetchAndSaveImage(`Pelicula ${question.answer}`, imageQuestionPath, 5);
+      }
+
       for (const option of question.options) {
         if (option.image_search_term) {
           const imageOptionPath = path.join(outputImageDir, data.file_path, option.image);
