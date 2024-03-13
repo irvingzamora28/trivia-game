@@ -1,33 +1,33 @@
 {
     "data": {
-        "file_path": "disney_questions"
+        "file_path": "4_disney"
     },
     "questions": [
         {
             "id": 1,
-            "question": "¿Qué objeto utiliza la Cenicienta para huir antes de la medianoche?",
+            "question": "¿Cuál es el regalo que la Hada Madrina otorga a Cenicienta para que pueda asistir al baile?",
             "audio_question": "1_question.mp3",
-            "image_question": "cinderella_glass_slipper",
-            "image_search_term": "Cinderella glass slipper",
+            "image_question": "cinderella_fairy_godmother",
+            "image_search_term": "Cinderella Fairy Godmother",
             "options": [
                 {
                     "key": "A",
-                    "text": "Un carruaje"
+                    "text": "Un vestido mágico"
                 },
                 {
                     "key": "B",
-                    "text": "Una capa mágica"
+                    "text": "Zapatos de cristal"
                 },
                 {
                     "key": "C",
-                    "text": "Un zapato de cristal"
+                    "text": "Un carruaje encantado"
                 },
                 {
                     "key": "D",
-                    "text": "Una varita mágica"
+                    "text": "Todos los anteriores"
                 }
             ],
-            "answer": "C",
+            "answer": "D",
             "audio_answer": "1_answer.mp3"
         },
         {
@@ -94,30 +94,24 @@
             "id": 4,
             "question": "¿Cuál es el nombre de la isla donde Moana vive?",
             "audio_question": "4_question.mp3",
+            "image_question": "motunui",
+            "image_search_term": "Motunui Moana",
             "options": [
                 {
                     "key": "A",
-                    "text": "Motunui",
-                    "image": "motunui",
-                    "image_search_term": "Motunui Moana"
+                    "text": "Motunui"
                 },
                 {
                     "key": "B",
-                    "text": "Maui",
-                    "image": "maui",
-                    "image_search_term": "Maui Moana"
+                    "text": "Maui"
                 },
                 {
                     "key": "C",
-                    "text": "Te Fiti",
-                    "image": "te_fiti",
-                    "image_search_term": "Te Fiti Moana"
+                    "text": "Te Fiti"
                 },
                 {
                     "key": "D",
-                    "text": "Tala",
-                    "image": "tala",
-                    "image_search_term": "Grandma Tala Moana"
+                    "text": "Tala"
                 }
             ],
             "answer": "A",
@@ -185,29 +179,29 @@
         },
         {
             "id": 7,
-            "question": "¿Qué animal es Dory en 'Buscando a Nemo'?",
+            "question": "¿Qué experimentado explorador inspira a Carl Fredricksen en 'Up: Una Aventura de Altura'?",
             "audio_question": "7_question.mp3",
-            "image_question": "dory",
-            "image_search_term": "Dory Finding Nemo",
+            "image_question": "explorer_up",
+            "image_search_term": "Charles Muntz Up",
             "options": [
                 {
                     "key": "A",
-                    "text": "Tiburón"
+                    "text": "Howard Carter"
                 },
                 {
                     "key": "B",
-                    "text": "Pez payaso"
+                    "text": "Charles Muntz"
                 },
                 {
                     "key": "C",
-                    "text": "Pez cirujano azul"
+                    "text": "Percy Fawcett"
                 },
                 {
                     "key": "D",
-                    "text": "Pez globo"
+                    "text": "Ernest Shackleton"
                 }
             ],
-            "answer": "C",
+            "answer": "B",
             "audio_answer": "7_answer.mp3"
         },
         {
@@ -219,7 +213,7 @@
                     "key": "A",
                     "text": "París",
                     "image": "paris",
-                    "image_search_term": "Paris Ratatouille"
+                    "image_search_term": "Paris"
                 },
                 {
                     "key": "B",
@@ -245,62 +239,56 @@
         },
         {
             "id": 9,
-            "question": "¿Cuál es el poder especial de Elsa en 'Frozen'?",
+            "question": "¿Cuál es el nombre del reino en el que viven Anna y Elsa en 'Frozen'?",
             "audio_question": "9_question.mp3",
-            "image_question": "elsa",
-            "image_search_term": "Elsa Frozen",
+            "image_question": "arendelle",
+            "image_search_term": "Arendelle Frozen",
             "options": [
                 {
                     "key": "A",
-                    "text": "Velocidad"
+                    "text": "Arendelle"
                 },
                 {
                     "key": "B",
-                    "text": "Invisibilidad"
+                    "text": "Corona"
                 },
                 {
                     "key": "C",
-                    "text": "Control del fuego"
+                    "text": "DunBroch"
                 },
                 {
                     "key": "D",
-                    "text": "Control del hielo"
+                    "text": "Motunui"
                 }
             ],
-            "answer": "D",
+            "answer": "A",
             "audio_answer": "9_answer.mp3"
         },
         {
             "id": 10,
-            "question": "¿Cómo se llama el juguete espacial en 'Toy Story'?",
+            "question": "En 'Toy Story 2', ¿cuál es el nombre del programa de televisión en el que originalmente aparece Woody?",
             "audio_question": "10_question.mp3",
+            "image_question": "woody_show",
+            "image_search_term": "Woody's Roundup Toy Story",
             "options": [
                 {
                     "key": "A",
-                    "text": "Woody",
-                    "image": "woody",
-                    "image_search_term": "Woody Toy Story"
+                    "text": "Woody's Roundup"
                 },
                 {
                     "key": "B",
-                    "text": "Buzz Lightyear",
-                    "image": "buzz",
-                    "image_search_term": "Buzz Lightyear Toy Story"
+                    "text": "The Woody Show"
                 },
                 {
                     "key": "C",
-                    "text": "Mr. Potato Head",
-                    "image": "mr-potato-head",
-                    "image_search_term": "Mr. Potato Head Toy Story"
+                    "text": "Cowboy Camp"
                 },
                 {
                     "key": "D",
-                    "text": "Rex",
-                    "image": "rex",
-                    "image_search_term": "Rex Toy Story"
+                    "text": "Ranger Woody's Adventure"
                 }
             ],
-            "answer": "B",
+            "answer": "A",
             "audio_answer": "10_answer.mp3"
         },
         {
@@ -333,7 +321,7 @@
                     "image_search_term": "Kaa Jungle Book"
                 }
             ],
-            "answer": "B",
+            "answer": "A",
             "audio_answer": "11_answer.mp3"
         },
         {
@@ -365,42 +353,36 @@
         },
         {
             "id": 13,
-            "question": "¿En qué película un príncipe se transforma en una bestia?",
+            "question": "¿Cuál es el nombre de la abuela de Moana, quien la guía espiritualmente en su viaje?",
             "audio_question": "13_question.mp3",
+            "image_question": "grandma-tala",
+            "image_search_term": "Grandma Tala Moana",
             "options": [
                 {
                     "key": "A",
-                    "text": "La Bella Durmiente",
-                    "image": "sleeping-beauty",
-                    "image_search_term": "Sleeping Beauty"
+                    "text": "Tala"
                 },
                 {
                     "key": "B",
-                    "text": "La Bella y la Bestia",
-                    "image": "beauty-beast",
-                    "image_search_term": "Beauty and the Beast"
+                    "text": "Sina"
                 },
                 {
                     "key": "C",
-                    "text": "Cenicienta",
-                    "image": "cinderella",
-                    "image_search_term": "Cinderella"
+                    "text": "Fiti"
                 },
                 {
                     "key": "D",
-                    "text": "Aladdín",
-                    "image": "aladdin",
-                    "image_search_term": "Aladdin"
+                    "text": "Nani"
                 }
             ],
-            "answer": "B",
+            "answer": "A",
             "audio_answer": "13_answer.mp3"
         },
         {
             "id": 14,
             "question": "¿Quién es el hada madrina de Cenicienta?",
             "audio_question": "14_question.mp3",
-            "image_question": "fairy_godmother",
+            "image_question": "cinderella_fairy_godmother",
             "image_search_term": "Cinderella Fairy Godmother",
             "options": [
                 {
@@ -458,62 +440,56 @@
         },
         {
             "id": 16,
-            "question": "¿Cómo se llama la mascota alienígena de Lilo en 'Lilo & Stitch'?",
+            "question": "En 'Lilo & Stitch', ¿cuál es el número de experimento de Stitch?",
             "audio_question": "16_question.mp3",
-            "image_question": "stitch",
+            "image_question": "experiment-626",
             "image_search_term": "Stitch Lilo & Stitch",
             "options": [
                 {
                     "key": "A",
-                    "text": "Gantu"
+                    "text": "625"
                 },
                 {
                     "key": "B",
-                    "text": "Jumba"
+                    "text": "626"
                 },
                 {
                     "key": "C",
-                    "text": "Pleakley"
+                    "text": "627"
                 },
                 {
                     "key": "D",
-                    "text": "Stitch"
+                    "text": "624"
                 }
             ],
-            "answer": "D",
+            "answer": "B",
             "audio_answer": "16_answer.mp3"
         },
         {
             "id": 17,
-            "question": "¿Cuál es el nombre del juguete cowboy en 'Toy Story'?",
+            "question": "En 'Toy Story 2', ¿cuál es la razón por la que Woody se vuelve valioso para el coleccionista?",
             "audio_question": "17_question.mp3",
+            "image_question": "woody_collection",
+            "image_search_term": "Woody Toy Story 2 collector",
             "options": [
                 {
                     "key": "A",
-                    "text": "Buzz Lightyear",
-                    "image": "buzz-lightyear",
-                    "image_search_term": "Buzz Lightyear Toy Story"
+                    "text": "Por ser un juguete único en su tipo"
                 },
                 {
                     "key": "B",
-                    "text": "Woody",
-                    "image": "woody",
-                    "image_search_term": "Woody Toy Story"
+                    "text": "Por estar en perfecto estado de conservación"
                 },
                 {
                     "key": "C",
-                    "text": "Jessie",
-                    "image": "jessie",
-                    "image_search_term": "Jessie Toy Story"
+                    "text": "Por completar la colección de Woody's Roundup"
                 },
                 {
                     "key": "D",
-                    "text": "Bullseye",
-                    "image": "bullseye",
-                    "image_search_term": "Bullseye Toy Story"
+                    "text": "Por tener la firma de Andy"
                 }
             ],
-            "answer": "B",
+            "answer": "C",
             "audio_answer": "17_answer.mp3"
         },
         {
@@ -717,7 +693,7 @@
                 },
                 {
                     "key": "D",
-                    "text": "Chef"
+                    "text": "Agente de Tránsito"
                 }
             ],
             "answer": "B",
@@ -727,30 +703,24 @@
             "id": 25,
             "question": "¿Qué objeto es la clave para salvar a Elsa y Anna en 'Frozen'?",
             "audio_question": "25_question.mp3",
+            "image_question": "elsa-ana",
+            "image_search_term": "elsa anna Frozen",
             "options": [
                 {
                     "key": "A",
-                    "text": "Una corona",
-                    "image": "crown",
-                    "image_search_term": "Crown"
+                    "text": "Una corona"
                 },
                 {
                     "key": "B",
-                    "text": "Un trineo",
-                    "image": "sled",
-                    "image_search_term": "Sled Frozen"
+                    "text": "Un trineo"
                 },
                 {
                     "key": "C",
-                    "text": "Un libro de hechizos",
-                    "image": "spell-book",
-                    "image_search_term": "Spell Book"
+                    "text": "Un libro de hechizos"
                 },
                 {
                     "key": "D",
-                    "text": "El acto de amor verdadero",
-                    "image": "true-love",
-                    "image_search_term": "True Love Frozen"
+                    "text": "El acto de amor verdadero"
                 }
             ],
             "answer": "D",
