@@ -9,7 +9,7 @@
             "emoji": "🦁👑",
             "answer": "El Rey León",
             "audio_answer": "1_answer.mp3",
-            "image_answer": "elreyleon"
+            "image_answer": "el-rey-leon"
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "emoji": "👽🚲🌕",
             "answer": "E.T. el Extraterrestre",
             "audio_answer": "2_answer.mp3",
-            "image_answer": "etextraterrestre"
+            "image_answer": "et"
         },
         {
             "id": 3,
