@@ -1,0 +1,357 @@
+{
+    "data": {
+        "file_path": "5_emojis_movies"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "audio_question": "1_question.mp3",
+            "emoji": "🦁👑",
+            "answer": "El Rey León",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "audio_question": "4_question.mp3",
+            "emoji": "👽🚲🌕",
+            "answer": "E.T. el Extraterrestre",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "audio_question": "9_question.mp3",
+            "emoji": "⚡👓🧙‍♂️",
+            "answer": "Harry Potter",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "audio_question": "10_question.mp3",
+            "emoji": "🎩🐇✨",
+            "answer": "Alicia en el país de las maravillas",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "audio_question": "8_question.mp3",
+            "emoji": "🚢❄️💔",
+            "answer": "Titanic",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "audio_question": "2_question.mp3",
+            "emoji": "👸🐸💚",
+            "answer": "La princesa y el sapo",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "audio_question": "7_question.mp3",
+            "emoji": "🧞‍♂️🕌👳‍♂️",
+            "answer": "Aladdín",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "audio_question": "3_question.mp3",
+            "emoji": "🐠🐟🔍",
+            "answer": "Buscando a Nemo",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "audio_question": "6_question.mp3",
+            "emoji": "🍎👸💤",
+            "answer": "Blancanieves y los siete enanitos",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "audio_question": "5_question.mp3",
+            "emoji": "🐭👨‍🍳🍲",
+            "answer": "Ratatouille",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "audio_question": "9_question.mp3",
+            "emoji": "🦊🐰👮‍♀️",
+            "answer": "Zootopia",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "audio_question": "2_question.mp3",
+            "emoji": "🐘🎪🪂",
+            "answer": "Dumbo",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "audio_question": "8_question.mp3",
+            "emoji": "🐕🐶🍝",
+            "answer": "La dama y el vagabundo",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "audio_question": "3_question.mp3",
+            "emoji": "🏝️📦🏐",
+            "answer": "Náufrago",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "audio_question": "7_question.mp3",
+            "emoji": "🧜‍♀️🔱🐚",
+            "answer": "La sirenita",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "audio_question": "4_question.mp3",
+            "emoji": "👧🐻🏹",
+            "answer": "Valiente",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "audio_question": "6_question.mp3",
+            "emoji": "👨‍💼🛌💤🌀🕰️",
+            "answer": "El origen",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "audio_question": "5_question.mp3",
+            "emoji": "🤠🧑‍🚀🚀🧸",
+            "answer": "Toy Story",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "audio_question": "1_question.mp3",
+            "emoji": "💰📈🐺🏦🚔",
+            "answer": "El lobo de Wall Street",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "audio_question": "10_question.mp3",
+            "emoji": "👰⚔️🩸🐍🎬",
+            "answer": "Kill Bill",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "audio_question": "6_question.mp3",
+            "emoji": "👨‍🚀🛡️🌌🛸",
+            "answer": "Guardianes de la galaxia",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "audio_question": "5_question.mp3",
+            "emoji": "🕷️👨🏙️",
+            "answer": "Spider-Man",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "audio_question": "4_question.mp3",
+            "emoji": "🐜👨🔬",
+            "answer": "Ant-Man",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "audio_question": "7_question.mp3",
+            "emoji": "🤖🌍♻️🚀💘",
+            "answer": "Wall-E",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "audio_question": "3_question.mp3",
+            "emoji": "🦸‍♂️🇺🇸🛡️⚔️",
+            "answer": "Capitán América",
+            "audio_answer": "25_answer.mp3"
+        },
+        {
+            "id": 26,
+            "audio_question": "8_question.mp3",
+            "emoji": "🧝🗡️💍",
+            "answer": "El señor de los anillos",
+            "audio_answer": "26_answer.mp3"
+        },
+        {
+            "id": 27,
+            "audio_question": "9_question.mp3",
+            "emoji": "🤴👸🛌🏰",
+            "answer": "La bella durmiente",
+            "audio_answer": "27_answer.mp3"
+        },
+        {
+            "id": 28,
+            "audio_question": "2_question.mp3",
+            "emoji": "👦🐉🛡️🔥🏞️",
+            "answer": "Cómo entrenar a tu dragón",
+            "audio_answer": "28_answer.mp3"
+        },
+        {
+            "id": 29,
+            "audio_question": "10_question.mp3",
+            "emoji": "👦🌬️🌾💡📚",
+            "answer": "El niño que domó el viento",
+            "audio_answer": "29_answer.mp3"
+        },
+        {
+            "id": 30,
+            "audio_question": "1_question.mp3",
+            "emoji": "🚗🏁🏆",
+            "answer": "Cars",
+            "audio_answer": "30_answer.mp3"
+        },
+        {
+            "id": 31,
+            "audio_question": "4_question.mp3",
+            "emoji": "🐼🥋💥",
+            "answer": "Kung Fu Panda",
+            "audio_answer": "31_answer.mp3"
+        },
+        {
+            "id": 32,
+            "audio_question": "3_question.mp3",
+            "emoji": "🎩🍫🏭🌈👦",
+            "answer": "Willy Wonka y la fábrica de chocolate",
+            "audio_answer": "32_answer.mp3"
+        },
+        {
+            "id": 33,
+            "audio_question": "8_question.mp3",
+            "emoji": "🦸‍♂️🦸‍♀️👶👨‍👩💥🎭",
+            "answer": "Los increíbles",
+            "audio_answer": "33_answer.mp3"
+        },
+        {
+            "id": 34,
+            "audio_question": "7_question.mp3",
+            "emoji": "👧🐶🌪️🦁🤖👩‍🌾🧙‍♂️🌈",
+            "answer": "El mago de Oz",
+            "audio_answer": "34_answer.mp3"
+        },
+        {
+            "id": 35,
+            "audio_question": "6_question.mp3",
+            "emoji": "🧛‍♂️🦇🌕",
+            "answer": "Drácula",
+            "audio_answer": "35_answer.mp3"
+        },
+        {
+            "id": 36,
+            "audio_question": "5_question.mp3",
+            "emoji": "👦🐺🌲📖",
+            "answer": "El libro de la selva",
+            "audio_answer": "36_answer.mp3"
+        },
+        {
+            "id": 37,
+            "audio_question": "10_question.mp3",
+            "emoji": "🧔🐯🎣🐟",
+            "answer": "La vida de Pi",
+            "audio_answer": "37_answer.mp3"
+        },
+        {
+            "id": 38,
+            "audio_question": "9_question.mp3",
+            "emoji": "🥊💪🏃‍♂️🏆🇺🇸",
+            "answer": "Rocky",
+            "audio_answer": "38_answer.mp3"
+        },
+        {
+            "id": 39,
+            "audio_question": "2_question.mp3",
+            "emoji": "👦🧚‍♀️⚔️🏴‍☠️",
+            "answer": "Peter Pan",
+            "audio_answer": "39_answer.mp3"
+        },
+        {
+            "id": 40,
+            "audio_question": "1_question.mp3",
+            "emoji": "⭕👧📼📞🕒💀",
+            "answer": "El aro",
+            "audio_answer": "40_answer.mp3"
+        },
+        {
+            "id": 41,
+            "audio_question": "5_question.mp3",
+            "emoji": "🦖🏝️🔬",
+            "answer": "Jurassic Park",
+            "audio_answer": "41_answer.mp3"
+        },
+        {
+            "id": 42,
+            "audio_question": "4_question.mp3",
+            "emoji": "🕴️🕴🏽🕶️🔫👽🌌",
+            "answer": "Hombres de Negro" ,
+            "audio_answer": "42_answer.mp3"
+        },
+        {
+            "id": 43,
+            "audio_question": "3_question.mp3",
+            "emoji": "🤖👨🕰️🔫💥",
+            "answer": "Terminator",
+            "audio_answer": "43_answer.mp3"
+        },
+        {
+            "id": 44,
+            "audio_question": "2_question.mp3",
+            "emoji": "🧔🐻🏔️",
+            "answer": "El renacido",
+            "audio_answer": "44_answer.mp3"
+        },
+        {
+            "id": 45,
+            "audio_question": "1_question.mp3",
+            "emoji": "👨‍💼💊🕶️🤖💻🌆",
+            "answer": "Matrix",
+            "audio_answer": "45_answer.mp3"
+        },
+        {
+            "id": 46,
+            "audio_question": "10_question.mp3",
+            "emoji": "👻🚫🔫👨‍🔬",
+            "answer": "Cazafantasmas",
+            "audio_answer": "46_answer.mp3"
+        },
+        {
+            "id": 47,
+            "audio_question": "9_question.mp3",
+            "emoji": "🎖️🔫🗡️🇩🇪🎬",
+            "answer": "Bastardos sin gloria",
+            "audio_answer": "47_answer.mp3"
+        },
+        {
+            "id": 48,
+            "audio_question": "8_question.mp3",
+            "emoji": "🚀👨‍🚀👽🕐🌍",
+            "answer": "Interstellar",
+            "audio_answer": "48_answer.mp3"
+        },
+        {
+            "id": 49,
+            "audio_question": "7_question.mp3",
+            "emoji": "🦸‍♂️🦇🌆",
+            "answer": "Batman",
+            "audio_answer": "49_answer.mp3"
+        },
+        {
+            "id": 50,
+            "audio_question": "6_question.mp3",
+            "emoji": "👻🙏🕍👩😱",
+            "answer": "La monja",
+            "audio_answer": "50_answer.mp3"
+        }
+    ]
+}
