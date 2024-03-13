@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import correctSound from "../assets/audio/correct-short.mp3";
 import incorrectSound from "../assets/audio/incorrect.mp3";
 import ProgressBar from "./ProgressBar";
+import AnswerImage from "./AnswerImage";
 
 const timeLimit = 5;
 
@@ -212,7 +213,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
             </motion.div>
           )}
 
-          {questions[currentQuestionIndex].emoji && (
+          {questions[currentQuestionIndex].emoji && !showAnswerImage && (
             <div
               className={`grid grid-cols-1 gap-x-6 gap-y-6 w-3/4 p-9 h-3/4 items-center`}
             >
@@ -230,18 +231,9 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
 
           {showAnswerImage &&
             triviaQuestions[currentQuestionIndex].image_answer && (
-              <motion.div
-                className="w-full max-w-lg mx-auto"
-                initial={{ scale: 0.5, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ duration: 0.5 }}
-              >
-                <img
-                  src={`/images/${triviaPath}/${triviaQuestions[currentQuestionIndex].image_answer}.jpg`}
-                  alt="Movie"
-                  className="object-cover object-center w-full h-64 rounded-lg shadow-lg"
-                />
-              </motion.div>
+              <AnswerImage
+                imagePath={`/images/${triviaPath}/${triviaQuestions[currentQuestionIndex].image_answer}.jpg`}
+              />
             )}
 
           {questions[currentQuestionIndex].question && (
