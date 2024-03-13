@@ -84,6 +84,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
   const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
   const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
   const currentQuestionIndexRef = useRef(currentQuestionIndex);
+  const [showAnswerImage, setShowAnswerImage] = useState<boolean>(false);
 
   useEffect(() => {
     currentQuestionIndexRef.current = currentQuestionIndex;
@@ -108,6 +109,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
     );
     feedbackSound.play();
 
+    setShowAnswerImage(true);
     setAnswerState(isCorrect ? "correct" : "incorrect");
 
     // Clear existing timer to prevent double advancement
@@ -136,6 +138,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
     setIsCheckingAnswer(false);
     setSelectedAnswer(null);
     setAnswerState("initial");
+    setShowAnswerImage(false);
     setCurrentQuestionIndex((prev) =>
       prev + 1 === triviaQuestions.length ? 0 : prev + 1
     );
@@ -210,7 +213,9 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
           )}
 
           {questions[currentQuestionIndex].emoji && (
-            <div className={`grid grid-cols-1 gap-x-6 gap-y-6 w-3/4 p-9 h-3/4 items-center`}>
+            <div
+              className={`grid grid-cols-1 gap-x-6 gap-y-6 w-3/4 p-9 h-3/4 items-center`}
+            >
               <motion.div
                 className="text-9xl"
                 style={{ fontSize: "10rem" }}
@@ -222,6 +227,22 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               </motion.div>
             </div>
           )}
+
+          {showAnswerImage &&
+            triviaQuestions[currentQuestionIndex].image_answer && (
+              <motion.div
+                className="w-full max-w-lg mx-auto"
+                initial={{ scale: 0.5, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5 }}
+              >
+                <img
+                  src={`/images/${triviaPath}/${triviaQuestions[currentQuestionIndex].image_answer}.jpg`}
+                  alt="Movie"
+                  className="object-cover object-center w-full h-64 rounded-lg shadow-lg"
+                />
+              </motion.div>
+            )}
 
           {questions[currentQuestionIndex].question && (
             <div

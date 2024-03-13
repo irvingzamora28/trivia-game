@@ -18,4 +18,5 @@ export interface TriviaQuestion {
   options?: Option[];
   answer: OptionKey;
   audio_answer?: string;
+  image_answer?: string;
 }
