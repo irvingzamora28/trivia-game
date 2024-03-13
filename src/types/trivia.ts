@@ -11,10 +11,11 @@ export interface Option {
 
 export interface TriviaQuestion {
   id: number;
-  question: string;
+  question?: string;
+  emoji?: string;
   audio_question: string;
   image_question?: string;
-  options: Option[];
+  options?: Option[];
   answer: OptionKey;
   audio_answer?: string;
 }

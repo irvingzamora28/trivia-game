@@ -188,9 +188,11 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               {currentQuestionIndex + 1}
             </div>
             {/* Question */}
-            <h2 className="text-6xl font-bold text-white ml-4 text-shadow flex-1 mr-10">
-              {questions[currentQuestionIndex].question}
-            </h2>
+            {questions[currentQuestionIndex].question && (
+              <h2 className="text-6xl font-bold text-white ml-4 text-shadow flex-1 mr-10">
+                {questions[currentQuestionIndex].question}
+              </h2>
+            )}
           </div>
           {questions[currentQuestionIndex].image_question && (
             <motion.div
@@ -206,99 +208,122 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               />
             </motion.div>
           )}
-          <div className={`grid ${questions[currentQuestionIndex].image_question ? "grid-cols-2 gap-x-12 gap-y-12" : "grid-cols-4 gap-x-6 gap-y-6"} w-3/4 p-9`}>
-            {questions[currentQuestionIndex].options.map((option, index) => (
+
+          {questions[currentQuestionIndex].emoji && (
+            <div className={`grid grid-cols-1 gap-x-6 gap-y-6 w-3/4 p-9 h-3/4 items-center`}>
               <motion.div
-                key={option.key}
-                initial="initial"
-                animate={
-                  selectedAnswer === option.key
-                    ? answerState === "correct"
-                      ? "correct"
-                      : "incorrect"
-                    : isCheckingAnswer
-                    ? "incorrect"
-                    : "floating"
-                }
-                variants={
-                  option.key === questions[currentQuestionIndex].answer
-                    ? {
-                        ...answerVariants,
-                        correct: {
-                          ...answerVariants.correct,
-                          x: "-50%",
-                          y: "-50%",
-                        },
-                      }
-                    : answerVariants
-                }
-                style={
-                  answerState === "correct" && selectedAnswer === option.key
-                    ? { position: "absolute", top: "50%", left: "50%" }
-                    : {}
-                }
+                className="text-9xl"
+                style={{ fontSize: "10rem" }}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
               >
-                {/* ... button with letter and option text ... */}
+                {triviaQuestions[currentQuestionIndex].emoji}
+              </motion.div>
+            </div>
+          )}
+
+          {questions[currentQuestionIndex].question && (
+            <div
+              className={`grid ${
+                questions[currentQuestionIndex].image_question
+                  ? "grid-cols-2 gap-x-12 gap-y-12"
+                  : "grid-cols-4 gap-x-6 gap-y-6"
+              } w-3/4 p-9`}
+            >
+              {questions[currentQuestionIndex].options?.map((option, index) => (
                 <motion.div
                   key={option.key}
-                  variants={answerVariants}
                   initial="initial"
                   animate={
-                    selectedAnswer === option.key ? answerState : "initial"
+                    selectedAnswer === option.key
+                      ? answerState === "correct"
+                        ? "correct"
+                        : "incorrect"
+                      : isCheckingAnswer
+                      ? "incorrect"
+                      : "floating"
                   }
-                  className="relative flex items-center justify-start my-2"
+                  variants={
+                    option.key === questions[currentQuestionIndex].answer
+                      ? {
+                          ...answerVariants,
+                          correct: {
+                            ...answerVariants.correct,
+                            x: "-50%",
+                            y: "-50%",
+                          },
+                        }
+                      : answerVariants
+                  }
+                  style={
+                    answerState === "correct" && selectedAnswer === option.key
+                      ? { position: "absolute", top: "50%", left: "50%" }
+                      : {}
+                  }
                 >
-                  {/* Conditional rendering based on the presence of an image */}
-                  {option.image ? (
-                    // Option layout when an image is present
-                    <button
-                      onClick={() =>
-                        !isCheckingAnswer && handleAnswerSelect(option.key)
-                      }
-                      className="flex flex-col items-center justify-center w-full rounded-lg overflow-hidden transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
-                      style={{ minHeight: "10rem" }} // Adjust minHeight to fit content
-                    >
-                      <div className="w-full h-80 bg-gray-100 flex items-center justify-center overflow-hidden">
-                        <img
-                          src={`images/${triviaPath}/${option.image}.jpg`}
-                          alt={option.text}
-                          className="w-full h-full object-cover object-top"
-                        />
-                      </div>
-                      <div className="pt-4 pb-2 px-4 bg-white w-full">
-                        <span className="text-xl font-medium text-blue-600">
-                          {option.text}
-                        </span>
-                      </div>
-                    </button>
-                  ) : (
-                    // Original layout when no image is present
-                    <div className="flex flex-col items-center justify-center w-full">
-                      <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg">
-                        <span className="text-6xl font-bold text-shadow">
-                          {option.key}
-                        </span>
-                      </div>
+                  {/* ... button with letter and option text ... */}
+                  <motion.div
+                    key={option.key}
+                    variants={answerVariants}
+                    initial="initial"
+                    animate={
+                      selectedAnswer === option.key ? answerState : "initial"
+                    }
+                    className="relative flex items-center justify-start my-2"
+                  >
+                    {/* Conditional rendering based on the presence of an image */}
+                    {option.image ? (
+                      // Option layout when an image is present
                       <button
                         onClick={() =>
                           !isCheckingAnswer && handleAnswerSelect(option.key)
                         }
-                        className="pl-36 pr-4 py-3 w-full h-28 text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
+                        className="flex flex-col items-center justify-center w-full rounded-lg overflow-hidden transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
+                        style={{ minHeight: "10rem" }} // Adjust minHeight to fit content
                       >
-                        {option.text}
+                        <div className="w-full h-80 bg-gray-100 flex items-center justify-center overflow-hidden">
+                          <img
+                            src={`images/${triviaPath}/${option.image}.jpg`}
+                            alt={option.text}
+                            className="w-full h-full object-cover object-top"
+                          />
+                        </div>
+                        <div className="pt-4 pb-2 px-4 bg-white w-full">
+                          <span className="text-xl font-medium text-blue-600">
+                            {option.text}
+                          </span>
+                        </div>
                       </button>
-                    </div>
-                  )}
+                    ) : (
+                      // Original layout when no image is present
+                      <div className="flex flex-col items-center justify-center w-full">
+                        <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg">
+                          <span className="text-6xl font-bold text-shadow">
+                            {option.key}
+                          </span>
+                        </div>
+                        <button
+                          onClick={() =>
+                            !isCheckingAnswer && handleAnswerSelect(option.key)
+                          }
+                          className="pl-36 pr-4 py-3 w-full h-28 text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
+                        >
+                          {option.text}
+                        </button>
+                      </div>
+                    )}
 
-                  {option.image && (
-                    <div className="absolute -top-6 left-0 z-10 text-white bg-blue-600 rounded-full w-16 h-16 flex items-center justify-center border-4 border-white shadow-lg">
-                      <span className="text-3xl font-bold">{option.key}</span>
-                    </div>
-                  )}
+                    {option.image && (
+                      <div className="absolute -top-6 left-0 z-10 text-white bg-blue-600 rounded-full w-16 h-16 flex items-center justify-center border-4 border-white shadow-lg">
+                        <span className="text-3xl font-bold">{option.key}</span>
+                      </div>
+                    )}
+                  </motion.div>
                 </motion.div>
-              </motion.div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
           <ProgressBar
             index={currentQuestionIndex}
             isProgressBarAnimating={isProgressBarAnimating}
