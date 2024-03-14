@@ -1,0 +1,319 @@
+{
+    "data": {
+        "file_path": "6_emojis_cities"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "audio_question": "1_question.mp3",
+            "emoji": "🇺🇸🗽🏙️🚕",
+            "answer": "Nueva York",
+            "audio_answer": "1_answer.mp3",
+            "image_answer": "nuevayork"
+        },
+        {
+            "id": 2,
+            "audio_question": "4_question.mp3",
+            "emoji": "🇫🇷🗼🥐🎨",
+            "answer": "París",
+            "audio_answer": "2_answer.mp3",
+            "image_answer": "paris"
+        },
+        {
+            "id": 3,
+            "audio_question": "9_question.mp3",
+            "emoji": "🇯🇵🗼🍣🚄",
+            "answer": "Tokio",
+            "audio_answer": "3_answer.mp3",
+            "image_answer": "tokio"
+        },
+        {
+            "id": 4,
+            "audio_question": "10_question.mp3",
+            "emoji": "🇪🇬🕌🐫🏜️",
+            "answer": "El Cairo",
+            "audio_answer": "4_answer.mp3",
+            "image_answer": "elcairo"
+        },
+        {
+            "id": 5,
+            "audio_question": "8_question.mp3",
+            "emoji": "🇧🇷🏖️🎉",
+            "answer": "Río de Janeiro",
+            "audio_answer": "5_answer.mp3",
+            "image_answer": "riodejaneiro"
+        },
+        {
+            "id": 6,
+            "audio_question": "2_question.mp3",
+            "emoji": "🇬🇧💂🎡🌉🍵",
+            "answer": "Londres",
+            "audio_answer": "6_answer.mp3",
+            "image_answer": "londres"
+        },
+        {
+            "id": 7,
+            "audio_question": "7_question.mp3",
+            "emoji": "🇦🇺🌉🏄‍♂️🦘",
+            "answer": "Sídney",
+            "audio_answer": "7_answer.mp3",
+            "image_answer": "sidney"
+        },
+        {
+            "id": 8,
+            "audio_question": "3_question.mp3",
+            "emoji": "🇮🇹🛶🎭🏛️",
+            "answer": "Venecia",
+            "audio_answer": "8_answer.mp3",
+            "image_answer": "venecia"
+        },
+        {
+            "id": 9,
+            "audio_question": "6_question.mp3",
+            "emoji": "🇳🇱🚲🌷🏠",
+            "answer": "Ámsterdam",
+            "audio_answer": "9_answer.mp3",
+            "image_answer": "amsterdam"
+        },
+        {
+            "id": 10,
+            "audio_question": "5_question.mp3",
+            "emoji": "🇪🇸⛪🏖️⚽",
+            "answer": "Barcelona",
+            "audio_answer": "10_answer.mp3",
+            "image_answer": "barcelona"
+        },
+        {
+            "id": 11,
+            "audio_question": "9_question.mp3",
+            "emoji": "🇩🇪🍺🥨🐻🏰",
+            "answer": "Berlín",
+            "audio_answer": "11_answer.mp3",
+            "image_answer": "berlin"
+        },
+        {
+            "id": 12,
+            "audio_question": "2_question.mp3",
+            "emoji": "🇷🇺⛪🌨️",
+            "answer": "Moscú",
+            "audio_answer": "12_answer.mp3",
+            "image_answer": "moscu"
+        },
+        {
+            "id": 13,
+            "audio_question": "8_question.mp3",
+            "emoji": "🇦🇪🏙️🌴🛥️",
+            "answer": "Dubái",
+            "audio_answer": "13_answer.mp3",
+            "image_answer": "dubai"
+        },
+        {
+            "id": 14,
+            "audio_question": "3_question.mp3",
+            "emoji": "🇿🇦🏔️🌊🍇",
+            "answer": "Ciudad del Cabo",
+            "audio_answer": "14_answer.mp3",
+            "image_answer": "ciudaddelcabo"
+        },
+        {
+            "id": 15,
+            "audio_question": "7_question.mp3",
+            "emoji": "🇮🇳🕌🚂",
+            "answer": "Mumbai",
+            "audio_answer": "15_answer.mp3",
+            "image_answer": "mumbai"
+        },
+        {
+            "id": 16,
+            "audio_question": "4_question.mp3",
+            "emoji": "🇹🇭🕌🚣‍♂️🌶️",
+            "answer": "Bangkok",
+            "audio_answer": "16_answer.mp3",
+            "image_answer": "bangkok"
+        },
+        {
+            "id": 17,
+            "audio_question": "6_question.mp3",
+            "emoji": "🇲🇽🌮🏰🌆",
+            "answer": "Ciudad de México",
+            "audio_answer": "17_answer.mp3",
+            "image_answer": "ciudaddemexico"
+        },
+        {
+            "id": 18,
+            "audio_question": "5_question.mp3",
+            "emoji": "🇮🇹🍕⛲🏛️",
+            "answer": "Roma",
+            "audio_answer": "18_answer.mp3",
+            "image_answer": "roma"
+        },
+        {
+            "id": 19,
+            "audio_question": "1_question.mp3",
+            "emoji": "🇹🇷🕌🌉🍢",
+            "answer": "Estambul",
+            "audio_answer": "19_answer.mp3",
+            "image_answer": "estambul"
+        },
+        {
+            "id": 20,
+            "audio_question": "10_question.mp3",
+            "emoji": "🇺🇸🎰🎲💒",
+            "answer": "Las Vegas",
+            "audio_answer": "20_answer.mp3",
+            "image_answer": "lasvegas"
+        },
+        {
+            "id": 21,
+            "audio_question": "6_question.mp3",
+            "emoji": "🇦🇷🥩🕺💃",
+            "answer": "Buenos Aires",
+            "audio_answer": "21_answer.mp3",
+            "image_answer": "buenosaires"
+        },
+        {
+            "id": 22,
+            "audio_question": "5_question.mp3",
+            "emoji": "🇯🇵🏯🍁🎎",
+            "answer": "Kioto",
+            "audio_answer": "22_answer.mp3",
+            "image_answer": "kioto"
+        },
+        {
+            "id": 23,
+            "audio_question": "4_question.mp3",
+            "emoji": "🇪🇸🐂🍷🏰",
+            "answer": "Madrid",
+            "audio_answer": "23_answer.mp3",
+            "image_answer": "madrid"
+        },
+        {
+            "id": 24,
+            "audio_question": "7_question.mp3",
+            "emoji": "🇦🇹🎼🏰☕",
+            "answer": "Viena",
+            "audio_answer": "24_answer.mp3",
+            "image_answer": "viena"
+        },
+        {
+            "id": 25,
+            "audio_question": "3_question.mp3",
+            "emoji": "🇨🇿🏰🍺⏰",
+            "answer": "Praga",
+            "audio_answer": "25_answer.mp3",
+            "image_answer": "praga"
+        },
+        {
+            "id": 26,
+            "audio_question": "8_question.mp3",
+            "emoji": "🇮🇪🍻🍀🏰",
+            "answer": "Dublín",
+            "audio_answer": "26_answer.mp3",
+            "image_answer": "dublín"
+        },
+        {
+            "id": 27,
+            "audio_question": "9_question.mp3",
+            "emoji": "🇲🇦🕌🌴🛍️",
+            "answer": "Marrakech",
+            "audio_answer": "27_answer.mp3",
+            "image_answer": "marrakech"
+        },
+        {
+            "id": 28,
+            "audio_question": "2_question.mp3",
+            "emoji": "🇵🇹🚋🎶🌉",
+            "answer": "Lisboa",
+            "audio_answer": "28_answer.mp3",
+            "image_answer": "lisboa"
+        },
+        {
+            "id": 29,
+            "audio_question": "10_question.mp3",
+            "emoji": "🇨🇺🚬🎶🇨🇺",
+            "answer": "La Habana",
+            "audio_answer": "29_answer.mp3",
+            "image_answer": "lahabana"
+        },
+        {
+            "id": 30,
+            "audio_question": "1_question.mp3",
+            "emoji": "🇺🇸🌉🌁🚃",
+            "answer": "San Francisco",
+            "audio_answer": "30_answer.mp3",
+            "image_answer": "sanfrancisco"
+        },
+        {
+            "id": 31,
+            "audio_question": "4_question.mp3",
+            "emoji": "🇩🇰🚲🏰🌊",
+            "answer": "Copenhague",
+            "audio_answer": "31_answer.mp3",
+            "image_answer": "copenhague"
+        },
+        {
+            "id": 32,
+            "audio_question": "3_question.mp3",
+            "emoji": "🇲🇾🏙️🕌🌺",
+            "answer": "Kuala Lumpur",
+            "audio_answer": "32_answer.mp3",
+            "image_answer": "kualalumpur"
+        },
+        {
+            "id": 33,
+            "audio_question": "8_question.mp3",
+            "emoji": "🇬🇷🏛️🍇🌞",
+            "answer": "Atenas",
+            "audio_answer": "33_answer.mp3",
+            "image_answer": "atenas"
+        },
+        {
+            "id": 34,
+            "audio_question": "7_question.mp3",
+            "emoji": "🇳🇴🚢🎿🐟",
+            "answer": "Oslo",
+            "audio_answer": "34_answer.mp3",
+            "image_answer": "oslo"
+        },
+        {
+            "id": 35,
+            "audio_question": "6_question.mp3",
+            "emoji": "🇭🇺🌉♨️🏰",
+            "answer": "Budapest",
+            "audio_answer": "35_answer.mp3",
+            "image_answer": "budapest"
+        },
+        {
+            "id": 36,
+            "audio_question": "5_question.mp3",
+            "emoji": "🇨🇦❄️🍁🏒",
+            "answer": "Montreal",
+            "audio_answer": "36_answer.mp3",
+            "image_answer": "montreal"
+        },
+        {
+            "id": 37,
+            "audio_question": "10_question.mp3",
+            "emoji": "🇸🇪🚢🏰🌞",
+            "answer": "Estocolmo",
+            "audio_answer": "37_answer.mp3",
+            "image_answer": "estocolmo"
+        },
+        {
+            "id": 38,
+            "audio_question": "9_question.mp3",
+            "emoji": "🇫🇮❄️🌲🚢",
+            "answer": "Helsinki",
+            "audio_answer": "38_answer.mp3",
+            "image_answer": "helsinki"
+        },
+        {
+            "id": 39,
+            "audio_question": "2_question.mp3",
+            "emoji": "🇨🇭⌚🏔️🍫",
+            "answer": "Zúrich",
+            "audio_answer": "39_answer.mp3",
+            "image_answer": "zurich"
+        }
+    ]
+}
