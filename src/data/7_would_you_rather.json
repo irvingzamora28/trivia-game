@@ -1,0 +1,432 @@
+{
+    "data": {
+        "file_path": "7_would_you_rather"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Preferirías poder volar como un superhéroe o nadar como un delfín?",
+            "audio_question": "1_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Poder Volar Como Un Superhéroe",
+                    "image": "poder_volar_como_un_superhéroe"
+                },
+                {
+                    "key": "2",
+                    "text": "Nadar Como Un Delfín",
+                    "image": "nadar_como_un_delfín"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "¿Te gustaría hablar con los animales o hacer crecer plantas con magia?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Hablar Con Los Animales",
+                    "image": "hablar_con_los_animales"
+                },
+                {
+                    "key": "2",
+                    "text": "Hacer Crecer Plantas Con Magia",
+                    "image": "hacer_crecer_plantas_con_magia"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "¿Querrías explorar el fondo del mar o caminar en la Luna?",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Explorar El Fondo Del Mar",
+                    "image": "explorar_el_fondo_del_mar"
+                },
+                {
+                    "key": "2",
+                    "text": "Caminar En La Luna",
+                    "image": "caminar_en_la_luna"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "¿Prefieres pintar paisajes que cobran vida o escribir historias que se hacen realidad?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Pintar Paisajes Que Cobran Vida",
+                    "image": "pintar_paisajes_que_cobran_vida"
+                },
+                {
+                    "key": "2",
+                    "text": "Escribir Historias Que Se Hacen Realidad",
+                    "image": "escribir_historias_que_se_hacen_realidad"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "¿Te gustaría tener un dragón o un unicornio como mascota?",
+            "audio_question": "5_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener Un Dragón",
+                    "image": "tener_un_dragón"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Unicornio Como Mascota",
+                    "image": "un_unicornio_como_mascota"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "¿Preferirías que cada comida supiera a tu postre favorito o tener un suministro infinito de tu fruta favorita?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Que Cada Comida Supiera A Tu Postre Favorito",
+                    "image": "que_cada_comida_supiera_a_tu_postre_favorito"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener Un Suministro Infinito De Tu Fruta Favorita",
+                    "image": "tener_un_suministro_infinito_de_tu_fruta_favorita"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "¿Prefieres poder controlar el hielo y la nieve o el fuego y el sol?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Poder Controlar El Hielo Y La Nieve",
+                    "image": "poder_controlar_el_hielo_y_la_nieve"
+                },
+                {
+                    "key": "2",
+                    "text": "El Fuego Y El Sol",
+                    "image": "el_fuego_y_el_sol"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "¿Querrías poder viajar al pasado para ver dinosaurios o al futuro para conocer robots?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Poder Viajar Al Pasado Para Ver Dinosaurios",
+                    "image": "poder_viajar_al_pasado_para_ver_dinosaurios"
+                },
+                {
+                    "key": "2",
+                    "text": "Al Futuro Para Conocer Robots",
+                    "image": "al_futuro_para_conocer_robots"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "¿Te gustaría correr a la velocidad del sonido o saltar tan alto como los edificios?",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Correr A La Velocidad Del Sonido",
+                    "image": "correr_a_la_velocidad_del_sonido"
+                },
+                {
+                    "key": "2",
+                    "text": "Saltar Tan Alto Como Los Edificios",
+                    "image": "saltar_tan_alto_como_los_edificios"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "¿Prefieres poder transformarte en cualquier animal o tener el poder de curarlos?",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Poder Transformarte En Cualquier Animal",
+                    "image": "poder_transformarte_en_cualquier_animal"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener El Poder De Curarlos",
+                    "image": "tener_el_poder_de_curarlos"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "¿Prefieres tener como amigo un zorro astuto o un oso amigable?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener Como Amigo Un Zorro Astuto",
+                    "image": "tener_como_amigo_un_zorro_astuto"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Oso Amigable",
+                    "image": "un_oso_amigable"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "¿Preferirías la habilidad de teletransportarte a cualquier lugar instantáneamente o ser invisible a voluntad?",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Teletransportarte A Cualquier Lugar Instantáneamente",
+                    "image": "teletransportarte_a_cualquier_lugar_instantáneamente"
+                },
+                {
+                    "key": "2",
+                    "text": "Ser Invisible A Voluntad",
+                    "image": "ser_invisible_a_voluntad"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question": "¿Prefieres probar una fruta exótica desconocida o un helado de un sabor nuevo?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Probar Una Fruta Exótica Desconocida",
+                    "image": "probar_una_fruta_exótica_desconocida"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Helado De Un Sabor Nuevo",
+                    "image": "un_helado_de_un_sabor_nuevo"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "question": "¿Construirías una casa en un árbol o un castillo de arena?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Una Casa En Un Árbol",
+                    "image": "una_casa_en_un_árbol"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Castillo De Arena",
+                    "image": "un_castillo_de_arena"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "¿Prefieres aprender a tocar la guitarra o el piano?",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Aprender A Tocar La Guitarra",
+                    "image": "aprender_a_tocar_la_guitarra"
+                },
+                {
+                    "key": "2",
+                    "text": "El Piano",
+                    "image": "el_piano"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question": "¿Inventarías un cuento de hadas o una historia de aventuras espaciales?",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Un Cuento De Hadas",
+                    "image": "un_cuento_de_hadas"
+                },
+                {
+                    "key": "2",
+                    "text": "Una Historia De Aventuras Espaciales",
+                    "image": "una_historia_de_aventuras_espaciales"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question": "¿Prefieres gobernar el reino de los leones o el imperio de las águilas?",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Gobernar El Reino De Los Leones",
+                    "image": "gobernar_el_reino_de_los_leones"
+                },
+                {
+                    "key": "2",
+                    "text": "El Imperio De Las Águilas",
+                    "image": "el_imperio_de_las_águilas"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question": "¿Te gustaría ser un guardián de los pandas o protector de los lobos?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Ser Un Guardián De Los Pandas",
+                    "image": "ser_un_guardián_de_los_pandas"
+                },
+                {
+                    "key": "2",
+                    "text": "Protector De Los Lobos",
+                    "image": "protector_de_los_lobos"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "question": "¿Desenterrarías un Tiranosaurio Rex o un Triceratops?",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Un Tiranosaurio Rex",
+                    "image": "un_tiranosaurio_rex"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Triceratops",
+                    "image": "un_triceratops"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "question": "¿Viajar en alfombra mágica o montar un dragón?",
+            "audio_question": "20_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "En Alfombra Mágica",
+                    "image": "en_alfombra_mágica"
+                },
+                {
+                    "key": "2",
+                    "text": "Montar Un Dragón",
+                    "image": "montar_un_dragón"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "¿Descubrirías los secretos de la cocina italiana o japonesa?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Los Secretos De La Cocina Italiana",
+                    "image": "los_secretos_de_la_cocina_italiana"
+                },
+                {
+                    "key": "2",
+                    "text": "Japonesa",
+                    "image": "japonesa"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question": "¿Tener un robot inteligente o un animal mágico como amigo?",
+            "audio_question": "22_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Un Robot Inteligente",
+                    "image": "un_robot_inteligente"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Animal Mágico Como Amigo",
+                    "image": "un_animal_mágico_como_amigo"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "question": "¿Practicarías surf en el mar o snowboard en la montaña?",
+            "audio_question": "23_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Surf En El Mar",
+                    "image": "surf_en_el_mar"
+                },
+                {
+                    "key": "2",
+                    "text": "Snowboard En La Montaña",
+                    "image": "snowboard_en_la_montaña"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "question": "¿Observarías una lluvia de meteoritos o una aurora boreal?",
+            "audio_question": "24_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Una Lluvia De Meteoritos",
+                    "image": "una_lluvia_de_meteoritos"
+                },
+                {
+                    "key": "2",
+                    "text": "Una Aurora Boreal",
+                    "image": "una_aurora_boreal"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "question": "¿Construirías un castillo en las nubes o una ciudad submarina?",
+            "audio_question": "25_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Un Castillo En Las Nubes",
+                    "image": "un_castillo_en_las_nubes"
+                },
+                {
+                    "key": "2",
+                    "text": "Una Ciudad Submarina",
+                    "image": "una_ciudad_submarina"
+                }
+            ]
+        }
+    ]
+}
