@@ -14,7 +14,6 @@ interface QuizProps {
   triviaQuestions: TriviaQuestion[];
 }
 
-
 const WouldYouRatherQuiz: React.FC<QuizProps> = ({
   triviaPath,
   triviaQuestions,
@@ -29,7 +28,7 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({
   // Directly define the animation variants
   const optionAnimation = {
     hidden: { opacity: 0, y: 50 },
-    visible: (custom:any) => ({
+    visible: (custom: any) => ({
       opacity: 1,
       y: 0,
       transition: { delay: custom * 0.1, duration: 0.5, ease: "easeOut" },
@@ -55,7 +54,7 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({
             />
           )}
           <button
-            className="text-xl mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 h-16"
+            className="button-start-shadow text-xl md:text-2xl lg:text-3xl font-bold mt-4 px-6 py-3 w-full border-white border-2 bg-indigo-700 text-white rounded-full shadow-2xl hover:from-blue-700 hover:to-teal-600 transition-colors duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl"
             onClick={() => handleAnswerSelect(option.key)}
             style={{ minHeight: "64px" }}
           >
@@ -77,7 +76,6 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({
   };
 
   const handleAnswerSelect = (selectedKey: OptionKey, isAutoSelect = false) => {
-
     const currentQuestion = triviaQuestions[currentQuestionIndexRef.current];
 
     const isCorrect = selectedKey === currentQuestion.answer;
@@ -86,7 +84,6 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({
       isCorrect || isAutoSelect ? correctSound : incorrectSound
     );
     feedbackSound.play();
-
 
     // Clear existing timer to prevent double advancement
     if (timerId) {
@@ -158,7 +155,7 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 70 }}
       >
-        <h2 className="text-center text-xl md:text-2xl lg:text-4xl font-bold text-slate-100 button-start-shadow">
+        <h2 className="text-center text-xl md:text-2xl lg:text-5xl font-bold text-slate-100 button-start-shadow">
           {questions[currentQuestionIndex]?.question ?? "No question"}
         </h2>
       </motion.div>
