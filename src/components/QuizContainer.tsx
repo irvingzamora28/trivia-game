@@ -38,28 +38,35 @@ const QuizContainer: React.FC = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen w-screen flex flex-col justify-center items-center"
+      className="min-h-screen w-screen flex flex-col justify-center items-center gap-4"
     >
-      {!quizStarted ? (
-        <StartButton onStart={() => handleStart("quiz")} text="Start Trivia" />
-      ) : (
-        <Quiz
-          triviaPath={trivia.data.file_path}
-          triviaQuestions={trivia.questions as TriviaQuestion[]}
-        />
-      )}
-
-      {!wyrStarted ? (
-        <StartButton
-          onStart={() => handleStart("wyr")}
-          text="Start Would You Rather"
-        />
-      ) : (
-        <WouldYouRatherQuiz
-          triviaPath={trivia.data.file_path}
-          triviaQuestions={trivia.questions as TriviaQuestion[]}
-        />
-      )}
+      <div className="flex flex-col items-center space-y-4">
+        {" "}
+        {/* Container with spacing */}
+        {!quizStarted ? (
+          <StartButton
+            onStart={() => handleStart("quiz")}
+            text="Start Trivia"
+          />
+        ) : (
+          <Quiz
+            triviaPath={trivia.data.file_path}
+            triviaQuestions={trivia.questions as TriviaQuestion[]}
+          />
+        )}
+        {!wyrStarted ? (
+          <StartButton
+            onStart={() => handleStart("wyr")}
+            text="Start Would You Rather"
+            color="lime"
+          />
+        ) : (
+          <WouldYouRatherQuiz
+            triviaPath={trivia.data.file_path}
+            triviaQuestions={trivia.questions as TriviaQuestion[]}
+          />
+        )}
+      </div>
     </motion.div>
   );
 };
