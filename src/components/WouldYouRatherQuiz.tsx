@@ -1,91 +1,70 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { OptionKey, TriviaQuestion } from "../types/trivia";
+import { Option, OptionKey, TriviaQuestion } from "../types/trivia";
 import "../assets/scss/globals.scss";
 import { motion } from "framer-motion";
 import correctSound from "../assets/audio/correct-short.mp3";
 import incorrectSound from "../assets/audio/incorrect.mp3";
 import ProgressBar from "./ProgressBar";
 import AnswerImage from "./AnswerImage";
+import { Options } from "autoprefixer";
 
 const timeLimit = 5;
-
 interface QuizProps {
   triviaPath: string;
   triviaQuestions: TriviaQuestion[];
 }
 
-const imageFloatVariants = {
-  animate: {
-    x: ["-2%", "2%"],
-    rotate: [-2, 2],
-    transition: {
-      x: {
-        yoyo: Infinity,
-        duration: 4,
-        ease: "easeInOut",
-      },
-      rotate: {
-        yoyo: Infinity,
-        duration: 4,
-        repeat: Infinity,
-        repeatType: "reverse" as "reverse" | "loop" | "mirror" | undefined,
-        ease: "easeInOut",
-      },
-    },
-  },
-};
 
-const answerVariants = {
-  initial: {
-    scale: 1,
-    opacity: 1,
-  },
-  correct: {
-    scale: 1.25,
-    opacity: 1,
-    x: 0,
-    y: 100,
-    transition: {
-      scale: {
-        duration: 0.5,
-        delay: 0.5,
-      },
-      position: {
-        duration: 0.5,
-        delay: 0.5,
-      },
-    },
-  },
-  incorrect: {
-    opacity: 0,
-    transition: {
-      duration: 0.5,
-    },
-  },
-  floating: {
-    y: ["-5%", "0%", "-5%"],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      repeatType: "reverse" as "reverse" | "loop" | "mirror" | undefined,
-      ease: "easeInOut",
-    },
-  },
-};
-
-const WouldYouRatherQuiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
+const WouldYouRatherQuiz: React.FC<QuizProps> = ({
+  triviaPath,
+  triviaQuestions,
+}) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [questions, setQuestions] = useState<TriviaQuestion[]>(triviaQuestions);
-  const [selectedAnswer, setSelectedAnswer] = useState<OptionKey | null>(null);
-  const [isCheckingAnswer, setIsCheckingAnswer] = useState<boolean>(false);
-  const [answerState, setAnswerState] = useState<
-    "initial" | "correct" | "incorrect"
-  >("initial");
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
   const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
   const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
   const currentQuestionIndexRef = useRef(currentQuestionIndex);
-  const [showAnswerImage, setShowAnswerImage] = useState<boolean>(false);
+
+  // Directly define the animation variants
+  const optionAnimation = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (custom:any) => ({
+      opacity: 1,
+      y: 0,
+      transition: { delay: custom * 0.1, duration: 0.5, ease: "easeOut" },
+    }),
+  };
+
+  const renderOptions = (options: Option[] | [], questionIndex: number) => {
+    return options.map((option, index) => (
+      <motion.div
+        key={`${questionIndex}-${option.key}`}
+        custom={index}
+        variants={optionAnimation}
+        initial="hidden"
+        animate="visible"
+        className="mx-2 flex flex-col items-center"
+      >
+        <div className="text-center w-4/6">
+          {option.image && (
+            <img
+              src={`/images/${triviaPath}/${option.image}`}
+              alt={option.text}
+              className="mb-4 w-screen object-cover border-white border-4 rounded-lg shadow-2xl"
+            />
+          )}
+          <button
+            className="text-xl mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 h-16"
+            onClick={() => handleAnswerSelect(option.key)}
+            style={{ minHeight: "64px" }}
+          >
+            {option.text}
+          </button>
+        </div>
+      </motion.div>
+    ));
+  };
 
   useEffect(() => {
     currentQuestionIndexRef.current = currentQuestionIndex;
@@ -98,8 +77,6 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }
   };
 
   const handleAnswerSelect = (selectedKey: OptionKey, isAutoSelect = false) => {
-    setSelectedAnswer(selectedKey);
-    setIsCheckingAnswer(true);
 
     const currentQuestion = triviaQuestions[currentQuestionIndexRef.current];
 
@@ -110,8 +87,6 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }
     );
     feedbackSound.play();
 
-    setShowAnswerImage(true);
-    setAnswerState(isCorrect ? "correct" : "incorrect");
 
     // Clear existing timer to prevent double advancement
     if (timerId) {
@@ -136,10 +111,6 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }
   };
 
   const goToNextQuestion = useCallback(() => {
-    setIsCheckingAnswer(false);
-    setSelectedAnswer(null);
-    setAnswerState("initial");
-    setShowAnswerImage(false);
     setCurrentQuestionIndex((prev) =>
       prev + 1 === triviaQuestions.length ? 0 : prev + 1
     );
@@ -178,51 +149,28 @@ const WouldYouRatherQuiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }
       };
     }
   }, [currentQuestionIndex]);
-        return (
-    <div className="flex flex-col h-screen">
+  return (
+    <div className="flex flex-col h-screen w-4/5">
       <motion.div
-        className="flex-1 flex justify-center items-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        key={currentQuestionIndex}
+        className="flex-1 flex justify-center items-center bg-indigo-600 rounded-lg shadow-2xl border-4 border-indigo-700 my-10 w-full self-center p-8"
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, type: "spring", stiffness: 70 }}
       >
-        <h2 className="text-center text-2xl">
+        <h2 className="text-center text-xl md:text-2xl lg:text-4xl font-bold text-slate-100 button-start-shadow">
           {questions[currentQuestionIndex]?.question ?? "No question"}
         </h2>
       </motion.div>
 
-      <motion.div
-        className="flex-1 flex"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <div className="flex-1 flex justify-center items-center border-r-2">
-          <button
-            className="text-xl"
-            onClick={() =>
-              handleAnswerSelect(
-                questions[currentQuestionIndex]?.options?.[0].key ?? "A"
-              )
-            }
-          >
-            {questions[currentQuestionIndex]?.options?.[0].text ?? "No text"}
-          </button>
+      <div className="flex-grow flex justify-center items-center">
+        <div className="flex justify-center items-center">
+          {renderOptions(
+            triviaQuestions[currentQuestionIndex].options ?? [],
+            currentQuestionIndex
+          )}
         </div>
-
-        <div className="flex-1 flex justify-center items-center">
-          <button
-            className="text-xl"
-            onClick={() =>
-              handleAnswerSelect(
-                questions[currentQuestionIndex]?.options?.[1].key ?? "B"
-              )
-            }
-          >
-            {questions[currentQuestionIndex]?.options?.[1].text ?? "No text"}
-          </button>
-        </div>
-      </motion.div>
+      </div>
 
       <motion.div
         className="flex-1 flex justify-center items-center"
