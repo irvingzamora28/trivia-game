@@ -38,7 +38,7 @@ const QuizContainer: React.FC = () => {
       exit={{ opacity: 0 }}
       className="min-h-screen w-screen flex flex-col justify-center items-center gap-4"
     >
-      <div className="flex flex-col items-center space-y-4">
+      <div className="flex flex-col items-center space-y-4 w-full">
         {!quizStarted && !wyrStarted && ( // Only show buttons if neither quiz has started
           <>
             <StartButton onStart={() => handleStart("quiz")} text="Start Trivia" />
