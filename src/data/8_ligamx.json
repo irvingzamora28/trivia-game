@@ -1,0 +1,1291 @@
+{
+    "data": {
+        "file_path": "8_ligamx"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿En qué año se fundó el Club Deportivo Guadalajara, mejor conocido como Chivas?",
+            "audio_question": "1_question.mp3",
+            "image_question": "club_deportivo_guadalajara_foundation",
+            "image_search_term": "Club Deportivo Guadalajara foundation",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1906"
+                },
+                {
+                    "key": "B",
+                    "text": "1916"
+                },
+                {
+                    "key": "C",
+                    "text": "1926"
+                },
+                {
+                    "key": "D",
+                    "text": "1948"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál es el estadio más grande de México?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estadio Azteca",
+                    "image": "estadio_azteca",
+                    "image_search_term": "Estadio Azteca"
+                },
+                {
+                    "key": "B",
+                    "text": "Estadio BBVA",
+                    "image": "estadio_bbva",
+                    "image_search_term": "Estadio BBVA"
+                },
+                {
+                    "key": "C",
+                    "text": "Estadio Universitario",
+                    "image": "estadio_universitario",
+                    "image_search_term": "Estadio Universitario"
+                },
+                {
+                    "key": "D",
+                    "text": "Estadio Jalisco",
+                    "image": "estadio_jalisco",
+                    "image_search_term": "Estadio Jalisco"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál equipo ha ganado más títulos de liga en México?",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Club América",
+                    "image": "club_america_trophies",
+                    "image_search_term": "Club América ligamx"
+                },
+                {
+                    "key": "B",
+                    "text": "CD Guadalajara",
+                    "image": "cd_guadalajara_trophies",
+                    "image_search_term": "CD Guadalajara ligamx"
+                },
+                {
+                    "key": "C",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul_trophies",
+                    "image_search_term": "Cruz Azul ligamx"
+                },
+                {
+                    "key": "D",
+                    "text": "Toluca",
+                    "image": "toluca_trophies",
+                    "image_search_term": "Toluca ligamx"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Qué jugador ha ganado más títulos de liga con un solo equipo en la Liga MX?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Antonio Carbajal",
+                    "image": "antonio_carbajal",
+                    "image_search_term": "futbolista Antonio Carbajal"
+                },
+                {
+                    "key": "B",
+                    "text": "Sabás Ponce",
+                    "image": "sebas_ponce",
+                    "image_search_term": "futbolista Sabás Ponce"
+                },
+                {
+                    "key": "C",
+                    "text": "Benjamín Galindo",
+                    "image": "benjamin_galindo",
+                    "image_search_term": "futbolista Benjamín Galindo"
+                },
+                {
+                    "key": "D",
+                    "text": "Oswaldo Sánchez",
+                    "image": "oswaldo_sanchez",
+                    "image_search_term": "futbolista Oswaldo Sánchez"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "¿Quién es conocido como el 'Pentapichichi', uno de los máximos goleadores mexicanos en la historia?",
+            "audio_question": "5_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hugo Sánchez",
+                    "image": "hugo_sanchez",
+                    "image_search_term": "futbolista Hugo Sánchez"
+                },
+                {
+                    "key": "B",
+                    "text": "Cuauhtémoc Blanco",
+                    "image": "cuauhtemoc_blanco",
+                    "image_search_term": "futbolista Cuauhtémoc Blanco"
+                },
+                {
+                    "key": "C",
+                    "text": "Luis Hernández",
+                    "image": "luis_hernandez",
+                    "image_search_term": "futbolista Luis Hernández"
+                },
+                {
+                    "key": "D",
+                    "text": "Jared Borgetti",
+                    "image": "jared_borgetti",
+                    "image_search_term": "futbolista Jared Borgetti"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "¿Cuál es el equipo más antiguo de la Liga MX, aún en activo?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pachuca",
+                    "image": "pachuca",
+                    "image_search_term": "Pachuca FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Club América",
+                    "image": "club_america",
+                    "image_search_term": "Club América FC"
+                },
+                {
+                    "key": "C",
+                    "text": "Guadalajara",
+                    "image": "guadalajara",
+                    "image_search_term": "Guadalajara FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Atlas",
+                    "image": "atlas",
+                    "image_search_term": "Atlas FC"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué equipo mexicano tiene el récord de más partidos consecutivos sin perder?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tigres UANL",
+                    "image": "tigres_uanl",
+                    "image_search_term": "Tigres UANL Futbol Club"
+                },
+                {
+                    "key": "B",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul",
+                    "image_search_term": "Cruz Azul Futbol Club"
+                },
+                {
+                    "key": "C",
+                    "text": "León",
+                    "image": "leon",
+                    "image_search_term": "León Futbol Club"
+                },
+                {
+                    "key": "D",
+                    "text": "Club América",
+                    "image": "club_america",
+                    "image_search_term": "Club América Futbol Club"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "¿Cuál jugador ostenta el récord de más goles en una sola temporada de la Liga MX?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cardozo",
+                    "image": "cardozo",
+                    "image_search_term": "Futbolista Cardozo"
+                },
+                {
+                    "key": "B",
+                    "text": "Borgetti",
+                    "image": "borgetti",
+                    "image_search_term": "Futbolista Borgetti"
+                },
+                {
+                    "key": "C",
+                    "text": "Cabinho",
+                    "image": "cabinho",
+                    "image_search_term": "Futbolista Cabinho"
+                },
+                {
+                    "key": "D",
+                    "text": "Zague",
+                    "image": "zague",
+                    "image_search_term": "Futbolista Zague"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿Qué equipo ganó el primer torneo corto, Invierno 1996, en la historia de la Liga MX?",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul_1996",
+                    "image_search_term": "Club futbol Cruz Azul 1996"
+                },
+                {
+                    "key": "B",
+                    "text": "Club América",
+                    "image": "club_america_1996",
+                    "image_search_term": "Club futbol Club América 1996"
+                },
+                {
+                    "key": "C",
+                    "text": "C.D. Guadalajara",
+                    "image": "cd_guadalajara_1996",
+                    "image_search_term": "Club futbol Guadalajara 1996"
+                },
+                {
+                    "key": "D",
+                    "text": "Santos Laguna",
+                    "image": "santos_laguna_1996",
+                    "image_search_term": "Club futbol Santos Laguna 1996"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Cuál jugador mexicano es conocido por su icónico gol de tijera en un partido contra Bulgaria en el Mundial de 1986?",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hugo Sánchez",
+                    "image": "hugo_sanchez",
+                    "image_search_term": "Hugo Sánchez"
+                },
+                {
+                    "key": "B",
+                    "text": "Manuel Negrete",
+                    "image": "manuel_negrete",
+                    "image_search_term": "Manuel Negrete"
+                },
+                {
+                    "key": "C",
+                    "text": "Jorge Campos",
+                    "image": "jorge_campos",
+                    "image_search_term": "Jorge Campos"
+                },
+                {
+                    "key": "D",
+                    "text": "Luis Hernández",
+                    "image": "luis_hernandez",
+                    "image_search_term": "Luis Hernández"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿Qué equipo de la Liga MX tiene como uno de sus apodos 'Los Tuzos'?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pachuca",
+                    "image": "pachuca_fc",
+                    "image_search_term": "Pachuca FC Los Tuzos"
+                },
+                {
+                    "key": "B",
+                    "text": "Toluca",
+                    "image": "toluca_fc",
+                    "image_search_term": "Toluca FC"
+                },
+                {
+                    "key": "C",
+                    "text": "León",
+                    "image": "leon_fc",
+                    "image_search_term": "León FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Necaxa",
+                    "image": "necaxa_fc",
+                    "image_search_term": "Necaxa FC"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "¿Cuál fue el primer estadio en México en albergar una final de Copa del Mundo FIFA?",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estadio Azteca",
+                    "image": "estadio_azteca",
+                    "image_search_term": "Estadio Azteca Copa del Mundo"
+                },
+                {
+                    "key": "B",
+                    "text": "Estadio Jalisco",
+                    "image": "estadio_jalisco",
+                    "image_search_term": "Estadio Jalisco Copa del Mundo"
+                },
+                {
+                    "key": "C",
+                    "text": "Estadio Cuauhtémoc",
+                    "image": "estadio_cuauhtemoc",
+                    "image_search_term": "Estadio Cuauhtémoc"
+                },
+                {
+                    "key": "D",
+                    "text": "Estadio Universitario",
+                    "image": "estadio_universitario",
+                    "image_search_term": "Estadio Universitario Copa del Mundo"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿Qué equipo fue el primer campeón de la era profesional del fútbol mexicano?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Atlante",
+                    "image": "atlante",
+                    "image_search_term": "Atlante FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Club América",
+                    "image": "club_america",
+                    "image_search_term": "Club América"
+                },
+                {
+                    "key": "C",
+                    "text": "Chivas",
+                    "image": "chivas",
+                    "image_search_term": "Chivas FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Asturias",
+                    "image": "asturias",
+                    "image_search_term": "Asturias FC"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Quién es el técnico más exitoso en la historia de la Liga MX en términos de títulos de liga ganados?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ricardo Ferretti",
+                    "image": "ricardo_ferretti",
+                    "image_search_term": "Director tecnico Ricardo Ferretti"
+                },
+                {
+                    "key": "B",
+                    "text": "Ignacio Trelles",
+                    "image": "ignacio_trelles",
+                    "image_search_term": "Director tecnico Ignacio Trelles"
+                },
+                {
+                    "key": "C",
+                    "text": "Raúl Cárdenas",
+                    "image": "raul_cardenas",
+                    "image_search_term": "Director tecnico Raúl Cárdenas"
+                },
+                {
+                    "key": "D",
+                    "text": "Victor Manuel Vucetich",
+                    "image": "victor_manuel_vucetich",
+                    "image_search_term": "Director tecnico Victor Manuel Vucetich"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿Cuál equipo ostenta el récord de mayor número de goles en una temporada en la Liga MX?",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Toluca",
+                    "image": "toluca",
+                    "image_search_term": "Toluca FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Chivas de Guadalajara",
+                    "image": "cd_guadalajara",
+                    "image_search_term": "Chivas de Guadalajara FC"
+                },
+                {
+                    "key": "C",
+                    "text": "Necaxa",
+                    "image": "necaxa",
+                    "image_search_term": "Necaxa FC"
+                },
+                {
+                    "key": "D",
+                    "text": "America",
+                    "image": "america",
+                    "image_search_term": "Club América FC"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Qué jugador extranjero tiene más partidos jugados en la Liga MX?",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Oswaldo Sánchez",
+                    "image": "oswaldo_sanchez",
+                    "image_search_term": "Futbolista Oswaldo Sánchez"
+                },
+                {
+                    "key": "B",
+                    "text": "Christian Giménez",
+                    "image": "christian_gimenez",
+                    "image_search_term": "Futbolista Christian Giménez"
+                },
+                {
+                    "key": "C",
+                    "text": "Rodrigo Millar",
+                    "image": "rodrigo_millar",
+                    "image_search_term": "Futbolista Rodrigo Millar"
+                },
+                {
+                    "key": "D",
+                    "text": "Antonio Naelson",
+                    "image": "antonio_naelson",
+                    "image_search_term": "Futbolista Antonio Naelson"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿En qué año se jugó el primer Clásico Nacional entre Chivas y América en un torneo de liga?",
+            "audio_question": "17_question.mp3",
+            "image_question": "primer_chivas_america",
+            "image_search_term": "Primer clasico chivas america de la historia",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1944"
+                },
+                {
+                    "key": "B",
+                    "text": "1956"
+                },
+                {
+                    "key": "C",
+                    "text": "1960"
+                },
+                {
+                    "key": "D",
+                    "text": "1970"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "¿Qué equipo rompió una sequía de más de 50 años sin ganar el título de liga antes de coronarse en el Clausura 2013?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Atlas",
+                    "image": "atlas",
+                    "image_search_term": "Atlas FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Toluca",
+                    "image": "toluca",
+                    "image_search_term": "Toluca FC"
+                },
+                {
+                    "key": "C",
+                    "text": "León",
+                    "image": "leon",
+                    "image_search_term": "León FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Puebla",
+                    "image": "puebla",
+                    "image_search_term": "Puebla FC"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "¿Cuál fue el primer equipo mexicano en ganar la Copa de Campeones de la Concacaf?",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul",
+                    "image_search_term": "Cruz Azul"
+                },
+                {
+                    "key": "B",
+                    "text": "Club América",
+                    "image": "club_america",
+                    "image_search_term": "Club América"
+                },
+                {
+                    "key": "C",
+                    "text": "Chivas de Guadalajara",
+                    "image": "cd_guadalajara",
+                    "image_search_term": "CD Guadalajara FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Pachuca",
+                    "image": "pachuca",
+                    "image_search_term": "Pachuca FC"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "¿Qué futbolista es conocido por su apodo 'El Principito'?",
+            "audio_question": "20_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Andrés Guardado",
+                    "image": "andres_guardado",
+                    "image_search_term": "Futbolista Andrés Guardado"
+                },
+                {
+                    "key": "B",
+                    "text": "Giovani dos Santos",
+                    "image": "giovani_dos_santos",
+                    "image_search_term": "Futbolista Giovani dos Santos"
+                },
+                {
+                    "key": "C",
+                    "text": "Carlos Vela",
+                    "image": "carlos_vela",
+                    "image_search_term": "Futbolista Carlos Vela"
+                },
+                {
+                    "key": "D",
+                    "text": "Javier Hernández",
+                    "image": "javier_hernandez",
+                    "image_search_term": "Futbolista Javier Hernández"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "¿Qué equipo de la Liga MX es conocido por tener una gran base de aficionados en los Estados Unidos?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Club América",
+                    "image": "club_america",
+                    "image_search_term": "Club América FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Chivas de Guadalajara",
+                    "image": "cd_guadalajara",
+                    "image_search_term": "Chivas de Guadalajara FC"
+                },
+                {
+                    "key": "C",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul",
+                    "image_search_term": "Cruz Azul FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Pumas UNAM",
+                    "image": "pumas_unam",
+                    "image_search_term": "Pumas UNAM FC"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "¿En qué año se inauguró el Estadio BBVA, casa de los Rayados de Monterrey?",
+            "audio_question": "22_question.mp3",
+            "image_question": "estadio_bbva_monterrey",
+            "image_search_term": "Estadio BBVA Monterrey",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2015"
+                },
+                {
+                    "key": "B",
+                    "text": "2012"
+                },
+                {
+                    "key": "C",
+                    "text": "2017"
+                },
+                {
+                    "key": "D",
+                    "text": "2010"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "¿Cuál jugador es el máximo asistente en la historia de la Liga MX?",
+            "audio_question": "23_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Christian Giménez",
+                    "image": "christian_gimenez",
+                    "image_search_term": "Futbolista Christian Giménez"
+                },
+                {
+                    "key": "B",
+                    "text": "Rodrigo Ruiz",
+                    "image": "rodrigo_ruiz",
+                    "image_search_term": "Futbolista Rodrigo Ruiz"
+                },
+                {
+                    "key": "C",
+                    "text": "Benjamín Galindo",
+                    "image": "benjamin_galindo",
+                    "image_search_term": "Futbolista Benjamín Galindo"
+                },
+                {
+                    "key": "D",
+                    "text": "Mauro Camoranesi",
+                    "image": "mauro_camoranesi",
+                    "image_search_term": "Futbolista Mauro Camoranesi"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "¿Qué estadio fue el primero en México en tener pasto artificial?",
+            "audio_question": "24_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estadio Caliente",
+                    "image": "estadio_caliente",
+                    "image_search_term": "Estadio Caliente"
+                },
+                {
+                    "key": "B",
+                    "text": "Estadio Jalisco",
+                    "image": "estadio_jalisco",
+                    "image_search_term": "Estadio Jalisco"
+                },
+                {
+                    "key": "C",
+                    "text": "Estadio Azteca",
+                    "image": "estadio_azteca",
+                    "image_search_term": "Estadio Azteca"
+                },
+                {
+                    "key": "D",
+                    "text": "Estadio TSM Corona",
+                    "image": "estadio_tsm_corona",
+                    "image_search_term": "Estadio TSM Corona"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "¿Cuál equipo de la Liga MX fue el primero en ser campeón invicto en una temporada?",
+            "audio_question": "25_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "León",
+                    "image": "leon",
+                    "image_search_term": "León FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul",
+                    "image_search_term": "Cruz Azul FC"
+                },
+                {
+                    "key": "C",
+                    "text": "Pumas UNAM",
+                    "image": "pumas_unam",
+                    "image_search_term": "Pumas UNAM FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Toluca",
+                    "image": "toluca",
+                    "image_search_term": "Toluca FC"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "25_answer.mp3"
+        },
+        {
+            "id": 26,
+            "question": "¿Quién fue el primer jugador en ser expulsado en un Clásico Nacional entre Chivas y América?",
+            "audio_question": "26_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Salvador Reyes",
+                    "image": "salvador_reyes",
+                    "image_search_term": "Futbolista Salvador Reyes"
+                },
+                {
+                    "key": "B",
+                    "text": "Carlos Hermosillo",
+                    "image": "carlos_hermosillo",
+                    "image_search_term": "Futbolista Carlos Hermosillo"
+                },
+                {
+                    "key": "C",
+                    "text": "Luis García",
+                    "image": "luis_garcia",
+                    "image_search_term": "Futbolista Luis García"
+                },
+                {
+                    "key": "D",
+                    "text": "Zague",
+                    "image": "zague",
+                    "image_search_term": "Futbolista Zague"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "26_answer.mp3"
+        },
+        {
+            "id": 27,
+            "question": "¿Cuál jugador es considerado uno de los mejores porteros en la historia de la Liga MX y es conocido por sus actuaciones con el Club León y el Club América?",
+            "audio_question": "27_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Guillermo Ochoa",
+                    "image": "guillermo_ochoa",
+                    "image_search_term": "Portero Guillermo Ochoa"
+                },
+                {
+                    "key": "B",
+                    "text": "Jorge Campos",
+                    "image": "jorge_campos",
+                    "image_search_term": "Portero Jorge Campos"
+                },
+                {
+                    "key": "C",
+                    "text": "Antonio Carbajal",
+                    "image": "antonio_carbajal",
+                    "image_search_term": "Portero Antonio Carbajal"
+                },
+                {
+                    "key": "D",
+                    "text": "Oscar Pérez",
+                    "image": "oscar_perez",
+                    "image_search_term": "Portero Oscar Pérez"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "27_answer.mp3"
+        },
+        {
+            "id": 28,
+            "question": "¿En qué año el Club América logró su primer título de Liga MX?",
+            "audio_question": "28_question.mp3",
+            "image_question": "america_titulo",
+            "image_search_term": "Club America FC Liga MX",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1943"
+                },
+                {
+                    "key": "B",
+                    "text": "1966"
+                },
+                {
+                    "key": "C",
+                    "text": "1971"
+                },
+                {
+                    "key": "D",
+                    "text": "1984"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "28_answer.mp3"
+        },
+        {
+            "id": 29,
+            "question": "¿Cuál de los siguientes equipos no ha descendido nunca a la Segunda División?",
+            "audio_question": "29_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pumas UNAM",
+                    "image": "pumas_unam",
+                    "image_search_term": "Pumas UNAM FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Cruz Azul",
+                    "image": "cruz_azul",
+                    "image_search_term": "Cruz Azul FC"
+                },
+                {
+                    "key": "C",
+                    "text": "Club América",
+                    "image": "club_america",
+                    "image_search_term": "Club América FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Toluca",
+                    "image": "toluca",
+                    "image_search_term": "Toluca FC"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "29_answer.mp3"
+        },
+        {
+            "id": 30,
+            "question": "¿Qué futbolista mexicano es conocido por su apodo 'El Matador' y es una leyenda tanto en la Liga MX como en la selección nacional?",
+            "audio_question": "30_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Luis Hernández",
+                    "image": "luis_hernandez",
+                    "image_search_term": "Futbolista Luis Hernández"
+                },
+                {
+                    "key": "B",
+                    "text": "Cuauhtémoc Blanco",
+                    "image": "cuauhtemoc_blanco",
+                    "image_search_term": "Futbolista Cuauhtémoc Blanco"
+                },
+                {
+                    "key": "C",
+                    "text": "Jared Borgetti",
+                    "image": "jared_borgetti",
+                    "image_search_term": "Futbolista Jared Borgetti"
+                },
+                {
+                    "key": "D",
+                    "text": "Hugo Sánchez",
+                    "image": "hugo_sanchez",
+                    "image_search_term": "Futbolista Hugo Sánchez"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "30_answer.mp3"
+        },
+        {
+            "id": 31,
+            "question": "¿Cuál es el Clásico mexicano conocido como 'El Clásico Joven'?",
+            "audio_question": "31_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pumas UNAM vs Club América",
+                    "image": "pumas_unam_vs_club_america",
+                    "image_search_term": "Pumas UNAM vs Club América"
+                },
+                {
+                    "key": "B",
+                    "text": "Tigres UANL vs Monterrey",
+                    "image": "tigres_uanl_vs_monterrey",
+                    "image_search_term": "Tigres UANL vs Monterrey"
+                },
+                {
+                    "key": "C",
+                    "text": "Cruz Azul vs Club América",
+                    "image": "cruz_azul_vs_club_america",
+                    "image_search_term": "Cruz Azul vs Club América"
+                },
+                {
+                    "key": "D",
+                    "text": "Chivas vs Atlas",
+                    "image": "chivas_vs_atlas",
+                    "image_search_term": "Chivas vs Atlas"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "31_answer.mp3"
+        },
+        {
+            "id": 32,
+            "question": "¿Quién fue el primer futbolista mexicano en jugar para un club de la Premier League inglesa?",
+            "audio_question": "32_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Javier Hernández",
+                    "image": "javier_hernandez",
+                    "image_search_term": "Futbolista Javier Hernández"
+                },
+                {
+                    "key": "B",
+                    "text": "Guillermo Ochoa",
+                    "image": "guillermo_ochoa",
+                    "image_search_term": "Futbolista Guillermo Ochoa"
+                },
+                {
+                    "key": "C",
+                    "text": "Carlos Vela",
+                    "image": "carlos_vela",
+                    "image_search_term": "Futbolista Carlos Vela"
+                },
+                {
+                    "key": "D",
+                    "text": "Jared Borgetti",
+                    "image": "jared_borgetti",
+                    "image_search_term": "Futbolista Jared Borgetti"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "32_answer.mp3"
+        },
+        {
+            "id": 33,
+            "question": "¿Cuál es el único equipo de la Liga MX que ha logrado ganar el título de liga inmediatamente después de ascender de la segunda división?",
+            "audio_question": "33_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Necaxa",
+                    "image": "necaxa",
+                    "image_search_term": "Necaxa FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Puebla",
+                    "image": "puebla",
+                    "image_search_term": "Puebla FC"
+                },
+                {
+                    "key": "C",
+                    "text": "León",
+                    "image": "leon",
+                    "image_search_term": "León FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Irapuato",
+                    "image": "irapuato",
+                    "image_search_term": "Irapuato FC"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "33_answer.mp3"
+        },
+        {
+            "id": 34,
+            "question": "¿Qué jugador ha logrado el récord de más títulos de goleo individual en la Liga MX?",
+            "audio_question": "34_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Evanivaldo Castro 'Cabinho'",
+                    "image": "cabinho",
+                    "image_search_term": "Futbolista Cabinho"
+                },
+                {
+                    "key": "B",
+                    "text": "Cardozo",
+                    "image": "cardozo",
+                    "image_search_term": "Futbolista Cardozo"
+                },
+                {
+                    "key": "C",
+                    "text": "Luis García",
+                    "image": "luis_garcia",
+                    "image_search_term": "Futbolista Luis García"
+                },
+                {
+                    "key": "D",
+                    "text": "Jared Borgetti",
+                    "image": "jared_borgetti",
+                    "image_search_term": "Futbolista Jared Borgetti"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "34_answer.mp3"
+        },
+        {
+            "id": 35,
+            "question": "¿En qué año el Toluca FC celebró su centenario?",
+            "audio_question": "35_question.mp3",
+            "image_question": "toluca_centenario",
+            "image_search_term": "Toluca FC celebró su centenario",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2017"
+                },
+                {
+                    "key": "B",
+                    "text": "1998"
+                },
+                {
+                    "key": "C",
+                    "text": "2001"
+                },
+                {
+                    "key": "D",
+                    "text": "2010"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "35_answer.mp3"
+        },
+        {
+            "id": 36,
+            "question": "¿Cuál jugador ha participado en más ediciones de la Copa del Mundo como parte de la selección mexicana?",
+            "audio_question": "36_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rafael Márquez",
+                    "image": "rafael_marquez",
+                    "image_search_term": "Futbolista Rafael Márquez"
+                },
+                {
+                    "key": "B",
+                    "text": "Antonio Carbajal",
+                    "image": "antonio_carbajal",
+                    "image_search_term": "Futbolista Antonio Carbajal"
+                },
+                {
+                    "key": "C",
+                    "text": "Cuauhtémoc Blanco",
+                    "image": "cuauhtemoc_blanco",
+                    "image_search_term": "Futbolista Cuauhtémoc Blanco"
+                },
+                {
+                    "key": "D",
+                    "text": "Javier Hernández",
+                    "image": "javier_hernandez",
+                    "image_search_term": "Futbolista Javier Hernández"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "36_answer.mp3"
+        },
+        {
+            "id": 37,
+            "audio_question": "37_question.mp3",
+            "question": "¿Qué estadio de la Liga MX se encuentra a la mayor altitud sobre el nivel del mar?",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estadio Azteca",
+                    "image": "estadio_azteca",
+                    "image_search_term": "Estadio Azteca"
+                },
+                {
+                    "key": "B",
+                    "text": "Estadio Hidalgo",
+                    "image": "estadio_hidalgo",
+                    "image_search_term": "Estadio Hidalgo"
+                },
+                {
+                    "key": "C",
+                    "text": "Estadio Olímpico Universitario",
+                    "image": "estadio_universitario",
+                    "image_search_term": "Estadio Olímpico Universitario"
+                },
+                {
+                    "key": "D",
+                    "text": "Estadio Nemesio Díez",
+                    "image": "estadio_nemesio_díez",
+                    "image_search_term": "Estadio Nemesio Díez"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "37_answer.mp3"
+        },
+        {
+            "id": 38,
+            "question": "¿En qué año se implementó el primer sistema de videoarbitraje (VAR) en la Liga MX?",
+            "audio_question": "38_question.mp3",
+            "image_question": "var",
+            "image_search_term": "sistema de videoarbitraje (VAR)",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2018"
+                },
+                {
+                    "key": "B",
+                    "text": "2016"
+                },
+                {
+                    "key": "C",
+                    "text": "2019"
+                },
+                {
+                    "key": "D",
+                    "text": "2017"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "38_answer.mp3"
+        },
+        {
+            "id": 39,
+            "question": "¿Qué equipo es conocido por sus aficionados como 'Los Guerreros'?",
+            "audio_question": "39_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Santos Laguna",
+                    "image": "santos_laguna",
+                    "image_search_term": "Santos Laguna FC"
+                },
+                {
+                    "key": "B",
+                    "text": "Tigres UANL",
+                    "image": "tigres_uanl",
+                    "image_search_term": "Tigres UANL FC"
+                },
+                {
+                    "key": "C",
+                    "text": "Atlas",
+                    "image": "atlas",
+                    "image_search_term": "Atlas FC"
+                },
+                {
+                    "key": "D",
+                    "text": "Guadalajara",
+                    "image": "guadalajara",
+                    "image_search_term": "Chivas Guadalajara FC"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "39_answer.mp3"
+        },
+        {
+            "id": 40,
+            "question": "¿Quién fue el primer director técnico extranjero en ganar un título de liga con un equipo mexicano?",
+            "audio_question": "40_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ricardo Ferretti",
+                    "image": "ricardo_ferretti",
+                    "image_search_term": "Director tecnico Ricardo Ferretti"
+                },
+                {
+                    "key": "B",
+                    "text": "Isidoro Díaz",
+                    "image": "isidoro_diaz",
+                    "image_search_term": "Director tecnico Isidoro Díaz"
+                },
+                {
+                    "key": "C",
+                    "text": "Jorge D'Alessandro",
+                    "image": "jorge_dalessandro",
+                    "image_search_term": "Director tecnico Jorge D'Alessandro"
+                },
+                {
+                    "key": "D",
+                    "text": "Donaldo Ross",
+                    "image": "donaldo_ross",
+                    "image_search_term": "Director tecnico Donaldo Ross"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "40_answer.mp3"
+        }
+    ]
+}
