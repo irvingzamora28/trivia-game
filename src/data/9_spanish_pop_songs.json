@@ -1,0 +1,1012 @@
+{
+    "data": {
+        "file_path": "9_spanish_pop_songs"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Cuál es el nombre del dúo español que alcanzó fama mundial con la canción 'La Macarena'?",
+            "audio_question": "1_question.mp3",
+            "image_question": "duo_espanol_La_Macarena",
+            "image_search_term": "Duo español La Macarena",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estopa"
+                },
+                {
+                    "key": "B",
+                    "text": "Los del Río"
+                },
+                {
+                    "key": "C",
+                    "text": "Amaral"
+                },
+                {
+                    "key": "D",
+                    "text": "Pimpinela"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "¿Qué cantante colombiano es conocido por éxitos como 'La bicicleta' y 'Robarte un beso'?",
+            "audio_question": "2_question.mp3",
+            "image_question": "cantante_colombiano_La_bicicleta",
+            "image_search_term": "Cantante colombiano La Bicicleta",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "J Balvin"
+                },
+                {
+                    "key": "B",
+                    "text": "Maluma"
+                },
+                {
+                    "key": "C",
+                    "text": "Carlos Vives"
+                },
+                {
+                    "key": "D",
+                    "text": "Juanes"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "¿Qué grupo español es conocido por su hit 'Bailando'?",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gipsy Kings",
+                    "image": "Gipsy_Kings",
+                    "image_search_term": "Gipsy Kings"
+                },
+                {
+                    "key": "B",
+                    "text": "Enrique Iglesias feat. Gente de Zona y Descemer Bueno",
+                    "image": "Enrique_Iglesias_Bailando",
+                    "image_search_term": "Enrique Iglesias Bailando"
+                },
+                {
+                    "key": "C",
+                    "text": "Jarabe de Palo",
+                    "image": "Jarabe_de_Palo",
+                    "image_search_term": "Jarabe de Palo"
+                },
+                {
+                    "key": "D",
+                    "text": "Hombres G",
+                    "image": "Hombres_G",
+                    "image_search_term": "Hombres G"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Cuál es el nombre de la cantante española que popularizó la canción 'Malamente'?",
+            "audio_question": "4_question.mp3",
+            "image_question": "cantante_espanola_Malamente",
+            "image_search_term": "Cantante española Malamente",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Rosalía"
+                },
+                {
+                    "key": "B",
+                    "text": "Lola Índigo"
+                },
+                {
+                    "key": "C",
+                    "text": "Aitana"
+                },
+                {
+                    "key": "D",
+                    "text": "Nathy Peluso"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "¿Qué artista puertorriqueño es reconocido por el éxito 'Despacito'?",
+            "audio_question": "5_question.mp3",
+            "image_question": "artista_puertorriqueno_Despacito",
+            "image_search_term": "Artista puertorriqueño Despacito",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ricky Martin"
+                },
+                {
+                    "key": "B",
+                    "text": "Luis Fonsi"
+                },
+                {
+                    "key": "C",
+                    "text": "Daddy Yankee"
+                },
+                {
+                    "key": "D",
+                    "text": "Bad Bunny"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "¿Quién canta 'Me Rehúso', un éxito que se popularizó en varios países?",
+            "audio_question": "6_question.mp3",
+            "image_question": "cantante_Me_Rehuso",
+            "image_search_term": "Cantante Me Rehuso",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maluma"
+                },
+                {
+                    "key": "B",
+                    "text": "Danny Ocean"
+                },
+                {
+                    "key": "C",
+                    "text": "J Balvin"
+                },
+                {
+                    "key": "D",
+                    "text": "Nicky Jam"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué grupo mexicano es famoso por la canción 'Clavado en un bar'?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maná",
+                    "image": "Mana",
+                    "image_search_term": "Maná"
+                },
+                {
+                    "key": "B",
+                    "text": "Reik",
+                    "image": "Reik",
+                    "image_search_term": "Reik"
+                },
+                {
+                    "key": "C",
+                    "text": "Camila",
+                    "image": "Camila",
+                    "image_search_term": "Camila"
+                },
+                {
+                    "key": "D",
+                    "text": "Café Tacvba",
+                    "image": "Cafe_Tacvba",
+                    "image_search_term": "Café Tacvba"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué cantante mexicana es conocida por el hit 'Amor a la mexicana'?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Paulina Rubio",
+                    "image": "paulina_rubio",
+                    "image_search_term": "Paulina Rubio"
+                },
+                {
+                    "key": "B",
+                    "text": "Thalía",
+                    "image": "thalía",
+                    "image_search_term": "Thalía"
+                },
+                {
+                    "key": "C",
+                    "text": "Gloria Trevi",
+                    "image": "gloria_trevi",
+                    "image_search_term": "Gloria Trevi"
+                },
+                {
+                    "key": "D",
+                    "text": "Alejandra Guzmán",
+                    "image": "alejandra_guzmán",
+                    "image_search_term": "Alejandra Guzmán"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿Cuál es el título de la canción de Enrique Iglesias que empieza con 'Si tú te vas, te llevarás mi corazón'?",
+            "audio_question": "9_question.mp3",
+            "image_question": "Enrique_Iglesias_cancion_corazon",
+            "image_search_term": "Enrique Iglesias canción corazón",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Heroe"
+                },
+                {
+                    "key": "B",
+                    "text": "Bailamos"
+                },
+                {
+                    "key": "C",
+                    "text": "Si tú te vas"
+                },
+                {
+                    "key": "D",
+                    "text": "Escapar"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Cuál es el nombre de la banda argentina que popularizó la canción 'De música ligera'?",
+            "audio_question": "10_question.mp3",
+            "image_question": "banda_argentina_De_musica_ligera",
+            "image_search_term": "Banda argentina De música ligera",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Soda Stereo"
+                },
+                {
+                    "key": "B",
+                    "text": "Babasónicos"
+                },
+                {
+                    "key": "C",
+                    "text": "Los Auténticos Decadentes"
+                },
+                {
+                    "key": "D",
+                    "text": "La Renga"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿Qué cantante es conocido por el éxito internacional 'Livin' la Vida Loca'?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Enrique Iglesias",
+                    "image": "Enrique_Iglesias",
+                    "image_search_term": "Enrique Iglesias"
+                },
+                {
+                    "key": "B",
+                    "text": "Ricky Martin",
+                    "image": "Ricky_Martin",
+                    "image_search_term": "Ricky Martin"
+                },
+                {
+                    "key": "C",
+                    "text": "Marc Anthony",
+                    "image": "Marc_Anthony",
+                    "image_search_term": "Marc Anthony"
+                },
+                {
+                    "key": "D",
+                    "text": "Luis Miguel",
+                    "image": "Luis_Miguel",
+                    "image_search_term": "Luis Miguel"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "¿Quién interpreta la canción 'Color Esperanza', un himno de optimismo y esperanza?",
+            "audio_question": "12_question.mp3",
+            "image_question": "interprete_Color_Esperanza",
+            "image_search_term": "Intérprete Color Esperanza",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Diego Torres"
+                },
+                {
+                    "key": "B",
+                    "text": "Ricardo Montaner"
+                },
+                {
+                    "key": "C",
+                    "text": "Alejandro Sanz"
+                },
+                {
+                    "key": "D",
+                    "text": "Juanes"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿Cuál es el nombre del grupo español que lanzó la canción 'La Lola'?",
+            "audio_question": "13_question.mp3",
+            "image_question": "grupo_espanol_La_Lola",
+            "image_search_term": "Grupo español La Lola",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estopa"
+                },
+                {
+                    "key": "B",
+                    "text": "Café Quijano"
+                },
+                {
+                    "key": "C",
+                    "text": "El Canto del Loco"
+                },
+                {
+                    "key": "D",
+                    "text": "Jarabe de Palo"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Qué cantante española alcanzó éxito internacional con la canción 'Ya no quiero ná'?",
+            "audio_question": "14_question.mp3",
+            "image_question": "cantante_espanola_Ya_no_quiero_na",
+            "image_search_term": "Cantante española Ya no quiero ná",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Lola Índigo"
+                },
+                {
+                    "key": "B",
+                    "text": "Rosalía"
+                },
+                {
+                    "key": "C",
+                    "text": "Nathy Peluso"
+                },
+                {
+                    "key": "D",
+                    "text": "Aitana"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿Cuál es el nombre del cantante colombiano que interpreta 'Felices los 4'?",
+            "audio_question": "15_question.mp3",
+            "image_question": "cantante_colombiano_Felices_los_4",
+            "image_search_term": "Cantante colombiano Felices los 4",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maluma"
+                },
+                {
+                    "key": "B",
+                    "text": "J Balvin"
+                },
+                {
+                    "key": "C",
+                    "text": "Carlos Vives"
+                },
+                {
+                    "key": "D",
+                    "text": "Nicky Jam"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Qué grupo español es famoso por 'El Universo Sobre Mí'?",
+            "audio_question": "16_question.mp3",
+            "image_question": "grupo_espanol_El_Universo_Sobre_Mi",
+            "image_search_term": "Grupo español El Universo Sobre Mí",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Oreja de Van Gogh"
+                },
+                {
+                    "key": "B",
+                    "text": "Amaral"
+                },
+                {
+                    "key": "C",
+                    "text": "Dover"
+                },
+                {
+                    "key": "D",
+                    "text": "Mecano"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿Cuál es el título de la canción de Paulina Rubio que se convirtió en un himno de los años 2000?",
+            "audio_question": "17_question.mp3",
+            "image_question": "ni_una_sola_palabra",
+            "image_search_term": "Paulina Rubio Ni Una Sola Palabra",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ni Una Sola Palabra"
+                },
+                {
+                    "key": "B",
+                    "text": "Y Yo Sigo Aquí"
+                },
+                {
+                    "key": "C",
+                    "text": "Don't Say Goodbye"
+                },
+                {
+                    "key": "D",
+                    "text": "Lo Haré Por Ti"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "¿Qué artista es conocido por la canción 'Vivir mi vida'?",
+            "audio_question": "18_question.mp3",
+            "image_question": "artista_Vivir_mi_vida",
+            "image_search_term": "Artista Vivir mi vida",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Enrique Iglesias"
+                },
+                {
+                    "key": "B",
+                    "text": "Ricky Martin"
+                },
+                {
+                    "key": "C",
+                    "text": "Marc Anthony"
+                },
+                {
+                    "key": "D",
+                    "text": "Luis Fonsi"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "¿Quién es la cantante de 'Con Altura', un éxito internacional que fusiona reggaeton con influencias flamencas?",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Shakira",
+                    "image": "Shakira",
+                    "image_search_term": "Shakira"
+                },
+                {
+                    "key": "B",
+                    "text": "Rosalía",
+                    "image": "Rosalia",
+                    "image_search_term": "Rosalía"
+                },
+                {
+                    "key": "C",
+                    "text": "Becky G",
+                    "image": "Becky_G",
+                    "image_search_term": "Becky G"
+                },
+                {
+                    "key": "D",
+                    "text": "Natti Natasha",
+                    "image": "Natti_Natasha",
+                    "image_search_term": "Natti Natasha"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "¿Qué banda mexicana se destaca por la canción 'Eres'?",
+            "audio_question": "20_question.mp3",
+            "image_question": "banda_mexicana_Eres",
+            "image_search_term": "Banda mexicana Eres",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maná"
+                },
+                {
+                    "key": "B",
+                    "text": "Zoé"
+                },
+                {
+                    "key": "C",
+                    "text": "Reik"
+                },
+                {
+                    "key": "D",
+                    "text": "Café Tacvba"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "¿Cuál es el nombre del grupo o cantante colombiano que canta 'La camisa negra'?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Bomba Estéreo",
+                    "image": "Bomba_Estereo",
+                    "image_search_term": "Bomba Estéreo"
+                },
+                {
+                    "key": "B",
+                    "text": "Aterciopelados",
+                    "image": "Aterciopelados",
+                    "image_search_term": "Aterciopelados"
+                },
+                {
+                    "key": "C",
+                    "text": "Juanes",
+                    "image": "Juanes",
+                    "image_search_term": "Juanes"
+                },
+                {
+                    "key": "D",
+                    "text": "Morat",
+                    "image": "Morat",
+                    "image_search_term": "Morat"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "¿Qué cantante argentino es conocido por 'Adiós'?",
+            "audio_question": "22_question.mp3",
+            "image_question": "cantante_argentino_Adios",
+            "image_search_term": "Adiós",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gustavo Cerati"
+                },
+                {
+                    "key": "B",
+                    "text": "Fito Páez"
+                },
+                {
+                    "key": "C",
+                    "text": "Andrés Calamaro"
+                },
+                {
+                    "key": "D",
+                    "text": "Coti"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "¿Qué cantante española se destacó con la canción 'Pienso en tu mirá'?",
+            "audio_question": "23_question.mp3",
+            "image_question": "cantante_espanola_Pienso_en_tu_mira",
+            "image_search_term": "Cantante española Pienso en tu mirá",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Lola Índigo"
+                },
+                {
+                    "key": "B",
+                    "text": "Rosalía"
+                },
+                {
+                    "key": "C",
+                    "text": "Aitana"
+                },
+                {
+                    "key": "D",
+                    "text": "Nathy Peluso"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "¿Qué dúo argentino es famoso por la canción 'Estrella fugaz'?",
+            "audio_question": "24_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dread Mar I",
+                    "image": "Dread_Mar_I",
+                    "image_search_term": "Dread Mar I"
+                },
+                {
+                    "key": "B",
+                    "text": "Airbag",
+                    "image": "Airbag",
+                    "image_search_term": "Banda Airbag"
+                },
+                {
+                    "key": "C",
+                    "text": "Miranda!",
+                    "image": "Miranda",
+                    "image_search_term": "Banda Argentina Miranda!"
+                },
+                {
+                    "key": "D",
+                    "text": "Babasónicos",
+                    "image": "Babasonicos",
+                    "image_search_term": "Babasónicos"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "¿Cuál es el nombre de la banda española que lanzó 'La Flaca'?",
+            "audio_question": "25_question.mp3",
+            "image_question": "banda_espanola_La_Flaca",
+            "image_search_term": "Banda española La Flaca",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estopa"
+                },
+                {
+                    "key": "B",
+                    "text": "Jarabe de Palo"
+                },
+                {
+                    "key": "C",
+                    "text": "El Canto del Loco"
+                },
+                {
+                    "key": "D",
+                    "text": "Pereza"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "25_answer.mp3"
+        },
+        {
+            "id": 26,
+            "question": "¿Qué cantante puertorriqueño se hizo famoso con 'Soy un Desastre'?",
+            "audio_question": "26_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ricky Martin",
+                    "image": "Ricky_Martin",
+                    "image_search_term": "Ricky Martin"
+                },
+                {
+                    "key": "B",
+                    "text": "Marc Anthony",
+                    "image": "Marc_Anthony",
+                    "image_search_term": "Marc Anthony"
+                },
+                {
+                    "key": "C",
+                    "text": "Bad Bunny",
+                    "image": "Bad_Bunny",
+                    "image_search_term": "Bad Bunny"
+                },
+                {
+                    "key": "D",
+                    "text": "Tommy Torres",
+                    "image": "Tommy_Torres",
+                    "image_search_term": "Tommy Torres"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "26_answer.mp3"
+        },
+        {
+            "id": 27,
+            "question": "¿Cuál es el título de la canción de Juanes fue censurada en República Dominicana, debido al doble sentido que contiene?",
+            "audio_question": "27_question.mp3",
+            "image_question": "Juanes_cancion_camisa_negra",
+            "image_search_term": "Juanes canción camisa negra",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "A Dios le Pido"
+                },
+                {
+                    "key": "B",
+                    "text": "La Camisa Negra"
+                },
+                {
+                    "key": "C",
+                    "text": "Volverte a Ver"
+                },
+                {
+                    "key": "D",
+                    "text": "Es Por Ti"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "27_answer.mp3"
+        },
+        {
+            "id": 28,
+            "question": "¿Qué artista venezolano es conocido por el éxito 'Bésame'?",
+            "audio_question": "28_question.mp3",
+            "image_question": "artista_venezolano_Besame",
+            "image_search_term": "Ricardo Montaner",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Carlos Baute"
+                },
+                {
+                    "key": "B",
+                    "text": "Franco de Vita"
+                },
+                {
+                    "key": "C",
+                    "text": "Nacho"
+                },
+                {
+                    "key": "D",
+                    "text": "Ricardo Montaner"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "28_answer.mp3"
+        },
+        {
+            "id": 29,
+            "question": "¿Cuál es el nombre de la cantante uruguaya que popularizó la canción 'Corazón Valiente'?",
+            "audio_question": "29_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Natalia Oreiro",
+                    "image": "Natalia_Oreiro",
+                    "image_search_term": "Natalia Oreiro"
+                },
+                {
+                    "key": "B",
+                    "text": "Julieta Venegas",
+                    "image": "Julieta_Venegas",
+                    "image_search_term": "Julieta Venegas"
+                },
+                {
+                    "key": "C",
+                    "text": "Greeicy",
+                    "image": "Greeicy",
+                    "image_search_term": "Greeicy"
+                },
+                {
+                    "key": "D",
+                    "text": "Shakira",
+                    "image": "Shakira",
+                    "image_search_term": "Shakira"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "29_answer.mp3"
+        },
+        {
+            "id": 30,
+            "question": "¿Qué grupo es conocido por la canción 'Niña Bonita'?",
+            "audio_question": "30_question.mp3",
+            "image_question": "grupo_espanol_Nina_Bonita",
+            "image_search_term": "Chino & Nacho",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Chino & Nacho"
+                },
+                {
+                    "key": "B",
+                    "text": "CNCO"
+                },
+                {
+                    "key": "C",
+                    "text": "Dvicio"
+                },
+                {
+                    "key": "D",
+                    "text": "Morat"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "30_answer.mp3"
+        },
+        {
+            "id": 31,
+            "question": "¿Qué grupo mexicano es conocido por su canción 'Nada es imposible'?",
+            "audio_question": "31_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maná",
+                    "image": "Mana",
+                    "image_search_term": "Maná"
+                },
+                {
+                    "key": "B",
+                    "text": "Zoé",
+                    "image": "Zoe",
+                    "image_search_term": "Zoé"
+                },
+                {
+                    "key": "C",
+                    "text": "Motel",
+                    "image": "Motel",
+                    "image_search_term": "Motel"
+                },
+                {
+                    "key": "D",
+                    "text": "Camila",
+                    "image": "Camila",
+                    "image_search_term": "Grupo Camila"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "31_answer.mp3"
+        },
+        {
+            "id": 32,
+            "question": "¿Quién es el cantante de reggaeton colombiano que lanzó 'Ginza'?",
+            "audio_question": "32_question.mp3",
+            "image_question": "cantante_reggaeton_colombiano_Ginza",
+            "image_search_term": "Cantante reggaeton colombiano Ginza",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Maluma"
+                },
+                {
+                    "key": "B",
+                    "text": "J Balvin"
+                },
+                {
+                    "key": "C",
+                    "text": "Nicky Jam"
+                },
+                {
+                    "key": "D",
+                    "text": "Anuel AA"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "32_answer.mp3"
+        },
+        {
+            "id": 33,
+            "question": "¿Qué cantante dominicano es famoso por 'Bachata en Fukuoka'?",
+            "audio_question": "33_question.mp3",
+            "image_question": "cantante_dominicano_Bachata_en_Fukuoka",
+            "image_search_term": "Juan Luis Guerra",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Juan Luis Guerra"
+                },
+                {
+                    "key": "B",
+                    "text": "Romeo Santos"
+                },
+                {
+                    "key": "C",
+                    "text": "Prince Royce"
+                },
+                {
+                    "key": "D",
+                    "text": "Anthony Santos"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "33_answer.mp3"
+        },
+        {
+            "id": 34,
+            "question": "¿Qué grupo mexicano es famoso por 'Cómo te voy a olvidar'?",
+            "audio_question": "34_question.mp3",
+            "image_question": "grupo_mexicano_Como_te_voy_a_olvidar",
+            "image_search_term": "Grupo mexicano Cómo te voy a olvidar",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Los Ángeles Azules"
+                },
+                {
+                    "key": "B",
+                    "text": "Maná"
+                },
+                {
+                    "key": "C",
+                    "text": "Café Tacvba"
+                },
+                {
+                    "key": "D",
+                    "text": "La Arrolladora Banda El Limón"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "34_answer.mp3"
+        },
+        {
+            "id": 35,
+            "question": "¿Qué grupo de rock español es reconocido por la canción 'Entre dos tierras'?",
+            "audio_question": "35_question.mp3",
+            "image_question": "grupo_rock_espanol_Entre_dos_tierras",
+            "image_search_term": "Grupo de rock español Entre dos tierras",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Héroes del Silencio"
+                },
+                {
+                    "key": "B",
+                    "text": "Extremoduro"
+                },
+                {
+                    "key": "C",
+                    "text": "Fito & Fitipaldis"
+                },
+                {
+                    "key": "D",
+                    "text": "M-Clan"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "35_answer.mp3"
+        }
+    ]
+}
