@@ -1,0 +1,313 @@
+{
+    "data": {
+        "file_path": "10_would_you_rather_2"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Preferirías explorar las profundidades del océano sin saber qué criaturas podrías encontrar o viajar al espacio sin garantía de regresar a la Tierra?",
+            "audio_question": "1_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Explorar Las Profundidades Del Océano Sin Saber Qué Criaturas Podrías Encontrar",
+                    "image": "explorar_las_profundidades_del_océano_sin_saber_qué_criaturas_podrías_encontra.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Viajar Al Espacio Sin Garantía De Regresar A La Tierra",
+                    "image": "viajar_al_espacio_sin_garantía_de_regresar_a_la_tierra.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "¿Preferirías vivir sin internet el resto de tu vida o sin poder salir de tu ciudad natal nunca más?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Vivir Sin Internet El Resto De Tu Vida",
+                    "image": "vivir_sin_internet_el_resto_de_tu_vid.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Sin Poder Salir De Tu Ciudad Natal Nunca Más",
+                    "image": "sin_poder_salir_de_tu_ciudad_natal_nunca_más.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "¿Preferirías perder la capacidad de mentir o que todos tus pensamientos se proyecten en una pantalla sobre tu cabeza para que todos los vean?",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Perder La Capacidad De Mentir",
+                    "image": "perder_la_capacidad_de_menti.png"
+                },
+                {
+                    "key": "2",
+                    "text": "Que Todos Tus Pensamientos Se Proyecten En Una Pantalla Sobre Tu Cabeza Para Que Todos Los Vean",
+                    "image": "que_todos_tus_pensamientos_se_proyecten_en_una_pantalla_sobre_tu_cabeza_para_que_todos_los_vean.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "¿Preferirías tener la capacidad de leer mentes, pero sufrir un dolor inmenso cada vez que lo haces, o ser inmortal pero ver morir a todos tus seres queridos?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener La Capacidad De Leer Mentes, Pero Sufrir Un Dolor Inmenso Cada Vez Que Lo Haces",
+                    "image": "tener_la_capacidad_de_leer_mentes_pero_sufrir_un_dolor_inmenso_cada_vez_que_lo_haces.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Ser Inmortal Pero Ver Morir A Todos Tus Seres Queridos",
+                    "image": "ser_inmortal_pero_ver_morir_a_todos_tus_seres_queridos.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "¿Preferirías enfrentarte solo a un león hambriento con una navaja como única arma o intentar nadar a través de un río infestado de cocodrilos con solo tus manos para defenderte?",
+            "audio_question": "5_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Enfrentarte Solo A Un León Hambriento Con Una Navaja Como Única Arma",
+                    "image": "enfrentarte_solo_a_un_león_hambriento_con_una_navaja_como_única_arm.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Intentar Nadar A Través De Un Río Infestado De Cocodrilos Con Solo Tus Manos Para Defenderte",
+                    "image": "intentar_nadar_a_través_de_un_río_infestado_de_cocodrilos_con_solo_tus_manos_para_defenderte.jpg"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "¿Preferirías ser extremadamente rico y poderoso pero vivir en la Edad Media o ser una persona promedio en el mundo contemporáneo?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Ser Extremadamente Rico Y Poderoso Pero Vivir En La Edad Media",
+                    "image": "ser_extremadamente_rico_y_poderoso_pero_vivir_en_la_edad_medi.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Ser Una Persona Promedio En El Mundo Contemporáneo",
+                    "image": "ser_una_persona_promedio_en_el_mundo_contemporáneo.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "¿Preferirías vivir en un mundo donde todos tus sueños se hagan realidad pero pierdas un año de vida por cada deseo cumplido o vivir en la realidad actual con la garantía de una vida larga y saludable?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Vivir En Un Mundo Donde Todos Tus Sueños Se Hagan Realidad Pero Pierdas Un Año De Vida Por Cada Deseo Cumplido",
+                    "image": "vivir_en_un_mundo_donde_todos_tus_sueños_se_hagan_realidad_pero_pierdas_un_año_de_vida_por_cada_deseo_cumplid.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Vivir En La Realidad Actual Con La Garantía De Una Vida Larga Y Saludable",
+                    "image": "vivir_en_la_realidad_actual_con_la_garantía_de_una_vida_larga_y_saludable.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "¿Preferirías tener el poder de cambiar el pasado y arriesgarte a alterar completamente el presente o tener una visión clara del futuro pero ser incapaz de cambiar ningún evento?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener El Poder De Cambiar El Pasado Y Arriesgarte A Alterar Completamente El Presente",
+                    "image": "tener_el_poder_de_cambiar_el_pasado_y_arriesgarte_a_alterar_completamente_el_present.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener Una Visión Clara Del Futuro Pero Ser Incapaz De Cambiar Ningún Evento",
+                    "image": "tener_una_visión_clara_del_futuro_pero_ser_incapaz_de_cambiar_ningún_evento.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "¿Preferirías poder hablar y entender todos los idiomas del mundo pero nunca poder escribir o leer nuevamente, o ser el mejor escritor y lector del mundo pero no poder hablar ni entender palabras habladas?",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Poder Hablar Y Entender Todos Los Idiomas Del Mundo Pero Nunca Poder Escribir Xx Leer Nuevamente",
+                    "image": "poder_hablar_y_entender_todos_los_idiomas_del_mundo_pero_nunca_poder_escribir_xx_leer_nuevamente.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Ser El Mejor Escritor Y Lector Del Mundo Pero No Poder Hablar Ni Entender Palabras Habladas",
+                    "image": "ser_el_mejor_escritor_y_lector_del_mundo_pero_no_poder_hablar_ni_entender_palabras_habladas.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "¿Preferirías tener el control total sobre los elementos (agua, fuego, tierra, aire) pero vivir aislado en una montaña, o tener una vida social plena en una ciudad grande sin poderes especiales?",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener El Control Total Sobre Los Elementos (Agua, Fuego, Tierra, Aire) Pero Vivir Aislado En Una Montaña",
+                    "image": "tener_el_control_total_sobre_los_elementos.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener Una Vida Social Plena En Una Ciudad Grande Sin Poderes Especiales",
+                    "image": "tener_una_vida_social_plena_en_una_ciudad_grande_sin_poderes_especiales.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "¿Preferirías tener la habilidad de viajar en el tiempo a cualquier época pasada o futura por un día cada diez años, o vivir con la capacidad de teletransportarte a cualquier lugar del mundo instantáneamente pero solo una vez al mes?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener La Habilidad De Viajar En El Tiempo A Cualquier Época Pasada Xx Futura Por Un Día Cada Diez Años",
+                    "image": "tener_la_habilidad_de_viajar_en_el_tiempo_a_cualquier_época_pasada_xx_futura_por_un_día_cada_diez_años.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Vivir Con La Capacidad De Teletransportarte A Cualquier Lugar Del Mundo Instantáneamente Pero Solo Una Vez Al Mes",
+                    "image": "vivir_con_la_capacidad_de_teletransportarte_a_cualquier_lugar_del_mundo_instantáneamente_pero_solo_una_vez_al_mes.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "¿Preferirías ser capaz de transformarte en cualquier animal a voluntad pero perder la capacidad de comunicarte con los humanos, o tener la habilidad de comunicarte con todos los animales pero no hablar con humanos?",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Ser Capaz De Transformarte En Cualquier Animal A Voluntad Pero Perder La Capacidad De Comunicarte Con Los Humanos",
+                    "image": "ser_capaz_de_transformarte_en_cualquier_animal_a_voluntad_pero_perder_la_capacidad_de_comunicarte_con_los_humanos.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener La Habilidad De Comunicarte Con Todos Los Animales Pero No Hablar Con Humanos",
+                    "image": "tener_la_habilidad_de_comunicarte_con_todos_los_animales_pero_no_hablar_con_humanos.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question": "¿Preferirías vivir eternamente en un mundo de realidad virtual de tu elección, con control total pero sin contacto humano real, o en el mundo real con todas sus limitaciones y dolores pero con relaciones humanas auténticas?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Vivir Eternamente En Un Mundo De Realidad Virtual De Tu Elección, Con Control Total Pero Sin Contacto Humano Real",
+                    "image": "vivir_eternamente_en_un_mundo_de_realidad_virtual_de_tu_elección.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "En El Mundo Real Con Todas Sus Limitaciones Y Dolores Pero Con Relaciones Humanas Auténticas",
+                    "image": "en_el_mundo_real_con_todas_sus_limitaciones_y_dolores_pero_con_relaciones_humanas_auténticas.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "question": "¿Preferirías perder la habilidad de dormir pero nunca sentir cansancio o necesitar dormir 12 horas al día pero tener la capacidad de controlar tus sueños completamente?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Perder La Habilidad De Dormir Pero Nunca Sentir Cansancio",
+                    "image": "perder_la_habilidad_de_dormir_pero_nunca_sentir_cansanci.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Necesitar Dormir 12 Horas Al Día Pero Tener La Capacidad De Controlar Tus Sueños Completamente",
+                    "image": "necesitar_dormir12_horas_al_día_pero_tener_la_capacidad_de_controlar_tus_sueños_completamente.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "¿Preferirías ser capaz de comunicarte con máquinas y tecnología, entendiendo su 'idioma' y pudiendo reparar o mejorar cualquier dispositivo, o tener una conexión profunda con la naturaleza, entendiendo y hablando con las plantas y animales?",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Ser Capaz De Comunicarte Con Máquinas Y Tecnología, Entendiendo Su 'Idioma' Y Pudiendo Reparar Xx Mejorar Cualquier Dispositivo",
+                    "image": "ser_capaz_de_comunicarte_con_máquinas_y_tecnología.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener Una Conexión Profunda Con La Naturaleza, Entendiendo Y Hablando Con Las Plantas Y Animales",
+                    "image": "tener_una_conexión_profunda_con_la_naturaleza.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question": "¿Prefieres tener un robot que cuide de los animales o un robot que te proteja de cualquier mal?",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener Un Robot Que Cuide De Los Animales",
+                    "image": "robot_animales.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Un Robot Que Te Protega De Cualquier Mal",
+                    "image": "robot_mal.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question": "¿Preferirías tener 3 lindos cachorros o solamente 1 pero con mucho estilo?",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener 3 lindos cachorros",
+                    "image": "3cachorros.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener solamente 1 pero con mucho estilo",
+                    "image": "1cachorro_estilo.jpeg"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question": "¿Preferirías tener 1 gatito pirata o 1 gato caballero de la realeza?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Tener 1 Gatito Pirata",
+                    "image": "gato_pirata.jpeg"
+                },
+                {
+                    "key": "2",
+                    "text": "Tener un Gato Caballero de la Realeza",
+                    "image": "gato_realeza.jpeg"
+                }
+            ]
+        }
+    ]
+}
