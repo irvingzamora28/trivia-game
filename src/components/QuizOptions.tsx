@@ -28,7 +28,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
   const cardVariants = {
     initial: {
       y: ["-20px", "20px"],
-      rotate: [-1, 0],
+      rotate: [-2, 2],
       scale: [1, 1.01, 1],
       transition: {
         duration: 4,
@@ -40,7 +40,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
     flipped: {
       rotateY: 180,
       y: ["-20px", "20px"],
-      rotate: [1, -1],
+      rotate: [-2, 2],
       scale: [1, 1.02, 1],
       transition: {
         duration: 1,

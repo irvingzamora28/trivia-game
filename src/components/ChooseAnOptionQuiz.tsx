@@ -96,8 +96,8 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
 
   return (
     <div className="text-center w-full h-screen flex flex-col items-center justify-center">
-      <div className="px-6 py-4 bg-white rounded-full shadow-lg my-8 min-w-[50%]">
-        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-black">
+      <div className="px-6 py-6 bg-white rounded-full shadow-lg my-8 mx-12 min-w-[50%]">
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 text-shadow-sm">
           {triviaQuestions[currentQuestionIndex].question}
         </h2>
       </div>
