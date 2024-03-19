@@ -6,9 +6,11 @@ import triviaSound from "../assets/audio/trivia-sound.mp3";
 import trivia from "../data/1_squid_game_2.json";
 import { TriviaQuestion } from "../types/trivia";
 import WouldYouRatherQuiz from "./WouldYouRatherQuiz";
+import ChooseAnOptionQuiz from "./ChooseAnOptionQuiz";
 
 const QuizContainer: React.FC = () => {
   const [quizStarted, setQuizStarted] = useState<boolean>(false);
+  const [chooseAnOptionQuizStarted, setChooseAnOptionQuizStarted] = useState<boolean>(false);
   const [wyrStarted, setWyrStarted] = useState<boolean>(false);
 
   useEffect(() => {
@@ -27,6 +29,10 @@ const QuizContainer: React.FC = () => {
       } else if (type === "wyr") {
         setWyrStarted(true);
         setQuizStarted(false); // Ensure Trivia quiz is not started
+      } else if (type === "chao") {
+        setWyrStarted(false);
+        setQuizStarted(false);
+        setChooseAnOptionQuizStarted(true);
       }
     }, 2000);
   };
@@ -39,10 +45,11 @@ const QuizContainer: React.FC = () => {
       className="min-h-screen w-screen flex flex-col justify-center items-center gap-4"
     >
       <div className="flex flex-col items-center space-y-4 w-full">
-        {!quizStarted && !wyrStarted && ( // Only show buttons if neither quiz has started
+        {!quizStarted && !wyrStarted && !chooseAnOptionQuizStarted && ( // Only show buttons if neither quiz has started
           <>
             <StartButton onStart={() => handleStart("quiz")} text="Start Trivia" />
             <StartButton onStart={() => handleStart("wyr")} text="Start Would You Rather" color="lime" />
+            <StartButton onStart={() => handleStart("chao")} text="Start Would You Rather" color="pink" />
           </>
         )}
 
@@ -54,6 +61,12 @@ const QuizContainer: React.FC = () => {
         )}
         {wyrStarted && ( // Show WouldYouRatherQuiz if it's started
           <WouldYouRatherQuiz
+            triviaPath={trivia.data.file_path}
+            triviaQuestions={trivia.questions as TriviaQuestion[]}
+          />
+        )}
+        {chooseAnOptionQuizStarted && (
+          <ChooseAnOptionQuiz
             triviaPath={trivia.data.file_path}
             triviaQuestions={trivia.questions as TriviaQuestion[]}
           />
