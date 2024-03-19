@@ -49,7 +49,7 @@ const QuizContainer: React.FC = () => {
           <>
             <StartButton onStart={() => handleStart("quiz")} text="Start Trivia" />
             <StartButton onStart={() => handleStart("wyr")} text="Start Would You Rather" color="lime" />
-            <StartButton onStart={() => handleStart("chao")} text="Start Would You Rather" color="pink" />
+            <StartButton onStart={() => handleStart("chao")} text="Start Choose An Option" color="pink" />
           </>
         )}
 

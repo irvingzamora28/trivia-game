@@ -1,34 +1,32 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
-interface OptionType {
-  id: string;
-  letter: string;
-  imagePath: string;
-}
+import { Option } from "../types/trivia";
 
 interface QuizOptionsProps {
-  options: OptionType[];
+  options: Option[];
+  shouldFlip: boolean; // Nuevo prop para controlar el giro
   onOptionSelected: (optionId: string) => void;
 }
 
 const QuizOptions: React.FC<QuizOptionsProps> = ({
   options,
+  shouldFlip,
   onOptionSelected,
 }) => {
   const [flippedIndices, setFlippedIndices] = useState<Set<number>>(new Set());
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    if (!shouldFlip) {
+      setFlippedIndices(new Set()); 
+    } else {
       setFlippedIndices(new Set(options.map((_, index) => index)));
-    }, 3000);
-
-    return () => clearTimeout(timer);
-  }, [options]);
+    }
+    
+  }, [options, shouldFlip]); // Responde a los cambios en shouldFlip y options
+  
 
   const cardVariants = {
     initial: {
-      rotateY: 0,
       y: ["-20px", "20px"],
       rotate: [-1, 0],
       scale: [1, 1.01, 1],
@@ -56,10 +54,10 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
         {options.map((option, index) => (
           <motion.div
-            key={option.id}
+            key={option.key}
             variants={cardVariants}
             initial="initial"
-            animate={flippedIndices.has(index) ? "flipped" : "initial"}
+            animate={flippedIndices.has(index) && shouldFlip ? "flipped" : "initial"}
             className="rounded-lg border-8 border-blue-300 shadow-lg cursor-pointer"
             style={{
               width: "calc(90vw / 3)",
@@ -76,7 +74,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
                 fontSize: "13rem",
               }}
             >
-              {option.letter}
+              {String.fromCharCode(65 + index)}
             </div>
             <div
               className="absolute w-full h-full flex justify-center items-center"
@@ -84,11 +82,11 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
                 backfaceVisibility: "hidden",
                 transform: "rotateY(180deg)",
               }}
-              onClick={() => onOptionSelected(option.id)}
+              onClick={() => onOptionSelected(option.key)}
             >
               <img
-                src={option.imagePath}
-                alt={`Option ${option.letter}`}
+                src={option.image}
+                alt={`Option ${option.key}`}
                 className="object-cover w-full h-full"
               />
             </div>
