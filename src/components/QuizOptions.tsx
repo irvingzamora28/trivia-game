@@ -35,13 +35,13 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
             initial={false}
             animate={{ rotateY: flippedIndices.has(index) ? 180 : 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
-            className="rounded-lg border-2 border-blue-500 shadow-lg cursor-pointer"
+            className="rounded-lg border-8 border-blue-300 shadow-lg cursor-pointer"
             style={{ width: "calc(90vw / 3)", height: "calc(90vw / 3)", position: "relative", transformStyle: "preserve-3d"}}
           >
             {/* Cara frontal de la tarjeta */}
             <div
-              className="absolute w-full h-full flex justify-center items-center bg-blue-500 text-white text-4xl font-bold rounded-lg"
-              style={{ backfaceVisibility: "hidden", transform: "rotateY(0deg)" }}
+              className="absolute w-full h-full flex justify-center items-center bg-gradient-to-b from-blue-700 to-blue-800 text-white text-shadow text-4xl font-bold"
+              style={{ backfaceVisibility: "hidden", transform: "rotateY(0deg)", fontSize: "13rem" }}
             >
               {option.letter}
             </div>
@@ -51,7 +51,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
               style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)", position: "absolute" }}
               onClick={() => onOptionSelected(option.id)}
             >
-              <img src={option.imagePath} alt={`Option ${option.letter}`} className="object-cover w-full h-full rounded-lg" />
+              <img src={option.imagePath} alt={`Option ${option.letter}`} className="object-cover w-full h-full" />
             </div>
           </motion.div>
         ))}
