@@ -16,34 +16,35 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
   const question = "Elije tu auto";
   const options = [
     {
-        id: "1",
-        letter: "A",
-        imagePath: "/images/11_choose_an_option/1_car_1.jpeg",
-      },
-      {
-        id: "2",
-        letter: "B",
-        imagePath: "/images/11_choose_an_option/1_car_2.jpeg",
-      },
-      {
-        id: "3",
-        letter: "C",
-        imagePath: "/images/11_choose_an_option/1_car_3.jpeg",
-      },
+      id: "1",
+      letter: "A",
+      imagePath: "/images/11_choose_an_option/1_car_1.jpeg",
+    },
+    {
+      id: "2",
+      letter: "B",
+      imagePath: "/images/11_choose_an_option/1_car_2.jpeg",
+    },
+    {
+      id: "3",
+      letter: "C",
+      imagePath: "/images/11_choose_an_option/1_car_3.jpeg",
+    },
   ];
 
   const handleOptionSelect = (optionId: string) => {
     setUserChoice(optionId);
-    // Aquí puedes implementar cualquier otra lógica que necesites tras seleccionar una opción
   };
 
   return (
     <div className="text-center w-full h-screen flex flex-col items-center justify-center">
-      <h2 className="question text-8xl">{question}</h2>
+      <div className="px-6 py-4 bg-white rounded-full shadow-lg my-8 min-w-[50%]">
+        <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-black text-shadow-sm">
+          {question}
+        </h2>
+      </div>
       <QuizOptions options={options} onOptionSelected={handleOptionSelect} />
-      {/* Puedes añadir lógica adicional aquí, por ejemplo, para mostrar feedback basado en la opción elegida */}
     </div>
-
   );
 };
 
