@@ -4,26 +4,26 @@ import { Option } from "../types/trivia";
 
 interface QuizOptionsProps {
   options: Option[];
-  shouldFlip: boolean; // Nuevo prop para controlar el giro
+  shouldFlip: boolean;
+  triviaPath: string;
   onOptionSelected: (optionId: string) => void;
 }
 
 const QuizOptions: React.FC<QuizOptionsProps> = ({
   options,
   shouldFlip,
+  triviaPath,
   onOptionSelected,
 }) => {
   const [flippedIndices, setFlippedIndices] = useState<Set<number>>(new Set());
 
   useEffect(() => {
     if (!shouldFlip) {
-      setFlippedIndices(new Set()); 
+      setFlippedIndices(new Set());
     } else {
       setFlippedIndices(new Set(options.map((_, index) => index)));
     }
-    
   }, [options, shouldFlip]); // Responde a los cambios en shouldFlip y options
-  
 
   const cardVariants = {
     initial: {
@@ -57,7 +57,9 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
             key={option.key}
             variants={cardVariants}
             initial="initial"
-            animate={flippedIndices.has(index) && shouldFlip ? "flipped" : "initial"}
+            animate={
+              flippedIndices.has(index) && shouldFlip ? "flipped" : "initial"
+            }
             className="rounded-lg border-8 border-blue-300 shadow-lg cursor-pointer"
             style={{
               width: "calc(90vw / 3)",
@@ -85,7 +87,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
               onClick={() => onOptionSelected(option.key)}
             >
               <img
-                src={option.image}
+                src={`/images/${triviaPath}/${option.image}`}
                 alt={`Option ${option.key}`}
                 className="object-cover w-full h-full"
               />

@@ -104,6 +104,7 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
       <QuizOptions
         options={triviaQuestions[currentQuestionIndex].options ?? []}
         shouldFlip={shouldFlip}
+        triviaPath={triviaPath}
         onOptionSelected={handleOptionSelect}
       />
       <ProgressBar
