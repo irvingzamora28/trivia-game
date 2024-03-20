@@ -1,0 +1,727 @@
+{
+    "data": {
+        "file_path": "11_choose_an_option"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Elige tu coche",
+            "audio_question": "1_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "1_car_1.jpeg",
+                    "image_search_term": "Lamborghini Urus"
+                },
+                {
+                    "key": "2",
+                    "image": "1_car_2.jpeg",
+                    "image_search_term": "Auto viejo chatarra"
+                },
+                {
+                    "key": "3",
+                    "image": "1_car_3.jpeg",
+                    "image_search_term": "Toyota prius 2008"
+                }
+            ],
+            "answer": "Ahora tienes coche para presumir a tus amigos.",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "Elige un plato para cenar esta noche",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_dinner.jpeg",
+                    "image_search_term": "Cena gourmet en restaurante de cinco estrellas"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_dinner.jpeg",
+                    "image_search_term": "Rica hamburguesa"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_dinner.jpeg",
+                    "image_search_term": "Restos de comida rápida"
+                }
+            ],
+            "answer": "Espero que tu elección no arruine tu dieta... o tu noche.",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "Elige un destino para tus próximas vacaciones",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_vacation.jpeg",
+                    "image_search_term": "Islas Maldivas resort de lujo"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_vacation.jpeg",
+                    "image_search_term": "Camping en un parque nacional"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_vacation.jpeg",
+                    "image_search_term": "Hotel barato al lado de una construcción ruidosa"
+                }
+            ],
+            "answer": "¡Suerte con el jet lag! O con los mosquitos, dependiendo de lo que hayas elegido.",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "Elige una actividad para el fin de semana",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_activity.jpeg",
+                    "image_search_term": "Vuelo en globo aerostático"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_activity.jpeg",
+                    "image_search_term": "Visita a un museo local"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_activity.jpeg",
+                    "image_search_term": "Limpiar el garaje"
+                }
+            ],
+            "answer": "Espero que no le tengas miedo a las alturas... o al polvo.",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "Elige un medio de transporte para tu trayecto diario",
+            "audio_question": "5_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_transport.jpeg",
+                    "image_search_term": "Auto eléctrico último modelo"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_transport.jpeg",
+                    "image_search_term": "Transporte público eficiente"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_transport.jpeg",
+                    "image_search_term": "Bicicleta vieja con rueda desinflada"
+                }
+            ],
+            "answer": "Ya sea que llegues con estilo o llegues tarde, lo importante es llegar.",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "Elige una mascota",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_pet.jpeg",
+                    "image_search_term": "Golden Retriever cachorro"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_pet.jpeg",
+                    "image_search_term": "Pez de acuario común"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_pet.jpeg",
+                    "image_search_term": "Araña venenosa"
+                }
+            ],
+            "answer": "Espero que estés preparado para las responsabilidades... o para correr.",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "Elige un estilo de música para escuchar todo el día",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_music.jpeg",
+                    "image_search_term": "Concierto de música clásica"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_music.jpeg",
+                    "image_search_term": "Banda de jazz en vivo"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_music.jpeg",
+                    "image_search_term": "Grabación de karaoke desafinado"
+                }
+            ],
+            "answer": "¡Esperemos que tus oídos estén preparados para la aventura!",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "Elige un tipo de evento social para asistir",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_event.jpeg",
+                    "image_search_term": "Gala de premiación exclusiva"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_event.jpeg",
+                    "image_search_term": "Reunión familiar tranquila"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_event.jpeg",
+                    "image_search_term": "Fiesta de cumpleaños de un niño de 5 años con berrinches"
+                }
+            ],
+            "answer": "¡Que tengas suerte encontrando tu esquina de paz o el centro de atención!",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "Elige una bebida para refrescarte en un día caluroso",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_drink.jpeg",
+                    "image_search_term": "Cóctel tropical en una playa"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_drink.jpeg",
+                    "image_search_term": "Limonada casera"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_drink.jpeg",
+                    "image_search_term": "Agua estancada"
+                }
+            ],
+            "answer": "Recuerda, la hidratación es clave, ¡pero las opciones pueden cambiar el juego!",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "Elige un libro para leer en una tarde lluviosa",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_book.jpeg",
+                    "image_search_term": "Best seller de misterio aclamado por la crítica"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_book.jpeg",
+                    "image_search_term": "Historieta corta de Marvel"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_book.jpeg",
+                    "image_search_term": "Manual de instrucciones de una lavadora"
+                }
+            ],
+            "answer": "Espero que tu elección te lleve a un viaje emocionante o, al menos, te enseñe algo útil.",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "Elige un pasatiempo para desarrollar durante el próximo año",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_hobby.jpeg",
+                    "image_search_term": "Clases de pintura al óleo con un maestro"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_hobby.jpeg",
+                    "image_search_term": "Jardinería en casa"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_hobby.jpeg",
+                    "image_search_term": "Coleccionar piedras de estacionamiento"
+                }
+            ],
+            "answer": "Cualquiera que sea tu elección, ¡esperamos que no te tomes por sentado el arte de coleccionar!",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "Elige una moda para adoptar durante un mes",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_fashion.jpeg",
+                    "image_search_term": "Traje de diseñador en la semana de la moda"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_fashion.jpeg",
+                    "image_search_term": "Jeans y camiseta clásica"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_fashion.jpeg",
+                    "image_search_term": "Pantalones de campana con estampado de leopardo"
+                }
+            ],
+            "answer": "Esperemos que tu elección te haga destacar por las razones correctas.",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "Elige un aparato tecnológico para usar exclusivamente por un año",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_tech.jpeg",
+                    "image_search_term": "Último modelo de smartphone"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_tech.jpeg",
+                    "image_search_term": "Teléfono móvil básico"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_tech.jpeg",
+                    "image_search_term": "Pager de los años 90"
+                }
+            ],
+            "answer": "Espero que estés listo para revivir la nostalgia o disfrutar de la última tecnología.",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "Elige un método para mantenerte en forma",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_fitness.jpeg",
+                    "image_search_term": "Entrenamiento personal en un gimnasio de lujo"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_fitness.jpeg",
+                    "image_search_term": "Rutina de ejercicios en casa"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_fitness.jpeg",
+                    "image_search_term": "Levantamiento de control remoto"
+                }
+            ],
+            "answer": "Sea cual sea tu elección, recuerda: el movimiento es clave, aunque sea solo para alcanzar el control remoto.",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "Elige una nueva habilidad para aprender este año",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_skill.jpeg",
+                    "image_search_term": "Programación de software"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_skill.jpeg",
+                    "image_search_term": "Cocina básica"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_skill.jpeg",
+                    "image_search_term": "Hablar con lenguaje de señas a gatos"
+                }
+            ],
+            "answer": "No importa qué nueva habilidad elijas, estoy seguro de que será más útil que enviar señales mixtas a tu gato.",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "Elige un proyecto de mejora para tu hogar",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_home_improvement.jpeg",
+                    "image_search_term": "Renovación completa de la cocina"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_home_improvement.jpeg",
+                    "image_search_term": "Pintar las paredes del salón"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_home_improvement.jpeg",
+                    "image_search_term": "Instalar un mini refri en el dormitorio"
+                }
+            ],
+            "answer": "Cualquiera que sea tu elección, esperamos que no termine en un desastre de bricolaje... o en una inesperada adición a tu dieta.",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "Elige una ciudad para vivir el resto de tu vida",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_city.jpeg",
+                    "image_search_term": "Viena, Austria"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_city.jpeg",
+                    "image_search_term": "Calle tranquila en Boise, Idaho"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_city.jpeg",
+                    "image_search_term": "Área industrial descuidada"
+                }
+            ],
+            "answer": "Esperamos que te guste tu nueva casa, ¡no olvides enviarnos una postal!",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "Elige un deporte para practicar",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_sport.jpeg",
+                    "image_search_term": "Surf en una playa tropical"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_sport.jpeg",
+                    "image_search_term": "Partido de tenis en el parque local"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_sport.jpeg",
+                    "image_search_term": "Esquivar bolas de dodgeball en un terreno embarrado"
+                }
+            ],
+            "answer": "Ya sea cabalgando olas o esquivando pelotas, ¡que tu elección te mantenga en movimiento!",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "Elige un género de película para ver en una maratón",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_movie_genre.jpeg",
+                    "image_search_term": "Clásicos del cine"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_movie_genre.jpeg",
+                    "image_search_term": "Comedias románticas"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_movie_genre.jpeg",
+                    "image_search_term": "Películas de terror de bajo presupuesto"
+                }
+            ],
+            "answer": "Esperamos que tu maratón cinematográfica sea todo un éxito... o al menos que no te quite el sueño.",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "Elige una bebida matutina para comenzar tu día",
+            "audio_question": "20_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_morning_drink.jpeg",
+                    "image_search_term": "Café gourmet con vista al amanecer"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_morning_drink.jpeg",
+                    "image_search_term": "Taza de té verde"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_morning_drink.jpeg",
+                    "image_search_term": "Bebida energética barata"
+                }
+            ],
+            "answer": "¡Que tu elección te de la energía necesaria para afrontar el día... o al menos hasta la próxima dosis de cafeína!",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "Elige un lugar para tu boda",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_wedding_location.jpeg",
+                    "image_search_term": "Boda en la playa al atardecer"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_wedding_location.jpeg",
+                    "image_search_term": "Ceremonia íntima en el jardín trasero"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_wedding_location.jpeg",
+                    "image_search_term": "Capilla de Las Vegas con un imitador de Elvis"
+                }
+            ],
+            "answer": "Sin importar el lugar, esperamos que tu gran día sea inolvidable... por las razones correctas.",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "Elige un trabajo de ensueño",
+            "audio_question": "22_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_job.jpeg",
+                    "image_search_term": "Astronauta observando la Tierra desde el espacio"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_job.jpeg",
+                    "image_search_term": "Profesor inspirando a estudiantes"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_job.jpeg",
+                    "image_search_term": "Degustador de comida para mascotas"
+                }
+            ],
+            "answer": "Sea cual sea tu elección, esperamos que te encuentres alcanzando las estrellas... o al menos, no probando comida para mascotas.",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "Elige una era histórica para visitar por un día",
+            "audio_question": "23_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_era.jpeg",
+                    "image_search_term": "Renacimiento en Florencia"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_era.jpeg",
+                    "image_search_term": "Los años 60 en San Francisco"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_era.jpeg",
+                    "image_search_term": "La Gran Depresión en Estados Unidos"
+                }
+            ],
+            "answer": "Esperamos que tu viaje en el tiempo te deje con buenos recuerdos... o al menos, una apreciación por el presente.",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "Elige un tipo de vivienda para mudarte",
+            "audio_question": "24_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_house.jpeg",
+                    "image_search_term": "Casa moderna con vistas al mar"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_house.jpeg",
+                    "image_search_term": "Acogedor apartamento en el centro"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_house.jpeg",
+                    "image_search_term": "Pequeña cabaña en un pantano"
+                }
+            ],
+            "answer": "Ya sea que estés mirando al mar o evitando pantanos, esperamos que llames hogar a un lugar feliz.",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "Elige un objeto mágico para poseer",
+            "audio_question": "25_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_magic_item.jpeg",
+                    "image_search_term": "Lámpara de Aladino"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_magic_item.jpeg",
+                    "image_search_term": "Varita mágica de madera"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_magic_item.jpeg",
+                    "image_search_term": "Calcetín de duende con solo un deseo"
+                }
+            ],
+            "answer": "Con suerte, tu elección mágica no te dejará con el deseo de haber pedido algo más... como unos cuantos deseos extra.",
+            "audio_answer": "25_answer.mp3"
+        },
+        {
+            "id": 26,
+            "question": "Elige una cena famosa con la que te gustaría cenar",
+            "audio_question": "26_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_dinner_guest.jpeg",
+                    "image_search_term": "Cena con Mr. Beast"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_dinner_guest.jpeg",
+                    "image_search_term": "Cena con un chef Chef Oropeza"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_dinner_guest.jpeg",
+                    "image_search_term": "Cena con un vagabundo"
+                }
+            ],
+            "answer": "Esperamos que la conversación sea tan buena como la comida. ¡Buen provecho!",
+            "audio_answer": "26_answer.mp3"
+        },
+        {
+            "id": 27,
+            "question": "Elige una materia escolar para volver a estudiar",
+            "audio_question": "27_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_subject.jpeg",
+                    "image_search_term": "Astronomía avanzada"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_subject.jpeg",
+                    "image_search_term": "Historia mundial"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_subject.jpeg",
+                    "image_search_term": "Matemáticas básicas con malos recuerdos"
+                }
+            ],
+            "answer": "Esperamos que esta vez la materia te resulte más interesante... o al menos más llevadera.",
+            "audio_answer": "27_answer.mp3"
+        },
+        {
+            "id": 28,
+            "question": "Elige un hobby inusual para probar",
+            "audio_question": "28_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_unusual_hobby.jpeg",
+                    "image_search_term": "Planchar ropa mientras haces esquí acuático"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_unusual_hobby.jpeg",
+                    "image_search_term": "Coleccionar mapas antiguos"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_unusual_hobby.jpeg",
+                    "image_search_term": "Clasificar piedras por tamaño y color"
+                }
+            ],
+            "answer": "Sea cual sea tu elección, es seguro que añadirá un poco de sabor a tus conversaciones.",
+            "audio_answer": "28_answer.mp3"
+        },
+        {
+            "id": 29,
+            "question": "Elige un desafío personal para el próximo año",
+            "audio_question": "29_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_challenge.jpeg",
+                    "image_search_term": "Correr un maratón"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_challenge.jpeg",
+                    "image_search_term": "Leer 50 libros"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_challenge.jpeg",
+                    "image_search_term": "Comer saludable todo el año"
+                }
+            ],
+            "answer": "Cualquiera que sea el desafío que elijas, estamos seguros de que aprenderás algo valioso... incluso si es el valor de la moderación.",
+            "audio_answer": "29_answer.mp3"
+        },
+        {
+            "id": 30,
+            "question": "Elige un lugar exótico para explorar",
+            "audio_question": "30_question.mp3",
+            "options": [
+                {
+                    "key": "1",
+                    "image": "excellent_exotic_place.jpeg",
+                    "image_search_term": "Safari en la Sabana africana"
+                },
+                {
+                    "key": "2",
+                    "image": "normal_exotic_place.jpeg",
+                    "image_search_term": "Visita a los templos de Angkor Wat"
+                },
+                {
+                    "key": "3",
+                    "image": "bad_exotic_place.jpeg",
+                    "image_search_term": "Turismo en casa de la abuela"
+                }
+            ],
+            "answer": "Esperamos que tu aventura sea memorable... y que regreses a casa sano y salvo.",
+            "audio_answer": "30_answer.mp3"
+        }
+    ]
+}
