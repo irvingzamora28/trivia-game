@@ -42,7 +42,7 @@ app.post('/generate-audio', async (req, res) => {
 });
 
 app.post("/process-questions", async (req, res) => {
-  const questionsFilePath = path.resolve(__dirname, "..", "..", "src", "data", "trivia.json");
+  const questionsFilePath = path.resolve(__dirname, "..", "..", "src", "data", "11_choose_an_option.json");
   const outputAudioDir = path.resolve(__dirname, "..", "..", "src", "assets", "audio");
   const outputImageDir = path.resolve(__dirname, "..", "..", "src", "assets", "images");
 
@@ -65,7 +65,8 @@ app.post("/process-questions", async (req, res) => {
     }
 
     // Process images using the same file_path prefix
-    for (const question of questions) {
+    for (let idx = 0; idx < questions.length; idx++) {
+      const question = questions[idx];
       if (question.image_search_term) {
         const imageQuestionPath = path.join(outputImageDir, data.file_path, question.image_question);
         await fetchAndSaveImage(question.image_search_term, imageQuestionPath, 5);
@@ -73,12 +74,12 @@ app.post("/process-questions", async (req, res) => {
 
       if (question.image_answer) {
         const imageQuestionPath = path.join(outputImageDir, data.file_path, question.image_answer);
-        await fetchAndSaveImage(`Pelicula ${question.answer}`, imageQuestionPath, 5);
+        await fetchAndSaveImage(`${question.answer}`, imageQuestionPath, 5);
       }
 
       for (const option of question.options) {
         if (option.image_search_term) {
-          const imageOptionPath = path.join(outputImageDir, data.file_path, option.image);
+          const imageOptionPath = path.join(outputImageDir, data.file_path, `${idx+1}_${option.image}`);
           await fetchAndSaveImage(option.image_search_term, imageOptionPath, 5);
         }
       }
@@ -109,10 +110,10 @@ async function fetchAndSaveImage(searchTerm: string, baseFilePath: string, image
     await fs.promises.mkdir(dirName, { recursive: true });
 
     const items = response.data.items;
-    for (let i = 0; i < Math.min(items.length, imageCount); i++) {
-      const imageUrl = items[i].link;
+    for (let idx = 0; idx < Math.min(items.length, imageCount); idx++) {
+      const imageUrl = items[idx].link;
       const imageResponse = await axios.get(imageUrl, { responseType: "arraybuffer" });
-      const filePath = `${path.dirname(baseFilePath)}/${i+1}_${path.basename(baseFilePath)}.jpg`;
+      const filePath = `${path.dirname(baseFilePath)}/${path.basename(baseFilePath)}_${idx+1}.jpg`;
       await sharp(imageResponse.data).toFile(filePath);
     }
   } catch (error) {
