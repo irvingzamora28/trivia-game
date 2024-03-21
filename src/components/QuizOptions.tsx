@@ -58,7 +58,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
     <div className="flex flex-col items-center justify-center h-full w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
         {options.map((option, index) => (
-          <>
+          <div key={option.key}>
             <motion.div
               key={option.key}
               variants={cardVariants}
@@ -99,7 +99,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
                 />
               </div>
               {showOptionText && (
-                <div className="flex flex-col items-center justify-end w-full absolute -bottom-20 left-0 right-0 px-2 py-2 bg-white rounded-full shadow-lg">
+                <div className="flex flex-col items-center justify-end w-full absolute -bottom-20 left-0 right-0 px-4 py-4 bg-white rounded-full shadow-lg">
                   <span
                     className="text-6xl font-bold text-slate-900 text-shadow"
                     style={{
@@ -111,7 +111,7 @@ const QuizOptions: React.FC<QuizOptionsProps> = ({
                 </div>
               )}
             </motion.div>
-          </>
+          </div>
         ))}
       </div>
     </div>

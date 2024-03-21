@@ -3,6 +3,9 @@ import QuizOptions from "./QuizOptions";
 import ProgressBar from "./ProgressBar";
 import { OptionKey, TriviaQuestion } from "../types/trivia";
 import correctSound from "../assets/audio/correct-short.mp3";
+import whooshSound from "../assets/audio/whoosh.mp3";
+import whoosh2Sound from "../assets/audio/whoosh2.mp3";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface QuizProps {
   triviaPath: string;
@@ -17,6 +20,9 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
   const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
   const [isProgressBarVisible, setIsProgressBarVisible] = useState(true);
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
+  const [animateBackground, setAnimateBackground] = useState(false);
+  const [animationStage, setAnimationStage] = useState("enter");
+
   const timerIdRef = useRef(null);
   const timeLimit = 3;
   const currentQuestionIndexRef = useRef(currentQuestionIndex);
@@ -64,22 +70,43 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
         );
         answerSound.play();
         answerSound.onended = () => {
-          proceedToNextQuestion(); // Move to the next question after the answer audio finishes
+          proceedToNextQuestion();
         };
       } else {
-        proceedToNextQuestion(); // Move to the next question immediately if there's no answer audio
+        proceedToNextQuestion();
       }
       setIsProgressBarVisible(false);
     };
   };
 
-  const proceedToNextQuestion = () => {
-    setTimeout(() => {
-      goToNextQuestion();
-      setShouldFlip(false);
-      setIsProgressBarVisible(true);
-    }, 500);
+  const startBackgroundAnimation = () => {
+    setAnimateBackground(true);
   };
+
+  const proceedToNextQuestion = useCallback(() => {
+    const whooshSoundEffect = new Audio(whoosh2Sound);
+    const whooshSoundEffect2 = new Audio(whooshSound);
+    setAnimateBackground(true);
+    setAnimationStage("enter");
+    whooshSoundEffect.play();
+    // Start the enter animation
+    setTimeout(() => {
+      // After the enter animation completes, pause in the center
+      setAnimationStage("pause");
+      setShouldFlip(false);
+      setTimeout(() => {
+        // After the pause, proceed with the exit animation
+        setAnimationStage("exit");
+        whooshSoundEffect2.play();
+        goToNextQuestion();
+
+        setTimeout(() => {
+          setIsProgressBarVisible(true);
+          setAnimateBackground(false);
+        }, 1000); // Exit animation duration
+      }, 1000); // Pause duration
+    }, 500); // Enter animation duration
+  }, [triviaQuestions.length]);
 
   useEffect(() => {
     const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
@@ -107,8 +134,19 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
   const handleOptionSelect = (optionId: string) => {};
 
   return (
-    <div className="text-center w-full h-screen flex flex-col items-center justify-center">
-      <div className="px-6 py-6 bg-white rounded-full shadow-lg my-8 mx-12 min-w-[50%]">
+    <div className="text-center w-full h-screen flex flex-col items-center justify-center overflow-hidden relative">
+      <AnimatePresence>
+        {animateBackground && (
+          <motion.div
+          initial={{ x: '100%', scale: 1.4 }}
+          animate={{ x: animationStage === 'enter' || animationStage === 'pause' ? '0%' : '-130%', scale: 1.4 }}
+           
+            className="absolute top-0 left-0 w-full h-full bg-[url('/src/assets/images/background_transition.png')] bg-cover bg-center z-50"
+            key="background"
+          />
+        )}
+      </AnimatePresence>
+      <div className="px-6 py-6 bg-white rounded-full shadow-lg my-8 mx-12 min-w-[50%] z-10 relative">
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 text-shadow-sm">
           {triviaQuestions[currentQuestionIndex].question}
         </h2>
