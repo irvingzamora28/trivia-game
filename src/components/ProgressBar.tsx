@@ -1,16 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { log } from "console";
 
 interface ProgressBarProps {
   index: any;
   isProgressBarAnimating: boolean;
   timeLimit: number;
+  isProgressBarVisible?: boolean;
 }
 
 const ProgressBar: React.FC<ProgressBarProps> = ({
   index,
   isProgressBarAnimating,
   timeLimit,
+  isProgressBarVisible,
 }) => {
   const controls = useAnimation();
   const [isVisible, setIsVisible] = useState(true);
@@ -38,7 +41,13 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
       }, timeLimit * 1000); // Convert timeLimit to milliseconds
     } else {
       // Immediately make the progress bar visible if not animating
-      setIsVisible(true);
+      if (isProgressBarVisible != undefined && isProgressBarVisible) {
+        setIsVisible(true);
+      } else if (isProgressBarVisible != undefined && !isProgressBarVisible) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
     }
 
     return () => {
@@ -46,7 +55,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
         clearTimeout(timerId);
       }
     };
-  }, [isProgressBarAnimating, controls, timeLimit]);
+  }, [isProgressBarAnimating, isProgressBarVisible, controls, timeLimit]);
 
   return (
     <div className="flex flex-row justify-between w-3/4 m-8 px-8">

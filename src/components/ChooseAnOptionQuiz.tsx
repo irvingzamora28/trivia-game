@@ -15,6 +15,7 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
 }) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
+  const [isProgressBarVisible, setIsProgressBarVisible] = useState(true);
   const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
   const timerIdRef = useRef(null);
   const timeLimit = 3;
@@ -26,8 +27,6 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
     );
   }, [triviaQuestions.length]);
 
-
- 
   const startTimer = useRef(() => {
     if (timerIdRef.current) {
       clearTimeout(timerIdRef.current);
@@ -45,6 +44,7 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
   }, [currentQuestionIndex]);
 
   const handleAnswerSelect = (selectedKey: OptionKey) => {
+    const currentQuestion = triviaQuestions[currentQuestionIndexRef.current];
 
     const feedbackSound = new Audio(correctSound);
     feedbackSound.play();
@@ -57,7 +57,19 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
 
     feedbackSound.onended = () => {
       setIsProgressBarAnimating(false);
-      proceedToNextQuestion();
+      if (currentQuestion.audio_answer) {
+        // If the answer is correct and there's an audio_answer, play it after the feedback sound
+        const answerSound = new Audio(
+          `audio/${triviaPath}/${currentQuestion.audio_answer}`
+        );
+        answerSound.play();
+        answerSound.onended = () => {
+          proceedToNextQuestion(); // Move to the next question after the answer audio finishes
+        };
+      } else {
+        proceedToNextQuestion(); // Move to the next question immediately if there's no answer audio
+      }
+      setIsProgressBarVisible(false);
     };
   };
 
@@ -65,6 +77,7 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
     setTimeout(() => {
       goToNextQuestion();
       setShouldFlip(false);
+      setIsProgressBarVisible(true);
     }, 500);
   };
 
@@ -75,8 +88,8 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
       questionAudio.play().then(() => {
         questionAudio.addEventListener("ended", () => {
           setIsProgressBarAnimating(true);
+          setIsProgressBarVisible(true);
           startTimer.current();
-
         });
       });
 
@@ -91,8 +104,7 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
     }
   }, [currentQuestionIndex]);
 
-
-  const handleOptionSelect = (optionId: string) => { };
+  const handleOptionSelect = (optionId: string) => {};
 
   return (
     <div className="text-center w-full h-screen flex flex-col items-center justify-center">
@@ -111,6 +123,7 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
         index={1}
         isProgressBarAnimating={isProgressBarAnimating}
         timeLimit={timeLimit}
+        isProgressBarVisible={isProgressBarVisible}
       />
     </div>
   );
