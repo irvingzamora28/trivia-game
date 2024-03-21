@@ -11,20 +11,23 @@
                 {
                     "key": "1",
                     "image": "1_car_1.jpeg",
-                    "image_search_term": "Lamborghini Urus"
+                    "image_search_term": "Lamborghini Urus",
+                    "text": "Lamborghini Urus"
                 },
                 {
                     "key": "2",
                     "image": "1_car_2.jpeg",
-                    "image_search_term": "Auto viejo chatarra"
+                    "image_search_term": "Auto viejo chatarra",
+                    "text": "Auto viejo chatarra"
                 },
                 {
                     "key": "3",
                     "image": "1_car_3.jpeg",
-                    "image_search_term": "Toyota prius 2008"
+                    "image_search_term": "Toyota prius 2008",
+                    "text": "Toyota prius 2008"
                 }
             ],
-            "answer": "Ahora tienes coche para presumir a tus amigos.",
+            "text_answer": "Ahora tienes coche para presumir a tus amigos.",
             "audio_answer": "1_answer.mp3"
         },
         {
@@ -35,20 +38,23 @@
                 {
                     "key": "3",
                     "image": "bad_dinner.jpeg",
-                    "image_search_term": "Restos de comida rápida"
+                    "image_search_term": "Restos de comida rápida",
+                    "text": "Restos de comida rápida"
                 },
                 {
                     "key": "1",
                     "image": "excellent_dinner.jpeg",
-                    "image_search_term": "Cena gourmet en restaurante de cinco estrellas"
+                    "image_search_term": "Cena gourmet en restaurante de cinco estrellas",
+                    "text": "Cena gourmet en restaurante de cinco estrellas"
                 },
                 {
                     "key": "2",
                     "image": "normal_dinner.jpeg",
-                    "image_search_term": "Rica hamburguesa"
+                    "image_search_term": "Rica hamburguesa",
+                    "text": "Rica hamburguesa"
                 }
             ],
-            "answer": "Espero que tu elección no arruine tu dieta... o tu noche.",
+            "text_answer": "Espero que tu elección no arruine tu dieta... o tu noche.",
             "audio_answer": "2_answer.mp3"
         },
         {
@@ -59,20 +65,23 @@
                 {
                     "key": "2",
                     "image": "normal_vacation.jpeg",
-                    "image_search_term": "Camping en un parque nacional"
+                    "image_search_term": "Camping en un parque nacional",
+                    "text": "Camping en un parque nacional"
                 },
                 {
                     "key": "1",
                     "image": "excellent_vacation.jpeg",
-                    "image_search_term": "Islas Maldivas resort de lujo"
+                    "image_search_term": "Islas Maldivas resort de lujo",
+                    "text": "Islas Maldivas resort de lujo"
                 },
                 {
                     "key": "3",
                     "image": "bad_vacation.jpeg",
-                    "image_search_term": "Hotel barato al lado de una construcción ruidosa"
+                    "image_search_term": "Hotel barato al lado de una construcción ruidosa",
+                    "text": "Hotel barato al lado de una construcción ruidosa"
                 }
             ],
-            "answer": "¡Suerte con el jet lag! O con los mosquitos, dependiendo de lo que hayas elegido.",
+            "text_answer": "¡Suerte con el jet lag! O con los mosquitos, dependiendo de lo que hayas elegido.",
             "audio_answer": "3_answer.mp3"
         },
         {
@@ -83,20 +92,23 @@
                 {
                     "key": "2",
                     "image": "normal_activity.jpeg",
-                    "image_search_term": "Visita a un museo local"
+                    "image_search_term": "Visita a un museo local",
+                    "text": "Visita a un museo local"
                 },
                 {
                     "key": "1",
                     "image": "excellent_activity.jpeg",
-                    "image_search_term": "Vuelo en globo aerostático"
+                    "image_search_term": "Vuelo en globo aerostático",
+                    "text": "Vuelo en globo aerostático"
                 },
                 {
                     "key": "3",
                     "image": "bad_activity.jpeg",
-                    "image_search_term": "Limpiar el garaje"
+                    "image_search_term": "Limpiar el garaje",
+                    "text": "Limpiar el garaje"
                 }
             ],
-            "answer": "Espero que no le tengas miedo a las alturas... o al polvo.",
+            "text_answer": "Espero que no le tengas miedo a las alturas... o al polvo.",
             "audio_answer": "4_answer.mp3"
         },
         {
@@ -107,20 +119,23 @@
                 {
                     "key": "1",
                     "image": "excellent_transport.jpeg",
-                    "image_search_term": "Auto eléctrico último modelo"
+                    "image_search_term": "Auto eléctrico último modelo",
+                    "text": "Auto eléctrico último modelo"
                 },
                 {
                     "key": "3",
                     "image": "bad_transport.jpeg",
-                    "image_search_term": "Bicicleta vieja con rueda desinflada"
+                    "image_search_term": "Bicicleta vieja con rueda desinflada",
+                    "text": "Bicicleta vieja con rueda desinflada"
                 },
                 {
                     "key": "2",
                     "image": "normal_transport.jpeg",
-                    "image_search_term": "Transporte público eficiente"
+                    "image_search_term": "Transporte público eficiente",
+                    "text": "Transporte público eficiente"
                 }
             ],
-            "answer": "Ya sea que llegues con estilo o llegues tarde, lo importante es llegar.",
+            "text_answer": "Ya sea que llegues con estilo o llegues tarde, lo importante es llegar.",
             "audio_answer": "5_answer.mp3"
         },
         {
@@ -131,20 +146,23 @@
                 {
                     "key": "3",
                     "image": "bad_pet.jpeg",
-                    "image_search_term": "Araña venenosa"
+                    "image_search_term": "Araña venenosa",
+                    "text": "Araña venenosa"
                 },
                 {
                     "key": "1",
                     "image": "excellent_pet.jpeg",
-                    "image_search_term": "Golden Retriever cachorro"
+                    "image_search_term": "Golden Retriever cachorro",
+                    "text": "Golden Retriever cachorro"
                 },
                 {
                     "key": "2",
                     "image": "normal_pet.jpeg",
-                    "image_search_term": "Pez de acuario común"
+                    "image_search_term": "Pez de acuario común",
+                    "text": "Pez de acuario común"
                 }
             ],
-            "answer": "Espero que estés preparado para las responsabilidades... o para correr.",
+            "text_answer": "Espero que estés preparado para las responsabilidades... o para correr.",
             "audio_answer": "6_answer.mp3"
         },
         {
@@ -155,20 +173,23 @@
                 {
                     "key": "2",
                     "image": "normal_music.jpeg",
-                    "image_search_term": "Banda de jazz en vivo"
+                    "image_search_term": "Banda de jazz en vivo",
+                    "text": "Banda de jazz en vivo"
                 },
                 {
                     "key": "1",
                     "image": "excellent_music.jpeg",
-                    "image_search_term": "Concierto de música clásica"
+                    "image_search_term": "Concierto de música clásica",
+                    "text": "Concierto de música clásica"
                 },
                 {
                     "key": "3",
                     "image": "bad_music.jpeg",
-                    "image_search_term": "Grabación de karaoke desafinado"
+                    "image_search_term": "Grabación de karaoke desafinado",
+                    "text": "Grabación de karaoke desafinado"
                 }
             ],
-            "answer": "¡Esperemos que tus oídos estén preparados para la aventura!",
+            "text_answer": "¡Esperemos que tus oídos estén preparados para la aventura!",
             "audio_answer": "7_answer.mp3"
         },
         {
@@ -179,20 +200,23 @@
                 {
                     "key": "1",
                     "image": "excellent_event.jpeg",
-                    "image_search_term": "Gala de premiación exclusiva"
+                    "image_search_term": "Gala de premiación exclusiva",
+                    "text": "Gala de premiación exclusiva"
                 },
                 {
                     "key": "2",
                     "image": "normal_event.jpeg",
-                    "image_search_term": "Reunión familiar tranquila"
+                    "image_search_term": "Reunión familiar tranquila",
+                    "text": "Reunión familiar tranquila"
                 },
                 {
                     "key": "3",
                     "image": "bad_event.jpeg",
-                    "image_search_term": "Fiesta de cumpleaños de un niño de 5 años con berrinches"
+                    "image_search_term": "Fiesta de cumpleaños de un niño de 5 años con berrinches",
+                    "text": "Fiesta de cumpleaños de un niño de 5 años con berrinches"
                 }
             ],
-            "answer": "¡Que tengas suerte encontrando tu esquina de paz o el centro de atención!",
+            "text_answer": "¡Que tengas suerte encontrando tu esquina de paz o el centro de atención!",
             "audio_answer": "8_answer.mp3"
         },
         {
@@ -203,20 +227,23 @@
                 {
                     "key": "3",
                     "image": "bad_drink.jpeg",
-                    "image_search_term": "Agua estancada"
+                    "image_search_term": "Agua estancada",
+                    "text": "Agua estancada"
                 },
                 {
                     "key": "1",
                     "image": "excellent_drink.jpeg",
-                    "image_search_term": "Cóctel tropical en una playa"
+                    "image_search_term": "Cóctel tropical en una playa",
+                    "text": "Cóctel tropical en una playa"
                 },
                 {
                     "key": "2",
                     "image": "normal_drink.jpeg",
-                    "image_search_term": "Limonada casera"
+                    "image_search_term": "Limonada casera",
+                    "text": "Limonada casera"
                 }
             ],
-            "answer": "Recuerda, la hidratación es clave, ¡pero las opciones pueden cambiar el juego!",
+            "text_answer": "Recuerda, la hidratación es clave, ¡pero las opciones pueden cambiar el juego!",
             "audio_answer": "9_answer.mp3"
         },
         {
@@ -227,20 +254,23 @@
                 {
                     "key": "1",
                     "image": "excellent_book.jpeg",
-                    "image_search_term": "Best seller de misterio aclamado por la crítica"
+                    "image_search_term": "Best seller de misterio aclamado por la crítica",
+                    "text": "Best seller de misterio aclamado por la crítica"
                 },
                 {
                     "key": "3",
                     "image": "bad_book.jpeg",
-                    "image_search_term": "Manual de instrucciones de una lavadora"
+                    "image_search_term": "Manual de instrucciones de una lavadora",
+                    "text": "Manual de instrucciones de una lavadora"
                 },
                 {
                     "key": "2",
                     "image": "normal_book.jpeg",
-                    "image_search_term": "Historieta corta de Marvel"
+                    "image_search_term": "Historieta corta de Marvel",
+                    "text": "Historieta corta de Marvel"
                 }
             ],
-            "answer": "Espero que tu elección te lleve a un viaje emocionante o, al menos, te enseñe algo útil.",
+            "text_answer": "Espero que tu elección te lleve a un viaje emocionante o, al menos, te enseñe algo útil.",
             "audio_answer": "10_answer.mp3"
         },
         {
@@ -251,20 +281,23 @@
                 {
                     "key": "2",
                     "image": "normal_hobby.jpeg",
-                    "image_search_term": "Jardinería en casa"
+                    "image_search_term": "Jardinería en casa",
+                    "text": "Jardinería en casa"
                 },
                 {
                     "key": "1",
                     "image": "excellent_hobby.jpeg",
-                    "image_search_term": "Clases de pintura al óleo con un maestro"
+                    "image_search_term": "Clases de pintura al óleo con un maestro",
+                    "text": "Clases de pintura al óleo con un maestro"
                 },
                 {
                     "key": "3",
                     "image": "bad_hobby.jpeg",
-                    "image_search_term": "Coleccionar piedras de estacionamiento"
+                    "image_search_term": "Coleccionar piedras de estacionamiento",
+                    "text": "Coleccionar piedras de estacionamiento"
                 }
             ],
-            "answer": "Cualquiera que sea tu elección, ¡esperamos que no te tomes por sentado el arte de coleccionar!",
+            "text_answer": "Cualquiera que sea tu elección, ¡esperamos que no te tomes por sentado el arte de coleccionar!",
             "audio_answer": "11_answer.mp3"
         },
         {
@@ -275,20 +308,23 @@
                 {
                     "key": "3",
                     "image": "bad_fashion.jpeg",
-                    "image_search_term": "Pantalones de campana con estampado de leopardo"
+                    "image_search_term": "Pantalones de campana con estampado de leopardo",
+                    "text": "Pantalones de campana con estampado de leopardo"
                 },
                 {
                     "key": "1",
                     "image": "excellent_fashion.jpeg",
-                    "image_search_term": "Traje de diseñador en la semana de la moda"
+                    "image_search_term": "Traje de diseñador en la semana de la moda",
+                    "text": "Traje de diseñador en la semana de la moda"
                 },
                 {
                     "key": "2",
                     "image": "normal_fashion.jpeg",
-                    "image_search_term": "Jeans y camiseta clásica"
+                    "image_search_term": "Jeans y camiseta clásica",
+                    "text": "Jeans y camiseta clásica"
                 }
             ],
-            "answer": "Esperemos que tu elección te haga destacar por las razones correctas.",
+            "text_answer": "Esperemos que tu elección te haga destacar por las razones correctas.",
             "audio_answer": "12_answer.mp3"
         },
         {
@@ -299,20 +335,23 @@
                 {
                     "key": "1",
                     "image": "excellent_tech.jpeg",
-                    "image_search_term": "Último modelo de smartphone"
+                    "image_search_term": "Último modelo de smartphone",
+                    "text": "Último modelo de smartphone"
                 },
                 {
                     "key": "3",
                     "image": "bad_tech.jpeg",
-                    "image_search_term": "Pager de los años 90"
+                    "image_search_term": "Pager de los años 90",
+                    "text": "Pager de los años 90"
                 },
                 {
                     "key": "2",
                     "image": "normal_tech.jpeg",
-                    "image_search_term": "Teléfono móvil básico"
+                    "image_search_term": "Teléfono móvil básico",
+                    "text": "Teléfono móvil básico"
                 }
             ],
-            "answer": "Espero que estés listo para revivir la nostalgia o disfrutar de la última tecnología.",
+            "text_answer": "Espero que estés listo para revivir la nostalgia o disfrutar de la última tecnología.",
             "audio_answer": "13_answer.mp3"
         },
         {
@@ -323,20 +362,23 @@
                 {
                     "key": "1",
                     "image": "excellent_fitness.jpeg",
-                    "image_search_term": "Entrenamiento personal en un gimnasio de lujo"
+                    "image_search_term": "Entrenamiento personal en un gimnasio de lujo",
+                    "text": "Entrenamiento personal en un gimnasio de lujo"
                 },
                 {
                     "key": "2",
                     "image": "normal_fitness.jpeg",
-                    "image_search_term": "Rutina de ejercicios en casa"
+                    "image_search_term": "Rutina de ejercicios en casa",
+                    "text": "Rutina de ejercicios en casa"
                 },
                 {
                     "key": "3",
                     "image": "bad_fitness.jpeg",
-                    "image_search_term": "Levantamiento de control remoto"
+                    "image_search_term": "Levantamiento de control remoto",
+                    "text": "Levantamiento de control remoto"
                 }
             ],
-            "answer": "Sea cual sea tu elección, recuerda: el movimiento es clave, aunque sea solo para alcanzar el control remoto.",
+            "text_answer": "Sea cual sea tu elección, recuerda: el movimiento es clave, aunque sea solo para alcanzar el control remoto.",
             "audio_answer": "14_answer.mp3"
         },
         {
@@ -347,20 +389,23 @@
                 {
                     "key": "3",
                     "image": "bad_skill.jpeg",
-                    "image_search_term": "Hablar con lenguaje de señas a gatos"
+                    "image_search_term": "Hablar con lenguaje de señas a gatos",
+                    "text": "Hablar con lenguaje de señas a gatos"
                 },
                 {
                     "key": "1",
                     "image": "excellent_skill.jpeg",
-                    "image_search_term": "Programación de software"
+                    "image_search_term": "Programación de software",
+                    "text": "Programación de software"
                 },
                 {
                     "key": "2",
                     "image": "normal_skill.jpeg",
-                    "image_search_term": "Cocina básica"
+                    "image_search_term": "Cocina básica",
+                    "text": "Cocina básica"
                 }
             ],
-            "answer": "No importa qué nueva habilidad elijas, estoy seguro de que será más útil que enviar señales mixtas a tu gato.",
+            "text_answer": "No importa qué nueva habilidad elijas, estoy seguro de que será más útil que enviar señales mixtas a tu gato.",
             "audio_answer": "15_answer.mp3"
         },
         {
@@ -371,20 +416,23 @@
                 {
                     "key": "1",
                     "image": "excellent_home_improvement.jpeg",
-                    "image_search_term": "Renovación completa de la cocina"
+                    "image_search_term": "Renovación completa de la cocina",
+                    "text": "Renovación completa de la cocina"
                 },
                 {
                     "key": "2",
                     "image": "normal_home_improvement.jpeg",
-                    "image_search_term": "Pintar las paredes del salón"
+                    "image_search_term": "Pintar las paredes del salón",
+                    "text": "Pintar las paredes del salón"
                 },
                 {
                     "key": "3",
                     "image": "bad_home_improvement.jpeg",
-                    "image_search_term": "Instalar un mini refri en el dormitorio"
+                    "image_search_term": "Instalar un mini refri en el dormitorio",
+                    "text": "Instalar un mini refri en el dormitorio"
                 }
             ],
-            "answer": "Cualquiera que sea tu elección, esperamos que no termine en un desastre de bricolaje... o en una inesperada adición a tu dieta.",
+            "text_answer": "Cualquiera que sea tu elección, esperamos que no termine en un desastre de bricolaje... o en una inesperada adición a tu dieta.",
             "audio_answer": "16_answer.mp3"
         },
         {
@@ -395,20 +443,23 @@
                 {
                     "key": "1",
                     "image": "excellent_city.jpeg",
-                    "image_search_term": "Viena, Austria"
+                    "image_search_term": "Viena, Austria",
+                    "text": "Viena, Austria"
                 },
                 {
                     "key": "2",
                     "image": "normal_city.jpeg",
-                    "image_search_term": "Calle tranquila en Boise, Idaho"
+                    "image_search_term": "Calle tranquila en Boise, Idaho",
+                    "text": "Calle tranquila en Boise, Idaho"
                 },
                 {
                     "key": "3",
                     "image": "bad_city.jpeg",
-                    "image_search_term": "Área industrial descuidada"
+                    "image_search_term": "Área industrial descuidada",
+                    "text": "Área industrial descuidada"
                 }
             ],
-            "answer": "Esperamos que te guste tu nueva casa, ¡no olvides enviarnos una postal!",
+            "text_answer": "Esperamos que te guste tu nueva casa, ¡no olvides enviarnos una postal!",
             "audio_answer": "17_answer.mp3"
         },
         {
@@ -419,20 +470,23 @@
                 {
                     "key": "1",
                     "image": "excellent_sport.jpeg",
-                    "image_search_term": "Surf en una playa tropical"
+                    "image_search_term": "Surf en una playa tropical",
+                    "text": "Surf en una playa tropical"
                 },
                 {
                     "key": "3",
                     "image": "bad_sport.jpeg",
-                    "image_search_term": "Esquivar bolas de dodgeball en un terreno embarrado"
+                    "image_search_term": "Esquivar bolas de dodgeball en un terreno embarrado",
+                    "text": "Esquivar bolas de dodgeball en un terreno embarrado"
                 },
                 {
                     "key": "2",
                     "image": "normal_sport.jpeg",
-                    "image_search_term": "Partido de tenis en el parque local"
+                    "image_search_term": "Partido de tenis en el parque local",
+                    "text": "Partido de tenis en el parque local"
                 }
             ],
-            "answer": "Ya sea cabalgando olas o esquivando pelotas, ¡que tu elección te mantenga en movimiento!",
+            "text_answer": "Ya sea cabalgando olas o esquivando pelotas, ¡que tu elección te mantenga en movimiento!",
             "audio_answer": "18_answer.mp3"
         },
         {
@@ -443,20 +497,23 @@
                 {
                     "key": "3",
                     "image": "bad_movie_genre.jpeg",
-                    "image_search_term": "Películas de terror de bajo presupuesto"
+                    "image_search_term": "Películas de terror de bajo presupuesto",
+                    "text": "Películas de terror de bajo presupuesto"
                 },
                 {
                     "key": "1",
                     "image": "excellent_movie_genre.jpeg",
-                    "image_search_term": "Clásicos del cine"
+                    "image_search_term": "Clásicos del cine",
+                    "text": "Clásicos del cine"
                 },
                 {
                     "key": "2",
                     "image": "normal_movie_genre.jpeg",
-                    "image_search_term": "Comedias románticas"
+                    "image_search_term": "Comedias románticas",
+                    "text": "Comedias románticas"
                 }
             ],
-            "answer": "Esperamos que tu maratón cinematográfica sea todo un éxito... o al menos que no te quite el sueño.",
+            "text_answer": "Esperamos que tu maratón cinematográfica sea todo un éxito... o al menos que no te quite el sueño.",
             "audio_answer": "19_answer.mp3"
         },
         {
@@ -467,20 +524,23 @@
                 {
                     "key": "1",
                     "image": "excellent_morning_drink.jpeg",
-                    "image_search_term": "Café gourmet con vista al amanecer"
+                    "image_search_term": "Café gourmet con vista al amanecer",
+                    "text": "Café gourmet con vista al amanecer"
                 },
                 {
                     "key": "2",
                     "image": "normal_morning_drink.jpeg",
-                    "image_search_term": "Taza de té verde"
+                    "image_search_term": "Taza de té verde",
+                    "text": "Taza de té verde"
                 },
                 {
                     "key": "3",
                     "image": "bad_morning_drink.jpeg",
-                    "image_search_term": "Bebida energética barata"
+                    "image_search_term": "Bebida energética barata",
+                    "text": "Bebida energética barata"
                 }
             ],
-            "answer": "¡Que tu elección te de la energía necesaria para afrontar el día... o al menos hasta la próxima dosis de cafeína!",
+            "text_answer": "¡Que tu elección te de la energía necesaria para afrontar el día... o al menos hasta la próxima dosis de cafeína!",
             "audio_answer": "20_answer.mp3"
         },
         {
@@ -491,20 +551,23 @@
                 {
                     "key": "1",
                     "image": "excellent_wedding_location.jpeg",
-                    "image_search_term": "Boda en la playa al atardecer"
+                    "image_search_term": "Boda en la playa al atardecer",
+                    "text": "Boda en la playa al atardecer"
                 },
                 {
                     "key": "3",
                     "image": "bad_wedding_location.jpeg",
-                    "image_search_term": "Capilla de Las Vegas con un imitador de Elvis"
+                    "image_search_term": "Capilla de Las Vegas con un imitador de Elvis",
+                    "text": "Capilla de Las Vegas con un imitador de Elvis"
                 },
                 {
                     "key": "2",
                     "image": "normal_wedding_location.jpeg",
-                    "image_search_term": "Ceremonia íntima en el jardín trasero"
+                    "image_search_term": "Ceremonia íntima en el jardín trasero",
+                    "text": "Ceremonia íntima en el jardín trasero"
                 }
             ],
-            "answer": "Sin importar el lugar, esperamos que tu gran día sea inolvidable... por las razones correctas.",
+            "text_answer": "Sin importar el lugar, esperamos que tu gran día sea inolvidable... por las razones correctas.",
             "audio_answer": "21_answer.mp3"
         },
         {
@@ -515,20 +578,23 @@
                 {
                     "key": "3",
                     "image": "bad_job.jpeg",
-                    "image_search_term": "Degustador de comida para mascotas"
+                    "image_search_term": "Degustador de comida para mascotas",
+                    "text": "Degustador de comida para mascotas"
                 },
                 {
                     "key": "1",
                     "image": "excellent_job.jpeg",
-                    "image_search_term": "Astronauta observando la Tierra desde el espacio"
+                    "image_search_term": "Astronauta observando la Tierra desde el espacio",
+                    "text": "Astronauta observando la Tierra desde el espacio"
                 },
                 {
                     "key": "2",
                     "image": "normal_job.jpeg",
-                    "image_search_term": "Profesor inspirando a estudiantes"
+                    "image_search_term": "Profesor inspirando a estudiantes",
+                    "text": "Profesor inspirando a estudiantes"
                 }
             ],
-            "answer": "Sea cual sea tu elección, esperamos que te encuentres alcanzando las estrellas... o al menos, no probando comida para mascotas.",
+            "text_answer": "Sea cual sea tu elección, esperamos que te encuentres alcanzando las estrellas... o al menos, no probando comida para mascotas.",
             "audio_answer": "22_answer.mp3"
         },
         {
@@ -539,20 +605,23 @@
                 {
                     "key": "1",
                     "image": "excellent_era.jpeg",
-                    "image_search_term": "Renacimiento en Florencia"
+                    "image_search_term": "Renacimiento en Florencia",
+                    "text": "Renacimiento en Florencia"
                 },
                 {
                     "key": "3",
                     "image": "bad_era.jpeg",
-                    "image_search_term": "La Gran Depresión en Estados Unidos"
+                    "image_search_term": "La Gran Depresión en Estados Unidos",
+                    "text": "La Gran Depresión en Estados Unidos"
                 },
                 {
                     "key": "2",
                     "image": "normal_era.jpeg",
-                    "image_search_term": "Los años 60 en San Francisco"
+                    "image_search_term": "Los años 60 en San Francisco",
+                    "text": "Los años 60 en San Francisco"
                 }
             ],
-            "answer": "Esperamos que tu viaje en el tiempo te deje con buenos recuerdos... o al menos, una apreciación por el presente.",
+            "text_answer": "Esperamos que tu viaje en el tiempo te deje con buenos recuerdos... o al menos, una apreciación por el presente.",
             "audio_answer": "23_answer.mp3"
         },
         {
@@ -563,20 +632,23 @@
                 {
                     "key": "1",
                     "image": "excellent_house.jpeg",
-                    "image_search_term": "Casa moderna con vistas al mar"
+                    "image_search_term": "Casa moderna con vistas al mar",
+                    "text": "Casa moderna con vistas al mar"
                 },
                 {
                     "key": "2",
                     "image": "normal_house.jpeg",
-                    "image_search_term": "Acogedor apartamento en el centro"
+                    "image_search_term": "Acogedor apartamento en el centro",
+                    "text": "Acogedor apartamento en el centro"
                 },
                 {
                     "key": "3",
                     "image": "bad_house.jpeg",
-                    "image_search_term": "Pequeña cabaña en un pantano"
+                    "image_search_term": "Pequeña cabaña en un pantano",
+                    "text": "Pequeña cabaña en un pantano"
                 }
             ],
-            "answer": "Ya sea que estés mirando al mar o evitando pantanos, esperamos que llames hogar a un lugar feliz.",
+            "text_answer": "Ya sea que estés mirando al mar o evitando pantanos, esperamos que llames hogar a un lugar feliz.",
             "audio_answer": "24_answer.mp3"
         },
         {
@@ -587,20 +659,23 @@
                 {
                     "key": "1",
                     "image": "excellent_magic_item.jpeg",
-                    "image_search_term": "Lámpara de Aladino"
+                    "image_search_term": "Lámpara de Aladino",
+                    "text": "Lámpara de Aladino"
                 },
                 {
                     "key": "3",
                     "image": "bad_magic_item.jpeg",
-                    "image_search_term": "Calcetín de duende"
+                    "image_search_term": "Calcetín de duende",
+                    "text": "Calcetín de duende"
                 },
                 {
                     "key": "2",
                     "image": "normal_magic_item.jpeg",
-                    "image_search_term": "Varita mágica de madera"
+                    "image_search_term": "Varita mágica de madera",
+                    "text": "Varita mágica de madera"
                 }
             ],
-            "answer": "Con suerte, tu elección mágica no te dejará con el deseo de haber pedido algo más... como unos cuantos deseos extra.",
+            "text_answer": "Con suerte, tu elección mágica no te dejará con el deseo de haber pedido algo más... como unos cuantos deseos extra.",
             "audio_answer": "25_answer.mp3"
         },
         {
@@ -611,20 +686,23 @@
                 {
                     "key": "3",
                     "image": "bad_dinner_guest.jpeg",
-                    "image_search_term": "Cena con un vagabundo"
+                    "image_search_term": "Cena con un vagabundo",
+                    "text": "Cena con un vagabundo"
                 },
                 {
                     "key": "1",
                     "image": "excellent_dinner_guest.jpeg",
-                    "image_search_term": "Cena con Mr. Beast"
+                    "image_search_term": "Cena con Mr. Beast",
+                    "text": "Cena con Mr. Beast"
                 },
                 {
                     "key": "2",
                     "image": "normal_dinner_guest.jpeg",
-                    "image_search_term": "Cena con un chef Chef Oropeza"
+                    "image_search_term": "Cena con un chef Chef Oropeza",
+                    "text": "Cena con un chef Chef Oropeza"
                 }
             ],
-            "answer": "Esperamos que la conversación sea tan buena como la comida. ¡Buen provecho!",
+            "text_answer": "Esperamos que la conversación sea tan buena como la comida. ¡Buen provecho!",
             "audio_answer": "26_answer.mp3"
         },
         {
@@ -635,20 +713,23 @@
                 {
                     "key": "1",
                     "image": "excellent_subject.jpeg",
-                    "image_search_term": "Astronomía avanzada"
+                    "image_search_term": "Astronomía avanzada",
+                    "text": "Astronomía avanzada"
                 },
                 {
                     "key": "2",
                     "image": "normal_subject.jpeg",
-                    "image_search_term": "Historia mundial"
+                    "image_search_term": "Historia mundial",
+                    "text": "Historia mundial"
                 },
                 {
                     "key": "3",
                     "image": "bad_subject.jpeg",
-                    "image_search_term": "Matemáticas básicas con malos recuerdos"
+                    "image_search_term": "Matemáticas básicas con malos recuerdos",
+                    "text": "Matemáticas básicas con malos recuerdos"
                 }
             ],
-            "answer": "Esperamos que esta vez la materia te resulte más interesante... o al menos más llevadera.",
+            "text_answer": "Esperamos que esta vez la materia te resulte más interesante... o al menos más llevadera.",
             "audio_answer": "27_answer.mp3"
         },
         {
@@ -659,20 +740,23 @@
                 {
                     "key": "1",
                     "image": "excellent_unusual_hobby.jpeg",
-                    "image_search_term": "Planchar ropa mientras haces esquí acuático"
+                    "image_search_term": "Planchar ropa mientras haces esquí acuático",
+                    "text": "Planchar ropa mientras haces esquí acuático"
                 },
                 {
                     "key": "3",
                     "image": "bad_unusual_hobby.jpeg",
-                    "image_search_term": "Clasificar piedras por tamaño y color"
+                    "image_search_term": "Clasificar piedras por tamaño y color",
+                    "text": "Clasificar piedras por tamaño y color"
                 },
                 {
                     "key": "2",
                     "image": "normal_unusual_hobby.jpeg",
-                    "image_search_term": "Coleccionar mapas antiguos"
+                    "image_search_term": "Coleccionar mapas antiguos",
+                    "text": "Coleccionar mapas antiguos"
                 }
             ],
-            "answer": "Sea cual sea tu elección, es seguro que añadirá un poco de sabor a tus conversaciones.",
+            "text_answer": "Sea cual sea tu elección, es seguro que añadirá un poco de sabor a tus conversaciones.",
             "audio_answer": "28_answer.mp3"
         },
         {
@@ -683,20 +767,23 @@
                 {
                     "key": "1",
                     "image": "excellent_challenge.jpeg",
-                    "image_search_term": "Correr un maratón"
+                    "image_search_term": "Correr un maratón",
+                    "text": "Correr un maratón"
                 },
                 {
                     "key": "2",
                     "image": "normal_challenge.jpeg",
-                    "image_search_term": "Leer 50 libros"
+                    "image_search_term": "Leer 50 libros",
+                    "text": "Leer 50 libros"
                 },
                 {
                     "key": "3",
                     "image": "bad_challenge.jpeg",
-                    "image_search_term": "Comer saludable todo el año"
+                    "image_search_term": "Comer saludable todo el año",
+                    "text": "Comer saludable todo el año"
                 }
             ],
-            "answer": "Cualquiera que sea el desafío que elijas, estamos seguros de que aprenderás algo valioso... incluso si es el valor de la moderación.",
+            "text_answer": "Cualquiera que sea el desafío que elijas, estamos seguros de que aprenderás algo valioso... incluso si es el valor de la moderación.",
             "audio_answer": "29_answer.mp3"
         },
         {
@@ -707,20 +794,23 @@
                 {
                     "key": "3",
                     "image": "bad_exotic_place.jpeg",
-                    "image_search_term": "Turismo en casa de la abuela"
+                    "image_search_term": "Turismo en casa de la abuela",
+                    "text": "Turismo en casa de la abuela"
                 },
                 {
                     "key": "1",
                     "image": "excellent_exotic_place.jpeg",
-                    "image_search_term": "Safari en la Sabana africana"
+                    "image_search_term": "Safari en la Sabana africana",
+                    "text": "Safari en la Sabana africana"
                 },
                 {
                     "key": "2",
                     "image": "normal_exotic_place.jpeg",
-                    "image_search_term": "Visita a los templos de Angkor Wat"
+                    "image_search_term": "Visita a los templos de Angkor Wat",
+                    "text": "Visita a los templos de Angkor Wat"
                 }
             ],
-            "answer": "Esperamos que tu aventura sea memorable... y que regreses a casa sano y salvo.",
+            "text_answer": "Esperamos que tu aventura sea memorable... y que regreses a casa sano y salvo.",
             "audio_answer": "30_answer.mp3"
         }
     ]
