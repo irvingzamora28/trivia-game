@@ -1,0 +1,766 @@
+{
+    "data": {
+        "file_path": "12_ghostbusters"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿Cuál es el nombre del personaje que Bill Murray interpreta en Los Cazafantasmas?",
+            "audio_question": "1_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Egon Spengler",
+                    "image": "egon-spengler",
+                    "image_search_term": "Character Egon Spengler Ghostbusters"
+                },
+                {
+                    "key": "B",
+                    "text": "Ray Stantz",
+                    "image": "ray-stantz",
+                    "image_search_term": "Character Ray Stantz Ghostbusters"
+                },
+                {
+                    "key": "C",
+                    "text": "Peter Venkman",
+                    "image": "peter-venkman",
+                    "image_search_term": "Character Peter Venkman Ghostbusters"
+                },
+                {
+                    "key": "D",
+                    "text": "Winston Zeddemore",
+                    "image": "winston-zeddemore",
+                    "image_search_term": "Character Winston Zeddemore Ghostbusters"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "Este edificio es la sede de los Cazafantasmas en la película. ¿Cuál es?",
+            "audio_question": "2_question.mp3",
+            "image_question": "ghostbusters-headquarters",
+            "image_search_term": "Ghostbusters headquarters building",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Una biblioteca abandonada"
+                },
+                {
+                    "key": "B",
+                    "text": "Una estación de bomberos"
+                },
+                {
+                    "key": "C",
+                    "text": "Un museo"
+                },
+                {
+                    "key": "D",
+                    "text": "Una escuela desocupada"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "¿Cuál es el nombre del demonio principal en la primera película de Los Cazafantasmas?",
+            "audio_question": "3_question.mp3",
+            "image_question": "gozer",
+            "image_search_term": "Demon Gozer Ghostbusters",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Zuul"
+                },
+                {
+                    "key": "B",
+                    "text": "Gozer"
+                },
+                {
+                    "key": "C",
+                    "text": "Vigo"
+                },
+                {
+                    "key": "D",
+                    "text": "Slimer"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Qué actriz interpretó a Dana Barrett, el interés amoroso de Peter Venkman?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Sigourney Weaver",
+                    "image": "sigourney-weaver",
+                    "image_search_term": "Actress Sigourney Weaver"
+                },
+                {
+                    "key": "B",
+                    "text": "Melissa McCarthy",
+                    "image": "melissa-mccarthy",
+                    "image_search_term": "Actress Melissa McCarthy"
+                },
+                {
+                    "key": "C",
+                    "text": "Kristen Wiig",
+                    "image": "kristen-wiig",
+                    "image_search_term": "Actress Kristen Wiig"
+                },
+                {
+                    "key": "D",
+                    "text": "Annie Potts",
+                    "image": "annie-potts",
+                    "image_search_term": "Actress Annie Potts"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "¿Cuál es el nombre del fantasma verde glotón conocido por su amor hacia la comida?",
+            "audio_question": "5_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Gozer",
+                    "image": "gozer",
+                    "image_search_term": "Ghost Gozer Ghostbusters"
+                },
+                {
+                    "key": "B",
+                    "text": "Slimer",
+                    "image": "slimer",
+                    "image_search_term": "Ghost Slimer Ghostbusters"
+                },
+                {
+                    "key": "C",
+                    "text": "Vinz Clortho",
+                    "image": "vinz-clortho",
+                    "image_search_term": "Ghost Vinz Clortho Ghostbusters"
+                },
+                {
+                    "key": "D",
+                    "text": "Zuul",
+                    "image": "zuul",
+                    "image_search_term": "Ghost Zuul Ghostbusters"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "¿En qué año se estrenó la película original de Los Cazafantasmas?",
+            "audio_question": "6_question.mp3",
+            "image_question": "ghostbusters-1984",
+            "image_search_term": "Ghostbusters 1984 movie poster",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1980"
+                },
+                {
+                    "key": "B",
+                    "text": "1984"
+                },
+                {
+                    "key": "C",
+                    "text": "1986"
+                },
+                {
+                    "key": "D",
+                    "text": "1982"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "¿Quién dirigió la película original de Los Cazafantasmas de 1984?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Steven Spielberg",
+                    "image": "steven-spielberg",
+                    "image_search_term": "Director Steven Spielberg"
+                },
+                {
+                    "key": "B",
+                    "text": "Ivan Reitman",
+                    "image": "ivan-reitman",
+                    "image_search_term": "Director Ivan Reitman"
+                },
+                {
+                    "key": "C",
+                    "text": "George Lucas",
+                    "image": "george-lucas",
+                    "image_search_term": "Director George Lucas"
+                },
+                {
+                    "key": "D",
+                    "text": "James Cameron",
+                    "image": "james-cameron",
+                    "image_search_term": "Director James Cameron"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué actor interpretó al Dr. Raymond 'Ray' Stantz?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Bill Murray",
+                    "image": "bill-murray",
+                    "image_search_term": "Actor Bill Murray"
+                },
+                {
+                    "key": "B",
+                    "text": "Dan Aykroyd",
+                    "image": "dan-aykroyd",
+                    "image_search_term": "Actor Dan Aykroyd"
+                },
+                {
+                    "key": "C",
+                    "text": "Harold Ramis",
+                    "image": "harold-ramis",
+                    "image_search_term": "Actor Harold Ramis"
+                },
+                {
+                    "key": "D",
+                    "text": "Ernie Hudson",
+                    "image": "ernie-hudson",
+                    "image_search_term": "Actor Ernie Hudson"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿Qué científico es conocido por inventar y por llevar siempre consigo un PKE Meter en las películas?",
+            "audio_question": "9_question.mp3",
+            "image_question": "pke-meter",
+            "image_search_term": "Ghostbusters PKE Meter",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Peter Venkman"
+                },
+                {
+                    "key": "B",
+                    "text": "Ray Stantz"
+                },
+                {
+                    "key": "C",
+                    "text": "Egon Spengler"
+                },
+                {
+                    "key": "D",
+                    "text": "Winston Zeddemore"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Qué icónico edificio de Nueva York es crucial en el clímax de la primera película de Los Cazafantasmas?",
+            "audio_question": "10_question.mp3",
+            "image_question": "ghostbusters-final-building",
+            "image_search_term": "Ghostbusters climax building New York",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Empire State Building"
+                },
+                {
+                    "key": "B",
+                    "text": "Chrysler Building"
+                },
+                {
+                    "key": "C",
+                    "text": "55 Central Park West"
+                },
+                {
+                    "key": "D",
+                    "text": "One World Trade Center"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿Cómo se llama la mascota fantasma de los Cazafantasmas, que inicialmente intentan atrapar?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Mooglie",
+                    "image": "mooglie",
+                    "image_search_term": "Ghostbusters ghost Mooglie"
+                },
+                {
+                    "key": "B",
+                    "text": "Slimer",
+                    "image": "slimer",
+                    "image_search_term": "Ghostbusters ghost Slimer"
+                },
+                {
+                    "key": "C",
+                    "text": "Gozer",
+                    "image": "gozer",
+                    "image_search_term": "Ghostbusters ghost Gozer"
+                },
+                {
+                    "key": "D",
+                    "text": "Vinz Clortho",
+                    "image": "vinz-clortho",
+                    "image_search_term": "Ghostbusters ghost Vinz Clortho"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "En 'Los Cazafantasmas II', ¿qué sustancia rosa tiene un papel crucial en la trama?",
+            "audio_question": "12_question.mp3",
+            "image_question": "ghostbusters-pink-slime",
+            "image_search_term": "Ghostbusters II pink slime",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pintura mágica"
+                },
+                {
+                    "key": "B",
+                    "text": "Baba ectoplásmica"
+                },
+                {
+                    "key": "C",
+                    "text": "Slime psicomagnotérico"
+                },
+                {
+                    "key": "D",
+                    "text": "Gelatina de energía espiritual"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿Qué famoso monumento se convierte en un ser animado por la magia de los fantasmas en 'Los Cazafantasmas II'?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Estatua de la Libertad",
+                    "image": "statue-of-liberty",
+                    "image_search_term": "Ghostbusters II Statue of Liberty"
+                },
+                {
+                    "key": "B",
+                    "text": "El Puente de Brooklyn",
+                    "image": "brooklyn-bridge",
+                    "image_search_term": "Ghostbusters II Brooklyn Bridge"
+                },
+                {
+                    "key": "C",
+                    "text": "El Empire State Building",
+                    "image": "empire-state-building",
+                    "image_search_term": "Ghostbusters II Empire State Building"
+                },
+                {
+                    "key": "D",
+                    "text": "El Chrysler Building",
+                    "image": "chrysler-building",
+                    "image_search_term": "Ghostbusters II Chrysler Building"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Qué actriz se unió al equipo en la película de 'Cazafantasmas' de 2016 como Patty Tolan?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Melissa McCarthy",
+                    "image": "melissa-mccarthy",
+                    "image_search_term": "Actress Melissa McCarthy 2016 Ghostbusters"
+                },
+                {
+                    "key": "B",
+                    "text": "Kristen Wiig",
+                    "image": "kristen-wiig",
+                    "image_search_term": "Actress Kristen Wiig 2016 Ghostbusters"
+                },
+                {
+                    "key": "C",
+                    "text": "Leslie Jones",
+                    "image": "leslie-jones",
+                    "image_search_term": "Actress Leslie Jones 2016 Ghostbusters"
+                },
+                {
+                    "key": "D",
+                    "text": "Kate McKinnon",
+                    "image": "kate-mckinnon",
+                    "image_search_term": "Actress Kate McKinnon 2016 Ghostbusters"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿Cuál es el nombre del perro demonio que posee a Louis Tully en 'Los Cazafantasmas'?",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Zuul",
+                    "image": "zuul",
+                    "image_search_term": "Demon Dog Zuul Ghostbusters"
+                },
+                {
+                    "key": "B",
+                    "text": "Vinz Clortho",
+                    "image": "vinz-clortho",
+                    "image_search_term": "Demon Dog Vinz Clortho Ghostbusters"
+                },
+                {
+                    "key": "C",
+                    "text": "Gozer",
+                    "image": "gozer",
+                    "image_search_term": "Demon Gozer Ghostbusters"
+                },
+                {
+                    "key": "D",
+                    "text": "Slimer",
+                    "image": "slimer",
+                    "image_search_term": "Ghost Slimer Ghostbusters"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Qué canción icónica de Ray Parker Jr. se convirtió en el tema de Los Cazafantasmas?",
+            "audio_question": "16_question.mp3",
+            "image_question": "ghostbusters-song-ray-parker-jr",
+            "image_search_term": "Ghostbusters theme song Ray Parker Jr.",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Who You Gonna Call?"
+                },
+                {
+                    "key": "B",
+                    "text": "Ghostbusters!"
+                },
+                {
+                    "key": "C",
+                    "text": "I Ain't Afraid of No Ghost"
+                },
+                {
+                    "key": "D",
+                    "text": "Spirit in the Sky"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿Cómo se llama el dios destructor al que se enfrentan los Cazafantasmas en la primera película?",
+            "audio_question": "17_question.mp3",
+            "image_question": "gozer-the-gozerian",
+            "image_search_term": "Gozer the Gozerian Ghostbusters",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Vigo"
+                },
+                {
+                    "key": "B",
+                    "text": "Gozer"
+                },
+                {
+                    "key": "C",
+                    "text": "Slimer"
+                },
+                {
+                    "key": "D",
+                    "text": "Zuul"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "¿Qué actor proporcionó la voz para el personaje de Slimer en las películas de Los Cazafantasmas?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Bill Murray",
+                    "image": "bill-murray",
+                    "image_search_term": "Actor Bill Murray"
+                },
+                {
+                    "key": "B",
+                    "text": "Dan Aykroyd",
+                    "image": "dan-aykroyd",
+                    "image_search_term": "Actor Dan Aykroyd"
+                },
+                {
+                    "key": "C",
+                    "text": "Ivan Reitman",
+                    "image": "ivan-reitman",
+                    "image_search_term": "Director Ivan Reitman"
+                },
+                {
+                    "key": "D",
+                    "text": "Harold Ramis",
+                    "image": "harold-ramis",
+                    "image_search_term": "Actor Harold Ramis"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "¿Cuál es el nombre del videojuego de 2009 que cuenta con el elenco original de las películas de Los Cazafantasmas?",
+            "audio_question": "19_question.mp3",
+            "image_question": "ghostbusters-2009-video-game",
+            "image_search_term": "Ghostbusters 2009 video game cover",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ghostbusters: The Video Game"
+                },
+                {
+                    "key": "B",
+                    "text": "Ghostbusters: Slime City"
+                },
+                {
+                    "key": "C",
+                    "text": "Ghostbusters: Spectral Smashers"
+                },
+                {
+                    "key": "D",
+                    "text": "Ghostbusters: Ghostly Adventures"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "¿En qué universidad trabajaban Peter Venkman, Ray Stantz y Egon Spengler antes de convertirse en Cazafantasmas?",
+            "audio_question": "20_question.mp3",
+            "image_question": "ghostbusters-university",
+            "image_search_term": "Ghostbusters characters university",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Universidad de Columbia"
+                },
+                {
+                    "key": "B",
+                    "text": "Universidad de Nueva York"
+                },
+                {
+                    "key": "C",
+                    "text": "MIT"
+                },
+                {
+                    "key": "D",
+                    "text": "Universidad de Harvard"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "¿Quién compuso la partitura original de la película de Los Cazafantasmas de 1984?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "John Williams",
+                    "image": "john-williams",
+                    "image_search_term": "Composer John Williams"
+                },
+                {
+                    "key": "B",
+                    "text": "Elmer Bernstein",
+                    "image": "elmer-bernstein",
+                    "image_search_term": "Composer Elmer Bernstein"
+                },
+                {
+                    "key": "C",
+                    "text": "Hans Zimmer",
+                    "image": "hans-zimmer",
+                    "image_search_term": "Composer Hans Zimmer"
+                },
+                {
+                    "key": "D",
+                    "text": "Danny Elfman",
+                    "image": "danny-elfman",
+                    "image_search_term": "Composer Danny Elfman"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "¿Cuál de estos personajes es poseido por Zuul en la primera película de Los Cazafantasmas?",
+            "audio_question": "22_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dana Barrett",
+                    "image": "dana-barrett",
+                    "image_search_term": "Character Dana Barrett Ghostbusters"
+                },
+                {
+                    "key": "B",
+                    "text": "Louis Tully",
+                    "image": "louis-tully",
+                    "image_search_term": "Character Louis Tully Ghostbusters"
+                },
+                {
+                    "key": "C",
+                    "text": "Peter Venkman",
+                    "image": "peter-venkman",
+                    "image_search_term": "Character Peter Venkman Ghostbusters"
+                },
+                {
+                    "key": "D",
+                    "text": "Egon Spengler",
+                    "image": "egon-spengler",
+                    "image_search_term": "Character Egon Spengler Ghostbusters"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "¿Qué personaje afirma haber sido 'slimed' por primera vez en la película original de Los Cazafantasmas?",
+            "audio_question": "23_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ray Stantz",
+                    "image": "ray-stantz",
+                    "image_search_term": "Character Ray Stantz slimed Ghostbusters"
+                },
+                {
+                    "key": "B",
+                    "text": "Peter Venkman",
+                    "image": "peter-venkman",
+                    "image_search_term": "Character Peter Venkman slimed Ghostbusters"
+                },
+                {
+                    "key": "C",
+                    "text": "Egon Spengler",
+                    "image": "egon-spengler",
+                    "image_search_term": "Character Egon Spengler slimed Ghostbusters"
+                },
+                {
+                    "key": "D",
+                    "text": "Winston Zeddemore",
+                    "image": "winston-zeddemore",
+                    "image_search_term": "Character Winston Zeddemore slimed Ghostbusters"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "¿Qué famoso actor iba a interpretar el papel de Peter Venkman antes de que Bill Murray lo aceptara?",
+            "audio_question": "24_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Chevy Chase",
+                    "image": "chevy-chase",
+                    "image_search_term": "Actor Chevy Chase"
+                },
+                {
+                    "key": "B",
+                    "text": "John Belushi",
+                    "image": "john-belushi",
+                    "image_search_term": "Actor John Belushi"
+                },
+                {
+                    "key": "C",
+                    "text": "Steve Martin",
+                    "image": "steve-martin",
+                    "image_search_term": "Actor Steve Martin"
+                },
+                {
+                    "key": "D",
+                    "text": "Robin Williams",
+                    "image": "robin-williams",
+                    "image_search_term": "Actor Robin Williams"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "¿En qué película de Los Cazafantasmas aparece el personaje de Vigo el Cárpato?",
+            "audio_question": "25_question.mp3",
+            "image_question": "ghostbusters-ii-vigo",
+            "image_search_term": "Vigo the Carpathian Ghostbusters II",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Los Cazafantasmas"
+                },
+                {
+                    "key": "B",
+                    "text": "Los Cazafantasmas II"
+                },
+                {
+                    "key": "C",
+                    "text": "Cazafantasmas: Más allá"
+                },
+                {
+                    "key": "D",
+                    "text": "Cazafantasmas (2016)"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "25_answer.mp3"
+        }
+    ]
+}
