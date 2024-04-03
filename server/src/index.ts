@@ -42,7 +42,7 @@ app.post('/generate-audio', async (req, res) => {
 });
 
 app.post("/process-questions", async (req, res) => {
-  const questionsFilePath = path.resolve(__dirname, "..", "..", "src", "data", "11_choose_an_option.json");
+  const questionsFilePath = path.resolve(__dirname, "..", "..", "src", "data", "13_general_culture.json");
   const outputAudioDir = path.resolve(__dirname, "..", "..", "src", "assets", "audio");
   const outputImageDir = path.resolve(__dirname, "..", "..", "src", "assets", "images");
 
@@ -68,12 +68,12 @@ app.post("/process-questions", async (req, res) => {
     for (let idx = 0; idx < questions.length; idx++) {
       const question = questions[idx];
       if (question.image_search_term) {
-        const imageQuestionPath = path.join(outputImageDir, data.file_path, question.image_question);
+        const imageQuestionPath = path.join(outputImageDir, data.file_path, `${idx+1}_${question.image_question}`);
         await fetchAndSaveImage(question.image_search_term, imageQuestionPath, 5);
       }
 
       if (question.image_answer) {
-        const imageQuestionPath = path.join(outputImageDir, data.file_path, question.image_answer);
+        const imageQuestionPath = path.join(outputImageDir, data.file_path, `${idx+1}_${question.image_answer}`);
         await fetchAndSaveImage(`${question.answer}`, imageQuestionPath, 5);
       }
 
