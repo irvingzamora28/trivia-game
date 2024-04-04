@@ -1,0 +1,1279 @@
+{
+    "data": {
+        "file_path": "13_general_culture"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Este monumento es conocido como la 'Ciudad de los Incas'",
+            "audio_question": "1_question.mp3",
+            "image_question": "machu-picchu",
+            "image_search_term": "Machu Picchu",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Chichén Itzá"
+                },
+                {
+                    "key": "B",
+                    "text": "Machu Picchu"
+                },
+                {
+                    "key": "C",
+                    "text": "El Coliseo"
+                },
+                {
+                    "key": "D",
+                    "text": "La Gran Muralla China"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "¿Quién escribió 'Cien años de soledad'?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Mario Vargas Llosa",
+                    "image": "mario-vargas-llosa",
+                    "image_search_term": "Mario Vargas Llosa"
+                },
+                {
+                    "key": "B",
+                    "text": "Gabriel García Márquez",
+                    "image": "gabriel-garcia-marquez",
+                    "image_search_term": "Gabriel García Márquez"
+                },
+                {
+                    "key": "C",
+                    "text": "Julio Cortázar",
+                    "image": "julio-cortazar",
+                    "image_search_term": "Julio Cortázar"
+                },
+                {
+                    "key": "D",
+                    "text": "Isabel Allende",
+                    "image": "isabel-allende",
+                    "image_search_term": "Isabel Allende"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "Este es el edificio más alto del mundo",
+            "audio_question": "3_question.mp3",
+            "image_question": "burj-khalifa",
+            "image_search_term": "Burj Khalifa",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Shanghai Tower"
+                },
+                {
+                    "key": "B",
+                    "text": "Abraj Al-Bait Clock Tower"
+                },
+                {
+                    "key": "C",
+                    "text": "One World Trade Center"
+                },
+                {
+                    "key": "D",
+                    "text": "Burj Khalifa"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Cuál es el río más largo del mundo?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Nilo",
+                    "image": "nilo",
+                    "image_search_term": "Río Nilo"
+                },
+                {
+                    "key": "B",
+                    "text": "Amazonas",
+                    "image": "amazonas",
+                    "image_search_term": "Río Amazonas"
+                },
+                {
+                    "key": "C",
+                    "text": "Yangtsé",
+                    "image": "yangtse",
+                    "image_search_term": "Río Yangtsé"
+                },
+                {
+                    "key": "D",
+                    "text": "Misisipi",
+                    "image": "misisipi",
+                    "image_search_term": "Río Misisipi"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "Este cuadro fue pintado por Leonardo da Vinci",
+            "audio_question": "5_question.mp3",
+            "image_question": "la-gioconda",
+            "image_search_term": "La Gioconda Mona Lisa",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Las Meninas"
+                },
+                {
+                    "key": "B",
+                    "text": "Guernica"
+                },
+                {
+                    "key": "C",
+                    "text": "El nacimiento de Venus"
+                },
+                {
+                    "key": "D",
+                    "text": "La Gioconda (Mona Lisa)"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "¿Cuál es la capital de Canadá?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Toronto",
+                    "image": "toronto",
+                    "image_search_term": "Ciudad Toronto"
+                },
+                {
+                    "key": "B",
+                    "text": "Vancouver",
+                    "image": "vancouver",
+                    "image_search_term": "Ciudad Vancouver"
+                },
+                {
+                    "key": "C",
+                    "text": "Ottawa",
+                    "image": "ottawa",
+                    "image_search_term": "Ciudad Ottawa"
+                },
+                {
+                    "key": "D",
+                    "text": "Montreal",
+                    "image": "montreal",
+                    "image_search_term": "Ciudad Montreal"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "¿Qué elemento químico tiene el símbolo 'O'?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Oro",
+                    "image": "oro",
+                    "image_search_term": "Elemento Oro"
+                },
+                {
+                    "key": "B",
+                    "text": "Osmio",
+                    "image": "osmio",
+                    "image_search_term": "Elemento Osmio"
+                },
+                {
+                    "key": "C",
+                    "text": "Oxígeno",
+                    "image": "oxigeno",
+                    "image_search_term": "Elemento Oxígeno"
+                },
+                {
+                    "key": "D",
+                    "text": "Oganesón",
+                    "image": "oganeson",
+                    "image_search_term": "Elemento Oganesón"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "Esta estructura es famosa por su inclinación",
+            "audio_question": "8_question.mp3",
+            "image_question": "torre-de-pisa",
+            "image_search_term": "Torre de Pisa",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Torre Eiffel"
+                },
+                {
+                    "key": "B",
+                    "text": "Torre de Londres"
+                },
+                {
+                    "key": "C",
+                    "text": "Big Ben"
+                },
+                {
+                    "key": "D",
+                    "text": "Torre de Pisa"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿En qué país se encuentra el desierto del Sahara?",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Egipto",
+                    "image": "egipto",
+                    "image_search_term": "Egipto"
+                },
+                {
+                    "key": "B",
+                    "text": "Marruecos",
+                    "image": "marruecos",
+                    "image_search_term": "Marruecos"
+                },
+                {
+                    "key": "C",
+                    "text": "Libia",
+                    "image": "libia",
+                    "image_search_term": "Libia"
+                },
+                {
+                    "key": "D",
+                    "text": "Todas las anteriores",
+                    "image": "todas-las-anteriores",
+                    "image_search_term": "Desierto del Sahara"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Quién pintó 'La noche estrellada'?",
+            "audio_question": "10_question.mp3",
+            "image_question": "la-noche-estrellada",
+            "image_search_term": "La noche estrellada Van Gogh",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pablo Picasso"
+                },
+                {
+                    "key": "B",
+                    "text": "Vincent van Gogh"
+                },
+                {
+                    "key": "C",
+                    "text": "Claude Monet"
+                },
+                {
+                    "key": "D",
+                    "text": "Leonardo da Vinci"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿En qué año cayó el Muro de Berlín?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1989",
+                    "image": "1989",
+                    "image_search_term": "Muro de Berlín 1989"
+                },
+                {
+                    "key": "B",
+                    "text": "1991",
+                    "image": "1991",
+                    "image_search_term": "Muro de Berlín 1991"
+                },
+                {
+                    "key": "C",
+                    "text": "1987",
+                    "image": "1987",
+                    "image_search_term": "Muro de Berlín 1987"
+                },
+                {
+                    "key": "D",
+                    "text": "1990",
+                    "image": "1990",
+                    "image_search_term": "Muro de Berlín 1990"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "¿Cuál es el océano más grande del mundo?",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Atlántico",
+                    "image": "oceano-atlantico",
+                    "image_search_term": "Océano Atlántico"
+                },
+                {
+                    "key": "B",
+                    "text": "Índico",
+                    "image": "oceano-indico",
+                    "image_search_term": "Océano Índico"
+                },
+                {
+                    "key": "C",
+                    "text": "Pacífico",
+                    "image": "oceano-pacifico",
+                    "image_search_term": "Océano Pacífico"
+                },
+                {
+                    "key": "D",
+                    "text": "Ártico",
+                    "image": "oceano-artico",
+                    "image_search_term": "Océano Ártico"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿Qué científico formuló la teoría de la relatividad?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Isaac Newton",
+                    "image": "isaac-newton",
+                    "image_search_term": "Isaac Newton"
+                },
+                {
+                    "key": "B",
+                    "text": "Albert Einstein",
+                    "image": "albert-einstein",
+                    "image_search_term": "Albert Einstein"
+                },
+                {
+                    "key": "C",
+                    "text": "Nikola Tesla",
+                    "image": "nikola-tesla",
+                    "image_search_term": "Nikola Tesla"
+                },
+                {
+                    "key": "D",
+                    "text": "Marie Curie",
+                    "image": "marie-curie",
+                    "image_search_term": "Marie Curie"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Qué país es conocido como el 'País del Sol Naciente'?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "China",
+                    "image": "china",
+                    "image_search_term": "China"
+                },
+                {
+                    "key": "B",
+                    "text": "Japón",
+                    "image": "japon",
+                    "image_search_term": "Japón"
+                },
+                {
+                    "key": "C",
+                    "text": "Corea del Sur",
+                    "image": "corea-del-sur",
+                    "image_search_term": "Corea del Sur"
+                },
+                {
+                    "key": "D",
+                    "text": "Tailandia",
+                    "image": "tailandia",
+                    "image_search_term": "Tailandia"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿En qué continente se encuentra Egipto?",
+            "audio_question": "15_question.mp3",
+            "image_question": "egipto-mapa",
+            "image_search_term": "Mapa Egipto",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Asia"
+                },
+                {
+                    "key": "B",
+                    "text": "Europa"
+                },
+                {
+                    "key": "C",
+                    "text": "África"
+                },
+                {
+                    "key": "D",
+                    "text": "América"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Cuál es la moneda oficial de Japón?",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Yuan",
+                    "image": "yuan",
+                    "image_search_term": "Moneda Yuan"
+                },
+                {
+                    "key": "B",
+                    "text": "Yen",
+                    "image": "yen",
+                    "image_search_term": "Moneda Yen"
+                },
+                {
+                    "key": "C",
+                    "text": "Won",
+                    "image": "won",
+                    "image_search_term": "Moneda Won"
+                },
+                {
+                    "key": "D",
+                    "text": "Dólar",
+                    "image": "dolar",
+                    "image_search_term": "Moneda Dólar"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿Quién fue el primer hombre en pisar la Luna?",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Yuri Gagarin",
+                    "image": "yuri-gagarin",
+                    "image_search_term": "Yuri Gagarin"
+                },
+                {
+                    "key": "B",
+                    "text": "Neil Armstrong",
+                    "image": "neil-armstrong",
+                    "image_search_term": "Neil Armstrong"
+                },
+                {
+                    "key": "C",
+                    "text": "Buzz Aldrin",
+                    "image": "buzz-aldrin",
+                    "image_search_term": "Buzz Aldrin"
+                },
+                {
+                    "key": "D",
+                    "text": "Michael Collins",
+                    "image": "michael-collins",
+                    "image_search_term": "Michael Collins"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "¿Cuál es el libro más vendido en el mundo después de la Biblia?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El Señor de los Anillos",
+                    "image": "el-senor-de-los-anillos",
+                    "image_search_term": "Libro El Señor de los Anillos"
+                },
+                {
+                    "key": "B",
+                    "text": "Don Quijote de la Mancha",
+                    "image": "don-quijote-de-la-mancha",
+                    "image_search_term": "Libro Don Quijote de la Mancha"
+                },
+                {
+                    "key": "C",
+                    "text": "Harry Potter y la Piedra Filosofal",
+                    "image": "harry-potter-y-la-piedra-filosofal",
+                    "image_search_term": "Libro Harry Potter y la Piedra Filosofal"
+                },
+                {
+                    "key": "D",
+                    "text": "El Código Da Vinci",
+                    "image": "el-codigo-da-vinci",
+                    "image_search_term": "Libro El Código Da Vinci"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Filipinas",
+                    "image": "filipinas",
+                    "image_search_term": "País Filipinas"
+                },
+                {
+                    "key": "B",
+                    "text": "Indonesia",
+                    "image": "indonesia",
+                    "image_search_term": "País Indonesia"
+                },
+                {
+                    "key": "C",
+                    "text": "Suecia",
+                    "image": "suecia",
+                    "image_search_term": "País Suecia"
+                },
+                {
+                    "key": "D",
+                    "text": "Canadá",
+                    "image": "canada",
+                    "image_search_term": "País Canadá"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "¿Cuál es la obra más famosa de William Shakespeare?",
+            "audio_question": "20_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Macbeth",
+                    "image": "macbeth",
+                    "image_search_term": "Obra Macbeth"
+                },
+                {
+                    "key": "B",
+                    "text": "Romeo y Julieta",
+                    "image": "romeo-y-julieta",
+                    "image_search_term": "Obra Romeo y Julieta"
+                },
+                {
+                    "key": "C",
+                    "text": "Hamlet",
+                    "image": "hamlet",
+                    "image_search_term": "Obra Hamlet"
+                },
+                {
+                    "key": "D",
+                    "text": "El sueño de una noche de verano",
+                    "image": "el-sueno-de-una-noche-de-verano",
+                    "image_search_term": "Obra El sueño de una noche de verano"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "¿Cuál es la ciudad más poblada del mundo?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Nueva York",
+                    "image": "nueva-york",
+                    "image_search_term": "Ciudad Nueva York"
+                },
+                {
+                    "key": "B",
+                    "text": "Tokio",
+                    "image": "tokio",
+                    "image_search_term": "Ciudad Tokio"
+                },
+                {
+                    "key": "C",
+                    "text": "Shanghái",
+                    "image": "shanghai",
+                    "image_search_term": "Ciudad Shanghái"
+                },
+                {
+                    "key": "D",
+                    "text": "Delhi",
+                    "image": "delhi",
+                    "image_search_term": "Ciudad Delhi"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "¿Qué país ganó el primer Mundial de Fútbol?",
+            "audio_question": "22_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Uruguay",
+                    "image": "uruguay",
+                    "image_search_term": "Mundial de Fútbol 1930 Uruguay"
+                },
+                {
+                    "key": "B",
+                    "text": "Brasil",
+                    "image": "brasil",
+                    "image_search_term": "Mundial de Fútbol Brasil"
+                },
+                {
+                    "key": "C",
+                    "text": "Alemania",
+                    "image": "alemania",
+                    "image_search_term": "Mundial de Fútbol Alemania"
+                },
+                {
+                    "key": "D",
+                    "text": "Italia",
+                    "image": "italia",
+                    "image_search_term": "Mundial de Fútbol Italia"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "¿Qué famosa batalla detuvo la expansión del Imperio Persa hacia Europa en el 480 a.C.?",
+            "audio_question": "23_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Batalla de Marathon",
+                    "image": "batalla-de-marathon",
+                    "image_search_term": "Batalla de Marathon"
+                },
+                {
+                    "key": "B",
+                    "text": "Batalla de Salamina",
+                    "image": "batalla-de-salamina",
+                    "image_search_term": "Batalla de Salamina"
+                },
+                {
+                    "key": "C",
+                    "text": "Batalla de Termópilas",
+                    "image": "batalla-de-termopilas",
+                    "image_search_term": "Batalla de Termópilas"
+                },
+                {
+                    "key": "D",
+                    "text": "Batalla de las Puertas de Fuego",
+                    "image": "batalla-de-las-puertas-de-fuego",
+                    "image_search_term": "Batalla de las Puertas de Fuego"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "¿Quién es conocido como el 'Padre de la Computación'?",
+            "audio_question": "24_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Alan Turing",
+                    "image": "alan-turing",
+                    "image_search_term": "Alan Turing"
+                },
+                {
+                    "key": "B",
+                    "text": "Charles Babbage",
+                    "image": "charles-babbage",
+                    "image_search_term": "Charles Babbage"
+                },
+                {
+                    "key": "C",
+                    "text": "Steve Jobs",
+                    "image": "steve-jobs",
+                    "image_search_term": "Steve Jobs"
+                },
+                {
+                    "key": "D",
+                    "text": "Bill Gates",
+                    "image": "bill-gates",
+                    "image_search_term": "Bill Gates"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "¿Cuál es el lago más grande del mundo por superficie?",
+            "audio_question": "25_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Lago Superior",
+                    "image": "lago-superior",
+                    "image_search_term": "Lago Superior"
+                },
+                {
+                    "key": "B",
+                    "text": "Lago Victoria",
+                    "image": "lago-victoria",
+                    "image_search_term": "Lago Victoria"
+                },
+                {
+                    "key": "C",
+                    "text": "Mar Caspio",
+                    "image": "mar-caspio",
+                    "image_search_term": "Mar Caspio"
+                },
+                {
+                    "key": "D",
+                    "text": "Lago Michigan",
+                    "image": "lago-michigan",
+                    "image_search_term": "Lago Michigan"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "25_answer.mp3"
+        },
+        {
+            "id": 26,
+            "question": "¿Cuál es la especia más cara del mundo?",
+            "audio_question": "26_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Vainilla",
+                    "image": "vainilla",
+                    "image_search_term": "Especia Vainilla"
+                },
+                {
+                    "key": "B",
+                    "text": "Azafrán",
+                    "image": "azafran",
+                    "image_search_term": "Especia Azafrán"
+                },
+                {
+                    "key": "C",
+                    "text": "Cardamomo",
+                    "image": "cardamomo",
+                    "image_search_term": "Especia Cardamomo"
+                },
+                {
+                    "key": "D",
+                    "text": "Trufa blanca",
+                    "image": "trufa-blanca",
+                    "image_search_term": "Especia Trufa blanca"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "26_answer.mp3"
+        },
+        {
+            "id": 27,
+            "question": "¿Cuál es el idioma más hablado en el mundo?",
+            "audio_question": "27_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Inglés",
+                    "image": "ingles",
+                    "image_search_term": "Idioma Inglés"
+                },
+                {
+                    "key": "B",
+                    "text": "Mandarín",
+                    "image": "mandarin",
+                    "image_search_term": "Idioma Mandarín"
+                },
+                {
+                    "key": "C",
+                    "text": "Español",
+                    "image": "espanol",
+                    "image_search_term": "Idioma Español"
+                },
+                {
+                    "key": "D",
+                    "text": "Hindi",
+                    "image": "hindi",
+                    "image_search_term": "Idioma Hindi"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "27_answer.mp3"
+        },
+        {
+            "id": 28,
+            "question": "¿Qué estructura antigua es conocida como una de las Siete Maravillas del Mundo Antiguo?",
+            "audio_question": "28_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Pirámides de Giza",
+                    "image": "piramides-de-giza",
+                    "image_search_term": "Pirámides de Giza"
+                },
+                {
+                    "key": "B",
+                    "text": "Coliseo de Roma",
+                    "image": "coliseo-de-roma",
+                    "image_search_term": "Coliseo de Roma"
+                },
+                {
+                    "key": "C",
+                    "text": "Machu Picchu",
+                    "image": "machu-picchu",
+                    "image_search_term": "Machu Picchu"
+                },
+                {
+                    "key": "D",
+                    "text": "Gran Muralla China",
+                    "image": "gran-muralla-china",
+                    "image_search_term": "Gran Muralla China"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "28_answer.mp3"
+        },
+        {
+            "id": 29,
+            "question": "¿Qué animal tiene la presión arterial más alta?",
+            "audio_question": "29_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Elefante",
+                    "image": "elefante",
+                    "image_search_term": "Animal Elefante"
+                },
+                {
+                    "key": "B",
+                    "text": "Jirafa",
+                    "image": "jirafa",
+                    "image_search_term": "Animal Jirafa"
+                },
+                {
+                    "key": "C",
+                    "text": "Rinoceronte",
+                    "image": "rinoceronte",
+                    "image_search_term": "Animal Rinoceronte"
+                },
+                {
+                    "key": "D",
+                    "text": "Hipópotamo",
+                    "image": "hipopotamo",
+                    "image_search_term": "Animal Hipópotamo"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "29_answer.mp3"
+        },
+        {
+            "id": 30,
+            "question": "¿Quién inventó la bombilla eléctrica?",
+            "audio_question": "30_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Nikola Tesla",
+                    "image": "nikola-tesla",
+                    "image_search_term": "Nikola Tesla"
+                },
+                {
+                    "key": "B",
+                    "text": "Thomas Edison",
+                    "image": "thomas-edison",
+                    "image_search_term": "Thomas Edison"
+                },
+                {
+                    "key": "C",
+                    "text": "Alexander Graham Bell",
+                    "image": "alexander-graham-bell",
+                    "image_search_term": "Alexander Graham Bell"
+                },
+                {
+                    "key": "D",
+                    "text": "Benjamin Franklin",
+                    "image": "benjamin-franklin",
+                    "image_search_term": "Benjamin Franklin"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "30_answer.mp3"
+        },
+        {
+            "id": 31,
+            "question": "¿Cuál es la duración exacta de un día en la Tierra?",
+            "audio_question": "31_question.mp3",
+            "image_question": "tierra",
+            "image_search_term": "La tierra desde el espacio",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "24 horas"
+                },
+                {
+                    "key": "B",
+                    "text": "23 horas, 56 minutos y 4 segundos"
+                },
+                {
+                    "key": "C",
+                    "text": "24 horas y 30 minutos"
+                },
+                {
+                    "key": "D",
+                    "text": "23 horas y 45 minutos"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "31_answer.mp3"
+        },
+        {
+            "id": 32,
+            "question": "¿Qué país es el mayor productor de café en el mundo?",
+            "audio_question": "32_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Colombia",
+                    "image": "cafe-colombia",
+                    "image_search_term": "Café Colombia"
+                },
+                {
+                    "key": "B",
+                    "text": "Vietnam",
+                    "image": "vietnam",
+                    "image_search_term": "Café Vietnam"
+                },
+                {
+                    "key": "C",
+                    "text": "Brasil",
+                    "image": "cafe-brasil",
+                    "image_search_term": "Café Brasil"
+                },
+                {
+                    "key": "D",
+                    "text": "Etiopía",
+                    "image": "etiopia",
+                    "image_search_term": "Café Etiopía"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "32_answer.mp3"
+        },
+        {
+            "id": 33,
+            "question": "¿Qué gas es el más abundante en la atmósfera terrestre?",
+            "audio_question": "33_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Oxígeno",
+                    "image": "oxigeno",
+                    "image_search_term": "Gas Oxígeno"
+                },
+                {
+                    "key": "B",
+                    "text": "Dióxido de carbono",
+                    "image": "dioxido-de-carbono",
+                    "image_search_term": "Gas Dióxido de carbono"
+                },
+                {
+                    "key": "C",
+                    "text": "Nitrógeno",
+                    "image": "nitrogeno",
+                    "image_search_term": "Gas Nitrógeno"
+                },
+                {
+                    "key": "D",
+                    "text": "Argón",
+                    "image": "argon",
+                    "image_search_term": "Gas Argón"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "33_answer.mp3"
+        },
+        {
+            "id": 34,
+            "question": "¿En qué año se fundó la Organización de las Naciones Unidas?",
+            "audio_question": "34_question.mp3",
+            "image_question": "onu",
+            "image_search_term": "Organización de las Naciones Unidas",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1945"
+                },
+                {
+                    "key": "B",
+                    "text": "1950"
+                },
+                {
+                    "key": "C",
+                    "text": "1942"
+                },
+                {
+                    "key": "D",
+                    "text": "1939"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "34_answer.mp3"
+        },
+        {
+            "id": 35,
+            "question": "¿Cuál es el metal más caro del mundo?",
+            "audio_question": "35_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Oro",
+                    "image": "oro",
+                    "image_search_term": "Metal Oro"
+                },
+                {
+                    "key": "B",
+                    "text": "Platino",
+                    "image": "platino",
+                    "image_search_term": "Metal Platino"
+                },
+                {
+                    "key": "C",
+                    "text": "Rodio",
+                    "image": "rodio",
+                    "image_search_term": "Metal Rodio"
+                },
+                {
+                    "key": "D",
+                    "text": "Paladio",
+                    "image": "paladio",
+                    "image_search_term": "Metal Paladio"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "35_answer.mp3"
+        },
+        {
+            "id": 36,
+            "question": "¿Cuál es el país con más lagos en el mundo?",
+            "audio_question": "36_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Finlandia",
+                    "image": "finlandia-lagos",
+                    "image_search_term": "Finlandia lagos"
+                },
+                {
+                    "key": "B",
+                    "text": "Canadá",
+                    "image": "canada-lagos",
+                    "image_search_term": "Canadá lagos"
+                },
+                {
+                    "key": "C",
+                    "text": "Rusia",
+                    "image": "rusia-lagos",
+                    "image_search_term": "Rusia lagos"
+                },
+                {
+                    "key": "D",
+                    "text": "Estados Unidos",
+                    "image": "estados-unidos-lagos",
+                    "image_search_term": "Estados Unidos lagos"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "36_answer.mp3"
+        },
+        {
+            "id": 37,
+            "question": "¿Qué civilización construyó las pirámides de Teotihuacán?",
+            "audio_question": "37_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Los Mayas",
+                    "image": "mayas",
+                    "image_search_term": "Civilización Mayas"
+                },
+                {
+                    "key": "B",
+                    "text": "Los Incas",
+                    "image": "incas",
+                    "image_search_term": "Civilización Incas"
+                },
+                {
+                    "key": "C",
+                    "text": "Los Aztecas",
+                    "image": "aztecas",
+                    "image_search_term": "Civilización Aztecas"
+                },
+                {
+                    "key": "D",
+                    "text": "Los Teotihuacanos",
+                    "image": "teotihuacanos",
+                    "image_search_term": "Civilización Teotihuacanos"
+                }
+            ],
+            "answer": "D",
+            "audio_answer": "37_answer.mp3"
+        },
+        {
+            "id": 38,
+            "question": "¿En qué país se originó el yoga?",
+            "audio_question": "38_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tailandia",
+                    "image": "tailandia-yoga",
+                    "image_search_term": "Yoga Tailandia"
+                },
+                {
+                    "key": "B",
+                    "text": "India",
+                    "image": "india-yoga",
+                    "image_search_term": "Yoga India"
+                },
+                {
+                    "key": "C",
+                    "text": "Nepal",
+                    "image": "nepal-yoga",
+                    "image_search_term": "Yoga Nepal"
+                },
+                {
+                    "key": "D",
+                    "text": "China",
+                    "image": "china-yoga",
+                    "image_search_term": "Yoga China"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "38_answer.mp3"
+        },
+        {
+            "id": 39,
+            "question": "¿Qué elemento fue nombrado en honor a la diosa griega del arcoíris?",
+            "audio_question": "39_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Radón",
+                    "image": "radon",
+                    "image_search_term": "Elemento Radón"
+                },
+                {
+                    "key": "B",
+                    "text": "Iridio",
+                    "image": "iridio",
+                    "image_search_term": "Elemento Iridio"
+                },
+                {
+                    "key": "C",
+                    "text": "Selenio",
+                    "image": "selenio",
+                    "image_search_term": "Elemento Selenio"
+                },
+                {
+                    "key": "D",
+                    "text": "Helio",
+                    "image": "helio",
+                    "image_search_term": "Elemento Helio"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "39_answer.mp3"
+        },
+        {
+            "id": 40,
+            "question": "¿Cuál es el único mamífero capaz de volar?",
+            "audio_question": "40_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El colibrí",
+                    "image": "colibri",
+                    "image_search_term": "Mamífero Colibrí"
+                },
+                {
+                    "key": "B",
+                    "text": "El murciélago",
+                    "image": "murcielago",
+                    "image_search_term": "Mamífero Murciélago"
+                },
+                {
+                    "key": "C",
+                    "text": "La ardilla voladora",
+                    "image": "ardilla-voladora",
+                    "image_search_term": "Mamífero Ardilla voladora"
+                },
+                {
+                    "key": "D",
+                    "text": "El petauro del azúcar",
+                    "image": "petauro-del-azucar",
+                    "image_search_term": "Mamífero Petauro del azúcar"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "40_answer.mp3"
+        }
+    ]
+}
