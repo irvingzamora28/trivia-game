@@ -44,7 +44,7 @@ const answerVariants = {
     scale: 1.25,
     opacity: 1,
     x: 0,
-    y: 100,
+    y: 300,
     transition: {
       scale: {
         duration: 0.5,
@@ -193,14 +193,14 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
             </div>
             {/* Question */}
             {questions[currentQuestionIndex].question && (
-              <h2 className="text-6xl font-bold text-white ml-4 text-shadow flex-1 mr-10">
+              <h2 className="text-7xl font-bold text-white ml-4 text-shadow flex-1 mr-10">
                 {questions[currentQuestionIndex].question}
               </h2>
             )}
           </div>
           {questions[currentQuestionIndex].image_question && (
             <motion.div
-              className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-4 rounded-lg "
+              className="z-10 text-white bg-blue-600 flex items-center justify-center border-4 border-white shadow-lg ml-8 my-12 rounded-lg "
               variants={imageFloatVariants}
               initial="{false}"
               animate="animate"
@@ -208,7 +208,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               <img
                 src={`/images/${triviaPath}/${questions[currentQuestionIndex].image_question}.jpg`}
                 alt="Trivia"
-                className="w-full max-w-lg h-64 object-cover object-center"
+                className="w-full max-w-5xl h-[40rem] object-cover object-center"
               />
             </motion.div>
           )}
@@ -241,7 +241,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               className={`grid ${
                 questions[currentQuestionIndex].image_question
                   ? "grid-cols-2 gap-x-12 gap-y-12"
-                  : "grid-cols-4 gap-x-6 gap-y-6"
+                  : "grid-cols-4 gap-x-6 gap-y-6 mt-48"
               } w-3/4 p-9`}
             >
               {questions[currentQuestionIndex].options?.map((option, index) => (
@@ -264,7 +264,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
                           correct: {
                             ...answerVariants.correct,
                             x: "-50%",
-                            y: "-50%",
+                            y: "-100%",
                           },
                         }
                       : answerVariants
@@ -295,7 +295,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
                         className="flex flex-col items-center justify-center w-full rounded-lg overflow-hidden transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300"
                         style={{ minHeight: "10rem" }} // Adjust minHeight to fit content
                       >
-                        <div className="w-full h-80 bg-gray-100 flex items-center justify-center overflow-hidden">
+                        <div className="w-full h-[40rem] bg-gray-100 flex items-center justify-center overflow-hidden">
                           <img
                             src={`images/${triviaPath}/${option.image}.jpg`}
                             alt={option.text}
