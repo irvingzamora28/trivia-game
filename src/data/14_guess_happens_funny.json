@@ -1,0 +1,34 @@
+{
+    "data": {
+        "file_path": "14_guess_happens_funny"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "Que sucede con esta pareja de patinadores?",
+            "audio_question": "1_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se caen los dos"
+                },
+                {
+                    "key": "B",
+                    "text": "Los tumba un tercer patinador"
+                },
+                {
+                    "key": "C",
+                    "text": "Se cae la muchacha"
+                },
+                {
+                    "key": "D",
+                    "text": "Se cae el muchacho"
+                }
+            ],
+            "videoURL": "fail1.mp4",
+            "videoPauseTime": 5,
+            "answer": "A",
+            "audio_answer": "1_answer.mp3"
+        }
+    ]
+}

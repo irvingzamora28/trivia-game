@@ -20,4 +20,6 @@ export interface TriviaQuestion {
   audio_answer?: string;
   image_answer?: string;
   text_answer?: string;
+  videoURL?: string;
+  videoPauseTime?: number;
 }
