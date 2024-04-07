@@ -79,10 +79,6 @@ const ChooseAnOptionQuiz: React.FC<QuizProps> = ({
     };
   };
 
-  const startBackgroundAnimation = () => {
-    setAnimateBackground(true);
-  };
-
   const proceedToNextQuestion = useCallback(() => {
     const whooshSoundEffect = new Audio(whoosh2Sound);
     const whooshSoundEffect2 = new Audio(whooshSound);
