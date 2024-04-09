@@ -208,7 +208,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
               <img
                 src={`/images/${triviaPath}/${questions[currentQuestionIndex].image_question}.jpg`}
                 alt="Trivia"
-                className="w-full max-w-5xl h-[40rem] object-cover object-center"
+                className="w-full max-w-5xl h-[36rem] object-cover object-center"
               />
             </motion.div>
           )}
@@ -303,7 +303,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
                           />
                         </div>
                         <div className="pt-4 pb-2 px-4 bg-white w-full">
-                          <span className="text-xl font-medium text-blue-600">
+                          <span className="text-4xl font-medium text-blue-600">
                             {option.text}
                           </span>
                         </div>
@@ -320,7 +320,7 @@ const Quiz: React.FC<QuizProps> = ({ triviaPath, triviaQuestions }) => {
                           onClick={() =>
                             !isCheckingAnswer && handleAnswerSelect(option.key)
                           }
-                          className="pl-36 pr-4 py-3 w-full h-28 text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
+                          className="pl-36 pr-4 py-3 w-full h-32 text-6xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
                         >
                           {option.text}
                         </button>
