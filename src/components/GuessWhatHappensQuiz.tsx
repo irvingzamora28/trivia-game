@@ -69,7 +69,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
     const timerRef = useRef<NodeJS.Timeout | null>(null);
     const [isOptionsVisible, setIsOptionsVisible] = useState(false);
     const currentQuestion = triviaQuestions[currentQuestionIndex];
-    const timeLimit = 5; // seconds
+    const timeLimit = 5000; // seconds
 
     // Cleanup timer to avoid memory leaks
     useEffect(() => {
@@ -136,26 +136,25 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
         setSelectedAnswer(optionId);
     };
 
-    return (
-        <div className="text-center w-full h-screen flex flex-col items-center justify-center overflow-hidden relative">
-            <video
-                ref={videoRef}
-                width="750"
-                controls
-                style={{ maxWidth: "100%", maxHeight: "100%" }}
-            >
-                {/* Video is dynamically loaded */}
-            </video>
-            {isOptionsVisible &&
-                triviaQuestions[currentQuestionIndex].question && (
-                    <div
-                        className={`grid ${
-                            triviaQuestions[currentQuestionIndex].image_question
-                                ? "grid-cols-2 gap-x-12 gap-y-12"
-                                : "grid-cols-4 gap-x-6 gap-y-6 mt-48"
-                        } w-3/4 p-9`}
-                    >
-                        {triviaQuestions[currentQuestionIndex].options?.map(
+    return  (
+        <div className="text-center w-full h-screen flex flex-col overflow-hidden relative">
+            {/* Video Section: Center the video in its designated area */}
+            <div className="video-section flex justify-center items-center" style={{ height: '50%' }}>
+                <video
+                    ref={videoRef}
+                    controls
+                    style={{ maxWidth: "100%", maxHeight: "80%" }}
+                >
+                    {/* Video is dynamically loaded */}
+                </video>
+            </div>
+            {/* Interactive Section: For Quiz Options and ProgressBar */}
+            <div className="interactive-section flex-1" style={{ minHeight: '50%' }}>
+                {/* Options and ProgressBar Container: Ensure consistent spacing */}
+                <div className="options-progress-container flex flex-col justify-between" style={{ height: '100%' }}>
+                    <div className="options-container grid grid-cols-2 gap-x-6 gap-y-6 w-3/4 p-9 mx-auto">
+                        {isOptionsVisible &&
+                triviaQuestions[currentQuestionIndex].question &&  triviaQuestions[currentQuestionIndex].options?.map(
                             (option, index) => (
                                 <motion.div
                                     key={option.key}
@@ -204,7 +203,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                                                 ? answerState
                                                 : "initial"
                                         }
-                                        className="relative flex items-center justify-start my-2"
+                                        className="relative flex items-center justify-start my-2 mx-6 min-h-52"
                                     >
                                         <div className="flex flex-col items-center justify-center w-full">
                                             <div className="absolute -left-8 z-10 text-white bg-blue-600 rounded-full w-32 h-32 flex items-center justify-center border-8 border-white shadow-lg">
@@ -219,32 +218,27 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                                                         option.key
                                                     )
                                                 }
-                                                className="pl-36 pr-4 py-3 w-full h-28 text-4xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
+                                                className="pl-36 pr-4 py-3 w-full min-h-40 text-5xl font-medium text-shadow-sm text-blue-600 bg-white rounded-full transition-colors hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg"
                                             >
                                                 {option.text}
                                             </button>
                                         </div>
 
-                                        {option.image && (
-                                            <div className="absolute -top-6 left-0 z-10 text-white bg-blue-600 rounded-full w-16 h-16 flex items-center justify-center border-4 border-white shadow-lg">
-                                                <span className="text-3xl font-bold">
-                                                    {option.key}
-                                                </span>
-                                            </div>
-                                        )}
                                     </motion.div>
                                 </motion.div>
                             )
                         )}
                     </div>
-                )}
-            {isProgressBarVisible && (
+
+            <div className="progress-bar-container flex justify-center items-center mb-16" style={{ visibility: isProgressBarVisible ? 'visible' : 'hidden' }}>
                 <ProgressBar
                     index={currentQuestionIndex}
                     isProgressBarAnimating={isProgressBarAnimating}
                     timeLimit={timeLimit}
                 />
-            )}
+        </div>
+        </div>
+        </div>
         </div>
     );
 };
