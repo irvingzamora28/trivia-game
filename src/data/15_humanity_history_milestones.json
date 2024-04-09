@@ -1,0 +1,1096 @@
+{
+    "data": {
+        "file_path": "15_humanity_history_milestones"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "question": "¿En qué año cayó el Imperio Romano de Occidente, marcando el fin de la antigua Roma?",
+            "audio_question": "1_question.mp3",
+            "image_question": "476-dc",
+            "image_search_term": "Fall of the Western Roman Empire 476 AD",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "476 d.C."
+                },
+                {
+                    "key": "B",
+                    "text": "1453 d.C."
+                },
+                {
+                    "key": "C",
+                    "text": "410 d.C."
+                },
+                {
+                    "key": "D",
+                    "text": "330 d.C."
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "1_answer.mp3"
+        },
+        {
+            "id": 2,
+            "question": "¿Cuál fue el primer metal que el ser humano aprendió a fundir y manipular, marcando el inicio de la Edad de los Metales?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hierro",
+                    "image": "hierro",
+                    "image_search_term": "Iron metal"
+                },
+                {
+                    "key": "B",
+                    "text": "Cobre",
+                    "image": "cobre",
+                    "image_search_term": "Copper metal"
+                },
+                {
+                    "key": "C",
+                    "text": "Oro",
+                    "image": "oro",
+                    "image_search_term": "Gold metal"
+                },
+                {
+                    "key": "D",
+                    "text": "Plata",
+                    "image": "plata",
+                    "image_search_term": "Silver metal"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "2_answer.mp3"
+        },
+        {
+            "id": 3,
+            "question": "¿Qué civilización antigua es conocida por haber construido la ciudad de Machu Picchu en el siglo XV?",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Los Mayas",
+                    "image": "mayas",
+                    "image_search_term": "Maya Civilization"
+                },
+                {
+                    "key": "B",
+                    "text": "Los Incas",
+                    "image": "incas",
+                    "image_search_term": "Inca Civilization"
+                },
+                {
+                    "key": "C",
+                    "text": "Los Aztecas",
+                    "image": "aztecas",
+                    "image_search_term": "Aztec Civilization"
+                },
+                {
+                    "key": "D",
+                    "text": "Los Olmecas",
+                    "image": "olmecas",
+                    "image_search_term": "Olmec Civilization"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "3_answer.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Quién fue el primer ser humano en orbitar la Tierra, logrando este hito en 1961?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Neil Armstrong",
+                    "image": "neil-armstrong",
+                    "image_search_term": "Neil Armstrong"
+                },
+                {
+                    "key": "B",
+                    "text": "Yuri Gagarin",
+                    "image": "yuri-gagarin",
+                    "image_search_term": "Yuri Gagarin"
+                },
+                {
+                    "key": "C",
+                    "text": "John Glenn",
+                    "image": "john-glenn",
+                    "image_search_term": "John Glenn"
+                },
+                {
+                    "key": "D",
+                    "text": "Alan Shepard",
+                    "image": "alan-shepard",
+                    "image_search_term": "Alan Shepard"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "4_answer.mp3"
+        },
+        {
+            "id": 5,
+            "question": "¿En qué año se completó la construcción de la Gran Muralla China en su forma actual?",
+            "audio_question": "5_question.mp3",
+            "image_question": "1644",
+            "image_search_term": "Great Wall of China 1644",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1644"
+                },
+                {
+                    "key": "B",
+                    "text": "221 a.C."
+                },
+                {
+                    "key": "C",
+                    "text": "206 a.C."
+                },
+                {
+                    "key": "D",
+                    "text": "1279"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "5_answer.mp3"
+        },
+        {
+            "id": 6,
+            "question": "¿Qué tratado marcó el fin de la Primera Guerra Mundial en 1919?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Tratado de Versalles",
+                    "image": "tratado-de-versalles",
+                    "image_search_term": "Treaty of Versailles"
+                },
+                {
+                    "key": "B",
+                    "text": "Tratado de Tordesillas",
+                    "image": "tratado-de-tordesillas",
+                    "image_search_term": "Treaty of Tordesillas"
+                },
+                {
+                    "key": "C",
+                    "text": "Paz de Westfalia",
+                    "image": "paz-de-westfalia",
+                    "image_search_term": "Peace of Westphalia"
+                },
+                {
+                    "key": "D",
+                    "text": "Tratado de Utrecht",
+                    "image": "tratado-de-utrecht",
+                    "image_search_term": "Treaty of Utrecht"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "6_answer.mp3"
+        },
+        {
+            "id": 7,
+            "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Abraham Lincoln",
+                    "image": "abraham-lincoln",
+                    "image_search_term": "Abraham Lincoln"
+                },
+                {
+                    "key": "B",
+                    "text": "George Washington",
+                    "image": "george-washington",
+                    "image_search_term": "George Washington"
+                },
+                {
+                    "key": "C",
+                    "text": "Thomas Jefferson",
+                    "image": "thomas-jefferson",
+                    "image_search_term": "Thomas Jefferson"
+                },
+                {
+                    "key": "D",
+                    "text": "John Adams",
+                    "image": "john-adams",
+                    "image_search_term": "John Adams"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "7_answer.mp3"
+        },
+        {
+            "id": 8,
+            "question": "¿En qué año se inauguró oficialmente la Torre Eiffel al público?",
+            "audio_question": "8_question.mp3",
+            "image_question": "1889",
+            "image_search_term": "Eiffel Tower 1889",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1887"
+                },
+                {
+                    "key": "B",
+                    "text": "1889"
+                },
+                {
+                    "key": "C",
+                    "text": "1890"
+                },
+                {
+                    "key": "D",
+                    "text": "1900"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "8_answer.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿Qué antiguo líder es conocido por unificar los reinos de Egipto en el año 3100 a.C.?",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Ramsés II",
+                    "image": "ramses-ii",
+                    "image_search_term": "Ramses II"
+                },
+                {
+                    "key": "B",
+                    "text": "Tutankamón",
+                    "image": "tutankamon",
+                    "image_search_term": "Tutankhamun"
+                },
+                {
+                    "key": "C",
+                    "text": "Narmer",
+                    "image": "narmer",
+                    "image_search_term": "Narmer"
+                },
+                {
+                    "key": "D",
+                    "text": "Cleopatra",
+                    "image": "cleopatra",
+                    "image_search_term": "Cleopatra"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "9_answer.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Qué evento marcó el inicio de la Revolución Industrial en el siglo XVIII?",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La invención de la máquina de vapor",
+                    "image": "maquina-de-vapor",
+                    "image_search_term": "Steam Engine"
+                },
+                {
+                    "key": "B",
+                    "text": "La creación de la imprenta",
+                    "image": "imprenta",
+                    "image_search_term": "Printing Press"
+                },
+                {
+                    "key": "C",
+                    "text": "El descubrimiento de América",
+                    "image": "descubrimiento-de-america",
+                    "image_search_term": "Discovery of America"
+                },
+                {
+                    "key": "D",
+                    "text": "La caída del Muro de Berlín",
+                    "image": "caida-muro-berlin",
+                    "image_search_term": "Fall of Berlin Wall"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "10_answer.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿Cuál fue el primer país en conceder el derecho al voto a las mujeres?",
+            "audio_question": "11_question.mp3",
+            "image_question": "nueva-zelanda",
+            "image_search_term": "Women's suffrage New Zealand",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estados Unidos"
+                },
+                {
+                    "key": "B",
+                    "text": "Nueva Zelanda"
+                },
+                {
+                    "key": "C",
+                    "text": "Reino Unido"
+                },
+                {
+                    "key": "D",
+                    "text": "Finlandia"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "11_answer.mp3"
+        },
+        {
+            "id": 12,
+            "question": "¿Quién inventó la primera bombilla eléctrica incandescente viable comercialmente?",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Nikola Tesla",
+                    "image": "nikola-tesla",
+                    "image_search_term": "Nikola Tesla"
+                },
+                {
+                    "key": "B",
+                    "text": "Thomas Edison",
+                    "image": "thomas-edison",
+                    "image_search_term": "Thomas Edison"
+                },
+                {
+                    "key": "C",
+                    "text": "Alexander Graham Bell",
+                    "image": "alexander-graham-bell",
+                    "image_search_term": "Alexander Graham Bell"
+                },
+                {
+                    "key": "D",
+                    "text": "Benjamin Franklin",
+                    "image": "benjamin-franklin",
+                    "image_search_term": "Benjamin Franklin"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "12_answer.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿En qué año se fundó la compañía Apple Inc., que marcó una revolución en la tecnología personal?",
+            "audio_question": "13_question.mp3",
+            "image_question": "1976",
+            "image_search_term": "Apple Inc 1976",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1976"
+                },
+                {
+                    "key": "B",
+                    "text": "1984"
+                },
+                {
+                    "key": "C",
+                    "text": "1970"
+                },
+                {
+                    "key": "D",
+                    "text": "1980"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "13_answer.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Qué estructura fue reconstruida en Berlín como un símbolo de reunificación después de la caída del Muro de Berlín?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Puerta de Brandeburgo",
+                    "image": "puerta-de-brandeburgo",
+                    "image_search_term": "Brandenburg Gate"
+                },
+                {
+                    "key": "B",
+                    "text": "Catedral de Berlín",
+                    "image": "catedral-de-berlin",
+                    "image_search_term": "Berlin Cathedral"
+                },
+                {
+                    "key": "C",
+                    "text": "Reichstag",
+                    "image": "reichstag",
+                    "image_search_term": "Reichstag Berlin"
+                },
+                {
+                    "key": "D",
+                    "text": "Palacio de Charlottenburg",
+                    "image": "palacio-de-charlottenburg",
+                    "image_search_term": "Charlottenburg Palace"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "14_answer.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿Cuál es el nombre del primer satélite artificial de la Tierra, lanzado por la Unión Soviética en 1957?",
+            "audio_question": "15_question.mp3",
+            "image_question": "sputnik-1",
+            "image_search_term": "Sputnik 1",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Sputnik 1"
+                },
+                {
+                    "key": "B",
+                    "text": "Voyager 1"
+                },
+                {
+                    "key": "C",
+                    "text": "Apollo 11"
+                },
+                {
+                    "key": "D",
+                    "text": "Hubble Space Telescope"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "15_answer.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Qué descubrimiento en 1922 cambió nuestra comprensión del antiguo Egipto y sus faraones?",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Las pirámides de Giza",
+                    "image": "piramides-de-giza",
+                    "image_search_term": "Pyramids of Giza"
+                },
+                {
+                    "key": "B",
+                    "text": "La tumba de Tutankamón",
+                    "image": "tumba-de-tutankamon",
+                    "image_search_term": "Tomb of Tutankhamun"
+                },
+                {
+                    "key": "C",
+                    "text": "Los Rollos del Mar Muerto",
+                    "image": "rollos-del-mar-muerto",
+                    "image_search_term": "Dead Sea Scrolls"
+                },
+                {
+                    "key": "D",
+                    "text": "La Piedra Rosetta",
+                    "image": "piedra-rosetta",
+                    "image_search_term": "Rosetta Stone"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "16_answer.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿Cuál es considerado el primer sistema de escritura en la historia, desarrollado en Mesopotamia alrededor del 3200 a.C.?",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Jeroglíficos egipcios",
+                    "image": "jeroglificos-egipcios",
+                    "image_search_term": "Egyptian Hieroglyphs"
+                },
+                {
+                    "key": "B",
+                    "text": "Escritura cuneiforme",
+                    "image": "escritura-cuneiforme",
+                    "image_search_term": "Cuneiform Script"
+                },
+                {
+                    "key": "C",
+                    "text": "Alfabeto fenicio",
+                    "image": "alfabeto-fenicio",
+                    "image_search_term": "Phoenician Alphabet"
+                },
+                {
+                    "key": "D",
+                    "text": "Escritura maya",
+                    "image": "escritura-maya",
+                    "image_search_term": "Mayan Script"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "17_answer.mp3"
+        },
+        {
+            "id": 18,
+            "question": "¿Qué acontecimiento en 1789 inició una ola de revoluciones y cambios políticos en Europa?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Declaración de Independencia de Estados Unidos",
+                    "image": "declaracion-independencia-eeuu",
+                    "image_search_term": "United States Declaration of Independence"
+                },
+                {
+                    "key": "B",
+                    "text": "La Revolución Francesa",
+                    "image": "revolucion-francesa",
+                    "image_search_term": "French Revolution"
+                },
+                {
+                    "key": "C",
+                    "text": "La invención de la imprenta por Gutenberg",
+                    "image": "invento-imprenta-gutenberg",
+                    "image_search_term": "Gutenberg Printing Press"
+                },
+                {
+                    "key": "D",
+                    "text": "La caída del Muro de Berlín",
+                    "image": "caida-muro-berlin",
+                    "image_search_term": "Fall of Berlin Wall"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "18_answer.mp3"
+        },
+        {
+            "id": 19,
+            "question": "¿En qué año se realizó la primera llamada telefónica transatlántica, conectando a Nueva York con Londres?",
+            "audio_question": "19_question.mp3",
+            "image_question": "transatlantic-telephone",
+            "image_search_term": "First Transatlantic Telephone Call",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "1915"
+                },
+                {
+                    "key": "B",
+                    "text": "1926"
+                },
+                {
+                    "key": "C",
+                    "text": "1956"
+                },
+                {
+                    "key": "D",
+                    "text": "1876"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "19_answer.mp3"
+        },
+        {
+            "id": 20,
+            "question": "¿Cuál fue el primer país en lanzar una moneda digital del banco central (CBDC) en 2015?",
+            "audio_question": "20_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Estados Unidos",
+                    "image": "estados-unidos",
+                    "image_search_term": "United States Digital Currency"
+                },
+                {
+                    "key": "B",
+                    "text": "Singapur",
+                    "image": "singapur",
+                    "image_search_term": "Singapore Digital Currency"
+                },
+                {
+                    "key": "C",
+                    "text": "Ecuador",
+                    "image": "ecuador",
+                    "image_search_term": "Ecuador Digital Currency"
+                },
+                {
+                    "key": "D",
+                    "text": "China",
+                    "image": "china",
+                    "image_search_term": "China Digital Currency"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "20_answer.mp3"
+        },
+        {
+            "id": 21,
+            "question": "¿Cuál de estos inventos revolucionó la comunicación humana al permitir el envío de mensajes a través de largas distancias casi instantáneamente?",
+            "audio_question": "21_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El telégrafo",
+                    "image": "telegrafo",
+                    "image_search_term": "Telegraph"
+                },
+                {
+                    "key": "B",
+                    "text": "El teléfono",
+                    "image": "telefono",
+                    "image_search_term": "Telephone"
+                },
+                {
+                    "key": "C",
+                    "text": "La imprenta",
+                    "image": "imprenta",
+                    "image_search_term": "Printing Press"
+                },
+                {
+                    "key": "D",
+                    "text": "Internet",
+                    "image": "internet",
+                    "image_search_term": "Internet"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "21_answer.mp3"
+        },
+        {
+            "id": 22,
+            "question": "¿Qué construcción antigua se considera una de las primeras formas de escritura, creada alrededor del 3400 a.C.?",
+            "audio_question": "22_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El Código de Hammurabi",
+                    "image": "codigo-hammurabi",
+                    "image_search_term": "Code of Hammurabi"
+                },
+                {
+                    "key": "B",
+                    "text": "Los jeroglíficos egipcios",
+                    "image": "jeroglificos-egipcios",
+                    "image_search_term": "Egyptian Hieroglyphs"
+                },
+                {
+                    "key": "C",
+                    "text": "La tableta de Kish",
+                    "image": "tableta-de-kish",
+                    "image_search_term": "Kish Tablet"
+                },
+                {
+                    "key": "D",
+                    "text": "Las tablillas de arcilla sumerias",
+                    "image": "tablillas-arcilla-sumerias",
+                    "image_search_term": "Sumerian Clay Tablets"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "22_answer.mp3"
+        },
+        {
+            "id": 23,
+            "question": "¿Cuál es el nombre del proyecto que descifró el genoma humano, ofreciendo una vista sin precedentes de nuestra propia biología?",
+            "audio_question": "23_question.mp3",
+            "image_question": "proyecto-genoma-humano",
+            "image_search_term": "Human Genome Project",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Proyecto Genoma Humano"
+                },
+                {
+                    "key": "B",
+                    "text": "Proyecto Manhattan"
+                },
+                {
+                    "key": "C",
+                    "text": "Iniciativa de Defensa Estratégica"
+                },
+                {
+                    "key": "D",
+                    "text": "Programa Apollo"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "23_answer.mp3"
+        },
+        {
+            "id": 24,
+            "question": "Este hito de la ingeniería moderna, completado en 1869, conectó el Mar Mediterráneo con el Mar Rojo.",
+            "audio_question": "24_question.mp3",
+            "image_question": "canal-de-suez",
+            "image_search_term": "Suez Canal",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El Canal de Panamá"
+                },
+                {
+                    "key": "B",
+                    "text": "El Canal de Suez"
+                },
+                {
+                    "key": "C",
+                    "text": "El Eurotúnel"
+                },
+                {
+                    "key": "D",
+                    "text": "El Gran Canal de China"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "24_answer.mp3"
+        },
+        {
+            "id": 25,
+            "question": "¿Quién formuló la teoría de la relatividad, uno de los pilares de la física moderna?",
+            "audio_question": "25_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Isaac Newton",
+                    "image": "isaac-newton",
+                    "image_search_term": "Isaac Newton"
+                },
+                {
+                    "key": "B",
+                    "text": "Niels Bohr",
+                    "image": "niels-bohr",
+                    "image_search_term": "Niels Bohr"
+                },
+                {
+                    "key": "C",
+                    "text": "Albert Einstein",
+                    "image": "albert-einstein",
+                    "image_search_term": "Albert Einstein"
+                },
+                {
+                    "key": "D",
+                    "text": "Galileo Galilei",
+                    "image": "galileo-galilei",
+                    "image_search_term": "Galileo Galilei"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "25_answer.mp3"
+        },
+        {
+            "id": 26,
+            "question": "¿Qué innovación tecnológica fue crucial para las exploraciones de Cristóbal Colón en 1492?",
+            "audio_question": "26_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El astrolabio",
+                    "image": "astrolabio",
+                    "image_search_term": "Astrolabe"
+                },
+                {
+                    "key": "B",
+                    "text": "La brújula",
+                    "image": "brujula1",
+                    "image_search_term": "Compass"
+                },
+                {
+                    "key": "C",
+                    "text": "Los mapas de Ptolomeo",
+                    "image": "mapas-ptolomeo",
+                    "image_search_term": "Ptolemy Maps"
+                },
+                {
+                    "key": "D",
+                    "text": "El telescopio",
+                    "image": "telescopio",
+                    "image_search_term": "Telescope"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "26_answer.mp3"
+        },
+        {
+            "id": 27,
+            "question": "Este documento, firmado en 1215, limitó por primera vez el poder del rey sobre sus súbditos.",
+            "audio_question": "27_question.mp3",
+            "image_question": "carta-magna",
+            "image_search_term": "Magna Carta",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Constitución de los Estados Unidos"
+                },
+                {
+                    "key": "B",
+                    "text": "La Declaración de los Derechos del Hombre"
+                },
+                {
+                    "key": "C",
+                    "text": "La Carta Magna"
+                },
+                {
+                    "key": "D",
+                    "text": "El Código de Hammurabi"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "27_answer.mp3"
+        },
+        {
+            "id": 28,
+            "question": "¿Qué evento marcó el comienzo oficial de la Edad de la Información en la década de 1970?",
+            "audio_question": "28_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La creación de ARPANET",
+                    "image": "arpanet",
+                    "image_search_term": "ARPANET"
+                },
+                {
+                    "key": "B",
+                    "text": "El lanzamiento del primer teléfono móvil",
+                    "image": "primer-telefono-movil",
+                    "image_search_term": "First Mobile Phone"
+                },
+                {
+                    "key": "C",
+                    "text": "La fundación de Microsoft",
+                    "image": "fundacion-microsoft",
+                    "image_search_term": "Microsoft Foundation"
+                },
+                {
+                    "key": "D",
+                    "text": "El establecimiento de Internet",
+                    "image": "internet",
+                    "image_search_term": "Establishment of Internet"
+                }
+            ],
+            "answer": "A",
+            "audio_answer": "28_answer.mp3"
+        },
+        {
+            "id": 29,
+            "question": "Este hito arquitectónico, completado en el 80 d.C., se convirtió en un símbolo icónico de la Roma Antigua.",
+            "audio_question": "29_question.mp3",
+            "image_question": "coliseo-roma",
+            "image_search_term": "Colosseum Rome",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El Partenón"
+                },
+                {
+                    "key": "B",
+                    "text": "El Coliseo"
+                },
+                {
+                    "key": "C",
+                    "text": "La Gran Pirámide de Giza"
+                },
+                {
+                    "key": "D",
+                    "text": "Stonehenge"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "29_answer.mp3"
+        },
+        {
+            "id": 30,
+            "question": "¿Cuál fue el primer edificio de gran altura en el mundo, completado en 1885, marcando el inicio de la era de los rascacielos?",
+            "audio_question": "30_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El Edificio Empire State",
+                    "image": "empire-state",
+                    "image_search_term": "Empire State Building"
+                },
+                {
+                    "key": "B",
+                    "text": "El Home Insurance Building",
+                    "image": "home-insurance-building",
+                    "image_search_term": "Home Insurance Building"
+                },
+                {
+                    "key": "C",
+                    "text": "El Chrysler Building",
+                    "image": "chrysler-building",
+                    "image_search_term": "Chrysler Building"
+                },
+                {
+                    "key": "D",
+                    "text": "La Torre Eiffel",
+                    "image": "1889",
+                    "image_search_term": "Eiffel Tower"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "30_answer.mp3"
+        },
+        {
+            "id": 31,
+            "question": "¿Cuál fue la primera civilización en implementar el concepto de democracia?",
+            "audio_question": "31_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Los Romanos",
+                    "image": "romanos",
+                    "image_search_term": "Roman Democracy"
+                },
+                {
+                    "key": "B",
+                    "text": "Los Griegos",
+                    "image": "griegos",
+                    "image_search_term": "Greek Democracy"
+                },
+                {
+                    "key": "C",
+                    "text": "Los Egipcios",
+                    "image": "egipcios",
+                    "image_search_term": "Egyptian Democracy"
+                },
+                {
+                    "key": "D",
+                    "text": "Los Mesopotámicos",
+                    "image": "mesopotamicos",
+                    "image_search_term": "Mesopotamian Democracy"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "31_answer.mp3"
+        },
+        {
+            "id": 32,
+            "question": "¿Qué avance tecnológico del Siglo XV transformó la difusión del conocimiento y la literatura en Europa?",
+            "audio_question": "32_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La brújula",
+                    "image": "brujula1",
+                    "image_search_term": "Compass"
+                },
+                {
+                    "key": "B",
+                    "text": "El reloj mecánico",
+                    "image": "reloj-mecanico",
+                    "image_search_term": "Mechanical Clock"
+                },
+                {
+                    "key": "C",
+                    "text": "La imprenta de Gutenberg",
+                    "image": "imprenta",
+                    "image_search_term": "Gutenberg Printing Press"
+                },
+                {
+                    "key": "D",
+                    "text": "El telescopio",
+                    "image": "telescopio",
+                    "image_search_term": "Telescope"
+                }
+            ],
+            "answer": "C",
+            "audio_answer": "32_answer.mp3"
+        },
+        {
+            "id": 33,
+            "question": "¿Qué importante documento se aprobó en 1948, definiendo los derechos fundamentales que deben protegerse a nivel mundial?",
+            "audio_question": "33_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La Carta de las Naciones Unidas",
+                    "image": "carta-naciones-unidas",
+                    "image_search_term": "United Nations Charter"
+                },
+                {
+                    "key": "B",
+                    "text": "La Declaración Universal de Derechos Humanos",
+                    "image": "declaracion-derechos-humanos",
+                    "image_search_term": "Universal Declaration of Human Rights"
+                },
+                {
+                    "key": "C",
+                    "text": "La Constitución de los Estados Unidos de América",
+                    "image": "constitucion-eeuu",
+                    "image_search_term": "United States Constitution"
+                },
+                {
+                    "key": "D",
+                    "text": "El Tratado de Versalles",
+                    "image": "tratado-de-versalles",
+                    "image_search_term": "Treaty of Versailles"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "33_answer.mp3"
+        },
+        {
+            "id": 34,
+            "question": "¿Qué evento histórico en 1969 marcó un antes y un después en la exploración espacial?",
+            "audio_question": "34_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El lanzamiento del Sputnik",
+                    "image": "lanzamiento-sputnik",
+                    "image_search_term": "Sputnik Launch"
+                },
+                {
+                    "key": "B",
+                    "text": "El primer hombre en la Luna",
+                    "image": "primer-hombre-luna",
+                    "image_search_term": "First Man on the Moon"
+                },
+                {
+                    "key": "C",
+                    "text": "La fundación de la NASA",
+                    "image": "fundacion-nasa",
+                    "image_search_term": "NASA Foundation"
+                },
+                {
+                    "key": "D",
+                    "text": "El primer paseo espacial",
+                    "image": "primer-paseo-espacial",
+                    "image_search_term": "First Spacewalk"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "34_answer.mp3"
+        },
+        {
+            "id": 35,
+            "question": "¿Cuál es el nombre del tratado internacional que busca preservar la naturaleza antártica, firmado en 1959?",
+            "audio_question": "35_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El Tratado de París",
+                    "image": "tratado-paris",
+                    "image_search_term": "Treaty of Paris"
+                },
+                {
+                    "key": "B",
+                    "text": "El Tratado Antártico",
+                    "image": "tratado-antartico",
+                    "image_search_term": "Antarctic Treaty"
+                },
+                {
+                    "key": "C",
+                    "text": "El Protocolo de Kioto",
+                    "image": "protocolo-kioto",
+                    "image_search_term": "Kyoto Protocol"
+                },
+                {
+                    "key": "D",
+                    "text": "El Acuerdo de París",
+                    "image": "acuerdo-paris",
+                    "image_search_term": "Paris Agreement"
+                }
+            ],
+            "answer": "B",
+            "audio_answer": "35_answer.mp3"
+        }
+    ]
+}
