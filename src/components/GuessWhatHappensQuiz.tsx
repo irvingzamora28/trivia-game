@@ -4,6 +4,7 @@ import ProgressBar from "./ProgressBar";
 import { OptionKey, TriviaQuestion } from "../types/trivia";
 // Import necessary audio assets
 import correctSound from "../assets/audio/correct-short.mp3";
+import incorrectSound from "../assets/audio/incorrect.mp3";
 import whooshSound from "../assets/audio/whoosh.mp3";
 import whoosh2Sound from "../assets/audio/whoosh2.mp3";
 import { motion, AnimatePresence } from "framer-motion";
@@ -66,27 +67,30 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
     const [answerState, setAnswerState] = useState<
         "initial" | "correct" | "incorrect"
     >("initial");
-    const timerRef = useRef<NodeJS.Timeout | null>(null);
+    const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
+    const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
+
     const [isOptionsVisible, setIsOptionsVisible] = useState(false);
     const currentQuestion = triviaQuestions[currentQuestionIndex];
     const timeLimit = 6; // seconds
-
-    // Cleanup timer to avoid memory leaks
-    useEffect(() => {
-        return () => {
-            if (timerRef.current) {
-                clearTimeout(timerRef.current);
-            }
-        };
-    }, []);
+    const currentQuestionIndexRef = useRef(currentQuestionIndex);
 
     useEffect(() => {
-        return () => {
-            if (timerRef.current) {
-                clearTimeout(timerRef.current);
-            }
-        };
-    }, []);
+        currentQuestionIndexRef.current = currentQuestionIndex;
+    }, [currentQuestionIndex]);
+
+    // Define startTimer using useRef to ensure it doesn't change between renders
+    const startTimer = useRef(() => {
+        if (timerIdRef.current) {
+            clearTimeout(timerIdRef.current); // Clear existing timer if any
+        }
+
+        timerIdRef.current = setTimeout(() => {
+            const currentQuestion =
+                triviaQuestions[currentQuestionIndexRef.current];
+            handleAnswerSelect(currentQuestion.answer, true);
+        }, timeLimit * 1000) as unknown as null;
+    });
 
     useEffect(() => {
         console.log("currentQuestionIndex", currentQuestionIndex);
@@ -97,43 +101,106 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
             setIsOptionsVisible(false); // Ensure options are hidden at the start
             videoRef.current.src = `videos/${triviaPath}/${currentQuestion.videoURL}`;
             videoRef.current.load();
-            videoRef.current.play().then(() => {
-                videoRef.current!.ontimeupdate = () => {
-                    if (
-                        videoRef.current &&
-                        videoRef.current.currentTime >=
-                            (currentQuestion.videoPauseTime || 0)
-                    ) {
-                        videoRef.current.pause();
-                        videoRef.current.ontimeupdate = null; // Stop checking time update
-                        setIsOptionsVisible(true); // Show options immediately after pausing
-                        setIsProgressBarAnimating(true);
-                        setIsProgressBarVisible(true);
-                        setTimeout(() => {
-                            // Resume video after time limit or immediately after option selection
-                            if (videoRef.current) {
-                                videoRef.current.play();
-                                setIsProgressBarAnimating(false);
-                                setIsProgressBarVisible(false);
-                            }
-                        }, timeLimit * 1000);
-                    }
-                };
-            });
         }
     }, [currentQuestionIndex, triviaQuestions, triviaPath, timeLimit]);
+
+    useEffect(() => {
+        const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
+        if (audioSrc) {
+            const questionAudio = new Audio(`audio/${triviaPath}/${audioSrc}`);
+            questionAudio.play().then(() => {
+                questionAudio.addEventListener("ended", () => {
+                    if (videoRef.current) {
+                        videoRef.current.play().then(() => {
+                            videoRef.current!.ontimeupdate = () => {
+                                if (
+                                    videoRef.current &&
+                                    videoRef.current.currentTime >=
+                                        (currentQuestion.videoPauseTime || 0)
+                                ) {
+                                    videoRef.current.pause();
+                                    videoRef.current.ontimeupdate = null; // Stop checking time update
+                                    setIsOptionsVisible(true); // Show options immediately after pausing
+                                    setIsProgressBarAnimating(true);
+                                    setIsProgressBarVisible(true);
+                                    setTimeout(() => {
+                                        // Resume video after time limit or immediately after option selection
+                                        if (videoRef.current) {
+                                            videoRef.current.play();
+                                            setIsProgressBarAnimating(false);
+                                            setIsProgressBarVisible(false);
+                                            handleAnswerSelect(
+                                                currentQuestion.answer,
+                                                true
+                                            );
+                                        }
+                                    }, timeLimit * 1000);
+                                }
+                            };
+                        });
+                        videoRef.current.onended = () => {
+                            proceedToNextQuestion(); // Move to the next question after the answer audio finishes
+                        };
+                    }
+                });
+            });
+
+            return () => {
+                questionAudio.removeEventListener("ended", startTimer.current);
+                questionAudio.pause();
+                if (timerIdRef.current) {
+                    clearTimeout(timerIdRef.current);
+                }
+                setIsProgressBarAnimating(false); // Reset progress bar animation state
+            };
+        }
+    }, [currentQuestionIndex]);
+
+    const proceedToNextQuestion = () => {
+        setTimeout(() => {
+            goToNextQuestion();
+        }, 500);
+    };
 
     // Function to proceed to the next question or loop back to the start
     const goToNextQuestion = () => {
         setIsCheckingAnswer(false);
+        setSelectedAnswer(null);
+        setAnswerState("initial");
         setCurrentQuestionIndex((prev) =>
             prev + 1 === triviaQuestions.length ? 0 : prev + 1
         );
     };
 
-    const handleOptionSelect = (optionId: string) => {
+    const handleAnswerSelect = (selectedKey: string, isAutoSelect = false) => {
         setIsCheckingAnswer(true);
-        setSelectedAnswer(optionId);
+        setSelectedAnswer(selectedKey);
+        const currentQuestion =
+            triviaQuestions[currentQuestionIndexRef.current];
+
+        const isCorrect = selectedKey === currentQuestion.answer;
+        // Play question correctness feedback sound (correct or incorrect)
+        const feedbackSound = new Audio(
+            isCorrect || isAutoSelect ? correctSound : incorrectSound
+        );
+        feedbackSound.play();
+        setAnswerState(isCorrect ? "correct" : "incorrect");
+
+        // Clear existing timer to prevent double advancement
+        if (timerId) {
+            clearTimeout(timerId);
+            setTimerId(null);
+        }
+
+        feedbackSound.onended = () => {
+            if (isCorrect && currentQuestion.audio_answer) {
+                // If the answer is correct and there's an audio_answer, play it after the feedback sound
+                const answerSound = new Audio(
+                    `audio/${triviaPath}/${currentQuestion.audio_answer}`
+                );
+                answerSound.play();
+            }
+        };
     };
 
     return (
@@ -226,7 +293,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                                                 <button
                                                     onClick={() =>
                                                         !isCheckingAnswer &&
-                                                        handleOptionSelect(
+                                                        handleAnswerSelect(
                                                             option.key
                                                         )
                                                     }
