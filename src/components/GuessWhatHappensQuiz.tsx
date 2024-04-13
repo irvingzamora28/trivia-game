@@ -1,17 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-import QuizOptions from "./QuizOptions";
 import ProgressBar from "./ProgressBar";
-import { OptionKey, TriviaQuestion } from "../types/trivia";
-// Import necessary audio assets
+import { TriviaQuestion } from "../types/trivia";
 import correctSound from "../assets/audio/correct-short.mp3";
 import incorrectSound from "../assets/audio/incorrect.mp3";
-import whooshSound from "../assets/audio/whoosh.mp3";
-import whoosh2Sound from "../assets/audio/whoosh2.mp3";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import triviaSound from "../assets/audio/trivia-sound-2.mp3";
 
 
-// Assuming TriviaQuestion type is adjusted to include videoPauseTime and videoURL
 interface QuizProps {
     triviaPath: string;
     triviaQuestions: TriviaQuestion[];
@@ -61,7 +56,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
 }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const videoRef = useRef<HTMLVideoElement>(null);
-    const [isVideoPaused, setIsVideoPaused] = useState(false);
+    const [isVideoCentered, setIsVideoCentered] = useState(true);  // State to toggle video position
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [isCheckingAnswer, setIsCheckingAnswer] = useState<boolean>(false);
     const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
@@ -116,6 +111,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                 questionAudio.addEventListener("ended", () => {
                     if (videoRef.current) {
                         videoRef.current.play().then(() => {
+                            setIsVideoCentered(true);
                             audioTrivia.pause();
                             videoRef.current!.ontimeupdate = () => {
                                 if (
@@ -125,6 +121,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                                 ) {
                                     videoRef.current.pause();
                                     videoRef.current.ontimeupdate = null; // Stop checking time update
+                                    setIsVideoCentered(false);
                                     setIsOptionsVisible(true); // Show options immediately after pausing
                                     setIsProgressBarAnimating(true);
                                     setIsProgressBarVisible(true);
@@ -151,6 +148,8 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                         videoRef.current.onended = () => {
                             audioTrivia.pause();
                             proceedToNextQuestion(); // Move to the next question after the answer audio finishes
+                            setIsVideoCentered(true);
+                            setIsOptionsVisible(false);
                         };
                     }
                 });
@@ -217,19 +216,20 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
     return (
         <div className="text-center w-full h-screen flex flex-col overflow-hidden relative">
             {/* Video Section: Center the video in its designated area */}
-            <div
-                className="video-section flex justify-center items-center "
-                style={{ height: "50%" }}
-            >
-                <video
-                    ref={videoRef}
-                    className="border-8 border-white shadow-lg ml-8 my-12 rounded-lg"
-                    controls
-                    style={{ maxWidth: "100%", maxHeight: "80%" }}
-                >
-                    {/* Video is dynamically loaded */}
-                </video>
-            </div>
+            <div className={`flex justify-center items-center ${isVideoCentered ? "h-full mt-48" : "h-1/2"}`}>
+        <video
+          ref={videoRef}
+          controls
+          className="border-8 border-white shadow-lg ml-8 my-12 rounded-lg"
+          style={{
+            maxWidth: "100%",
+            maxHeight: isVideoCentered ? "100%" : "80%", // Adjust size based on centered state
+            transition: "all 0.5s ease-in-out"  // Smooth transition for resizing
+          }}
+        >
+          {/* Video is dynamically loaded */}
+        </video>
+      </div>
             {/* Interactive Section: For Quiz Options and ProgressBar */}
             <div
                 className="interactive-section flex-1"
