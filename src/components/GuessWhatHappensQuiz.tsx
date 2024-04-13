@@ -8,6 +8,8 @@ import incorrectSound from "../assets/audio/incorrect.mp3";
 import whooshSound from "../assets/audio/whoosh.mp3";
 import whoosh2Sound from "../assets/audio/whoosh2.mp3";
 import { motion, AnimatePresence } from "framer-motion";
+import triviaSound from "../assets/audio/trivia-sound-2.mp3";
+
 
 // Assuming TriviaQuestion type is adjusted to include videoPauseTime and videoURL
 interface QuizProps {
@@ -69,7 +71,8 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
     >("initial");
     const [timerId, setTimerId] = useState<NodeJS.Timeout | null>(null);
     const timerIdRef = useRef(null); // Use ref for timer ID to ensure stability
-
+    const audioTrivia = new Audio(triviaSound);
+    audioTrivia.volume = 0.8;
     const [isOptionsVisible, setIsOptionsVisible] = useState(false);
     const currentQuestion = triviaQuestions[currentQuestionIndex];
     const timeLimit = 6; // seconds
@@ -106,12 +109,14 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
 
     useEffect(() => {
         const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
-        if (audioSrc) {
+        if (audioSrc) {            
             const questionAudio = new Audio(`audio/${triviaPath}/${audioSrc}`);
             questionAudio.play().then(() => {
+                audioTrivia.play();
                 questionAudio.addEventListener("ended", () => {
                     if (videoRef.current) {
                         videoRef.current.play().then(() => {
+                            audioTrivia.pause();
                             videoRef.current!.ontimeupdate = () => {
                                 if (
                                     videoRef.current &&
@@ -126,7 +131,9 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                                     setTimeout(() => {
                                         // Resume video after time limit or immediately after option selection
                                         if (videoRef.current) {
-                                            videoRef.current.play();
+                                            videoRef.current.play().then(() => {
+                                                audioTrivia.pause();
+                                            });
                                             setIsProgressBarAnimating(false);
                                             setIsProgressBarVisible(false);
                                             handleAnswerSelect(
@@ -138,7 +145,11 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                                 }
                             };
                         });
+                        videoRef.current.onpause = () => {
+                            audioTrivia.play();
+                        };
                         videoRef.current.onended = () => {
+                            audioTrivia.pause();
                             proceedToNextQuestion(); // Move to the next question after the answer audio finishes
                         };
                     }
