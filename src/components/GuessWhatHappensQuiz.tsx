@@ -215,11 +215,17 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
 
     return (
         <div className="text-center w-full h-screen flex flex-col overflow-hidden relative">
+            <div className="flex items-center justify-start w-full mt-12">
+            {/* Index */}
+            <div className="bg-gradient-to-b from-red-600 to-red-700 rounded-full w-20 h-20 flex items-center justify-center border-2 border-white shadow-lg text-white font-bold text-6xl ml-24">
+              {currentQuestionIndex + 1}
+            </div>
+          </div>
             {/* Video Section: Center the video in its designated area */}
-            <div className={`flex justify-center items-center ${isVideoCentered ? "h-full mt-48" : "h-1/2"}`}>
+            <div className={`flex justify-center items-center ${isVideoCentered ? "h-full mt-24" : "h-1/2 -mt-28"}`}>
         <video
           ref={videoRef}
-          className="border-8 border-white shadow-lg ml-8 my-12 rounded-lg"
+          className="border-8 border-white shadow-lg ml-8 my-2 rounded-lg"
           style={{
             maxWidth: "100%",
             maxHeight: isVideoCentered ? "100%" : "80%", // Adjust size based on centered state
