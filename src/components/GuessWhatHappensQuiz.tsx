@@ -219,7 +219,6 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
             <div className={`flex justify-center items-center ${isVideoCentered ? "h-full mt-48" : "h-1/2"}`}>
         <video
           ref={videoRef}
-          controls
           className="border-8 border-white shadow-lg ml-8 my-12 rounded-lg"
           style={{
             maxWidth: "100%",
