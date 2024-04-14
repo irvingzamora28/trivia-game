@@ -6,7 +6,6 @@ import incorrectSound from "../assets/audio/incorrect.mp3";
 import { motion } from "framer-motion";
 import triviaSound from "../assets/audio/trivia-sound-2.mp3";
 
-
 interface QuizProps {
     triviaPath: string;
     triviaQuestions: TriviaQuestion[];
@@ -56,9 +55,11 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
 }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const videoRef = useRef<HTMLVideoElement>(null);
-    const [isVideoCentered, setIsVideoCentered] = useState(true);  // State to toggle video position
+    const [isVideoCentered, setIsVideoCentered] = useState(true); // State to toggle video position
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [isCheckingAnswer, setIsCheckingAnswer] = useState<boolean>(false);
+    const [isAnswerAudioPlaying, setIsAnswerAudioPlaying] = useState(true);
+    const [isVideoPlaying, setIsVideoPlaying] = useState(false);
     const [isProgressBarAnimating, setIsProgressBarAnimating] = useState(false);
     const [isProgressBarVisible, setIsProgressBarVisible] = useState(false);
     const [answerState, setAnswerState] = useState<
@@ -104,7 +105,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
 
     useEffect(() => {
         const audioSrc = triviaQuestions[currentQuestionIndex]?.audio_question;
-        if (audioSrc) {            
+        if (audioSrc) {
             const questionAudio = new Audio(`audio/${triviaPath}/${audioSrc}`);
             questionAudio.play().then(() => {
                 audioTrivia.play();
@@ -112,6 +113,7 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                     if (videoRef.current) {
                         videoRef.current.play().then(() => {
                             setIsVideoCentered(true);
+                            setIsVideoPlaying(true);
                             audioTrivia.pause();
                             videoRef.current!.ontimeupdate = () => {
                                 if (
@@ -147,9 +149,12 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
                         };
                         videoRef.current.onended = () => {
                             audioTrivia.pause();
-                            proceedToNextQuestion(); // Move to the next question after the answer audio finishes
                             setIsVideoCentered(true);
                             setIsOptionsVisible(false);
+                            setIsVideoPlaying(false);
+                            console.log("Video ended");
+                            console.log("isVideoPlaying", isVideoPlaying);
+                            
                         };
                     }
                 });
@@ -167,9 +172,9 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
     }, [currentQuestionIndex]);
 
     const proceedToNextQuestion = () => {
-        setTimeout(() => {
+        if (!isAnswerAudioPlaying) {
             goToNextQuestion();
-        }, 500);
+        }
     };
 
     // Function to proceed to the next question or loop back to the start
@@ -181,6 +186,31 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
             prev + 1 === triviaQuestions.length ? 0 : prev + 1
         );
     };
+
+    // const checkAndProceed = () => {
+    //         console.log("checkAndProceed");
+    //         console.log("isAnswerAudioPlaying", isAnswerAudioPlaying);
+    //         console.log("isVideoPlaying", isVideoPlaying);
+    //     if (!isAnswerAudioPlaying && !isVideoPlaying) {
+    //         proceedToNextQuestion();
+    //     }
+    //   };
+
+    useEffect(() => {
+    
+            console.log("handleVideoEnd");
+            console.log("isAnswerAudioPlaying", isAnswerAudioPlaying);
+            console.log("isVideoPlaying", isVideoPlaying);
+            
+          if (!isAnswerAudioPlaying && !isVideoPlaying) {
+            console.log("proceedToNextQuestion");
+            
+            proceedToNextQuestion();
+          }
+    
+        return () => {
+        };
+      }, [isAnswerAudioPlaying, isVideoPlaying]);
 
     const handleAnswerSelect = (selectedKey: string, isAutoSelect = false) => {
         setIsCheckingAnswer(true);
@@ -204,11 +234,17 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
 
         feedbackSound.onended = () => {
             if (isCorrect && currentQuestion.audio_answer) {
+                setIsAnswerAudioPlaying(true);
                 // If the answer is correct and there's an audio_answer, play it after the feedback sound
                 const answerSound = new Audio(
                     `audio/${triviaPath}/${currentQuestion.audio_answer}`
                 );
                 answerSound.play();
+                answerSound.onended = () => {
+                    setIsAnswerAudioPlaying(false);
+                    console.log("finish answer");
+                    
+                };
             }
         };
     };
@@ -216,25 +252,29 @@ const GuessWhatHappensQuiz: React.FC<QuizProps> = ({
     return (
         <div className="text-center w-full h-screen flex flex-col overflow-hidden relative">
             <div className="flex items-center justify-start w-full mt-12">
-            {/* Index */}
-            <div className="bg-gradient-to-b from-red-600 to-red-700 rounded-full w-20 h-20 flex items-center justify-center border-2 border-white shadow-lg text-white font-bold text-6xl ml-24">
-              {currentQuestionIndex + 1}
+                {/* Index */}
+                <div className="bg-gradient-to-b from-red-600 to-red-700 rounded-full w-20 h-20 flex items-center justify-center border-2 border-white shadow-lg text-white font-bold text-6xl ml-24">
+                    {currentQuestionIndex + 1}
+                </div>
             </div>
-          </div>
             {/* Video Section: Center the video in its designated area */}
-            <div className={`flex justify-center items-center ${isVideoCentered ? "h-full mt-24" : "h-1/2 -mt-28"}`}>
-        <video
-          ref={videoRef}
-          className="border-8 border-white shadow-lg ml-8 my-2 rounded-lg"
-          style={{
-            maxWidth: "100%",
-            maxHeight: isVideoCentered ? "100%" : "80%", // Adjust size based on centered state
-            transition: "all 0.5s ease-in-out"  // Smooth transition for resizing
-          }}
-        >
-          {/* Video is dynamically loaded */}
-        </video>
-      </div>
+            <div
+                className={`flex justify-center items-center ${
+                    isVideoCentered ? "h-full mt-24" : "h-1/2 -mt-28"
+                }`}
+            >
+                <video
+                    ref={videoRef}
+                    className="border-8 border-white shadow-lg ml-8 my-2 rounded-lg"
+                    style={{
+                        maxWidth: "100%",
+                        maxHeight: isVideoCentered ? "100%" : "80%", // Adjust size based on centered state
+                        transition: "all 0.5s ease-in-out", // Smooth transition for resizing
+                    }}
+                >
+                    {/* Video is dynamically loaded */}
+                </video>
+            </div>
             {/* Interactive Section: For Quiz Options and ProgressBar */}
             <div
                 className="interactive-section flex-1"
