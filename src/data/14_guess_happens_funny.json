@@ -5,7 +5,7 @@
     "questions": [
         {
             "id": 1,
-            "question": "Que sucede con esta pareja de patinadores?",
+            "question": "¿Qué sucede con esta pareja de patinadores?",
             "audio_question": "1_question.mp3",
             "options": [
                 {
@@ -28,7 +28,520 @@
             "videoURL": "fail1.mp4",
             "videoPauseTime": 5,
             "answer": "A",
-            "audio_answer": "1_answer.mp3"
+            "audio_answer": "answer_a.mp3"
+        },
+        {
+            "id": 2,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "2_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se cae al agua"
+                },
+                {
+                    "key": "B",
+                    "text": "Rescatan el balon y lo vuelven a tirar"
+                },
+                {
+                    "key": "C",
+                    "text": "El balon se lo lleva una foca"
+                },
+                {
+                    "key": "D",
+                    "text": "Pierde un zapato"
+                }
+            ],
+            "videoURL": "fail2.mp4",
+            "videoPauseTime": 4,
+            "answer": "B",
+            "audio_answer": "answer_b.mp3"
+        },
+        {
+            "id": 3,
+            "question": "¿Qué le sucede a esta señora?",
+            "audio_question": "3_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se cae del camion"
+                },
+                {
+                    "key": "B",
+                    "text": "Le arranca el vestido"
+                },
+                {
+                    "key": "C",
+                    "text": "Las puertas le aplastan la cara"
+                },
+                {
+                    "key": "D",
+                    "text": "La empujan"
+                }
+            ],
+            "videoURL": "fail3.mp4",
+            "videoPauseTime": 3,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 4,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "4_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se cae de la escalera"
+                },
+                {
+                    "key": "B",
+                    "text": "Tira el adorno de la puerta"
+                },
+                {
+                    "key": "C",
+                    "text": "Se le cae la gorra"
+                },
+                {
+                    "key": "D",
+                    "text": "Un perro llega y le tira la escalera"
+                }
+            ],
+            "videoURL": "fail4.mp4",
+            "videoPauseTime": 2,
+            "answer": "B",
+            "audio_answer": "answer_b.mp3"
+        },
+        {
+            "id": 5,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "5_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se cae de la silla"
+                },
+                {
+                    "key": "B",
+                    "text": "Tira la computadora"
+                },
+                {
+                    "key": "C",
+                    "text": "Tira el monitor"
+                },
+                {
+                    "key": "D",
+                    "text": "Un perro llega y lo tumba de la silla"
+                }
+            ],
+            "videoURL": "fail5.mp4",
+            "videoPauseTime": 3,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 6,
+            "question": "Y aquí? ¿Qué sucede?",
+            "audio_question": "6_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se le cae en el pie"
+                },
+                {
+                    "key": "B",
+                    "text": "Se lastima la espalda"
+                },
+                {
+                    "key": "C",
+                    "text": "Llega alguien y le quita la piedra"
+                },
+                {
+                    "key": "D",
+                    "text": "Un perro llega y lo muerde"
+                }
+            ],
+            "videoURL": "fail6.mp4",
+            "videoPauseTime": 5,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 7,
+            "question": "Y aquí? ¿Qué sucede?",
+            "audio_question": "7_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El viejito se tropieza"
+                },
+                {
+                    "key": "B",
+                    "text": "El joven se tropieza"
+                },
+                {
+                    "key": "C",
+                    "text": "El viejito anota"
+                },
+                {
+                    "key": "D",
+                    "text": "El joven lo bloquea"
+                }
+            ],
+            "videoURL": "fail7.mp4",
+            "videoPauseTime": 3,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 8,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "8_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El perro vuelve con el pedazo de alfombra"
+                },
+                {
+                    "key": "B",
+                    "text": "Ella tropieza con la alfombra"
+                },
+                {
+                    "key": "C",
+                    "text": "El perro se asusta"
+                },
+                {
+                    "key": "D",
+                    "text": "El perro asusta a la señora"
+                }
+            ],
+            "videoURL": "fail8.mp4",
+            "videoPauseTime": 3,
+            "answer": "A",
+            "audio_answer": "answer_a.mp3"
+        },
+        {
+            "id": 9,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "9_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se le cae la papa"
+                },
+                {
+                    "key": "B",
+                    "text": "Le disgusta la papa"
+                },
+                {
+                    "key": "C",
+                    "text": "Tira el refresco"
+                },
+                {
+                    "key": "D",
+                    "text": "Se asusta"
+                }
+            ],
+            "videoURL": "fail9.mp4",
+            "videoPauseTime": 1,
+            "answer": "D",
+            "audio_answer": "answer_d.mp3"
+        },
+        {
+            "id": 10,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "10_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se le cae el celular"
+                },
+                {
+                    "key": "B",
+                    "text": "Topa con un poste"
+                },
+                {
+                    "key": "C",
+                    "text": "Se tropieza"
+                },
+                {
+                    "key": "D",
+                    "text": "Llega un perro y la asusta"
+                }
+            ],
+            "videoURL": "fail10.mp4",
+            "videoPauseTime": 1,
+            "answer": "B",
+            "audio_answer": "answer_b.mp3"
+        },
+        {
+            "id": 11,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "11_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se resbala la señora"
+                },
+                {
+                    "key": "B",
+                    "text": "El perro se resbala"
+                },
+                {
+                    "key": "C",
+                    "text": "El perro destroza la ropa sucia"
+                },
+                {
+                    "key": "D",
+                    "text": "Se asusta"
+                }
+            ],
+            "videoURL": "fail11.mp4",
+            "videoPauseTime": 1,
+            "answer": "D",
+            "audio_answer": "answer_d.mp3"
+        },
+        {
+            "id": 12,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "12_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se cae la señora"
+                },
+                {
+                    "key": "B",
+                    "text": "La tumba un empleado del lugar"
+                },
+                {
+                    "key": "C",
+                    "text": "Entra por la ventana"
+                },
+                {
+                    "key": "D",
+                    "text": "La asusta un payaso"
+                }
+            ],
+            "videoURL": "fail12.mp4",
+            "videoPauseTime": 2,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 13,
+            "question": "¿Qué sucede en este partido?",
+            "audio_question": "13_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El portero se cae"
+                },
+                {
+                    "key": "B",
+                    "text": "Tiran un vaso de cerveza"
+                },
+                {
+                    "key": "C",
+                    "text": "El tirador se resbala"
+                },
+                {
+                    "key": "D",
+                    "text": "Meten autogol"
+                }
+            ],
+            "videoURL": "fail13.mp4",
+            "videoPauseTime": 1,
+            "answer": "B",
+            "audio_answer": "answer_b.mp3"
+        },
+        {
+            "id": 14,
+            "question": "¿Qué sucede aquí?",
+            "audio_question": "14_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La dentadura se le cae"
+                },
+                {
+                    "key": "B",
+                    "text": "Lo asustan"
+                },
+                {
+                    "key": "C",
+                    "text": "Golpea a la chica de a lado"
+                },
+                {
+                    "key": "D",
+                    "text": "Alguien mas apaga las velas por él"
+                }
+            ],
+            "videoURL": "fail14.mp4",
+            "videoPauseTime": 4,
+            "answer": "A",
+            "audio_answer": "answer_a.mp3"
+        },
+        {
+            "id": 15,
+            "question": "¿Qué le sucede a la chica?",
+            "audio_question": "15_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Se tropieza"
+                },
+                {
+                    "key": "B",
+                    "text": "Se golpea en un tubo"
+                },
+                {
+                    "key": "C",
+                    "text": "La asusta una tortuga"
+                },
+                {
+                    "key": "D",
+                    "text": "La asusta un raton"
+                }
+            ],
+            "videoURL": "fail15.mp4",
+            "videoPauseTime": 1,
+            "answer": "B",
+            "audio_answer": "answer_b.mp3"
+        },
+        {
+            "id": 16,
+            "question": "¿Qué sucede en esta situacion?",
+            "audio_question": "16_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "El perro se asusta con la alarma"
+                },
+                {
+                    "key": "B",
+                    "text": "El perro tira la camara"
+                },
+                {
+                    "key": "C",
+                    "text": "El perro tira a la persona de la cama"
+                },
+                {
+                    "key": "D",
+                    "text": "El perro asusta a un intruso"
+                }
+            ],
+            "videoURL": "fail16.mp4",
+            "videoPauseTime": 1,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 17,
+            "question": "¿Qué sucede aqui?",
+            "audio_question": "17_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "La chica cae al agua"
+                },
+                {
+                    "key": "B",
+                    "text": "La tira su novio al agua"
+                },
+                {
+                    "key": "C",
+                    "text": "Rompe la cerca"
+                },
+                {
+                    "key": "D",
+                    "text": "Un perro llega y la tira"
+                }
+            ],
+            "videoURL": "fail17.mp4",
+            "videoPauseTime": 2,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
+        },
+        {
+            "id": 18,
+            "question": "Y aquí? ¿Qué sucede?",
+            "audio_question": "18_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Golpea con el balon al chico del fondo"
+                },
+                {
+                    "key": "B",
+                    "text": "Atora el balon en el tablero"
+                },
+                {
+                    "key": "C",
+                    "text": "Anota una canasta"
+                },
+                {
+                    "key": "D",
+                    "text": "Se golpea el con su propio tiro"
+                }
+            ],
+            "videoURL": "fail18.mp4",
+            "videoPauseTime": 2,
+            "answer": "D",
+            "audio_answer": "answer_d.mp3"
+        },
+        {
+            "id": 19,
+            "question": "Y en esta situacion? ¿Qué sucede?",
+            "audio_question": "19_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Hay una explosion"
+                },
+                {
+                    "key": "B",
+                    "text": "Las llantas caen encima de ella"
+                },
+                {
+                    "key": "C",
+                    "text": "La chica lo golpea en la cabeza"
+                },
+                {
+                    "key": "D",
+                    "text": "La persona de las escaleras tropieza"
+                }
+            ],
+            "videoURL": "fail19.mp4",
+            "videoPauseTime": 1,
+            "answer": "A",
+            "audio_answer": "answer_a.mp3"
+        },
+        {
+            "id": 20,
+            "question": "Y en esta situacion? ¿Qué sucede?",
+            "audio_question": "20_question.mp3",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Un pez vuela los lentes del chico"
+                },
+                {
+                    "key": "B",
+                    "text": "El chico de lentes cae al agua"
+                },
+                {
+                    "key": "C",
+                    "text": "Alguien mas cae al agua"
+                },
+                {
+                    "key": "D",
+                    "text": "La cerveza cae al agua"
+                }
+            ],
+            "videoURL": "fail20.mp4",
+            "videoPauseTime": 1,
+            "answer": "C",
+            "audio_answer": "answer_c.mp3"
         }
     ]
 }
